@@ -33,7 +33,12 @@ const App: React.FC = () => {
         updateSavedCount(selectedTopic.name);
         setQuestions(null);
         setError(null);
-    }, [selectedTopic, updateSavedCount]);
+
+        // Auto-load questions in Reviewer Mode when topic or difficulty changes
+        if (isReviewerMode) {
+            handleLoadQuestionsFromLibrary();
+        }
+    }, [selectedTopic, difficulty, isReviewerMode]); // eslint-disable-line react-hooks/exhaustive-deps
 
     const handleGenerateQuestion = useCallback(async () => {
         setIsLoading(true);
@@ -198,17 +203,7 @@ const App: React.FC = () => {
                             />
                         </div>
                         <div className="flex flex-col gap-4 flex-grow">
-                            {/* Reviewer Mode: Load from Library button */}
-                            {isReviewerMode && (
-                                <button
-                                    onClick={handleLoadQuestionsFromLibrary}
-                                    disabled={isLoading}
-                                    className="w-full bg-purple-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-purple-500 disabled:bg-purple-800 disabled:cursor-not-allowed transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-500/50 flex items-center justify-center gap-2"
-                                >
-                                    {isLoading ? <Spinner /> : '📚'}
-                                    <span>{isLoading ? 'Loading...' : 'Load Questions from Library'}</span>
-                                </button>
-                            )}
+                            {/* Reviewer Mode: No manual button needed - auto-loads on topic/difficulty change */}
 
                             {/* User Mode: Generate & Browse buttons */}
                             {isUserMode && (
