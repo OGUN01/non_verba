@@ -241,7 +241,6 @@ const App: React.FC = () => {
                                     </button>
                                 </>
                             )}
-                            </div>
                              <div className="flex flex-col sm:flex-row gap-4">
                                 <input type="file" ref={fileInputRef} onChange={handleFileImport} accept="application/json" className="hidden" />
                                 <button
