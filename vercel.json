@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/reviews/save",
+      "destination": "/api/reviews/save.ts"
+    },
+    {
+      "source": "/api/reviews/get",
+      "destination": "/api/reviews/get.ts"
+    }
+  ]
+}
