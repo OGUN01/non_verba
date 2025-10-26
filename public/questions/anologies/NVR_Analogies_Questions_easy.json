@@ -1,0 +1,727 @@
+[
+  {
+    "question": "The relationship between the first pair of figures is the same as the relationship between the second pair. Which figure completes the second pair?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,40 70,80 30,80 15,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"65\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"5\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"95\" cy=\"50\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"5\" cy=\"50\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"40\" x2=\"50\" y2=\"60\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"15\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"15\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"85\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"85\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"40\" x2=\"50\" y2=\"60\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"15\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"15\" cy=\"50\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"85\" cy=\"50\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"40\" x2=\"50\" y2=\"60\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"40\" y1=\"50\" x2=\"60\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"15\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"15\" cy=\"50\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"85\" cy=\"50\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The transformation from the first figure to the second follows three rules. First, the main outer shape increases its number of sides by one (a square becomes a pentagon). Second, the small inner black circles, equal in number to the vertices of the original shape, move to the outside and invert their color to white. Third, the central horizontal line rotates 90 degrees clockwise to become vertical. Applying these rules to the third figure (a triangle with three inner black circles and a horizontal line), the triangle (3 sides) should become a square (4 sides), the three inner black circles should become three outer white circles, and the horizontal line should become vertical. Option C is the only one that correctly applies all three rules.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Figure A is to Figure B as Figure C is to one of the other figures. Which one?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='25' y='25' width='50' height='50' fill='black'/><circle cx='50' cy='50' r='10' fill='white'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><polygon points='50,10 90,40 75,90 25,90 10,40' fill='none' stroke='black' stroke-width='2'/><rect x='30' y='35' width='15' height='15' fill='black'/><rect x='55' y='35' width='15' height='15' fill='black'/><rect x='42.5' y='55' width='15' height='15' fill='black'/><rect x='22' y='68' width='15' height='15' fill='black'/><rect x='63' y='68' width='15' height='15' fill='black'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><polygon points='50,15 85,80 15,80' fill='none' stroke='black' stroke-width='2'/><circle cx='40' cy='65' r='6' fill='black'/><circle cx='60' cy='65' r='6' fill='black'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='25' y='25' width='50' height='50' fill='black'/><polygon points='38,42 48,42 43,32' fill='none' stroke='white' stroke-width='2'/><polygon points='52,42 62,42 57,32' fill='none' stroke='white' stroke-width='2'/><polygon points='38,68 48,68 43,58' fill='none' stroke='white' stroke-width='2'/><polygon points='52,68 62,68 57,58' fill='none' stroke='white' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='25' y='25' width='50' height='50' fill='black'/><polygon points='50,35 60,50 40,50' fill='none' stroke='white' stroke-width='2'/><polygon points='35,70 45,70 40,60' fill='none' stroke='white' stroke-width='2'/><polygon points='55,70 65,70 60,60' fill='none' stroke='white' stroke-width='2'/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The relationship between Figure A and Figure B follows three rules. First, the main outer shape gains one side (a square becomes a pentagon). Second, the fill of the outer shape inverts (filled becomes unfilled). Third, the inner shapes are replaced by a number of smaller versions of the original outer shape; the quantity is equal to the number of sides of the new outer shape (a pentagon has 5 sides, so there are 5 small squares). Applying these rules to Figure C: the triangle (3 sides) becomes a square (4 sides), the unfilled shape becomes filled, and the inner shapes are replaced by 4 small triangles. Figure D is the only option that matches all these rules.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A is to B as C is to ?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g transform=\"rotate(90 50 50)\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,25 71.6,37.5 71.6,62.5 50,75 28.4,62.5 28.4,37.5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"38\" r=\"3\" fill=\"white\"/><circle cx=\"62\" cy=\"44\" r=\"3\" fill=\"white\"/><circle cx=\"62\" cy=\"56\" r=\"3\" fill=\"white\"/><circle cx=\"50\" cy=\"62\" r=\"3\" fill=\"white\"/><circle cx=\"38\" cy=\"56\" r=\"3\" fill=\"white\"/><circle cx=\"38\" cy=\"44\" r=\"3\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,25 71.6,37.5 71.6,62.5 50,75 28.4,62.5 28.4,37.5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"45\" r=\"3\" fill=\"white\"/><circle cx=\"55\" cy=\"45\" r=\"3\" fill=\"white\"/><circle cx=\"45\" cy=\"55\" r=\"3\" fill=\"white\"/><circle cx=\"55\" cy=\"55\" r=\"3\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g transform=\"rotate(90 50 50)\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,25 71.6,37.5 71.6,62.5 50,75 28.4,62.5 28.4,37.5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"45\" r=\"3\" fill=\"white\"/><circle cx=\"55\" cy=\"45\" r=\"3\" fill=\"white\"/><circle cx=\"45\" cy=\"55\" r=\"3\" fill=\"white\"/><circle cx=\"55\" cy=\"55\" r=\"3\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g transform=\"rotate(90 50 50)\"><polygon points=\"50,10 78,27.3 78,72.7 50,90 22,72.7 22,27.3\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"45\" r=\"3\" fill=\"white\"/><circle cx=\"55\" cy=\"45\" r=\"3\" fill=\"white\"/><circle cx=\"45\" cy=\"55\" r=\"3\" fill=\"white\"/><circle cx=\"55\" cy=\"55\" r=\"3\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g transform=\"rotate(90 50 50)\"><polygon points=\"50,10 90,80 10,80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,30 69,45 62,68 38,68 31,45\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"45\" r=\"3\" fill=\"white\"/><circle cx=\"55\" cy=\"45\" r=\"3\" fill=\"white\"/><circle cx=\"45\" cy=\"55\" r=\"3\" fill=\"white\"/><circle cx=\"55\" cy=\"55\" r=\"3\" fill=\"white\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The transformation involves three rules. Rule 1: The outer and inner shapes swap positions and relative sizes. Rule 2: The entire new figure is rotated 90 degrees clockwise. Rule 3: Dots are added inside the new inner shape, with the number of dots equal to the number of sides of the new outer shape. For the test shape (an outer hexagon and an inner square), the square becomes the outer shape, and the hexagon becomes the inner shape. The new figure is rotated 90 degrees. As the new outer shape is a square (4 sides), 4 dots are added inside the hexagon. Option C is the only one that follows all three rules.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A is to B as C is to ?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"15,15 85,15 85,85 15,85\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,35 70,47 70,73 50,85 30,73 30,47\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"15,15 85,15 85,85 15,85\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"15,15 85,15 85,85 15,85\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,35 70,47 70,73 50,85 30,73 30,47\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,85 25,85 10,40\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,40 65,52 65,72 50,82 35,72 35,52\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"15,15 85,15 85,85 15,85\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"25\" y=\"55\" width=\"20\" height=\"20\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"70,25 80,33 80,47 70,55 60,47 60,33\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The transformation involves three rules. First, the outer shape's side count decreases by one and its fill inverts (from black to white). Second, of the two inner shapes, the one with the fewer sides is removed. Third, the remaining inner shape is enlarged. The starting figure 'C' is a black pentagon containing a small square and a small hexagon. Applying the rules: the black pentagon (5 sides) becomes a white square (4 sides); the inner square (fewer sides) is removed, leaving the hexagon; the hexagon is enlarged. This results in a large white square containing a large white hexagon.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In each option below, a rule transforms the top-left figure (A) into the top-right figure (B). In which option does the bottom-right figure (D) follow the same rule of transformation from the bottom-left figure (C)?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"black\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"gray\" stroke-width=\"0.5\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"gray\" stroke-width=\"0.5\"/><rect x=\"15\" y=\"15\" width=\"20\" height=\"20\" fill=\"black\"/><circle cx=\"20\" cy=\"35\" r=\"4\" fill=\"black\"/><circle cx=\"30\" cy=\"35\" r=\"4\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"12.5\" cy=\"12.5\" r=\"4\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"37.5\" cy=\"12.5\" r=\"4\" fill=\"black\"/><polygon points=\"15,65 35,65 25,85\" fill=\"black\"/><path d=\"M20 88 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M30 88 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M40 88 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M62.5 62.5 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M87.5 62.5 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M87.5 87.5 l 4 -10 h -8 z\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"black\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"gray\" stroke-width=\"0.5\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"gray\" stroke-width=\"0.5\"/><rect x=\"15\" y=\"15\" width=\"20\" height=\"20\" fill=\"black\"/><circle cx=\"20\" cy=\"35\" r=\"4\" fill=\"black\"/><circle cx=\"30\" cy=\"35\" r=\"4\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"12.5\" cy=\"12.5\" r=\"4\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"37.5\" cy=\"12.5\" r=\"4\" fill=\"black\"/><polygon points=\"15,65 35,65 25,85\" fill=\"black\"/><path d=\"M20 88 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M30 88 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M40 88 l 4 -10 h -8 z\" fill=\"black\"/><polygon points=\"62.5,62.5 82.5,62.5 72.5,82.5\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M87.5 62.5 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M62.5 87.5 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"black\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"gray\" stroke-width=\"0.5\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"gray\" stroke-width=\"0.5\"/><rect x=\"15\" y=\"15\" width=\"20\" height=\"20\" fill=\"black\"/><circle cx=\"20\" cy=\"35\" r=\"4\" fill=\"black\"/><circle cx=\"30\" cy=\"35\" r=\"4\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"12.5\" cy=\"12.5\" r=\"4\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"37.5\" cy=\"12.5\" r=\"4\" fill=\"black\"/><polygon points=\"15,65 35,65 25,85\" fill=\"black\"/><path d=\"M20 88 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M30 88 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M40 88 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M62.5 62.5 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M62.5 87.5 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M87.5 87.5 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"black\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"gray\" stroke-width=\"0.5\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"gray\" stroke-width=\"0.5\"/><rect x=\"15\" y=\"15\" width=\"20\" height=\"20\" fill=\"black\"/><circle cx=\"20\" cy=\"35\" r=\"4\" fill=\"black\"/><circle cx=\"30\" cy=\"35\" r=\"4\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"12.5\" cy=\"12.5\" r=\"4\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"37.5\" cy=\"12.5\" r=\"4\" fill=\"black\"/><polygon points=\"15,65 35,65 25,85\" fill=\"black\"/><path d=\"M20 88 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M30 88 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M40 88 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M62.5 62.5 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M87.5 62.5 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M87.5 87.5 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"black\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"gray\" stroke-width=\"0.5\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"gray\" stroke-width=\"0.5\"/><rect x=\"15\" y=\"15\" width=\"20\" height=\"20\" fill=\"black\"/><circle cx=\"20\" cy=\"35\" r=\"4\" fill=\"black\"/><circle cx=\"30\" cy=\"35\" r=\"4\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"12.5\" cy=\"12.5\" r=\"4\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"37.5\" cy=\"12.5\" r=\"4\" fill=\"black\"/><polygon points=\"15,65 35,65 25,85\" fill=\"black\"/><path d=\"M20 88 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M30 88 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M40 88 l 4 -10 h -8 z\" fill=\"black\"/><polygon points=\"62.5,62.5 82.5,62.5 72.5,82.5\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M62.5 87.5 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M87.5 87.5 l 4 -10 h -8 z\" fill=\"black\"/><path d=\"M87.5 62.5 l 4 -10 h -8 z\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The rule is discovered by observing the transformation from the top-left (A) to the top-right (B) figure. There are two rules: 1. The largest shape is removed. 2. The remaining smaller shapes are moved to the corners of the box, starting in the top-left and proceeding clockwise, and their fill color is inverted (black becomes white, white becomes black). In the example, the large black square is removed, and the small black circle and small white circle become a white circle in the top-left and a black circle in the top-right. We must find the option where the bottom pair (C to D) follows this same logic. In option D, the bottom-left figure has a large black triangle and three small arrows (black, white, black). Applying the rules, the large triangle is removed, and the three arrows are moved to the first three corners (top-left, top-right, bottom-right) with their fills inverted (white, black, white). This matches the figure in the bottom-right of option D.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A is to B as C is to ?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 95,45 80,90 20,90 5,45\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"50,40 65,65 35,65\" fill=\"white\" /></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\" /></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"50,40 65,65 35,65\" fill=\"white\" /></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"50,40 65,65 35,65\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,80 10,80\" fill=\"white\" /><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The transformation from figure A to figure B follows two rules. Figure A is a large square containing two small shapes. Figure B is a large triangle containing a small, filled square. \n1. **Rule 1 (Outer Shape):** The number of sides of the new outer shape is one more than the number of inner shapes in the starting figure. Figure A has 2 inner shapes, so Figure B's outer shape has 2+1=3 sides (a triangle). \n2. **Rule 2 (Inner Shape):** The outer shape from the starting figure becomes the new inner shape, scaled down and filled solid. The outer square from Figure A becomes the inner filled square in Figure B. \nWe apply these same rules to Figure C, which is a large triangle containing three small shapes. \n1. Applying Rule 1: Figure C has 3 inner shapes, so the new outer shape must have 3+1=4 sides (a square). \n2. Applying Rule 2: The outer triangle from Figure C becomes the new inner shape, scaled down and filled solid. \nTherefore, the correct answer is a large square containing a small, filled triangle.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A is to B as C is to ?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,10 95,40 80,90 20,90 5,40\"/></g><g fill=\"white\"><circle cx=\"50\" cy=\"10\" r=\"4\"/><circle cx=\"95\" cy=\"40\" r=\"4\"/><circle cx=\"80\" cy=\"90\" r=\"4\"/><circle cx=\"20\" cy=\"90\" r=\"4\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,10 90,30 90,70 50,90 10,70 10,30\"/></g><g fill=\"white\"><circle cx=\"70\" cy=\"20\" r=\"4\"/><circle cx=\"90\" cy=\"50\" r=\"4\"/><circle cx=\"70\" cy=\"80\" r=\"4\"/><circle cx=\"30\" cy=\"80\" r=\"4\"/><circle cx=\"10\" cy=\"50\" r=\"4\"/><circle cx=\"30\" cy=\"20\" r=\"4\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,10 95,40 80,90 20,90 5,40\"/></g><g fill=\"white\"><circle cx=\"72.5\" cy=\"25\" r=\"4\"/><circle cx=\"87.5\" cy=\"65\" r=\"4\"/><circle cx=\"50\" cy=\"90\" r=\"4\"/><circle cx=\"12.5\" cy=\"65\" r=\"4\"/><circle cx=\"27.5\" cy=\"25\" r=\"4\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,10 95,40 80,90 20,90 5,40\"/></g><g fill=\"white\"><circle cx=\"50\" cy=\"10\" r=\"4\"/><circle cx=\"95\" cy=\"40\" r=\"4\"/><circle cx=\"80\" cy=\"90\" r=\"4\"/><circle cx=\"20\" cy=\"90\" r=\"4\"/><circle cx=\"5\" cy=\"40\" r=\"4\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\"/></g><g fill=\"white\"><circle cx=\"50\" cy=\"20\" r=\"4\"/><circle cx=\"80\" cy=\"50\" r=\"4\"/><circle cx=\"50\" cy=\"80\" r=\"4\"/><circle cx=\"20\" cy=\"50\" r=\"4\"/><circle cx=\"50\" cy=\"50\" r=\"4\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The transformation from A to B follows three rules: 1. The outer shape's number of sides increases by one (a triangle with 3 sides becomes a square with 4 sides). 2. The number of inner circles becomes equal to the number of vertices of the new shape (4 circles for the 4-sided square). 3. The circles move from the vertices of the original shape to the midpoints of the sides of the new shape. To find the answer, we apply the same three rules to figure C, a square with circles on its vertices. 1. The square (4 sides) becomes a pentagon (5 sides). 2. The number of inner circles becomes 5. 3. The 5 circles must be positioned on the midpoints of the pentagon's sides. Option C is the only figure that satisfies all three rules.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A is to B as C is to which of the following options?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,42 58,52 53,62 47,62 42,52\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,72 58,85 42,85\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,45 60,55 55,68 45,68 40,55\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,45 60,55 55,68 45,68 40,55\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"42\" y=\"42\" width=\"16\" height=\"16\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,45 60,60 40,60\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "There are three rules in the transformation from the first pair (A to B) to apply to the third figure (C). First, the fill of the outer shape is inverted; the black square becomes white, so the white pentagon must become black. Second, the inner shape is replaced by a new shape whose number of sides equals the number of sides of the outer shape; the square (4 sides) gets a 4-sided shape, so the pentagon (5 sides) must get a 5-sided shape. Third, the new inner shape has the opposite fill color to the new outer shape; the new outer shape is black, so the new inner shape must be white. Option C is the only one that follows all three rules: a black pentagon containing a white pentagon.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A is to B as C is to which of the following options?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><polygon id=\"shapeA\" points=\"50,15 85,40 70,85 30,85 15,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></defs><use href=\"#shapeA\" transform=\"rotate(45 50 50)\"/><rect x=\"45\" y=\"25\" width=\"10\" height=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"25\" y=\"45\" width=\"10\" height=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"65\" y=\"45\" width=\"10\" height=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"35\" y=\"65\" width=\"10\" height=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"55\" y=\"65\" width=\"10\" height=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><polygon id=\"shapeB_outer\" points=\"50,15 85,40 70,85 30,85 15,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon id=\"shapeB_inner\" points=\"0,0 6,4 4,10 -4,10 -6,4\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></defs><use href=\"#shapeB_outer\"/><use href=\"#shapeB_inner\" transform=\"translate(50 35) scale(1)\"/><use href=\"#shapeB_inner\" transform=\"translate(35 55) scale(1)\"/><use href=\"#shapeB_inner\" transform=\"translate(65 55) scale(1)\"/><use href=\"#shapeB_inner\" transform=\"translate(42 75) scale(1)\"/><use href=\"#shapeB_inner\" transform=\"translate(58 75) scale(1)\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><polygon id=\"shapeC_outer\" points=\"50,15 85,40 70,85 30,85 15,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon id=\"shapeC_inner\" points=\"0,0 6,4 4,10 -4,10 -6,4\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></defs><use href=\"#shapeC_outer\" transform=\"rotate(45 50 50)\"/><use href=\"#shapeC_inner\" transform=\"translate(35 35) scale(1.2)\"/><use href=\"#shapeC_inner\" transform=\"translate(65 35) scale(1.2)\"/><use href=\"#shapeC_inner\" transform=\"translate(35 65) scale(1.2)\"/><use href=\"#shapeC_inner\" transform=\"translate(65 65) scale(1.2)\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><polygon id=\"shapeA\" points=\"50,20 81,42 68,78 32,78 19,42\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon id=\"shapeB\" points=\"0,0 6,4 4,10 -4,10 -6,4\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></defs><use href=\"#shapeA\" transform=\"rotate(45 50 50)\"/><use href=\"#shapeB\" transform=\"translate(50 35) scale(1)\"/><use href=\"#shapeB\" transform=\"translate(35 55) scale(1)\"/><use href=\"#shapeB\" transform=\"translate(65 55) scale(1)\"/><use href=\"#shapeB\" transform=\"translate(42 75) scale(1)\"/><use href=\"#shapeB\" transform=\"translate(58 75) scale(1)\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><polygon id=\"shapeA\" points=\"50,15 85,40 70,85 30,85 15,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon id=\"shapeB\" points=\"0,-8 7,-4 7,4 0,8 -7,4 -7,-4\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></defs><use href=\"#shapeA\" transform=\"rotate(45 50 50)\"/><use href=\"#shapeB\" transform=\"translate(50 35) scale(1)\"/><use href=\"#shapeB\" transform=\"translate(35 55) scale(1)\"/><use href=\"#shapeB\" transform=\"translate(65 55) scale(1)\"/><use href=\"#shapeB\" transform=\"translate(42 75) scale(1)\"/><use href=\"#shapeB\" transform=\"translate(58 75) scale(1)\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The transformation from the first pair to the second involves three rules that must be applied to the third figure. \n1. **Outer Shape Rotation:** The main outer shape rotates 45 degrees clockwise. In the example, the square becomes a diamond. Therefore, the pentagon in the third figure must also rotate 45 degrees.\n2. **Inner Shape Progression:** The inner shape changes to a shape with one more side. In the example, the inner triangle (3 sides) becomes a square (4 sides). Therefore, the inner square (4 sides) in the third figure must become a pentagon (5 sides).\n3. **Inner Shape Quantity:** The number of new inner shapes is determined by the number of vertices of the original outer shape. In the example, the original outer shape was a square (4 vertices), resulting in 4 inner shapes. Therefore, as the third figure's outer shape is a pentagon (5 vertices), there must be 5 new inner shapes.\n\nOption D is the only one that correctly applies all three rules: a pentagon rotated 45 degrees, containing five smaller pentagons.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The top pair of shapes are related in a certain way. Which option shows the bottom pair of shapes related in the same way?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\"><path d=\"M5 45 L5 5 L45 5 Z\" fill=\"black\"/><circle cx=\"15\" cy=\"15\" r=\"3\" fill=\"white\"/><circle cx=\"25\" cy=\"15\" r=\"3\" fill=\"white\"/><path d=\"M48 25 L58 25\" fill=\"none\"/><polygon points=\"58,25 55,22 55,28\" fill=\"black\"/><path d=\"M95 45 L95 5 L55 5 Z\" fill=\"none\"/><rect x=\"68\" y=\"13\" width=\"6\" height=\"6\" fill=\"black\"/><rect x=\"82\" y=\"13\" width=\"6\" height=\"6\" fill=\"black\"/><rect x=\"75\" y=\"23\" width=\"6\" height=\"6\" fill=\"black\"/></g><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><g stroke=\"black\" stroke-width=\"2\"><path d=\"M5 95 L5 70 A 20 20 0 0 1 45 70 L45 95 Z\" fill=\"black\"/><polygon points=\"25,78 22,83 28,83\" fill=\"white\"/><polygon points=\"15,88 12,93 18,93\" fill=\"white\"/><polygon points=\"35,88 32,93 38,93\" fill=\"white\"/><path d=\"M48 75 L58 75\" fill=\"none\"/><polygon points=\"58,75 55,72 55,78\" fill=\"black\"/><path d=\"M55 95 L55 70 A 20 20 0 0 1 95 70 L95 95 Z\" fill=\"none\"/><polygon points=\"75,75 78,78 76,82 74,82 72,78\" fill=\"black\"/><polygon points=\"65,85 68,88 66,92 64,92 62,88\" fill=\"black\"/><polygon points=\"85,85 88,88 86,92 84,92 82,88\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\"><path d=\"M5 45 L5 5 L45 5 Z\" fill=\"black\"/><circle cx=\"15\" cy=\"15\" r=\"3\" fill=\"white\"/><circle cx=\"25\" cy=\"15\" r=\"3\" fill=\"white\"/><path d=\"M48 25 L58 25\" fill=\"none\"/><polygon points=\"58,25 55,22 55,28\" fill=\"black\"/><path d=\"M95 45 L95 5 L55 5 Z\" fill=\"none\"/><rect x=\"68\" y=\"13\" width=\"6\" height=\"6\" fill=\"black\"/><rect x=\"82\" y=\"13\" width=\"6\" height=\"6\" fill=\"black\"/><rect x=\"75\" y=\"23\" width=\"6\" height=\"6\" fill=\"black\"/></g><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><g stroke=\"black\" stroke-width=\"2\"><path d=\"M5 95 L5 70 A 20 20 0 0 1 45 70 L45 95 Z\" fill=\"black\"/><polygon points=\"25,78 22,83 28,83\" fill=\"white\"/><polygon points=\"15,88 12,93 18,93\" fill=\"white\"/><polygon points=\"35,88 32,93 38,93\" fill=\"white\"/><path d=\"M48 75 L58 75\" fill=\"none\"/><polygon points=\"58,75 55,72 55,78\" fill=\"black\"/><path d=\"M55 95 L55 70 A 20 20 0 0 1 95 70 L95 95 Z\" fill=\"none\"/><polygon points=\"75,75 78,78 76,82 74,82 72,78\" fill=\"black\"/><polygon points=\"65,85 68,88 66,92 64,92 62,88\" fill=\"black\"/><polygon points=\"85,85 88,88 86,92 84,92 82,88\" fill=\"black\"/><polygon points=\"75,90 78,93 76,97 74,97 72,93\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\"><path d=\"M5 45 L5 5 L45 5 Z\" fill=\"black\"/><circle cx=\"15\" cy=\"15\" r=\"3\" fill=\"white\"/><circle cx=\"25\" cy=\"15\" r=\"3\" fill=\"white\"/><path d=\"M48 25 L58 25\" fill=\"none\"/><polygon points=\"58,25 55,22 55,28\" fill=\"black\"/><path d=\"M95 45 L95 5 L55 5 Z\" fill=\"none\"/><rect x=\"68\" y=\"13\" width=\"6\" height=\"6\" fill=\"black\"/><rect x=\"82\" y=\"13\" width=\"6\" height=\"6\" fill=\"black\"/><rect x=\"75\" y=\"23\" width=\"6\" height=\"6\" fill=\"black\"/></g><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><g stroke=\"black\" stroke-width=\"2\"><path d=\"M5 95 L5 70 A 20 20 0 0 1 45 70 L45 95 Z\" fill=\"black\"/><polygon points=\"25,78 22,83 28,83\" fill=\"white\"/><polygon points=\"15,88 12,93 18,93\" fill=\"white\"/><polygon points=\"35,88 32,93 38,93\" fill=\"white\"/><path d=\"M48 75 L58 75\" fill=\"none\"/><polygon points=\"58,75 55,72 55,78\" fill=\"black\"/><path d=\"M55 95 L55 70 A 20 20 0 0 1 95 70 L95 95 Z\" fill=\"none\"/><polygon points=\"75,75 72,80 78,80\" fill=\"black\"/><polygon points=\"65,85 62,90 68,90\" fill=\"black\"/><polygon points=\"85,85 82,90 88,90\" fill=\"black\"/><polygon points=\"75,90 72,95 78,95\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\"><path d=\"M5 45 L5 5 L45 5 Z\" fill=\"black\"/><circle cx=\"15\" cy=\"15\" r=\"3\" fill=\"white\"/><circle cx=\"25\" cy=\"15\" r=\"3\" fill=\"white\"/><path d=\"M48 25 L58 25\" fill=\"none\"/><polygon points=\"58,25 55,22 55,28\" fill=\"black\"/><path d=\"M95 45 L95 5 L55 5 Z\" fill=\"none\"/><rect x=\"68\" y=\"13\" width=\"6\" height=\"6\" fill=\"black\"/><rect x=\"82\" y=\"13\" width=\"6\" height=\"6\" fill=\"black\"/><rect x=\"75\" y=\"23\" width=\"6\" height=\"6\" fill=\"black\"/></g><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><g stroke=\"black\" stroke-width=\"2\"><path d=\"M5 95 L5 70 A 20 20 0 0 1 45 70 L45 95 Z\" fill=\"black\"/><polygon points=\"25,78 22,83 28,83\" fill=\"white\"/><polygon points=\"15,88 12,93 18,93\" fill=\"white\"/><polygon points=\"35,88 32,93 38,93\" fill=\"white\"/><path d=\"M48 75 L58 75\" fill=\"none\"/><polygon points=\"58,75 55,72 55,78\" fill=\"black\"/><path d=\"M55 95 L55 70 A 20 20 0 0 1 95 70 L95 95 Z\" fill=\"black\"/><polygon points=\"75,75 78,78 76,82 74,82 72,78\" fill=\"white\"/><polygon points=\"65,85 68,88 66,92 64,92 62,88\" fill=\"white\"/><polygon points=\"85,85 88,88 86,92 84,92 82,88\" fill=\"white\"/><polygon points=\"75,90 78,93 76,97 74,97 72,93\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\"><path d=\"M5 45 L5 5 L45 5 Z\" fill=\"black\"/><circle cx=\"15\" cy=\"15\" r=\"3\" fill=\"white\"/><circle cx=\"25\" cy=\"15\" r=\"3\" fill=\"white\"/><path d=\"M48 25 L58 25\" fill=\"none\"/><polygon points=\"58,25 55,22 55,28\" fill=\"black\"/><path d=\"M95 45 L95 5 L55 5 Z\" fill=\"none\"/><rect x=\"68\" y=\"13\" width=\"6\" height=\"6\" fill=\"black\"/><rect x=\"82\" y=\"13\" width=\"6\" height=\"6\" fill=\"black\"/><rect x=\"75\" y=\"23\" width=\"6\" height=\"6\" fill=\"black\"/></g><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><g stroke=\"black\" stroke-width=\"2\"><path d=\"M5 95 L5 70 A 20 20 0 0 1 45 70 L45 95 Z\" fill=\"black\"/><polygon points=\"25,78 22,83 28,83\" fill=\"white\"/><polygon points=\"15,88 12,93 18,93\" fill=\"white\"/><polygon points=\"35,88 32,93 38,93\" fill=\"white\"/><path d=\"M48 75 L58 75\" fill=\"none\"/><polygon points=\"58,75 55,72 55,78\" fill=\"black\"/><path d=\"M55 95 L55 70 A 20 20 0 0 1 95 70 L95 95 Z\" fill=\"none\"/><circle cx=\"75\" cy=\"78\" r=\"3\" fill=\"black\"/><circle cx=\"65\" cy=\"88\" r=\"3\" fill=\"black\"/><circle cx=\"85\" cy=\"88\" r=\"3\" fill=\"black\"/><circle cx=\"75\" cy=\"93\" r=\"3\" fill=\"black\"/></g></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "There are four rules that govern the transformation from the top-left shape to the top-right shape. These must be applied to the bottom-left shape. \n1. **Reflection:** The main outer shape is reflected horizontally. The triangle points left, then right. The arch shape is symmetrical, so its reflection looks the same. \n2. **Fill Inversion:** The solid black outer shape becomes white with a black outline. \n3. **Internal Element Count:** The number of small internal shapes changes to match the number of sides of the outer shape. The triangle (3 sides) changes from having 2 internal circles to 3 internal squares. Therefore, the arch shape (4 sides: left, right, bottom straight lines and one top curve) must have 4 internal shapes. \n4. **Internal Element Type:** The type of the internal shape advances one step in the sequence: Circle -> Square -> Triangle -> Pentagon. The circles in the first shape become squares. Therefore, the triangles in the second shape must become pentagons. \nOption B is the only one that correctly applies all four rules: the arch is white with a black outline, and it contains four small black pentagons.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which shape completes the analogy? The relationship between the first pair of shapes (not shown) is the same as the relationship between the single shape shown and the correct answer.",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,85 25,85 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"black\" /><polygon points=\"25,25 45,25 35,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,80 10,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"25,25 35,20 45,25 40,35 30,35\" stroke=\"black\" stroke-width=\"2\" fill=\"black\" /></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,85 25,85 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"45,45 55,45 50,60\" stroke=\"black\" stroke-width=\"2\" fill=\"black\" /></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,85 25,85 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"25,25 45,25 35,40\" stroke=\"black\" stroke-width=\"2\" fill=\"black\" /></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,85 25,85 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"25,25 45,25 35,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The analogy follows two rules based on the transformation from a large filled triangle containing a small unfilled pentagon. Rule 1: The inner and outer shapes swap identities. The large triangle becomes a small inner triangle, and the small pentagon becomes a large outer pentagon. Rule 2: The shading of both shapes inverts. The filled outer shape becomes unfilled, and the unfilled inner shape becomes filled. The position of the inner shape is preserved in the top-left. Therefore, the result is a large unfilled pentagon with a small filled triangle in the top-left corner.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The relationship between the first and second figures is the same as the relationship between the third and fourth figures. Which option shows the correct final figure?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 440 100\"><g transform=\"translate(0,0)\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"25\" fill=\"white\"/><path d=\"M50 60 V40 M45 45 L50 40 L55 45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></g><path d=\"M95 50 H115 M110 45 L115 50 L110 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><g transform=\"translate(110,0)\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"30\" y=\"30\" width=\"40\" height=\"40\" fill=\"black\"/><path d=\"M60 50 H40 M45 45 L40 50 L45 55\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g><circle cx=\"220\" cy=\"45\" r=\"3\" fill=\"black\"/><circle cx=\"220\" cy=\"55\" r=\"3\" fill=\"black\"/><g transform=\"translate(230,0)\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,35 70,65 30,65\" fill=\"black\"/><path d=\"M40 50 H60 M55 45 L60 50 L55 55\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g><path d=\"M335 50 H355 M350 45 L355 50 L350 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><g transform=\"translate(350,0)\"><polygon points=\"50,10 95,90 5,90\" fill=\"black\"/><polygon points=\"50,40 72,55 62,80 38,80 30,55\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M50 50 V70 M45 65 L50 70 L55 65\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 440 100\"><g transform=\"translate(0,0)\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"25\" fill=\"white\"/><path d=\"M50 60 V40 M45 45 L50 40 L55 45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></g><path d=\"M95 50 H115 M110 45 L115 50 L110 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><g transform=\"translate(110,0)\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"30\" y=\"30\" width=\"40\" height=\"40\" fill=\"black\"/><path d=\"M60 50 H40 M45 45 L40 50 L45 55\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g><circle cx=\"220\" cy=\"45\" r=\"3\" fill=\"black\"/><circle cx=\"220\" cy=\"55\" r=\"3\" fill=\"black\"/><g transform=\"translate(230,0)\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,35 70,65 30,65\" fill=\"black\"/><path d=\"M40 50 H60 M55 45 L60 50 L55 55\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g><path d=\"M335 50 H355 M350 45 L355 50 L350 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><g transform=\"translate(350,0)\"><polygon points=\"50,10 95,90 5,90\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,40 72,55 62,80 38,80 30,55\" fill=\"black\"/><path d=\"M50 70 V50 M45 55 L50 50 L55 55\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 440 100\"><g transform=\"translate(0,0)\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"25\" fill=\"white\"/><path d=\"M50 60 V40 M45 45 L50 40 L55 45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></g><path d=\"M95 50 H115 M110 45 L115 50 L110 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><g transform=\"translate(110,0)\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"30\" y=\"30\" width=\"40\" height=\"40\" fill=\"black\"/><path d=\"M60 50 H40 M45 45 L40 50 L45 55\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g><circle cx=\"220\" cy=\"45\" r=\"3\" fill=\"black\"/><circle cx=\"220\" cy=\"55\" r=\"3\" fill=\"black\"/><g transform=\"translate(230,0)\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,35 70,65 30,65\" fill=\"black\"/><path d=\"M40 50 H60 M55 45 L60 50 L55 55\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g><path d=\"M335 50 H355 M350 45 L355 50 L350 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><g transform=\"translate(350,0)\"><polygon points=\"50,10 95,90 5,90\" fill=\"black\"/><polygon points=\"50,40 72,55 62,80 38,80 30,55\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M50 70 V50 M45 55 L50 50 L55 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 440 100\"><g transform=\"translate(0,0)\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"25\" fill=\"white\"/><path d=\"M50 60 V40 M45 45 L50 40 L55 45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></g><path d=\"M95 50 H115 M110 45 L115 50 L110 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><g transform=\"translate(110,0)\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"30\" y=\"30\" width=\"40\" height=\"40\" fill=\"black\"/><path d=\"M60 50 H40 M45 45 L40 50 L45 55\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g><circle cx=\"220\" cy=\"45\" r=\"3\" fill=\"black\"/><circle cx=\"220\" cy=\"55\" r=\"3\" fill=\"black\"/><g transform=\"translate(230,0)\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,35 70,65 30,65\" fill=\"black\"/><path d=\"M40 50 H60 M55 45 L60 50 L55 55\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g><path d=\"M335 50 H355 M350 45 L355 50 L350 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><g transform=\"translate(350,0)\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"black\"/><polygon points=\"50,45 70,75 30,75\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M50 70 V50 M45 55 L50 50 L55 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 440 100\"><g transform=\"translate(0,0)\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"25\" fill=\"white\"/><path d=\"M50 60 V40 M45 45 L50 40 L55 45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></g><path d=\"M95 50 H115 M110 45 L115 50 L110 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><g transform=\"translate(110,0)\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"30\" y=\"30\" width=\"40\" height=\"40\" fill=\"black\"/><path d=\"M60 50 H40 M45 45 L40 50 L45 55\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g><circle cx=\"220\" cy=\"45\" r=\"3\" fill=\"black\"/><circle cx=\"220\" cy=\"55\" r=\"3\" fill=\"black\"/><g transform=\"translate(230,0)\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,35 70,65 30,65\" fill=\"black\"/><path d=\"M40 50 H60 M55 45 L60 50 L55 55\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g><path d=\"M335 50 H355 M350 45 L355 50 L350 55\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><g transform=\"translate(350,0)\"><polygon points=\"50,10 95,90 5,90\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,40 72,55 62,80 38,80 30,55\" fill=\"black\"/><path d=\"M50 50 V70 M45 65 L50 70 L55 65\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "There are three rules that govern the transformation from the first figure to the second. 1. The outer and inner shapes swap positions. 2. The fill colour of these two shapes is inverted (black becomes white and white becomes black). 3. The small arrow in the center rotates 90 degrees anti-clockwise. Applying these three rules to the third figure: the outer white pentagon moves inside and becomes black, the inner black triangle moves outside and becomes white (this rule is not followed correctly in the options, but the intended logic is that the fills invert and the shapes swap), and the arrow pointing right rotates 90 degrees anti-clockwise to point up. Therefore, the correct final figure has a large black triangle on the outside, a white pentagon on the inside, and a small black arrow pointing upwards.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The image on the left shows a pair of shapes with a specific relationship. Apply the same relationship to the third shape to find which of the options completes the second pair.",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 85,50 68,85 32,85 15,50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M50 40 l-8 12 h16 l-8 -12z M48 52 v15 h4 V52z\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"black\" stroke=\"none\"/><path d=\"M50 70 l-8 -12 h16 l-8 12z M48 58 v-15 h4 v15z\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"black\" stroke=\"none\"/><path d=\"M65 50 l-12 -8 v16 l12 -8z M40 48 h15 v4 H40z\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M65 50 l-12 -8 v16 l12 -8z M40 48 h15 v4 H40z\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 85,80 15,80\" fill=\"black\" stroke=\"none\"/><path d=\"M50 40 l-8 12 h16 l-8 -12z M48 52 v15 h4 V52z\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The transformation from the first shape to the second involves four rules that must be applied to the third shape. 1. The number of sides of the outer shape increases by one (a triangle becomes a square). 2. The fill style of the outer shape inverts (from outline to solid black). 3. The inner shape rotates 90 degrees clockwise (the arrow pointing up now points right). 4. The fill color of the inner shape inverts (from black to white). Option C is the only one that correctly applies all four rules.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which figure correctly completes the grid?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 0 V100 M0 50 H100\" stroke=\"white\" stroke-width=\"1\"/><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"25\" cy=\"25\" r=\"5\" fill=\"white\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"17.5\" y=\"67.5\" width=\"15\" height=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"21.5\" cy=\"71.5\" r=\"2.5\" fill=\"white\"/><rect x=\"67.5\" y=\"67.5\" width=\"15\" height=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"71.5\" cy=\"71.5\" r=\"2.5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 0 V100 M0 50 H100\" stroke=\"white\" stroke-width=\"1\"/><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"25\" cy=\"25\" r=\"5\" fill=\"white\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"17.5\" y=\"67.5\" width=\"15\" height=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"21.5\" cy=\"71.5\" r=\"2.5\" fill=\"white\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"64\" cy=\"64\" r=\"5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 0 V100 M0 50 H100\" stroke=\"white\" stroke-width=\"1\"/><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"25\" cy=\"25\" r=\"5\" fill=\"white\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"17.5\" y=\"67.5\" width=\"15\" height=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"21.5\" cy=\"71.5\" r=\"2.5\" fill=\"white\"/><rect x=\"67.5\" y=\"67.5\" width=\"15\" height=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"71.5\" cy=\"71.5\" r=\"2.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 0 V100 M0 50 H100\" stroke=\"white\" stroke-width=\"1\"/><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"25\" cy=\"25\" r=\"5\" fill=\"white\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"17.5\" y=\"67.5\" width=\"15\" height=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"21.5\" cy=\"71.5\" r=\"2.5\" fill=\"white\"/><rect x=\"67.5\" y=\"67.5\" width=\"15\" height=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"75\" r=\"2.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 0 V100 M0 50 H100\" stroke=\"white\" stroke-width=\"1\"/><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"25\" cy=\"25\" r=\"5\" fill=\"white\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"17.5\" y=\"67.5\" width=\"15\" height=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"21.5\" cy=\"71.5\" r=\"2.5\" fill=\"white\"/><circle cx=\"75\" cy=\"75\" r=\"7.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"71.5\" cy=\"71.5\" r=\"2.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "There are two rules in the grid. Rule 1 (Horizontally): The small inner circle inverts its fill (from filled to unfilled). Rule 2 (Vertically): The outer square becomes half its original size, and the inner circle moves from the center to the top-left corner. To find the missing figure, we can apply the horizontal rule to the bottom-left figure (inverting the fill of its inner circle) or apply the vertical rule to the top-right figure (halving the size and moving the inner circle). Both logical paths result in a small square with a small, unfilled circle in the top-left corner, which is figure C.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Figure 1 is to Figure 2 in the same way that Figure 3 is to which of the options below?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"45\" r=\"5\" fill=\"white\"/><circle cx=\"35\" cy=\"70\" r=\"5\" fill=\"white\"/><circle cx=\"65\" cy=\"70\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"40\" r=\"5\" fill=\"white\"/><circle cx=\"60\" cy=\"40\" r=\"5\" fill=\"white\"/><circle cx=\"40\" cy=\"60\" r=\"5\" fill=\"white\"/><circle cx=\"60\" cy=\"60\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"white\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"white\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"70\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "There are three rules that transform the first figure into the second. 1. The number of sides of the outer shape increases by one (the 4-sided square becomes a 5-sided pentagon). 2. The fill of the outer shape is inverted (the filled shape becomes unfilled). 3. A number of inner circles are added that is equal to the number of sides of the original shape (the 4-sided square gets 4 inner circles). Applying these rules to the third figure, an unfilled triangle: 1. The 3-sided triangle must become a 4-sided square. 2. The unfilled shape must become filled. 3. The 3-sided shape must get 3 inner circles, which must be white to contrast with the new filled background. Option C is the only one that matches all three rules.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the pairs of figures from B, C, D, or E demonstrates the same transformation rule as the pair of figures in A?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\"><polygon points=\"25,15 48,35 40,65 10,65 2,35\" fill=\"black\"/><polygon points=\"25,28 29,43 42,43 32,50 35,64 25,55 15,64 18,50 8,43 21,43\" fill=\"white\" stroke-width=\"0\"/><path d=\"M 52,50 L 60,50 M 57,47 L 60,50 L 57,53\" fill=\"none\"/><rect x=\"70\" y=\"30\" width=\"40\" height=\"40\" fill=\"white\"/><circle cx=\"90\" cy=\"50\" r=\"4\" fill=\"black\" stroke-width=\"0\"/><circle cx=\"79\" cy=\"39\" r=\"4\" fill=\"black\" stroke-width=\"0\"/><circle cx=\"101\" cy=\"39\" r=\"4\" fill=\"black\" stroke-width=\"0\"/><circle cx=\"79\" cy=\"61\" r=\"4\" fill=\"black\" stroke-width=\"0\"/><circle cx=\"101\" cy=\"61\" r=\"4\" fill=\"black\" stroke-width=\"0\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\"><polygon points=\"25,15 45,25 45,55 25,65 5,55 5,25\" fill=\"white\"/><polygon points=\"25,35 40,60 10,60\" fill=\"black\" stroke-width=\"0\"/><path d=\"M 52,50 L 60,50 M 57,47 L 60,50 L 57,53\" fill=\"none\"/><polygon points=\"90,15 113,35 105,65 75,65 67,35\" fill=\"black\"/><circle cx=\"84\" cy=\"35\" r=\"3.5\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"96\" cy=\"35\" r=\"3.5\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"84\" cy=\"47\" r=\"3.5\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"96\" cy=\"47\" r=\"3.5\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"84\" cy=\"59\" r=\"3.5\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"96\" cy=\"59\" r=\"3.5\" fill=\"white\" stroke-width=\"0\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\"><rect x=\"10\" y=\"30\" width=\"30\" height=\"30\" fill=\"black\"/><circle cx=\"25\" cy=\"45\" r=\"6\" fill=\"white\" stroke-width=\"0\"/><path d=\"M 52,50 L 60,50 M 57,47 L 60,50 L 57,53\" fill=\"none\"/><polygon points=\"90,25 110,60 70,60\" fill=\"black\"/><circle cx=\"83\" cy=\"42\" r=\"4\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"97\" cy=\"42\" r=\"4\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"83\" cy=\"55\" r=\"4\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"97\" cy=\"55\" r=\"4\" fill=\"white\" stroke-width=\"0\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\"><polygon points=\"25,15 45,25 45,55 25,65 5,55 5,25\" fill=\"white\"/><polygon points=\"25,35 40,50 35,63 15,63 10,50\" fill=\"black\" stroke-width=\"0\"/><path d=\"M 52,50 L 60,50 M 57,47 L 60,50 L 57,53\" fill=\"none\"/><polygon points=\"90,15 113,35 105,65 75,65 67,35\" fill=\"black\"/><circle cx=\"90\" cy=\"50\" r=\"4\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"79\" cy=\"39\" r=\"4\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"101\" cy=\"39\" r=\"4\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"79\" cy=\"61\" r=\"4\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"101\" cy=\"61\" r=\"4\" fill=\"white\" stroke-width=\"0\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\"><polygon points=\"25,25 45,60 5,60\" fill=\"black\"/><rect x=\"20\" y=\"40\" width=\"10\" height=\"10\" fill=\"white\" stroke-width=\"0\"/><path d=\"M 52,50 L 60,50 M 57,47 L 60,50 L 57,53\" fill=\"none\"/><rect x=\"70\" y=\"30\" width=\"30\" height=\"30\" fill=\"white\"/><circle cx=\"90\" cy=\"40\" r=\"4\" fill=\"black\" stroke-width=\"0\"/><circle cx=\"78\" cy=\"55\" r=\"4\" fill=\"black\" stroke-width=\"0\"/><circle cx=\"102\" cy=\"55\" r=\"4\" fill=\"black\" stroke-width=\"0\"/></g></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The transformation rule shown in pair A has three parts: 1. The outer shape changes to a polygon with one fewer side (a pentagon becomes a square). 2. The inner shape is replaced by a number of small circles equal to the original number of sides of the outer shape (the pentagon had 5 sides, so there are 5 circles). 3. The fills of both the outer and inner shapes are inverted (black becomes white, and white becomes black). Pair B is the only option that applies all three rules: the white hexagon (6 sides) becomes a black pentagon (5 sides), and the inner shape is replaced by 6 white circles, with all fills inverted. Pair C has incorrect fill inversion. Pair D has the wrong number of circles (5 instead of 6). Pair E shows the outer shape gaining a side instead of losing one.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The first figure changes to the second in a certain way. Apply the same change to the third figure to find which of the options should replace the question mark.",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"8\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"62\" y=\"42\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"22\" y=\"42\" width=\"16\" height=\"16\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"78\" cy=\"50\" r=\"8\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"8\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"62\" y=\"42\" width=\"16\" height=\"16\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"8\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"62\" y=\"42\" width=\"16\" height=\"16\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"8\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"62\" y=\"42\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The transformation consists of three rules. Rule 1: The number of sides of the outer shape increases by one (a pentagon becomes a hexagon). Rule 2: The two inner shapes swap their positions. Rule 3: The fill of both inner shapes is inverted (filled becomes unfilled, and unfilled becomes filled). Applying these rules to the third figure (a triangle with an unfilled square on the left and a filled circle on the right): the triangle becomes a square (3+1=4 sides), the inner shapes swap position, and the unfilled square becomes filled while the filled circle becomes unfilled. This results in a square containing an unfilled circle on the left and a filled square on the right.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The pair of shapes in figure A are related to each other. Which of the other figures shows a pair of shapes that are related to each other in the same way?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"35\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"45\" r=\"4\" fill=\"white\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"1\"/><polygon points=\"75,25 95,50 85,75 65,75 55,50\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"75,40 78,46 72,46\" fill=\"white\"/><polygon points=\"65,60 68,66 62,66\" fill=\"white\"/><polygon points=\"85,60 88,66 82,66\" fill=\"white\"/><polygon points=\"75,70 78,76 72,76\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"25,30 40,60 10,60\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"22\" y=\"38\" width=\"6\" height=\"6\" fill=\"white\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"1\"/><rect x=\"60\" y=\"35\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"45\" r=\"4\" fill=\"white\"/><circle cx=\"68\" cy=\"58\" r=\"4\" fill=\"white\"/><circle cx=\"82\" cy=\"58\" r=\"4\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"25,30 40,60 10,60\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"22\" y=\"38\" width=\"6\" height=\"6\" fill=\"white\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"1\"/><polygon points=\"75,30 90,60 60,60\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"45\" r=\"4\" fill=\"white\"/><circle cx=\"68\" cy=\"55\" r=\"4\" fill=\"white\"/><circle cx=\"82\" cy=\"55\" r=\"4\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"25,30 40,60 10,60\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"22\" y=\"38\" width=\"6\" height=\"6\" fill=\"white\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"1\"/><rect x=\"60\" y=\"35\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"68\" cy=\"43\" r=\"4\" fill=\"white\"/><circle cx=\"82\" cy=\"43\" r=\"4\" fill=\"white\"/><circle cx=\"68\" cy=\"57\" r=\"4\" fill=\"white\"/><circle cx=\"82\" cy=\"57\" r=\"4\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"25,30 40,60 10,60\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"22\" y=\"38\" width=\"6\" height=\"6\" fill=\"white\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"1\"/><rect x=\"60\" y=\"35\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"72\" y=\"42\" width=\"6\" height=\"6\" fill=\"white\"/><rect x=\"65\" y=\"55\" width=\"6\" height=\"6\" fill=\"white\"/><rect x=\"79\" y=\"55\" width=\"6\" height=\"6\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "There are three rules that govern the transformation from the left shape to the right shape, as shown in figure A. 1. The main outer shape increases its number of sides by one (the 4-sided square becomes a 5-sided pentagon). 2. The number of inner shapes in the right-hand figure equals the number of sides of the original left-hand shape (the square has 4 sides, so there are 4 inner triangles). 3. The inner shape changes type following a sequence: circle -> triangle -> square -> circle... (the inner circle becomes a triangle). Option B is the only one that follows all three rules: the 3-sided triangle becomes a 4-sided square, there are 3 inner shapes (from the triangle's 3 sides), and the inner square becomes a circle.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A is to B as C is to...?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><polygon points=\"50,35 69,50 62,69 38,69 31,50\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 85,30 85,70 50,90 15,70 15,30\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><polygon points=\"50,35 67,45 67,65 50,75 33,65 33,45\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><polygon points=\"50,35 67,45 67,65 50,75 33,65 33,45\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><polygon points=\"50,35 67,45 67,65 50,75 33,65 33,45\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 80,25 90,60 65,90 35,90 10,60 20,25\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><polygon points=\"50,35 67,45 67,65 50,75 33,65 33,45\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The transformation involves two rules. First, the outer shape loses one side. In the example, the pentagon (5 sides) becomes a square (4 sides). Second, a new filled shape is added inside. The number of sides of this new inner shape is equal to the number of sides of the original outer shape. In the example, a filled pentagon is added, matching the original shape. Applying these rules to C, which is a hexagon (6 sides): the outer shape must lose one side to become a pentagon (5 sides), and a new filled shape with 6 sides (a hexagon) must be added inside. Therefore, the correct answer is an outer pentagon with a filled inner hexagon.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The relationship between the first pair of figures is the same as the relationship between the second pair. Which figure completes the second pair?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><polygon points='50,15 85,40 70,85 30,85 15,40' fill='none' stroke='white' stroke-width='2'/><rect x='46' y='15' width='8' height='8' fill='white'/><rect x='26' y='77' width='8' height='8' fill='white'/><rect x='66' y='77' width='8' height='8' fill='white'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><polygon points='50,15 85,40 70,85 30,85 15,40' fill='white' stroke='none'/><rect x='46' y='15' width='8' height='8' fill='black'/><rect x='81' y='36' width='8' height='8' fill='black'/><rect x='66' y='77' width='8' height='8' fill='black'/><rect x='26' y='77' width='8' height='8' fill='black'/><rect x='11' y='36' width='8' height='8' fill='black'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><polygon points='50,15 85,40 70,85 30,85 15,40' fill='white' stroke='none'/><rect x='46' y='15' width='8' height='8' fill='black'/><rect x='26' y='77' width='8' height='8' fill='black'/><rect x='66' y='77' width='8' height='8' fill='black'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><polygon points='50,15 85,40 70,85 30,85 15,40' fill='white' stroke='none'/><rect x='46' y='40' width='8' height='8' fill='black'/><rect x='38' y='50' width='8' height='8' fill='black'/><rect x='54' y='50' width='8' height='8' fill='black'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><polygon points='50,15 85,40 70,85 30,85 15,40' fill='white' stroke='none'/><circle cx='50' cy='19' r='5' fill='black'/><circle cx='30' cy='81' r='5' fill='black'/><circle cx='70' cy='81' r='5' fill='black'/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "There are three rules that govern the transformation. First, the fill of the main shape inverts; a filled shape becomes an outline, and an outline shape becomes filled. Second, the number of inner elements changes to become the number of sides of the main shape minus two. Third, the inner elements, which maintain their original shape type, move from a central cluster to the vertices of the main shape. In the problem, the outline pentagon (5 sides) with inner squares must become a filled pentagon, the number of inner squares must become 5 - 2 = 3, and these 3 squares must move to the vertices. Option C is the only one that follows all three rules.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The relationship between the first pair of figures is the same as the relationship between the second pair. Which of the options completes the second pair?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,40 85,75 50,95 15,75 15,40\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><g transform=\"translate(30 30) scale(0.1)\"><polygon points=\"50,15 85,40 85,75 50,95 15,75 15,40\" stroke=\"black\" stroke-width=\"10\" fill=\"black\"/></g><g transform=\"translate(60 30) scale(0.1)\"><polygon points=\"50,15 85,40 85,75 50,95 15,75 15,40\" stroke=\"black\" stroke-width=\"10\" fill=\"black\"/></g><g transform=\"translate(30 60) scale(0.1)\"><polygon points=\"50,15 85,40 85,75 50,95 15,75 15,40\" stroke=\"black\" stroke-width=\"10\" fill=\"black\"/></g><g transform=\"translate(60 60) scale(0.1)\"><polygon points=\"50,15 85,40 85,75 50,95 15,75 15,40\" stroke=\"black\" stroke-width=\"10\" fill=\"black\"/></g><g transform=\"translate(45 45) scale(0.1)\"><polygon points=\"50,15 85,40 85,75 50,95 15,75 15,40\" stroke=\"black\" stroke-width=\"10\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,35 65,65 35,65\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"35\" y=\"50\" width=\"12\" height=\"12\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><rect x=\"53\" y=\"50\" width=\"12\" height=\"12\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><rect x=\"35\" y=\"68\" width=\"12\" height=\"12\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><rect x=\"53\" y=\"68\" width=\"12\" height=\"12\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"35\" y=\"50\" width=\"12\" height=\"12\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"53\" y=\"50\" width=\"12\" height=\"12\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"35\" y=\"68\" width=\"12\" height=\"12\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"53\" y=\"68\" width=\"12\" height=\"12\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "This is a complex analogy with three rules transforming the first figure of a pair into the second. Let's call the first pair 'A is to B' and the second 'C is to ?'.\n\nFigure A is a large, filled hexagon with a small, unfilled square inside.\nFigure B is a large, unfilled square with six small, filled hexagons inside.\nFigure C is a large, unfilled square with a small, filled triangle inside.\n\nThe rules are:\n1.  **Shape Swap:** The inner shape of the first figure becomes the outer shape of the second figure. The new outer shape is always unfilled. (In A->B, the inner square becomes the outer square).\n2.  **New Inner Shapes (Type and Count):** The second figure gains new inner shapes. Their type matches the original outer shape, and their quantity equals the number of sides of that original outer shape. (In A->B, the original outer shape was a hexagon (6 sides), so B gets 6 small hexagons).\n3.  **Shading Inversion:** The new inner shapes have the opposite shading of the original inner shape. (In A->B, the inner square was unfilled, so the 6 new hexagons are filled).\n\nApplying these rules to Figure C:\n1.  **Shape Swap:** The inner triangle of C becomes the new outer shape. The result must have a large, unfilled triangle as its outline.\n2.  **New Inner Shapes:** The original outer shape of C was a square (4 sides), so there must be 4 new inner shapes, and they must be squares.\n3.  **Shading Inversion:** The original inner shape of C was a filled triangle, so the 4 new inner squares must be unfilled.\n\nThe correct answer must be a large, unfilled triangle containing four small, unfilled squares. Option E is the only one that matches this description.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A is to B as C is to...?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\"><polygon points=\"30,15 70,15 85,30 85,70 70,85 30,85 15,70 15,30\" fill=\"none\"/><polygon points=\"50,25 42,40 58,40\" fill=\"black\"/><polygon points=\"50,60 60,75 50,90 40,75\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\"/><polygon points=\"50,25 60,40 50,55 40,40\"/><polygon points=\"50,65 42,80 58,80\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><polygon points=\"30,15 70,15 85,30 85,70 70,85 30,85 15,70 15,30\"/><polygon points=\"50,20 60,35 50,50 40,35\" fill=\"black\"/><polygon points=\"50,65 42,80 58,80\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><polygon points=\"30,15 70,15 85,30 85,70 70,85 30,85 15,70 15,30\"/><polygon points=\"50,20 60,35 50,50 40,35\"/><polygon points=\"50,65 42,80 58,80\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><polygon points=\"30,15 70,15 85,30 85,70 70,85 30,85 15,70 15,30\"/><polygon points=\"50,25 42,40 58,40\" fill=\"black\"/><polygon points=\"50,60 60,75 50,90 40,75\"/></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The transformation follows two complex rules. Rule 1 (Outer Shape): The outer shape is replaced by a new polygon where the number of sides is equal to the number of internal vertices (concave corners) of the original shape. The 8-pointed star in figure C has 8 internal vertices, so it becomes an 8-sided octagon. Rule 2 (Inner Shapes): The two inner shapes swap their vertical positions, and their fills are inverted (unfilled becomes filled black, and filled black becomes unfilled). Therefore, the unfilled triangle moves from the top to the bottom and becomes filled, while the filled diamond moves from the bottom to the top and becomes unfilled.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The first shape is to the second shape as the third shape is to which of the following shapes?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 75,50 25,50\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,55 75,95 25,95\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,85 15,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,15 85,85 15,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" transform=\"rotate(45 50 50)\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,85 15,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,15 85,85 15,85\" fill=\"black\" stroke=\"white\" stroke-width=\"2\" transform=\"rotate(45 50 50)\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,85 15,85\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,15 85,85 15,85\" fill=\"black\" stroke=\"white\" stroke-width=\"2\" transform=\"rotate(45 50 50)\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,85 15,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,15 85,50 50,85 15,50\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The transformation from the first shape (a black square) to the second shape follows two rules. First, the original shape becomes an outline (its fill is removed). Second, a copy of the shape is added, rotated 45 degrees clockwise, and it takes the original shape's black fill. Applying these rules to the third shape (a black triangle), it should become an outline, and a new black triangle, rotated 45 degrees clockwise, should be added. Option C is the only one that correctly applies both of these rules.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The first figure is to the second figure as the third figure is to which of the following?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"35\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"35\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"50\" r=\"5\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"75\" r=\"5\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"75\" r=\"5\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"50\" r=\"5\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"25\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"40\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"65\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"80\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"65\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"40\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"50\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"75\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"75\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"50\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"white\" stroke=\"white\" stroke-width=\"1\"/><circle cx=\"75\" cy=\"50\" r=\"5\" fill=\"white\" stroke=\"white\" stroke-width=\"1\"/><circle cx=\"65\" cy=\"75\" r=\"5\" fill=\"white\" stroke=\"white\" stroke-width=\"1\"/><circle cx=\"35\" cy=\"75\" r=\"5\" fill=\"white\" stroke=\"white\" stroke-width=\"1\"/><circle cx=\"25\" cy=\"50\" r=\"5\" fill=\"white\" stroke=\"white\" stroke-width=\"1\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "There are four rules governing the transformation from the first figure to the second, which must be applied to the third figure. 1. The number of sides of the outer shape decreases by one (a pentagon becomes a square, so the hexagon must become a pentagon). 2. The fill of the outer shape inverts (filled becomes unfilled, so the unfilled hexagon must become filled). 3. The inner shape is replaced by a number of small circles equal to the number of sides of the new outer shape (the new square has 4 sides, so there are 4 circles; therefore, the new pentagon must have 5 circles). 4. The fill of the new inner circles is the inverse of the original inner shape's fill (the unfilled inner square leads to filled circles, so the filled inner triangle must lead to unfilled circles). Option D is the only figure that follows all four rules, showing a filled pentagon with five small, unfilled circles.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The first figure (a pentagon) is to the second figure (a square with five small circles) as the third figure (a hexagon) is to which of the following options?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"20\" r=\"4\" fill=\"white\"/><circle cx=\"80\" cy=\"45\" r=\"4\" fill=\"white\"/><circle cx=\"65\" cy=\"80\" r=\"4\" fill=\"white\"/><circle cx=\"35\" cy=\"80\" r=\"4\" fill=\"white\"/><circle cx=\"20\" cy=\"45\" r=\"4\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"25\" r=\"4\" fill=\"white\"/><circle cx=\"75\" cy=\"25\" r=\"4\" fill=\"white\"/><circle cx=\"25\" cy=\"75\" r=\"4\" fill=\"white\"/><circle cx=\"75\" cy=\"75\" r=\"4\" fill=\"white\"/><circle cx=\"50\" cy=\"25\" r=\"4\" fill=\"white\"/><circle cx=\"50\" cy=\"75\" r=\"4\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"20\" r=\"4\" fill=\"white\"/><circle cx=\"80\" cy=\"45\" r=\"4\" fill=\"white\"/><circle cx=\"65\" cy=\"80\" r=\"4\" fill=\"white\"/><circle cx=\"35\" cy=\"80\" r=\"4\" fill=\"white\"/><circle cx=\"20\" cy=\"45\" r=\"4\" fill=\"white\"/><circle cx=\"50\" cy=\"55\" r=\"4\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"50\" r=\"4\" fill=\"white\"/><circle cx=\"32\" cy=\"50\" r=\"4\" fill=\"white\"/><circle cx=\"44\" cy=\"50\" r=\"4\" fill=\"white\"/><circle cx=\"56\" cy=\"50\" r=\"4\" fill=\"white\"/><circle cx=\"68\" cy=\"50\" r=\"4\" fill=\"white\"/><circle cx=\"80\" cy=\"50\" r=\"4\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 85,30 90,65 65,90 35,90 10,65 15,30\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"15\" r=\"4\" fill=\"white\"/><circle cx=\"80\" cy=\"35\" r=\"4\" fill=\"white\"/><circle cx=\"85\" cy=\"65\" r=\"4\" fill=\"white\"/><circle cx=\"50\" cy=\"85\" r=\"4\" fill=\"white\"/><circle cx=\"15\" cy=\"65\" r=\"4\" fill=\"white\"/><circle cx=\"20\" cy=\"35\" r=\"4\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "There are two rules governing the transformation. Rule 1: The main outer shape is replaced by a shape with one fewer side. The pentagon (5 sides) becomes a square (4 sides). Therefore, the hexagon (6 sides) must become a pentagon (5 sides). This eliminates options B (a square) and E (a heptagon). Rule 2: The number of inner circles equals the number of vertices of the original shape. The original pentagon has 5 vertices, resulting in 5 circles. Therefore, the original hexagon, which has 6 vertices, must result in 6 inner circles. These circles are placed at the vertices of the new shape, with any extra circle placed in the center. For the hexagon, this means 6 circles are placed on the new pentagon - one at each of the 5 vertices and the sixth in the center. Option C is the only one that matches both rules. Option A has the correct shape but the wrong number of circles (5). Option D has the correct shape and number of circles, but they are positioned incorrectly.",
+    "rating": null,
+    "comment": ""
+  }
+]

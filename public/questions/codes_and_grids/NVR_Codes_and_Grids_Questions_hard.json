@@ -1,0 +1,727 @@
+[
+  {
+    "question": "In four of the options, the code correctly describes the shape based on a set of rules. Which option shows a shape that does not match its code?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"4\" fill=\"black\"/><circle cx=\"70\" cy=\"30\" r=\"4\" fill=\"black\"/><circle cx=\"30\" cy=\"45\" r=\"4\" fill=\"black\"/><circle cx=\"70\" cy=\"45\" r=\"4\" fill=\"black\"/><text x=\"50\" y=\"95\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"black\">S4T</text></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,45 80,90 20,90 5,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"75\" r=\"4\" fill=\"black\"/><circle cx=\"65\" cy=\"75\" r=\"4\" fill=\"black\"/><circle cx=\"50\" cy=\"65\" r=\"4\" fill=\"black\"/><text x=\"50\" y=\"95\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"black\">P3B</text></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"black\"/><circle cx=\"70\" cy=\"70\" r=\"4\" fill=\"black\"/><circle cx=\"40\" cy=\"80\" r=\"4\" fill=\"black\"/><circle cx=\"60\" cy=\"80\" r=\"4\" fill=\"black\"/><text x=\"50\" y=\"95\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"black\">C5T</text></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 93,30 93,70 50,90 7,70 7,30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"45\" r=\"4\" fill=\"black\"/><circle cx=\"50\" cy=\"55\" r=\"4\" fill=\"black\"/><text x=\"50\" y=\"95\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"black\">H2C</text></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"black\"/><text x=\"50\" y=\"95\" text-anchor=\"middle\" font-size=\"12\" font-family=\"sans-serif\" fill=\"black\">S1B</text></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of three parts. The first letter represents the outer shape (S=Square, P=Pentagon, C=Circle, H=Hexagon). The second character is the number of inner dots. The third letter represents the vertical position of the dots (T=Top half, B=Bottom half, C=Centered across the midline). In option C, the code is C5T, which means it should be a Circle with 5 dots in the Top half. However, the diagram shows the 5 dots in the Bottom half, making it the option where the code and shape do not match.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Each shape has a two-letter code. First letter: P=Pentagon, H=Hexagon, O=Octagon. Second letter: X=Circles, Y=Triangles, Z=Squares. The number of inner shapes is based on a rule specific to the second letter. Given HZ is a Hexagon with 4 squares, and OX is an Octagon with 4 circles, which option represents PY?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"30,70 40,55 50,70\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,70 60,55 70,70\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"40,50 50,35 60,50\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,5 85.35,14.65 95,50 85.35,85.35 50,95 14.65,85.35 5,50 14.65,14.65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,30 58,45 42,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"30,65 38,80 22,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"70,65 78,80 62,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"25,45 33,60 17,60\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,45 83,60 67,60\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"30,65 40,50 50,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,65 60,50 70,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"40,65 50,50 60,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,35 90,75 50,90 10,75 10,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"30,65 40,50 50,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,65 60,50 70,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"40,45 50,30 60,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code has two parts. The first letter determines the outer shape. The second letter determines the inner shape type and a rule for its quantity. 1. From HZ, we see a Hexagon (6 sides) has 4 squares. The rule for Z (Squares) is: Number of Sides - 2 = Quantity (6 - 2 = 4). 2. From OX, we see an Octagon (8 sides) has 4 circles. The rule for X (Circles) is: Number of Sides - 4 = Quantity (8 - 4 = 4). 3. A pattern emerges for the rules based on the second letter: Z subtracts 2, X subtracts 4. Logically, Y, which is alphabetically between X and Z, must subtract 3. 4. We need to find PY. P is a Pentagon (5 sides) and the rule for Y (Triangles) is Number of Sides - 3. 5. Therefore, PY should have 5 - 3 = 2 triangles. Option C is a pentagon with 2 triangles.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In the system below, a three-part code is used to generate a figure. The first letter determines the main outer shape (S=Square, T=Triangle, P=Pentagon). The second letter determines the fill of the inner shape (S=Solid, H=Horizontal lines, V=Vertical lines). The final number determines the quantity and position of the small circles (1=Top, 2=Left & Right, 3=Three vertices, 4=Four corners/cardinal points). Which of the options matches the code P-V-2?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,10 95,45 80,90 20,90 5,45\"/><polygon points=\"50,30 80,52 70,80 30,80 20,52\" fill=\"black\"/><circle cx=\"5\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"95\" cy=\"45\" r=\"5\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"vlinesB\" width=\"6\" height=\"6\" patternUnits=\"userSpaceOnUse\"><path d=\"M 3 0 L 3 6\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,10 95,45 80,90 20,90 5,45\"/><polygon points=\"50,30 80,52 70,80 30,80 20,52\" fill=\"url(#vlinesB)\"/><circle cx=\"50\" cy=\"10\" r=\"5\" fill=\"black\"/><circle cx=\"5\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"95\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"95\" r=\"5\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"vlinesC\" width=\"6\" height=\"6\" patternUnits=\"userSpaceOnUse\"><path d=\"M 3 0 L 3 6\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,10 95,45 80,90 20,90 5,45\"/><polygon points=\"50,30 80,52 70,80 30,80 20,52\" fill=\"url(#vlinesC)\"/><circle cx=\"5\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"95\" cy=\"45\" r=\"5\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"vlinesD\" width=\"6\" height=\"6\" patternUnits=\"userSpaceOnUse\"><path d=\"M 3 0 L 3 6\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" fill=\"url(#vlinesD)\"/><circle cx=\"15\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"85\" cy=\"50\" r=\"5\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"hlinesE\" width=\"6\" height=\"6\" patternUnits=\"userSpaceOnUse\"><path d=\"M 0 3 L 6 3\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,10 90,80 10,80\"/><polygon points=\"50,35 75,70 25,70\" fill=\"url(#hlinesE)\"/><circle cx=\"50\" cy=\"10\" r=\"5\" fill=\"black\"/><circle cx=\"10\" cy=\"80\" r=\"5\" fill=\"black\"/><circle cx=\"90\" cy=\"80\" r=\"5\" fill=\"black\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code is deciphered in three parts. Part 1: The first letter 'P' indicates the outer shape is a Pentagon. This eliminates options D (Square) and E (Triangle). Part 2: The second letter 'V' indicates the inner shape has a Vertical line fill. This eliminates option A, which has a solid fill. Part 3: The number '2' indicates there are two small circles, placed on the left and right extremities. Option B has four circles, while Option C correctly has two. Therefore, Option C is the only figure that matches all three parts of the code P-V-2.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Shapes are coded with a 3-part code. The first letter is the outer shape, the second is the inner shape (T=Triangle, S=Square, P=Pentagon). The number is a shading rule. Given the examples: `ST3`, `PP1`, `SS2`. Which shape matches the code `TS3`?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" /><polygon points=\"50,35 70,65 30,65\" /><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"white\" stroke=\"none\" /></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,15 85,80 15,80\" /><rect x=\"35\" y=\"45\" width=\"30\" height=\"25\" fill=\"white\" /></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,15 85,80 15,80\" /><rect x=\"35\" y=\"45\" width=\"30\" height=\"25\" /><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"white\" stroke=\"none\" /></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\"><path d=\"M50,15 L85,80 L15,80 Z M35,45 H65 V70 H35 Z\" fill-rule=\"evenodd\" fill=\"white\" /></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,15 85,80 15,80\" /><polygon points=\"50,45 67.5,70 32.5,70\" fill=\"white\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code has three parts. The first two letters define the shapes: T=Triangle (3 sides), S=Square (4 sides), P=Pentagon (5 sides). The number defines a shading rule based on whether the number of sides for the shapes is odd or even. From the examples: \n- `PP1`: Pentagon (5, odd) and Pentagon (5, odd). Both odd, so type 1 is 'inner shape filled'.\n- `SS2`: Square (4, even) and Square (4, even). Both even, so type 2 is 'outer shape filled'.\n- `ST3`: Square (4, even) and Triangle (3, odd). A mix of even and odd, so type 3 is 'central dot filled'.\nThe code to find is `TS3`:\n- T: Outer shape is a Triangle (3 sides - odd).\n- S: Inner shape is a Square (4 sides - even).\n- Since there is a mix of odd and even sides, the shading must be type 3 (central dot).\nOption C is the only one with an outer triangle, an inner square, and a filled central dot.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Look at these coded shapes: A square filled with horizontal lines containing a smaller square with 4 dots has the code SH4. A circle with a solid fill containing a smaller circle with 1 dot has the code CF1. Following this logic, which of the options represents the code SV3?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"hlines\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\"><path d=\"M 0 5 H 10\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"url(#hlines)\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"42\" cy=\"50\" r=\"3\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"3\" fill=\"black\"/><circle cx=\"58\" cy=\"50\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"vlines\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\"><path d=\"M 5 0 V 10\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><polygon points=\"50,10 90,90 10,90\" stroke=\"black\" stroke-width=\"2\" fill=\"url(#vlines)\"/><polygon points=\"50,45 65,75 35,75\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"60\" r=\"3\" fill=\"black\"/><circle cx=\"42\" cy=\"70\" r=\"3\" fill=\"black\"/><circle cx=\"58\" cy=\"70\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"vlines\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\"><path d=\"M 5 0 V 10\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"url(#vlines)\"/><polygon points=\"50,35 70,65 30,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"3\" fill=\"black\"/><circle cx=\"42\" cy=\"60\" r=\"3\" fill=\"black\"/><circle cx=\"58\" cy=\"60\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"42\" r=\"3\" fill=\"white\"/><circle cx=\"42\" cy=\"55\" r=\"3\" fill=\"white\"/><circle cx=\"58\" cy=\"55\" r=\"3\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"vlines\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\"><path d=\"M 5 0 V 10\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"url(#vlines)\"/><polygon points=\"50,35 70,65 30,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"45\" cy=\"55\" r=\"3\" fill=\"black\"/><circle cx=\"55\" cy=\"55\" r=\"3\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code has three parts. First character: The outer shape. From the examples, 'S' is a square and 'C' is a circle. The target code is SV3, so the outer shape must be a square. This eliminates option B. Second character: The fill pattern and inner shape. 'H' means horizontal lines and an inner square. 'F' means solid fill and an inner circle. By deduction, 'V' must represent the remaining pattern (vertical lines) and the remaining inner shape (triangle). The target code SV3 needs a vertical fill and an inner triangle. This eliminates options A (horizontal/square) and D (solid/circle). Third character: The number of dots inside the inner shape. The target code SV3 requires 3 dots. This eliminates option E, which has only 2 dots. Option C is the only one that matches all three rules: a Square outer shape, with a Vertical line fill and inner Triangle, containing 3 dots.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a coding system, a three-part code determines a shape. The first part (S, T, P) sets the main shape (Square, Triangle, Pentagon). The second part (F, O) sets the fill (Filled, Outline). The third part (1, 2, V) sets the inner elements (one circle, two squares, or a number of triangles equal to the shape's vertices). Which shape matches the code S-F-V?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,35 45,45 55,45\" fill=\"white\"/><polygon points=\"50,65 45,55 55,55\" fill=\"white\"/><polygon points=\"35,50 45,45 45,55\" fill=\"white\"/><polygon points=\"65,50 55,45 55,55\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,35 45,45 55,45\" fill=\"white\"/><polygon points=\"50,65 45,55 55,55\" fill=\"white\"/><polygon points=\"35,50 45,45 45,55\" fill=\"white\"/><polygon points=\"65,50 55,45 55,55\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,80 15,80\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,45 45,53 55,53\" fill=\"white\"/><polygon points=\"38,65 33,73 43,73\" fill=\"white\"/><polygon points=\"62,65 57,73 67,73\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"30\" y=\"40\" width=\"15\" height=\"15\" fill=\"white\"/><rect x=\"55\" y=\"40\" width=\"15\" height=\"15\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The code S-F-V must be broken down into its three parts: 1. The first letter 'S' stands for the main shape, which is a Square. 2. The second letter 'F' stands for the fill, which is Filled (solid black). 3. The third letter 'V' means the inner elements are a number of triangles equal to the main shape's vertices. A square has 4 vertices. Therefore, the correct shape is a filled square containing 4 triangles.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Two shapes from a set are coded as follows: [A2] is a large square with a small, filled square inside. [C1] is a large hexagon with a small, outline triangle inside. Which of the options below correctly represents the code [B3]?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,35 71.2,50.4 63.5,75.8 36.5,75.8 28.8,50.4\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,35 71.2,50.4 63.5,75.8 36.5,75.8 28.8,50.4\" stroke=\"white\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"30\" y=\"30\" width=\"40\" height=\"40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 84.6,32.5 84.6,67.5 50,90 15.4,67.5 15.4,32.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,35 71.2,50.4 63.5,75.8 36.5,75.8 28.8,50.4\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,35 70,70 30,70\" stroke=\"white\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "There are three rules to decipher from the examples. 1. **Outer Shape:** The letter determines the number of sides of the outer shape. The number of sides is the letter's position in the alphabet plus 3 (A=1st, so 1+3=4 sides for a square; C=3rd, so 3+3=6 sides for a hexagon). For code B3, B is the 2nd letter, so the outer shape has 2+3=5 sides (a pentagon). 2. **Inner Shape:** The number determines the number of sides of the inner shape. The number of sides is the digit plus 2 (1 gives 1+2=3 sides for a triangle; 2 gives 2+2=4 sides for a square). For code B3, the digit is 3, so the inner shape has 3+2=5 sides (a pentagon). 3. **Fill:** The number also determines the fill of the inner shape. If the number is odd (like 1 in C1), the inner shape is an outline. If the number is even (like 2 in A2), the inner shape is filled. For code B3, 3 is an odd number, so the inner shape is an outline. Combining these rules, B3 is a large pentagon with a small, outline pentagon inside.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a coding system, shapes are represented by a three-part code. Three examples are given: Y34 represents a large square with a small 4-sided shape in the bottom-left. Z25 represents a large triangle with a small 5-sided shape in the top-right. X43 represents a large circle with a small 3-sided shape in the bottom-right. Using this logic, which of the options is the correct shape for the code Z14?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 93.3,85 6.7,85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"70\" y=\"25\" width=\"10\" height=\"10\" stroke=\"white\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 93.3,85 6.7,85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"25,24 30.7,28.15 28.5,33.85 21.5,33.85 19.3,28.15\" stroke=\"white\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 93.3,85 6.7,85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"20\" y=\"25\" width=\"10\" height=\"10\" stroke=\"white\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"20\" y=\"25\" width=\"10\" height=\"10\" stroke=\"white\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"25,64 30.7,68.15 28.5,73.85 21.5,73.85 19.3,68.15\" stroke=\"white\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of three parts that must be deciphered from the examples. \n1.  **First Letter (Outer Shape):** The letter determines the large outer shape. From the examples, we can see Y=Square, Z=Triangle, and X=Circle. \n2.  **First Number (Position):** The first number indicates the position of the inner shape based on quadrants. From the examples, 3=Bottom-Left, 2=Top-Right, and 4=Bottom-Right. By deduction, the remaining quadrant, 1, must be Top-Left. \n3.  **Second Number (Inner Shape Sides):** The second number is equal to the number of sides of the small inner shape (e.g., in Y34, '4' corresponds to a 4-sided shape). \n\nApplying this logic to the code Z14: \n- **Z** means the outer shape must be a Triangle. \n- **1** means the inner shape must be in the Top-Left quadrant. \n- **4** means the inner shape must have 4 sides (a square). \n\nOption C is the only one that shows a large triangle containing a small square in the top-left quadrant.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A three-part code determines a shape's features. The first letter sets the outer shape type (X=Quadrilateral, Y=Polygon with >4 sides, Z=Curved). The number sets a rule for the quantity of inner shapes (1=sides/2, 2=sides-2, 3=sides-1; for Z shapes, the number is taken literally). The final symbol sets the inner shape type (●=solid circle, ▲=hollow triangle, ■=solid square). Which shape below matches the code Y2●?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100'><path d='M50 10 L90 40 L75 90 L25 90 L10 40 Z' stroke='white' stroke-width='2' fill='none'/><circle cx='45' cy='60' r='6' fill='white'/><circle cx='65' cy='60' r='6' fill='white'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100'><polygon points='50,15 85,35 85,75 50,95 15,75 15,35' stroke='white' stroke-width='2' fill='none'/><circle cx='50' cy='35' r='6' fill='white'/><circle cx='35' cy='65' r='6' fill='white'/><circle cx='65' cy='65' r='6' fill='white'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100'><path d='M50 10 L90 40 L75 90 L25 90 L10 40 Z' stroke='white' stroke-width='2' fill='none'/><circle cx='50' cy='45' r='6' fill='white'/><circle cx='35' cy='70' r='6' fill='white'/><circle cx='65' cy='70' r='6' fill='white'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100'><path d='M50 10 L90 40 L75 90 L25 90 L10 40 Z' stroke='white' stroke-width='2' fill='none'/><polygon points='50,45 58,60 42,60' stroke='white' stroke-width='2' fill='none'/><polygon points='35,70 43,85 27,85' stroke='white' stroke-width='2' fill='none'/><polygon points='65,70 73,85 57,85' stroke='white' stroke-width='2' fill='none'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100'><rect x='20' y='20' width='60' height='60' stroke='white' stroke-width='2' fill='none'/><circle cx='40' cy='40' r='6' fill='white'/><circle cx='60' cy='40' r='6' fill='white'/><circle cx='50' cy='65' r='6' fill='white'/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code Y2● is decoded in three parts. First, 'Y' indicates the outer shape must be a polygon with more than four sides, eliminating option E (a quadrilateral). Second, the number '2' sets the rule for the quantity of inner shapes: 'number of sides - 2'. For a pentagon (5 sides), this is 5 - 2 = 3 inner shapes. For a hexagon (6 sides), this would be 6 - 2 = 4 inner shapes. Third, the symbol '●' indicates the inner shapes must be solid circles, eliminating option D (hollow triangles). Applying these rules, we are looking for a pentagon with 3 solid circles. Option A is a pentagon with only 2 circles. Option B is a hexagon with 3 circles, which is incorrect as it should have 4. Option C is a pentagon with 3 solid circles, which correctly matches all parts of the code.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A shape is described by a three-part code. The first letter represents the outer shape: S=Square, T=Triangle, P=Pentagon. The number represents the count of identical internal shapes. The final letter describes the arrangement of the internal shapes: X=Vertically Symmetrical, Y=Vertically Asymmetrical. Which of the following shapes matches the code P5Y?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"5\" fill=\"black\"/><circle cx=\"30\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"5\" fill=\"black\"/><circle cx=\"40\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"25\" cy\"75\" r=\"5\" fill=\"black\"/><circle cx=\"70\" cy=\"25\" r=\"5\" fill=\"black\"/><circle cx=\"75\" cy=\"55\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"45\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"25\" cy=\"80\" r=\"5\" fill=\"black\"/><circle cx=\"70\" cy\"50\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"75\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"55\" cy=\"70\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"80\" r=\"5\" fill=\"black\"/><circle cx=\"70\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx\"65\" cy=\"85\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"25\" cy=\"70\" r=\"5\" fill=\"black\"/><circle cx=\"75\" cy=\"55\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"80\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code is P5Y. The first letter 'P' indicates the outer shape is a Pentagon, eliminating options B (Square) and D (Triangle). The number '5' means there must be five internal shapes, eliminating option E which has four. The final letter 'Y' means the internal shapes must be arranged asymmetrically (the left half is not a mirror image of the right half). Option A has a symmetrical arrangement (code P5X), while Option C has an asymmetrical arrangement. Therefore, C is the correct answer.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A code is used to describe the figures. The first letter is the shape (S=Square, C=Circle, T=Triangle, P=Pentagon). The number is the count of internal horizontal lines. The final letter is the direction of the internal arrow (N=North, E=East, S=South, W=West). Which figure matches the code P2S?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,40 75,85 25,85 15,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"45\" x2=\"70\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"30\" y1=\"55\" x2=\"70\" y2=\"55\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"30\" y1=\"65\" x2=\"70\" y2=\"65\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,80 45,70 55,70\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"40\" x2=\"70\" y2=\"40\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"30\" y1=\"60\" x2=\"70\" y2=\"60\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,75 45,65 55,65\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,40 75,85 25,85 15,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"40\" x2=\"70\" y2=\"40\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"30\" y1=\"60\" x2=\"70\" y2=\"60\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,80 45,70 55,70\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,40 75,85 25,85 15,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"40\" x2=\"70\" y2=\"40\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"30\" y1=\"60\" x2=\"70\" y2=\"60\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"80,50 70,45 70,55\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,40 75,85 25,85 15,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"70\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,25 45,35 55,35\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code has three parts. The first letter 'P' stands for a Pentagon shape. The number '2' indicates there must be two internal horizontal lines. The final letter 'S' indicates the internal arrow must point South (downwards). Option C is the only figure that is a pentagon with two internal lines and a downward-pointing arrow.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A three-part code describes a shape. Part 1 (Letter): X=Square, Y=Circle, Z=Triangle. Part 2 (Number): 1=No fill, 2=Black fill, 3=Striped fill. Part 3 (Symbol): *=Star, +=Plus, #=Diamond. Which shape below matches the code Y3*?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><pattern id=\"stripesA\" patternUnits=\"userSpaceOnUse\" width=\"10\" height=\"10\"><path d=\"M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"url(#stripesA)\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,42 53,48 59,48 54.5,52 56,58 50,54 44,58 45.5,52 41,48 47,48\" fill=\"black\" stroke=\"black\" stroke-width=\"1\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"30\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,42 53,48 59,48 54.5,52 56,58 50,54 44,58 45.5,52 41,48 47,48\" fill=\"white\" stroke=\"white\" stroke-width=\"1\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><pattern id=\"stripesC\" patternUnits=\"userSpaceOnUse\" width=\"10\" height=\"10\"><path d=\"M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><circle cx=\"50\" cy=\"50\" r=\"30\" fill=\"url(#stripesC)\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,42 53,48 59,48 54.5,52 56,58 50,54 44,58 45.5,52 41,48 47,48\" fill=\"black\" stroke=\"black\" stroke-width=\"1\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><pattern id=\"stripesD\" patternUnits=\"userSpaceOnUse\" width=\"10\" height=\"10\"><path d=\"M-1,1 l2,-2 M0,10 l10,-10 M9,11 l2,-2\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><circle cx=\"50\" cy=\"50\" r=\"30\" fill=\"url(#stripesD)\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"45\" y1=\"50\" x2=\"55\" y2=\"50\" stroke=\"black\" stroke-width=\"3\"/><line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"55\" stroke=\"black\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 85,80 15,80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,45 55,50 50,55 45,50\" fill=\"black\" stroke=\"black\" stroke-width=\"1\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code Y3* is decoded in three parts. The first part, 'Y', corresponds to the outer shape, which is a Circle. The second part, '3', corresponds to the fill pattern, which is Striped. The third part, '*', corresponds to the inner shape, which is a Star. Therefore, the correct option is C, which is a circle with a striped fill containing a star.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A code determines the features of a shape. The first letter determines the outer shape (S=Square, C=Circle, T=Triangle). The second letter determines the inner shape (P=Pentagon, H=Hexagon, D=Diamond). The number determines the count of small black dots inside. Based on this system, which shape matches the code SH4?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='80' height='80' fill='none' stroke='black' stroke-width='3'/><polygon points='50,25 75,40 75,60 50,75 25,60 25,40' fill='none' stroke='black' stroke-width='3'/><circle cx='40' cy='45' r='4' fill='black'/><circle cx='60' cy='45' r='4' fill='black'/><circle cx='40' cy='60' r='4' fill='black'/><circle cx='60' cy='60' r='4' fill='black'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='80' height='80' fill='none' stroke='black' stroke-width='3'/><polygon points='50,25 75,45 65,75 35,75 25,45' fill='none' stroke='black' stroke-width='3'/><circle cx='40' cy='45' r='4' fill='black'/><circle cx='60' cy='45' r='4' fill='black'/><circle cx='40' cy='60' r='4' fill='black'/><circle cx='60' cy='60' r='4' fill='black'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='50' r='40' fill='none' stroke='black' stroke-width='3'/><polygon points='50,25 75,40 75,60 50,75 25,60 25,40' fill='none' stroke='black' stroke-width='3'/><circle cx='40' cy='45' r='4' fill='black'/><circle cx='60' cy='45' r='4' fill='black'/><circle cx='40' cy='60' r='4' fill='black'/><circle cx='60' cy='60' r='4' fill='black'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='80' height='80' fill='none' stroke='black' stroke-width='3'/><polygon points='50,25 75,40 75,60 50,75 25,60 25,40' fill='none' stroke='black' stroke-width='3'/><circle cx='50' cy='45' r='4' fill='black'/><circle cx='40' cy='60' r='4' fill='black'/><circle cx='60' cy='60' r='4' fill='black'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><polygon points='50,10 90,90 10,90' fill='none' stroke='black' stroke-width='3'/><polygon points='50,30 70,55 50,80 30,55' fill='none' stroke='black' stroke-width='3'/><circle cx='40' cy='50' r='4' fill='black'/><circle cx='60' cy='50' r='4' fill='black'/><circle cx='40' cy='65' r='4' fill='black'/><circle cx='60' cy='65' r='4' fill='black'/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The code has three parts. The first letter determines the outer shape: S is for Square. The second letter determines the inner shape: H is for Hexagon. The number at the end determines the count of small black dots: 4. Therefore, the code SH4 corresponds to a square containing a hexagon, which in turn contains four black dots. Only option A matches all three rules.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The shapes are coded using a three-part system. Work out the rules from the examples and find which shape below matches the code C3Q. Examples: A Triangle with one inner Circle is T1R. A Square with two inner Stars is S2Y.",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"25\" y=\"45\" width=\"10\" height=\"10\" stroke=\"black\" fill=\"black\"/><rect x=\"45\" y=\"45\" width=\"10\" height=\"10\" stroke=\"black\" fill=\"black\"/><rect x=\"65\" y=\"45\" width=\"10\" height=\"10\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"5\" stroke=\"black\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"5\" stroke=\"black\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"5\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"35\" y=\"45\" width=\"10\" height=\"10\" stroke=\"black\" fill=\"black\"/><rect x=\"55\" y=\"45\" width=\"10\" height=\"10\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"25\" y=\"45\" width=\"10\" height=\"10\" stroke=\"black\" fill=\"black\"/><rect x=\"45\" y=\"45\" width=\"10\" height=\"10\" stroke=\"black\" fill=\"black\"/><rect x=\"65\" y=\"45\" width=\"10\" height=\"10\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"5\" stroke=\"black\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"5\" stroke=\"black\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"5\" stroke=\"black\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The code is broken down into three parts. 1. The first letter represents the outer shape: T for Triangle, S for Square, and therefore C for Circle. 2. The number in the middle represents the quantity of inner shapes. 3. The final letter represents the type of inner shape: R for Round (Circle), Y for Star, and by deduction, Q stands for sQuare (a quadrilateral). Therefore, the code C3Q represents a Circle as the outer shape, containing 3 inner shapes, which are sQuares. Option A is the only one that matches this description.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Shapes are created from a three-letter code. For example, XQA is a solid black square with 3 small circles, and ZRC is a striped triangle with 2 small stars. Following this code, which of the options matches the code ZQB?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"30\" y=\"60\" width=\"15\" height=\"15\" fill=\"white\"/><rect x=\"55\" y=\"60\" width=\"15\" height=\"15\" fill=\"white\"/><rect x=\"42.5\" y=\"35\" width=\"15\" height=\"15\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"30\" y=\"42.5\" width=\"15\" height=\"15\" fill=\"white\"/><rect x=\"55\" y=\"42.5\" width=\"15\" height=\"15\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"30\" y=\"60\" width=\"15\" height=\"15\" fill=\"white\"/><rect x=\"55\" y=\"60\" width=\"15\" height=\"15\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><pattern id=\"stripesD\" patternUnits=\"userSpaceOnUse\" width=\"10\" height=\"10\"><path d=\"M-1,5 l 12,0\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><polygon points=\"50,10 90,90 10,90\" fill=\"url(#stripesD)\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"30\" y=\"60\" width=\"15\" height=\"15\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/><rect x=\"55\" y=\"60\" width=\"15\" height=\"15\" fill=\"white\" stroke=\"black\" stroke-width=\"1\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"37.5\" cy=\"67.5\" r=\"8\" fill=\"white\"/><circle cx=\"62.5\" cy=\"67.5\" r=\"8\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of three rules. Rule 1: The first letter determines the main shape and the number of inner shapes. X is a square (4 vertices), and the example shows it has 3 inner shapes (4-1). Z is a triangle (3 vertices), and the example shows it has 2 inner shapes (3-1). Rule 2: The second letter determines the fill pattern. Q means solid black fill, and R means striped. Rule 3: The third letter determines the type of inner shape. A represents circles, and C represents stars, so we can deduce B represents squares. To find ZQB: Z means the outer shape is a triangle containing 2 inner shapes. Q means the fill is solid black. B means the inner shapes are squares. Therefore, ZQB is a solid black triangle containing two small white squares.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Each shape is described by a three-part code. The first letter represents the outer shape, the number represents the quantity of inner shapes, and the final letter represents a rule comparing the inner shapes to the outer shape's sides. Which shape matches the code S4E?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"60\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,80 10,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"60\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"30\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"80\" r=\"5\" fill=\"black\"/><circle cx=\"40\" cy=\"80\" r=\"5\" fill=\"black\"/><circle cx=\"30\" cy=\"50\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The code has three parts. The first letter indicates the outer shape (S=Square, C=Circle, T=Triangle, P=Pentagon). The number indicates the quantity of inner shapes. The final letter indicates the relationship between the number of inner shapes (N) and the number of sides of the outer shape (S): E means N is Equal to S, L means N is Less than S, and M means N is More than S. For this rule, a circle is treated as having one side. The code S4E requires a Square outer shape with 4 inner shapes, where 4 is Equal to the number of sides of the square (4). Option D is the only one that satisfies all three conditions.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A 3-part code is used to generate the shapes. Rule 1: The first letter determines the outer shape (P=Pentagon, S=Square). Rule 2: The number indicates the quantity of small black circles. Rule 3: The last letter defines the placement of the circles (V=on consecutive Vertices, starting clockwise from the top; E=on the middle of consecutive Edges, starting clockwise from the top-right edge). Which of the options below correctly represents the code P3V?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,40 80,90 20,90 5,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"10\" r=\"5\" fill=\"black\"/><circle cx=\"95\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"80\" cy=\"90\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,40 80,90 20,90 5,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"72.5\" cy=\"25\" r=\"5\" fill=\"black\"/><circle cx=\"87.5\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"90\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"15\" cy=\"15\" r=\"5\" fill=\"black\"/><circle cx=\"85\" cy=\"15\" r=\"5\" fill=\"black\"/><circle cx=\"85\" cy=\"85\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,40 80,90 20,90 5,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"10\" r=\"5\" fill=\"black\"/><circle cx=\"95\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"80\" cy=\"90\" r=\"5\" fill=\"black\"/><circle cx=\"20\" cy=\"90\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,40 80,90 20,90 5,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"10\" r=\"5\" fill=\"black\"/><circle cx=\"80\" cy=\"90\" r=\"5\" fill=\"black\"/><circle cx=\"20\" cy=\"90\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The code P3V is broken down into three parts. 1) 'P' means the outer shape is a Pentagon. 2) '3' means there are three small black circles. 3) 'V' means the circles are placed on consecutive Vertices, starting from the top vertex and moving clockwise. Option A is the only figure that is a pentagon with three circles placed on the top three consecutive vertices.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Each shape is described by a three-part code. The first part is a number representing the sides of the outer shape. The second is a letter for the inner shape (S=Square, T=Triangle, C=Circle). The third symbol is for the inner shape's fill (@=Filled, #=Unfilled). Which shape matches the code '5T@'?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100'><polygon points='50,10 90,40 75,90 25,90 10,40' fill='none' stroke='black' stroke-width='2'/><polygon points='50,45 60,65 40,65' fill='black' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100'><polygon points='50,10 90,40 75,90 25,90 10,40' fill='none' stroke='black' stroke-width='2'/><polygon points='50,45 60,65 40,65' fill='none' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100'><rect x='20' y='20' width='60' height='60' fill='none' stroke='black' stroke-width='2'/><polygon points='50,45 60,65 40,65' fill='black' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100'><polygon points='50,10 90,40 75,90 25,90 10,40' fill='none' stroke='black' stroke-width='2'/><circle cx='50' cy='50' r='10' fill='black' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100'><polygon points='50,10 90,80 10,80' fill='none' stroke='black' stroke-width='2'/><rect x='40' y='45' width='20' height='20' fill='none' stroke='black' stroke-width='2'/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The code '5T@' is broken down into three parts. The first part, '5', means the outer shape must have five sides, which is a pentagon. The second part, 'T', means the inner shape must be a triangle. The third part, '@', means the inner shape must be filled. Option A is the only shape that is a pentagon containing a filled triangle.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a code, a three-part code determines a figure's properties. The first letter determines the main shape: S=Square, C=Circle, T=Triangle. The second letter determines the small inner shape: L=Line, D=Dot, Q=Square. The number determines the position of the inner shape. For a Square, '1' is the top-left corner, proceeding clockwise. For a Triangle, '1' is the top corner, proceeding clockwise. For a Circle, '1' is the 12 o'clock position, proceeding clockwise (2=3 o'clock, 3=6 o'clock, 4=9 o'clock). Which of the following shapes matches the code T-L-3?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,80 15,80\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><line x1=\"78\" y1=\"68\" x2=\"92\" y2=\"78\" stroke=\"black\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,80 15,80\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><rect x=\"8\" y=\"70\" width=\"10\" height=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><line x1=\"72\" y1=\"72\" x2=\"88\" y2=\"88\" stroke=\"black\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,80 15,80\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><line x1=\"8\" y1=\"78\" x2=\"22\" y2=\"68\" stroke=\"black\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,80 15,80\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"25\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The code T-L-3 has three parts. The first letter 'T' means the main shape is a Triangle. The second letter 'L' means the inner shape is a Line. The number '3' indicates the position. For a triangle, the positions are numbered clockwise starting from the top point (1=Top, 2=Bottom-Right, 3=Bottom-Left). Therefore, the correct shape is a Triangle with a Line near the bottom-left corner.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In the code system below, the first letter determines the outer shape's fill, and the second letter determines the outer shape and its inner contents. `AX` results in a solid square with one inner circle. `BY` results in an unfilled circle with two inner squares. `CZ` results in a striped triangle with three inner stars. Which of the following shapes corresponds to the code `BX`?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"black\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"white\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"black\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"25\" y=\"40\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"55\" y=\"40\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><pattern id=\"hStripes\" width=\"100\" height=\"10\" patternUnits=\"userSpaceOnUse\"><line x1=\"0\" y1=\"5\" x2=\"100\" y2=\"5\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"url(#hStripes)\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The logic is decoded by breaking the code into two parts. The first letter dictates the fill of the outer shape, and the second letter dictates the type of outer shape and its specific inner contents. 1. Rule for the first letter (Fill): From the examples, 'A' means solid fill, 'B' means unfilled (outline only), and 'C' means striped. For the code 'BX', the required fill is 'unfilled'. 2. Rule for the second letter (Shape and Contents): 'X' means the outer shape is a square and it contains one inner circle. 'Y' means the outer shape is a circle containing two inner squares. 'Z' means the outer shape is a triangle containing three inner stars. For the code 'BX', the required shape and contents are a square with one inner circle. 3. Combination: Combining these two rules, 'BX' corresponds to an unfilled square containing one inner circle, which is option A.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Each shape is described by a three-part code. The first character defines the outer shape (P=Pentagon, S=Square, C=Circle). The second defines the number of inner circles. The third defines the direction of the arrow (U=Up, D=Down, L=Left). Which shape matches the code P3D?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"40\" r=\"5\" fill=\"black\"/><path d=\"M50 65 L50 80 M45 75 L50 80 L55 75\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,45 80,95 20,95 5,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"40\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"40\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"65\" r=\"5\" fill=\"black\"/><path d=\"M50 75 L50 90 M45 85 L50 90 L55 85\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,45 80,95 20,95 5,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"60\" r=\"5\" fill=\"black\"/><path d=\"M50 75 L50 90 M45 85 L50 90 L55 85\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,45 80,95 20,95 5,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"75\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"60\" r=\"5\" fill=\"black\"/><path d=\"M50 45 L50 30 M45 35 L50 30 L55 35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"60\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"65\" r=\"5\" fill=\"black\"/><path d=\"M40 50 L25 50 M30 45 L25 50 L30 55\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code 'P3D' consists of three parts. The first character, 'P', indicates the outer shape must be a Pentagon. The second character, '3', indicates there must be exactly three inner circles. The third character, 'D', indicates the internal arrow must be pointing Down. Option C is the only figure that meets all three criteria: it is a pentagon containing three inner circles and an arrow pointing down.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The shapes are represented by a three-character code. The first character is the outer shape (C=Circle, S=Square, T=Triangle). The second is the number of internal straight lines. The third is the dot's position (T=Top, B=Bottom, L=Left, R=Right, O=Outside). Which shape matches the code C3B?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"20\" y1=\"40\" x2=\"80\" y2=\"40\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"20\" y1=\"60\" x2=\"80\" y2=\"60\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"80\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"80\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"20\" y1=\"35\" x2=\"80\" y2=\"35\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"20\" y1=\"50\" x2=\"80\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"20\" y1=\"65\" x2=\"80\" y2=\"65\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"20\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"20\" y1=\"35\" x2=\"80\" y2=\"35\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"20\" y1=\"50\" x2=\"80\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"20\" y1=\"65\" x2=\"80\" y2=\"65\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"80\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"25\" y1=\"60\" x2=\"75\" y2=\"60\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"30\" y1=\"70\" x2=\"70\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"35\" y1=\"80\" x2=\"65\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"85\" r=\"4\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The code to find is C3B. Let's break it down: 1) The first character 'C' means the outer shape must be a Circle. This eliminates options B (Square) and E (Triangle). 2) The second character '3' means there must be exactly three internal straight lines. This eliminates option A, which has two lines. 3) The third character 'B' means the black dot must be at the bottom of the shape. This eliminates option C, where the dot is at the top. Option D is the only shape that satisfies all three conditions: it is a Circle, has three internal lines, and the dot is at the bottom.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A shape's code has two letters. 1st letter: Outer shape (X=Square, Y=Pentagon, Z=Triangle). 2nd letter: Inner shapes (P=black circles, count equals vertices; Q=white squares, count is vertices-1; R=black triangles, count is vertices+1). Which option matches the code YR?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\"/></g><g fill=\"black\" stroke=\"none\"><path d=\"M50,30 l6,10 h-12 z\"/><path d=\"M72,50 l6,10 h-12 z\"/><path d=\"M62,75 l6,10 h-12 z\"/><path d=\"M38,75 l6,10 h-12 z\"/><path d=\"M28,50 l6,10 h-12 z\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\"/></g><g fill=\"black\" stroke=\"none\"><path d=\"M35,35 l6,10 h-12 z\"/><path d=\"M65,35 l6,10 h-12 z\"/><path d=\"M35,55 l6,10 h-12 z\"/><path d=\"M65,55 l6,10 h-12 z\"/><path d=\"M35,75 l6,10 h-12 z\"/><path d=\"M65,75 l6,10 h-12 z\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\"/></g><g fill=\"black\" stroke=\"none\"><path d=\"M50,30 l6,10 h-12 z\"/><path d=\"M70,45 l6,10 h-12 z\"/><path d=\"M30,45 l6,10 h-12 z\"/><path d=\"M65,70 l6,10 h-12 z\"/><path d=\"M35,70 l6,10 h-12 z\"/><path d=\"M50,80 l6,10 h-12 z\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\"/></g><g fill=\"black\" stroke=\"none\"><circle cx=\"50\" cy=\"35\" r=\"6\"/><circle cx=\"70\" cy=\"55\" r=\"6\"/><circle cx=\"65\" cy=\"80\" r=\"6\"/><circle cx=\"35\" cy=\"80\" r=\"6\"/><circle cx=\"30\" cy=\"55\" r=\"6\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"50,15 90,85 10,85\"/></g><g fill=\"black\" stroke=\"none\"><path d=\"M50,40 l5,8 h-10 z\"/><path d=\"M40,58 l5,8 h-10 z\"/><path d=\"M60,58 l5,8 h-10 z\"/><path d=\"M30,75 l5,8 h-10 z\"/><path d=\"M50,75 l5,8 h-10 z\"/><path d=\"M70,75 l5,8 h-10 z\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The two-letter code determines the shape's properties. The first letter determines the outer shape: X=Square, Y=Pentagon, Z=Triangle. The second letter determines the inner shapes and their quantity based on the outer shape's vertices: P indicates the number of black circles equals the vertices; Q indicates the number of white squares is one less than the vertices; R indicates the number of black triangles is one more than the vertices. The code to find is YR. 'Y' means the outer shape is a Pentagon, which has 5 vertices. 'R' means the inner shapes are black triangles, and the quantity should be the number of vertices plus one (5 + 1 = 6). Therefore, the correct option is a pentagon containing six small black triangles.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a coding system, a shape's position, outer shape, and inner pattern determine a three-letter code. For example: a square in the top half with a dotted inner circle is coded TSX; a circle in the bottom half with a striped inner square is coded BCW; a triangle in the top half with a dotted inner square is coded TTZ. Which of the following shapes matches the code BSY?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='60' width='40' height='40' stroke='white' fill='none' stroke-width='2' /><defs><pattern id='stripesA' patternUnits='userSpaceOnUse' width='4' height='4'><path d='M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2' stroke='white' stroke-width='1'/></pattern></defs><circle cx='50' cy='80' r='10' stroke='white' fill='url(#stripesA)' stroke-width='2' /></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='10' width='40' height='40' stroke='white' fill='none' stroke-width='2' /><defs><pattern id='stripesB' patternUnits='userSpaceOnUse' width='4' height='4'><path d='M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2' stroke='white' stroke-width='1'/></pattern></defs><circle cx='50' cy='30' r='10' stroke='white' fill='url(#stripesB)' stroke-width='2' /></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><circle cx='50' cy='70' r='20' stroke='white' fill='none' stroke-width='2' /><defs><pattern id='stripesC' patternUnits='userSpaceOnUse' width='4' height='4'><path d='M-1,1 l2,-2 M0,4 l4,-4 M3,5 l2,-2' stroke='white' stroke-width='1'/></pattern></defs><circle cx='50' cy='70' r='10' stroke='white' fill='url(#stripesC)' stroke-width='2' /></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='60' width='40' height='40' stroke='white' fill='none' stroke-width='2' /><defs><pattern id='dotsD' patternUnits='userSpaceOnUse' width='5' height='5'><circle cx='2.5' cy='2.5' r='1' fill='white'/></pattern></defs><circle cx='50' cy='80' r='10' stroke='white' fill='url(#dotsD)' stroke-width='2' /></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='60' width='40' height='40' stroke='white' fill='none' stroke-width='2' /><defs><pattern id='dotsE' patternUnits='userSpaceOnUse' width='5' height='5'><circle cx='2.5' cy='2.5' r='1' fill='white'/></pattern></defs><rect x='42' y='72' width='16' height='16' stroke='white' fill='url(#dotsE)' stroke-width='2'/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The code consists of three parts. 1. The first letter indicates the vertical position: 'T' for the top half of the grid, 'B' for the bottom half. 2. The second letter indicates the outer shape: 'S' for Square, 'C' for Circle, 'T' for Triangle. 3. The third letter indicates the inner shape and its pattern. From the examples (TSX = dotted circle, BCW = striped square, TTZ = dotted square), we can deduce the system: X/Y refer to a circle, W/Z refer to a square; X/Z are dotted, W/Y are striped. Therefore, 'Y' must be a striped circle. The code BSY requires a shape in the bottom half (B), that is a Square (S), containing a striped circle (Y). Only option A fits all these criteria.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Three shapes are coded as follows: A pentagon with five small filled circles is coded **P5***, a square with four small outlined circles is coded **S3o**, and a triangle with two small filled circles is coded **T2***. Following these rules, which shape matches the code **H4o**?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,35 90,65 50,90 10,65 10,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"40\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"40\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"60\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"60\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,35 90,65 50,90 10,65 10,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,35 90,65 50,90 10,65 10,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"50\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"50\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"65\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"65\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"55\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"55\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"40\" cy=\"75\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"60\" cy=\"75\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,35 90,65 50,90 10,65 10,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"60\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code is made of three parts. \n1. **The Letter:** The first letter indicates the main outer shape (P=Pentagon, S=Square, T=Triangle, H=Hexagon).\n2. **The Number:** This relates to the number of inner shapes, but the rule depends on the outer shape. For shapes with an ODD number of sides (Triangle, Pentagon), the number in the code is the exact number of inner shapes. For shapes with an EVEN number of sides (Square, Hexagon), the number in the code is one less than the number of inner shapes. \n3. **The Symbol:** The last symbol determines the style of the inner shapes. '*' means they are filled black, and 'o' means they are outlined.\n\nApplying this to the code **H4o**:\n- **H** means the outer shape is a Hexagon (which has 6, an even number of sides).\n- **4** means the number of inner shapes is 4 + 1 = 5 (using the 'even sides' rule).\n- **o** means the inner shapes are outlined.\nTherefore, the correct shape is a hexagon with five small outlined circles.",
+    "rating": null,
+    "comment": ""
+  }
+]

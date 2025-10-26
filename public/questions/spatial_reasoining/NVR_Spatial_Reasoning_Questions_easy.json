@@ -1,0 +1,727 @@
+[
+  {
+    "question": "A circle starts in the top-left corner of a square. It moves one corner clockwise, and then moves one more corner clockwise. What is the final position of the circle?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"30\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"70\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"70\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"10\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The circle begins in the top-left corner. The first move is one step clockwise, which places it in the top-right corner. The second move is another step clockwise from the top-right, which places it in the bottom-right corner. Therefore, option C shows the correct final position.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A shape, made of a square with a triangle attached to its right side, is flipped horizontally. Which of the options shows the correct result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='25' y='30' width='40' height='40' stroke='black' fill='none' stroke-width='2'/><polygon points='65,70 85,50 65,30' stroke='black' fill='none' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='35' y='30' width='40' height='40' stroke='black' fill='none' stroke-width='2'/><polygon points='35,30 15,50 35,70' stroke='black' fill='none' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='25' y='30' width='40' height='40' stroke='black' fill='none' stroke-width='2'/><polygon points='65,30 45,50 65,70' stroke='black' fill='none' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='30' y='50' width='40' height='40' stroke='black' fill='none' stroke-width='2'/><polygon points='30,50 50,30 70,50' stroke='black' fill='none' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><rect x='25' y='30' width='40' height='40' stroke='black' fill='none' stroke-width='2'/><polygon points='25,30 5,50 25,70' stroke='black' fill='none' stroke-width='2'/></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The original shape consists of a square with a triangle attached to its right side, pointing right. A horizontal flip is equivalent to a reflection in a vertical mirror. This means the left and right sides of the shape are swapped. The triangle, which was on the right, must move to the left side of the square. The direction of the triangle must also be reversed, so it now points to the left. Option B is the only figure that correctly shows the entire shape flipped horizontally.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A triangle starts in the top-left square of the grid. It moves one square to the right, and then one square down. Which option shows the final position of the triangle?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"black\" /><line x1=\"33.3\" y1=\"0\" x2=\"33.3\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"66.6\" y1=\"0\" x2=\"66.6\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"33.3\" x2=\"100\" y2=\"33.3\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"66.6\" x2=\"100\" y2=\"66.6\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,43.35 60,56.65 40,56.65\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"black\" /><line x1=\"33.3\" y1=\"0\" x2=\"33.3\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"66.6\" y1=\"0\" x2=\"66.6\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"33.3\" x2=\"100\" y2=\"33.3\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"66.6\" x2=\"100\" y2=\"66.6\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,10 60,23.3 40,23.3\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"black\" /><line x1=\"33.3\" y1=\"0\" x2=\"33.3\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"66.6\" y1=\"0\" x2=\"66.6\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"33.3\" x2=\"100\" y2=\"33.3\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"66.6\" x2=\"100\" y2=\"66.6\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"16.65,43.35 26.65,56.65 6.65,56.65\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"black\" /><line x1=\"33.3\" y1=\"0\" x2=\"33.3\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"66.6\" y1=\"0\" x2=\"66.6\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"33.3\" x2=\"100\" y2=\"33.3\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"66.6\" x2=\"100\" y2=\"66.6\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"83.3,76.65 93.3,89.95 73.3,89.95\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"black\" /><line x1=\"33.3\" y1=\"0\" x2=\"33.3\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"66.6\" y1=\"0\" x2=\"66.6\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"33.3\" x2=\"100\" y2=\"33.3\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"66.6\" x2=\"100\" y2=\"66.6\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"83.3,10 93.3,23.3 73.3,23.3\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The triangle starts in the top-left square. The first move is one square to the right, which places it in the top-middle square. The second move is one square down from its new position, which places it in the central square. Therefore, option A shows the correct final position.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A figure contains a circle in the top-left corner and a square in the bottom-right corner. The two shapes then swap their positions. Which option shows the final arrangement?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"75\" cy=\"25\" r=\"15\" fill=\"black\"/><rect x=\"10\" y=\"60\" width=\"30\" height=\"30\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"25\" cy=\"75\" r=\"15\" fill=\"black\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" fill=\"black\"/><circle cx=\"75\" cy=\"75\" r=\"15\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"25\" cy=\"25\" r=\"15\" fill=\"black\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"30\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"75\" cy=\"75\" r=\"15\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The question describes a starting position where a circle is in the top-left and a square is in the bottom-right. The rule is that they swap positions. This means the circle must move to the square's original position (bottom-right), and the square must move to the circle's original position (top-left). Option C is the only figure that shows this correct final arrangement.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A square piece of paper is folded in half along a vertical line. A circular hole is then punched through both layers. Which option shows what the paper looks like when it is unfolded?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-dasharray=\"4\" stroke-width=\"1\"/><circle cx=\"75\" cy=\"50\" r=\"10\" fill=\"black\"/><circle cx=\"25\" cy=\"50\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-dasharray=\"4\" stroke-width=\"1\"/><circle cx=\"75\" cy=\"50\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-dasharray=\"4\" stroke-width=\"1\"/><circle cx=\"75\" cy=\"30\" r=\"10\" fill=\"black\"/><circle cx=\"75\" cy=\"70\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-dasharray=\"4\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"25\" r=\"10\" fill=\"black\"/><circle cx=\"50\" cy=\"75\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-dasharray=\"4\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The paper is folded in half vertically, creating two layers. When a hole is punched, it goes through both layers. Therefore, when the paper is unfolded, there must be two holes. Because the fold was vertical, the two holes must be horizontally symmetrical, appearing as a mirror image of each other across the central fold line. Option A is the only choice that shows this correct symmetrical arrangement.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A standard L-shape starts in the top-left corner of a square. It is first moved to the diagonally opposite corner (bottom-right), and then it is rotated 90 degrees clockwise. Which option shows the final result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"60,60 60,80 80,80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"20,40 40,40 40,20\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"60,80 80,80 80,60\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"80,80 80,60 60,60\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polyline points=\"60,40 80,40 80,20\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The problem describes a two-step transformation. First, the L-shape moves from the top-left corner to the bottom-right corner. Option A shows the result of this first step. Second, the shape is rotated 90 degrees clockwise. Applying this rotation to the shape in Option A results in the shape shown in Option C. Therefore, C is the correct final result.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"2\" stroke-dasharray=\"4\"/><polygon points=\"20,30 40,30 40,70 20,70\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"80,30 60,30 60,70 80,70\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"2\" stroke-dasharray=\"4\"/><path d=\"M40 30 A 20 20 0 0 0 40 70 L 40 30 Z\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M60 30 A 20 20 0 0 1 60 70 L 60 30 Z\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"2\" stroke-dasharray=\"4\"/><polygon points=\"20,70 30,30 40,70\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"80,70 70,30 60,70\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"2\" stroke-dasharray=\"4\"/><polygon points=\"20,30 40,30 40,50 30,50 30,70 20,70\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"60,30 80,30 80,50 70,50 70,70 60,70\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"2\" stroke-dasharray=\"4\"/><polygon points=\"20,30 40,50 20,70\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"80,30 60,50 80,70\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The rule relates to reflections. In each option, there is a shape on the left and a shape on the right, separated by a dotted line. In all figures except for D, the shape on the right is a correct mirror image (a horizontal reflection) of the shape on the left. In option D, the shape has simply been moved (translated) to the other side without being reflected.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Imagine a grid with a circle in the top-left corner and a triangle in the bottom-right corner. If the two shapes swap places, which grid shows the result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M 50 0 V 100 M 0 50 H 100\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"75,10 60,40 90,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"75\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M 50 0 V 100 M 0 50 H 100\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"25\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"25,60 10,90 40,90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M 50 0 V 100 M 0 50 H 100\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"25,10 10,40 40,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M 50 0 V 100 M 0 50 H 100\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"25\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"75,60 60,90 90,90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M 50 0 V 100 M 0 50 H 100\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"25,10 10,40 40,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The instruction is for the two shapes to swap their positions. The circle starts in the top-left and the triangle starts in the bottom-right. After swapping, the triangle must be in the top-left position and the circle must be in the bottom-right position. Option C is the only grid that shows this correct final arrangement.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which figure comes next in the sequence?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"75\" r=\"15\" fill=\"white\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"75\" r=\"15\" fill=\"white\"/><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"15\" fill=\"white\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" fill=\"white\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"30\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" fill=\"white\"/><rect x=\"10\" y=\"60\" width=\"30\" height=\"30\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The sequence follows two rules concerning the movement of the shapes within the four quadrants. Rule 1: The circle moves one quadrant clockwise in each step. Rule 2: The square moves one quadrant anti-clockwise in each step. In the last step of the sequence shown, the circle is in the bottom-right and the square is in the top-left. Following the rules, the circle should move to the bottom-left quadrant, and the square should move to the top-right quadrant. Option A shows this correct next step.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A circle starts in the top-left square. If it moves one square clockwise, what is the result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"15\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"75\" r=\"15\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"25\" r=\"15\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The instruction is to move the circle one square clockwise from its starting position in the top-left. A single clockwise move places the circle in the top-right square. Option A correctly shows this final position.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A circle is in the top-left square of a 2x2 grid. It is then moved one square to the right, and then one square down. Which figure shows the final position of the circle?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"white\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"75\" cy=\"75\" r=\"20\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"white\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"75\" cy=\"25\" r=\"20\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"white\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"25\" cy=\"75\" r=\"20\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"white\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"25\" cy=\"25\" r=\"20\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"white\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The circle starts in the top-left square. The first instruction is to move it one square to the right, which places it in the top-right square. The second instruction is to move it one square down from its new position, which places it in the bottom-right square. Figure A correctly shows the circle in the bottom-right square.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A shape starts in the top-left corner of a grid. First, it moves one square to the right. Then, it moves one square down. Which option shows the final position of the shape?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"65,80 75,60 85,80\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"65,40 75,20 85,40\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"15,80 25,60 35,80\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"15,40 25,20 35,40\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"65,60 75,80 85,60\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The shape starts in the top-left square. The first move is one square to the right, which places it in the top-right square. The second move is one square down from its new position, which places it in the bottom-right square. Therefore, option A is the correct answer.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A small circle is inside the top-left corner of a large square. It then moves one space to the right, staying at the top. Which of the following shows the correct final position?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"10\" fill=\"black\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"75\" r=\"10\" fill=\"black\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"10\" fill=\"black\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"black\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"25\" r=\"10\" fill=\"black\" stroke=\"none\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The question describes a simple spatial transformation. The circle starts in the top-left corner and moves one space to the right. This places the circle in the top-right corner of the large square. Option A is the only one that shows this final position.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"white\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\" /><polygon points=\"50,20 80,35 50,50\" /></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"white\"><line x1=\"20\" y1=\"50\" x2=\"80\" y2=\"50\" /><polygon points=\"80,50 65,80 50,50\" /></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"white\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\" /><polygon points=\"50,80 20,65 50,50\" /></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"white\"><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\" /><polygon points=\"50,20 20,35 50,50\" /></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"white\"><line x1=\"20\" y1=\"50\" x2=\"80\" y2=\"50\" /><polygon points=\"20,50 35,20 50,50\" /></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "All the figures are rotations of the same shape, except for figure D. Figures A, B, C, and E can all be rotated to match each other. Figure D is a mirror image (a reflection) of the others and cannot be obtained by rotation.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Imagine a 2x2 grid. In the top row, the left cell has a circle and the right cell has a square. In the bottom row, the left cell has a triangle and the right cell has a plus sign. If the two shapes in the top row are swapped, which option shows the correct result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"1\"/><rect x=\"15\" y=\"15\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"25,65 15,85 35,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M 75 65 L 75 85 M 65 75 L 85 75\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"1\"/><circle cx=\"25\" cy=\"25\" r=\"15\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"65\" y=\"15\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M 25 65 L 25 85 M 15 75 L 35 75\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"75,65 65,85 85,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"1\"/><polygon points=\"25,15 15,35 35,35\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"65\" y=\"15\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"75\" r=\"15\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M 75 65 L 75 85 M 65 75 L 85 75\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"1\"/><circle cx=\"25\" cy=\"25\" r=\"15\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M 75 15 L 75 35 M 65 25 L 85 25\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"25,65 15,85 35,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"65\" y=\"65\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"1\"/><polygon points=\"25,15 15,35 35,35\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M 25 65 L 25 85 M 15 75 L 35 75\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"65\" y=\"65\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The instruction is to swap the two shapes in the top row. The initial top row has a circle on the left and a square on the right. After swapping, the top row should have a square on the left and a circle on the right. The bottom row remains unchanged, with a triangle on the left and a plus sign on the right. Only option A correctly shows this new arrangement.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The black circle moves from the top-left quadrant to the bottom-right quadrant. Which option shows the correct final position?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect width=\"100\" height=\"100\" fill=\"black\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-opacity=\"0.2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-opacity=\"0.2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect width=\"100\" height=\"100\" fill=\"black\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-opacity=\"0.2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-opacity=\"0.2\"/><circle cx=\"25\" cy=\"75\" r=\"15\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect width=\"100\" height=\"100\" fill=\"black\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-opacity=\"0.2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-opacity=\"0.2\"/><circle cx=\"75\" cy=\"75\" r=\"15\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect width=\"100\" height=\"100\" fill=\"black\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-opacity=\"0.2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-opacity=\"0.2\"/><circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect width=\"100\" height=\"100\" fill=\"black\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-opacity=\"0.2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-opacity=\"0.2\"/><circle cx=\"25\" cy=\"25\" r=\"15\" fill=\"white\"/><circle cx=\"75\" cy=\"75\" r=\"15\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The instruction is to move the black circle from the top-left quadrant to the bottom-right quadrant. Option C is the only one that shows the circle in the correct final position. Option A shows a move to the top-right, Option B shows a move to the bottom-left, Option D shows a move to the center, and Option E incorrectly shows both the start and end positions.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A square is in the top-left corner and a circle is in the bottom-right corner. If the two shapes swap their positions, which option shows the correct result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"10\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"60\" y=\"60\" width=\"20\" height=\"20\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"60\" y=\"20\" width=\"20\" height=\"20\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"70\" r=\"10\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"20\" y=\"20\" width=\"20\" height=\"20\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"70\" r=\"10\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"20\" y=\"20\" width=\"20\" height=\"20\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"10\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"20\" y=\"20\" width=\"20\" height=\"20\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"30\" r=\"10\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The instruction is for the two shapes to swap their positions. The square starts in the top-left and the circle starts in the bottom-right. After swapping, the circle should be in the top-left and the square should be in the bottom-right. Option A correctly shows this final arrangement.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a grid, a black square in the top-left swaps places with a circle in the bottom-right. A triangle in the top-right and a star in the bottom-left stay in their positions. Which option shows the final result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100'><circle cx='25' cy='25' r='12' fill='none' stroke='black' stroke-width='2'/><polygon points='75,18 65,38 85,38' fill='none' stroke='black' stroke-width='2'/><path d='M25,68 L28,76 L36,76 L30,81 L32,89 L25,84 L18,89 L20,81 L14,76 L22,76 Z' fill='none' stroke='black' stroke-width='2'/><rect x='65' y='65' width='20' height='20' fill='black' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100'><polygon points='25,18 15,38 35,38' fill='none' stroke='black' stroke-width='2'/><rect x='65' y='15' width='20' height='20' fill='black' stroke='black' stroke-width='2'/><path d='M25,68 L28,76 L36,76 L30,81 L32,89 L25,84 L18,89 L20,81 L14,76 L22,76 Z' fill='none' stroke='black' stroke-width='2'/><circle cx='75' cy='75' r='12' fill='none' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100'><path d='M25,18 L28,26 L36,26 L30,31 L32,39 L25,34 L18,39 L20,31 L14,26 L22,26 Z' fill='none' stroke='black' stroke-width='2'/><polygon points='75,18 65,38 85,38' fill='none' stroke='black' stroke-width='2'/><rect x='15' y='65' width='20' height='20' fill='black' stroke='black' stroke-width='2'/><circle cx='75' cy='75' r='12' fill='none' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100'><polygon points='75,18 65,38 85,38' fill='none' stroke='black' stroke-width='2'/><path d='M25,68 L28,76 L36,76 L30,81 L32,89 L25,84 L18,89 L20,81 L14,76 L22,76 Z' fill='none' stroke='black' stroke-width='2'/><rect x='65' y='65' width='20' height='20' fill='black' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100'><rect x='15' y='15' width='20' height='20' fill='black' stroke='black' stroke-width='2'/><polygon points='75,18 65,38 85,38' fill='none' stroke='black' stroke-width='2'/><path d='M25,68 L28,76 L36,76 L30,81 L32,89 L25,84 L18,89 L20,81 L14,76 L22,76 Z' fill='none' stroke='black' stroke-width='2'/><circle cx='75' cy='75' r='12' fill='none' stroke='black' stroke-width='2'/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The instruction states that the black square from the top-left corner swaps places with the circle from the bottom-right corner. The other two shapes, the triangle (top-right) and the star (bottom-left), do not move. Option A correctly shows the circle in the top-left and the square in the bottom-right, while the triangle and star remain in their original positions.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A small circle is in the top-left corner of a square. If the circle moves to the diagonally opposite corner, which of the options shows the result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"80\" cy=\"20\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"80\" cy=\"80\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"20\" cy=\"80\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"20\" cy=\"20\" r=\"8\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The question describes a spatial transformation. The circle starts in the top-left corner and moves to the diagonally opposite corner. The diagonally opposite corner from the top-left is the bottom-right. Option B is the only figure that shows the circle in the bottom-right corner.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A small square starts in the top-left corner of the grid. It then moves one space to the right, and then one space down. Which option shows the final position of the square?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M33,0 V100 M67,0 V100 M0,33 H100 M0,67 H100\" stroke=\"black\" stroke-width=\"1\"/><rect x=\"4.5\" y=\"4.5\" width=\"24\" height=\"24\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M33,0 V100 M67,0 V100 M0,33 H100 M0,67 H100\" stroke=\"black\" stroke-width=\"1\"/><rect x=\"37.5\" y=\"4.5\" width=\"24\" height=\"24\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M33,0 V100 M67,0 V100 M0,33 H100 M0,67 H100\" stroke=\"black\" stroke-width=\"1\"/><rect x=\"37.5\" y=\"37.5\" width=\"24\" height=\"24\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M33,0 V100 M67,0 V100 M0,33 H100 M0,67 H100\" stroke=\"black\" stroke-width=\"1\"/><rect x=\"71.5\" y=\"71.5\" width=\"24\" height=\"24\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M33,0 V100 M67,0 V100 M0,33 H100 M0,67 H100\" stroke=\"black\" stroke-width=\"1\"/><rect x=\"4.5\" y=\"37.5\" width=\"24\" height=\"24\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The square starts in the top-left position (shown in option A). The first instruction is to move one space to the right, which places it in the top-middle position (shown in option B). The second instruction is to move one space down from there, which places it in the central position. Option C correctly shows the square in the central position.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A shape, consisting of a large square with a small circle in its top-left corner, is flipped horizontally. Which option shows the correct result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"35\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"35\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The original shape has a small circle in the top-left corner of a large square. A horizontal flip (like a reflection in a vertical mirror) means that the left side becomes the right side and the right side becomes the left. Therefore, the circle moves from the top-left to the top-right corner. Option C is the only one that shows this correct transformation.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In which of the following diagrams is the shape on the right a correct reflection of the shape on the left across the dashed line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 25 20 V 80 M 25 30 H 40 M 25 50 H 35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><path d=\"M 75 20 V 80 M 75 30 H 60 M 75 50 H 65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 25 20 V 80 M 25 30 H 40 M 25 50 H 35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><path d=\"M 65 20 V 80 M 65 30 H 80 M 65 50 H 75\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 25 20 V 80 M 25 30 H 40 M 25 50 H 35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><path d=\"M 75 80 V 20 M 75 70 H 60 M 75 50 H 65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 25 20 V 80 M 25 30 H 40 M 25 50 H 35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><path d=\"M 65 80 V 20 M 65 70 H 80 M 65 50 H 75\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 25 20 V 80 M 25 30 H 40 M 25 50 H 35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><path d=\"M 75 20 V 80 M 75 30 H 90 M 75 50 H 85\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The task is to find the correct reflection of the shape on the left across the vertical dashed line. A reflection is a mirror image. In option A, the shape on the right is the exact mirror image of the shape on the left. Option B shows a translation (the shape is moved without flipping). Option C shows a 180-degree rotation. Option D shows a vertical reflection (flipped upside down). Option E shows an incorrect reflection where the vertical line is mirrored but the horizontal lines are not.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A small circle starts in the top-left corner of the square. It then moves one step clockwise. Which of the following diagrams shows the correct final position?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"75\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"25\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule describes a movement around the four corners of the square. The sequence of corners in a clockwise direction is: top-left, top-right, bottom-right, bottom-left. The circle starts in the top-left corner. Moving one step clockwise places it in the top-right corner, which is shown in option C.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A circle starts in the top-left square of a grid. It moves one square to the right, and then one square down. Which option shows its final position?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"15\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"30\" r=\"15\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"70\" r=\"15\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"70\" r=\"15\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"17.5\" y=\"17.5\" width=\"25\" height=\"25\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The circle begins in the top-left square. The first instruction is to move one square to the right, which places it in the top-right square. The second instruction is to move one square down from its new position, which places it in the bottom-right square. Option C correctly shows the circle in the bottom-right square.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A shape starts in the top-left corner of a square. It then moves one corner clockwise. Which of the following shows the final position?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"20,65 40,65 30,80\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"40,42.5 60,42.5 50,57.5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"60,20 80,20 70,35\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"60,65 80,65 70,80\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"20,20 40,20 30,35\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The shape starts in the top-left corner of the square. The instruction is to move it one corner clockwise. Moving one step clockwise from the top-left corner places the shape in the top-right corner. Option C correctly shows this final position.",
+    "rating": null,
+    "comment": ""
+  }
+]
