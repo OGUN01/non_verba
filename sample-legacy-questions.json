@@ -1,0 +1,29 @@
+[
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"white\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,20 80,80 20,80\" fill=\"none\" stroke=\"white\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,25 70,45 60,70 40,70 30,45\" fill=\"none\" stroke=\"white\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,50 50,30 70,50 50,70\" fill=\"none\" stroke=\"white\" stroke-width=\"3\"/></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "Options A, B, C, and D are all regular polygons (circle can be considered a polygon with infinite sides), while E is a diamond/rhombus which is an irregular quadrilateral."
+  }
+]

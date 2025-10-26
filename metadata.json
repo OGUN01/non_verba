@@ -1,0 +1,5 @@
+{
+  "name": "Non-Verbal Reasoning Question Generator",
+  "description": "An application to generate non-verbal reasoning questions with SVG diagrams for various topics, powered by the Gemini API. Ideal for 11 Plus exam preparation.",
+  "requestFramePermissions": []
+}
