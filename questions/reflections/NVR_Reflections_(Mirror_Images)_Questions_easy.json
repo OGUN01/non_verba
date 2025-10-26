@@ -1,0 +1,727 @@
+[
+  {
+    "question": "Which figure is a mirror image of another figure in the set?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"10,10 90,10 10,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"70\" r=\"8\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 20 50 L 20 80 L 40 80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"90,90 10,90 90,10\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"8\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 80 50 L 80 20 L 60 20\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"90,10 10,10 90,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"8\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 70 50 L 70 80 L 90 80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"90,10 10,10 90,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"70\" r=\"8\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 80 50 L 80 80 L 60 80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"10,90 90,90 10,10\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"30\" r=\"8\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 20 50 L 20 20 L 40 20\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Figure D is the correct vertical reflection of Figure A. When reflected across a vertical mirror line, the main triangle's right angle moves from the top-left to the top-right. The circle in the bottom-right moves to the bottom-left. The L-shape in the bottom-left is flipped to the bottom-right. Figure B is a 180-degree rotation of A. Figure C is an incorrect reflection where the inner shapes are in the wrong positions or orientations. Figure E is a horizontal reflection of A.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In which of the following diagrams is the figure on the right a correct reflection of the figure on the left in the mirror line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"5\" y=\"30\" width=\"30\" height=\"50\" /><polygon points=\"35,30 35,80 45,55\" /><circle cx=\"12.5\" cy=\"40\" r=\"4\" /><rect x=\"37\" y=\"82\" width=\"8\" height=\"8\" /></g><path d=\"M 50 10 L 50 90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4 2\"/><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"65\" y=\"30\" width=\"30\" height=\"50\" /><polygon points=\"65,30 65,80 55,55\" /><circle cx=\"87.5\" cy=\"40\" r=\"4\" /><rect x=\"55\" y=\"82\" width=\"8\" height=\"8\" /></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"5\" y=\"30\" width=\"30\" height=\"50\" /><polygon points=\"35,30 35,80 45,55\" /><circle cx=\"12.5\" cy=\"40\" r=\"4\" /><rect x=\"37\" y=\"82\" width=\"8\" height=\"8\" /></g><path d=\"M 50 10 L 50 90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4 2\"/><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"65\" y=\"20\" width=\"30\" height=\"50\" /><polygon points=\"65,70 65,20 55,45\" /><circle cx=\"87.5\" cy=\"60\" r=\"4\" /><rect x=\"55\" y=\"10\" width=\"8\" height=\"8\" /></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"5\" y=\"30\" width=\"30\" height=\"50\" /><polygon points=\"35,30 35,80 45,55\" /><circle cx=\"12.5\" cy=\"40\" r=\"4\" /><rect x=\"37\" y=\"82\" width=\"8\" height=\"8\" /></g><path d=\"M 50 10 L 50 90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4 2\"/><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"65\" y=\"30\" width=\"30\" height=\"50\" /><polygon points=\"65,30 65,80 55,55\" /><circle cx=\"72.5\" cy=\"40\" r=\"4\" /><rect x=\"55\" y=\"82\" width=\"8\" height=\"8\" /></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"5\" y=\"30\" width=\"30\" height=\"50\" /><polygon points=\"35,30 35,80 45,55\" /><circle cx=\"12.5\" cy=\"40\" r=\"4\" /><rect x=\"37\" y=\"82\" width=\"8\" height=\"8\" /></g><path d=\"M 50 10 L 50 90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4 2\"/><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"55\" y=\"20\" width=\"30\" height=\"50\" /><polygon points=\"85,70 85,20 95,45\" /><circle cx=\"62.5\" cy=\"60\" r=\"4\" /><rect x=\"87\" y=\"10\" width=\"8\" height=\"8\" /></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"5\" y=\"30\" width=\"30\" height=\"50\" /><polygon points=\"35,30 35,80 45,55\" /><circle cx=\"12.5\" cy=\"40\" r=\"4\" /><rect x=\"37\" y=\"82\" width=\"8\" height=\"8\" /></g><path d=\"M 50 10 L 50 90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4 2\"/><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"55\" y=\"30\" width=\"30\" height=\"50\" /><polygon points=\"85,30 85,80 95,55\" /><circle cx=\"62.5\" cy=\"40\" r=\"4\" /><rect x=\"87\" y=\"82\" width=\"8\" height=\"8\" /></g></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The task is to find the diagram where the right-hand figure is a correct reflection of the left-hand figure in the vertical mirror line. In option A, every part of the left figure is perfectly reflected. The main L-shaped body is flipped horizontally. The small circle, originally in the top-left, moves to the top-right in the reflection. The small square, originally at the bottom-right, moves to the bottom-left. Option B shows a 180-degree rotation. Option C shows an incorrect reflection where the internal circle's position is not mirrored. Option D shows a vertical flip (reflection in a horizontal line). Option E simply shows two identical figures.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In which of the following options is the shape on the right a correct reflection of the shape on the left across the vertical dotted line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15\" y1=\"20\" x2=\"15\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 15 20 A 15 15 0 1 1 15 50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"35\" r=\"4\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 15 85 L 35 85 M 30 80 L 35 85 L 30 90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-dasharray=\"4\" stroke-width=\"1\"/><line x1=\"65\" y1=\"20\" x2=\"65\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 65 20 A 15 15 0 1 1 65 50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"35\" r=\"4\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 65 85 L 85 85 M 80 80 L 85 85 L 80 90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15\" y1=\"20\" x2=\"15\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 15 20 A 15 15 0 1 1 15 50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"35\" r=\"4\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 15 85 L 35 85 M 30 80 L 35 85 L 30 90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-dasharray=\"4\" stroke-width=\"1\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 85 20 A 15 15 0 1 0 85 50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"35\" r=\"4\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 65 85 L 85 85 M 80 80 L 85 85 L 80 90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15\" y1=\"20\" x2=\"15\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 15 20 A 15 15 0 1 1 15 50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"35\" r=\"4\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 15 85 L 35 85 M 30 80 L 35 85 L 30 90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-dasharray=\"4\" stroke-width=\"1\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 85 20 A 15 15 0 1 0 85 50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"35\" r=\"4\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 85 85 L 65 85 M 70 80 L 65 85 L 70 90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15\" y1=\"20\" x2=\"15\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 15 20 A 15 15 0 1 1 15 50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"35\" r=\"4\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 15 85 L 35 85 M 30 80 L 35 85 L 30 90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-dasharray=\"4\" stroke-width=\"1\"/><line x1=\"65\" y1=\"80\" x2=\"65\" y2=\"20\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 65 80 A 15 15 0 1 0 65 50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"65\" r=\"4\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 65 15 L 85 15 M 80 10 L 85 15 L 80 20\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"15\" y1=\"20\" x2=\"15\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 15 20 A 15 15 0 1 1 15 50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"35\" r=\"4\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 15 85 L 35 85 M 30 80 L 35 85 L 30 90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-dasharray=\"4\" stroke-width=\"1\"/><line x1=\"85\" y1=\"20\" x2=\"85\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 85 20 A 15 15 0 1 0 85 50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"35\" r=\"4\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 85 85 L 65 85 M 70 80 L 65 85 L 70 90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C because the shape on the right is a perfect mirror image of the shape on the left across the vertical dotted line. 1. The 'P' shape flips horizontally to become a 'q' shape. 2. The small circle inside the loop of the 'P' moves from the left side to the right side, staying within the loop. 3. The arrow at the bottom, which points right on the left side, flips to point left on the right side. Option A shows a translation (a simple copy), not a reflection. Options B and E are incorrect partial reflections where one element is not reflected correctly. Option D shows an incorrect reflection across a horizontal axis.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the options is the correct reflection of the shape on the left across the vertical dotted line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\"><rect x=\"15\" y=\"30\" width=\"30\" height=\"10\" fill=\"white\"/><rect x=\"25\" y=\"40\" width=\"10\" height=\"30\" fill=\"white\"/><path d=\"M 10 80 L 20 70 M 20 70 L 20 75 M 20 70 L 15 70\" fill=\"none\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke-dasharray=\"4\"/><rect x=\"55\" y=\"60\" width=\"30\" height=\"10\" fill=\"white\"/><rect x=\"65\" y=\"30\" width=\"10\" height=\"30\" fill=\"white\"/><path d=\"M 90 20 L 80 30 M 80 30 L 80 25 M 80 30 L 85 30\" fill=\"none\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\"><rect x=\"15\" y=\"30\" width=\"30\" height=\"10\" fill=\"white\"/><rect x=\"25\" y=\"40\" width=\"10\" height=\"30\" fill=\"white\"/><path d=\"M 10 80 L 20 70 M 20 70 L 20 75 M 20 70 L 15 70\" fill=\"none\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke-dasharray=\"4\"/><rect x=\"55\" y=\"30\" width=\"30\" height=\"10\" fill=\"white\"/><rect x=\"65\" y=\"40\" width=\"10\" height=\"30\" fill=\"white\"/><path d=\"M 60 80 L 70 70 M 70 70 L 70 75 M 70 70 L 65 70\" fill=\"none\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\"><rect x=\"15\" y=\"30\" width=\"30\" height=\"10\" fill=\"white\"/><rect x=\"25\" y=\"40\" width=\"10\" height=\"30\" fill=\"white\"/><path d=\"M 10 80 L 20 70 M 20 70 L 20 75 M 20 70 L 15 70\" fill=\"none\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke-dasharray=\"4\"/><rect x=\"55\" y=\"30\" width=\"30\" height=\"10\" fill=\"white\"/><rect x=\"65\" y=\"40\" width=\"10\" height=\"30\" fill=\"white\"/><path d=\"M 90 80 L 80 70 M 80 70 L 80 75 M 80 70 L 85 70\" fill=\"none\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\"><rect x=\"15\" y=\"30\" width=\"30\" height=\"10\" fill=\"white\"/><rect x=\"25\" y=\"40\" width=\"10\" height=\"30\" fill=\"white\"/><path d=\"M 10 80 L 20 70 M 20 70 L 20 75 M 20 70 L 15 70\" fill=\"none\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke-dasharray=\"4\"/><rect x=\"65\" y=\"30\" width=\"30\" height=\"10\" fill=\"white\"/><rect x=\"75\" y=\"40\" width=\"10\" height=\"30\" fill=\"white\"/><path d=\"M 60 80 L 70 70 M 70 70 L 70 75 M 70 70 L 65 70\" fill=\"none\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\"><rect x=\"15\" y=\"30\" width=\"30\" height=\"10\" fill=\"white\"/><rect x=\"25\" y=\"40\" width=\"10\" height=\"30\" fill=\"white\"/><path d=\"M 10 80 L 20 70 M 20 70 L 20 75 M 20 70 L 15 70\" fill=\"none\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke-dasharray=\"4\"/><rect x=\"55\" y=\"60\" width=\"30\" height=\"10\" fill=\"white\"/><rect x=\"65\" y=\"30\" width=\"10\" height=\"30\" fill=\"white\"/><path d=\"M 55 20 L 65 30 M 65 30 L 65 25 M 65 30 L 60 30\" fill=\"none\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The task is to find the correct reflection of the shape on the left across the vertical dotted line. A reflection creates a mirror image. The 'T' shape must be flipped horizontally. The arrow, which originally points from the bottom-left towards the T, must be reflected to point from the bottom-right towards the reflected T. Option C is the only one that correctly reflects all parts of the shape across the vertical line.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the correct reflection of figure A across a vertical mirror line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"20,20 60,40 20,60\" /><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"80\" /><circle cx=\"35\" cy=\"40\" r=\"5\" fill=\"black\" stroke=\"none\" /></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"80,80 40,60 80,40\" /><line x1=\"80\" y1=\"80\" x2=\"80\" y2=\"20\" /><circle cx=\"65\" cy=\"60\" r=\"5\" fill=\"black\" stroke=\"none\" /></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"80,20 40,40 80,60\" /><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"80\" /><circle cx=\"65\" cy=\"40\" r=\"5\" fill=\"black\" stroke=\"none\" /></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"20,80 60,60 20,40\" /><line x1=\"20\" y1=\"80\" x2=\"20\" y2=\"20\" /><circle cx=\"35\" cy=\"60\" r=\"5\" fill=\"black\" stroke=\"none\" /></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"80,20 40,40 80,60\" /><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"80\" /><circle cx=\"65\" cy=\"30\" r=\"5\" fill=\"black\" stroke=\"none\" /></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Figure C is the correct vertical reflection of figure A. When reflecting across a vertical line, the image is flipped horizontally. The flagpole on the left side of figure A moves to the right side in figure C. The triangular flag, which points to the right in figure A, points to the left in figure C. The small black circle inside the flag also moves to its corresponding reflected position. Option B is a 180-degree rotation of figure A. Option D is a reflection across a horizontal line (flipped vertically). Option E shows a correct reflection of the main shape, but the inner circle is in the wrong vertical position.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the options shows the correct reflection of the shape on the left across the dotted line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100'><rect x='10' y='20' width='30' height='60' stroke='white' stroke-width='2' fill='none' /><polygon points='10,45 0,50 10,55' stroke='white' stroke-width='2' fill='white' /><circle cx='30' cy='35' r='4' stroke='white' stroke-width='2' fill='white' /><line x1='12' y1='78' x2='38' y2='22' stroke='white' stroke-width='2' /><polygon points='38,22 40,28 32,24' stroke='white' stroke-width='2' fill='white' /><line x1='50' y1='10' x2='50' y2='90' stroke='white' stroke-width='2' stroke-dasharray='4 4' /><rect x='60' y='20' width='30' height='60' stroke='white' stroke-width='2' fill='none' /><polygon points='90,55 100,50 90,45' stroke='white' stroke-width='2' fill='white' /><circle cx='70' cy='65' r='4' stroke='white' stroke-width='2' fill='white' /><line x1='88' y1='22' x2='62' y2='78' stroke='white' stroke-width='2' /><polygon points='62,78 60,72 68,76' stroke='white' stroke-width='2' fill='white' /></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100'><rect x='10' y='20' width='30' height='60' stroke='white' stroke-width='2' fill='none' /><polygon points='10,45 0,50 10,55' stroke='white' stroke-width='2' fill='white' /><circle cx='30' cy='35' r='4' stroke='white' stroke-width='2' fill='white' /><line x1='12' y1='78' x2='38' y2='22' stroke='white' stroke-width='2' /><polygon points='38,22 40,28 32,24' stroke='white' stroke-width='2' fill='white' /><line x1='50' y1='10' x2='50' y2='90' stroke='white' stroke-width='2' stroke-dasharray='4 4' /><rect x='60' y='20' width='30' height='60' stroke='white' stroke-width='2' fill='none' /><polygon points='90,45 100,50 90,55' stroke='white' stroke-width='2' fill='white' /><circle cx='80' cy='35' r='4' stroke='white' stroke-width='2' fill='white' /><line x1='88' y1='78' x2='62' y2='22' stroke='white' stroke-width='2' /><polygon points='62,22 60,28 68,24' stroke='white' stroke-width='2' fill='white' /></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100'><rect x='10' y='20' width='30' height='60' stroke='white' stroke-width='2' fill='none' /><polygon points='10,45 0,50 10,55' stroke='white' stroke-width='2' fill='white' /><circle cx='30' cy='35' r='4' stroke='white' stroke-width='2' fill='white' /><line x1='12' y1='78' x2='38' y2='22' stroke='white' stroke-width='2' /><polygon points='38,22 40,28 32,24' stroke='white' stroke-width='2' fill='white' /><line x1='50' y1='10' x2='50' y2='90' stroke='white' stroke-width='2' stroke-dasharray='4 4' /><rect x='60' y='20' width='30' height='60' stroke='white' stroke-width='2' fill='none' /><polygon points='90,45 100,50 90,55' stroke='white' stroke-width='2' fill='white' /><circle cx='70' cy='35' r='4' stroke='white' stroke-width='2' fill='white' /><line x1='88' y1='78' x2='62' y2='22' stroke='white' stroke-width='2' /><polygon points='62,22 60,28 68,24' stroke='white' stroke-width='2' fill='white' /></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100'><rect x='10' y='20' width='30' height='60' stroke='white' stroke-width='2' fill='none' /><polygon points='10,45 0,50 10,55' stroke='white' stroke-width='2' fill='white' /><circle cx='30' cy='35' r='4' stroke='white' stroke-width='2' fill='white' /><line x1='12' y1='78' x2='38' y2='22' stroke='white' stroke-width='2' /><polygon points='38,22 40,28 32,24' stroke='white' stroke-width='2' fill='white' /><line x1='50' y1='10' x2='50' y2='90' stroke='white' stroke-width='2' stroke-dasharray='4 4' /><rect x='60' y='20' width='30' height='60' stroke='white' stroke-width='2' fill='none' /><polygon points='60,45 70,50 60,55' stroke='white' stroke-width='2' fill='white' /><circle cx='80' cy='65' r='4' stroke='white' stroke-width='2' fill='white' /><line x1='62' y1='22' x2='88' y2='78' stroke='white' stroke-width='2' /><polygon points='88,78 90,72 82,76' stroke='white' stroke-width='2' fill='white' /></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100'><rect x='10' y='20' width='30' height='60' stroke='white' stroke-width='2' fill='none' /><polygon points='10,45 0,50 10,55' stroke='white' stroke-width='2' fill='white' /><circle cx='30' cy='35' r='4' stroke='white' stroke-width='2' fill='white' /><line x1='12' y1='78' x2='38' y2='22' stroke='white' stroke-width='2' /><polygon points='38,22 40,28 32,24' stroke='white' stroke-width='2' fill='white' /><line x1='50' y1='10' x2='50' y2='90' stroke='white' stroke-width='2' stroke-dasharray='4 4' /><rect x='60' y='20' width='30' height='60' stroke='white' stroke-width='2' fill='none' /><polygon points='90,45 100,50 90,55' stroke='white' stroke-width='2' fill='white' /><circle cx='70' cy='35' r='4' stroke='white' stroke-width='2' fill='white' /><line x1='88' y1='78' x2='62' y2='22' stroke='white' stroke-width='2' /><polygon points='88,78 90,72 82,76' stroke='white' stroke-width='2' fill='white' /></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is the one that shows a perfect mirror image across the vertical dotted line. In the original shape, the triangle is on the far left, the circle is in the top-right of its frame, and the arrow points from bottom-left to top-right. In the reflection, the triangle must be on the far right, the circle must be in the top-left of its frame, and the arrow must point from bottom-right to top-left. Option C is the only one where all elements are correctly reflected. Option A is a 180-degree rotation. Option B reflects most parts correctly but fails to move the circle to its reflected position. Option D shows a horizontal reflection. Option E reflects the position of the arrow line correctly but reverses the direction of the arrowhead.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Four of the following figures are different rotations of the same shape. One is a reflection. Which is the reflection?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\"/><polygon points=\"30,20 80,20 30,50\"/><circle cx=\"40\" cy=\"30\" r=\"5\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g transform=\"rotate(90 50 50)\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\"/><polygon points=\"30,20 80,20 30,50\"/><circle cx=\"40\" cy=\"30\" r=\"5\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><line x1=\"70\" y1=\"20\" x2=\"70\" y2=\"80\"/><polygon points=\"70,20 20,20 70,50\"/><circle cx=\"60\" cy=\"30\" r=\"5\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g transform=\"rotate(180 50 50)\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\"/><polygon points=\"30,20 80,20 30,50\"/><circle cx=\"40\" cy=\"30\" r=\"5\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g transform=\"rotate(270 50 50)\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"><line x1=\"30\" y1=\"20\" x2=\"30\" y2=\"80\"/><polygon points=\"30,20 80,20 30,50\"/><circle cx=\"40\" cy=\"30\" r=\"5\" fill=\"black\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "Figures A, B, D, and E are all rotations of the same object. Figure A is the original, B is a 90-degree clockwise rotation, D is a 180-degree rotation, and E is a 270-degree clockwise rotation. Figure C is a mirror image (reflection) of the object across a vertical line. It cannot be a rotation because the flag has flipped horizontally while the small circle has remained at the same height, which only happens in a reflection.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In which option is the figure on the right a correct reflection of the figure on the left across the dotted line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"20,30 40,40 20,50\" fill=\"black\"/><path d=\"M 25 38 L 35 40 L 25 42\" stroke=\"white\" stroke-width=\"1.5\" fill=\"none\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><g><line x1=\"80\" y1=\"80\" x2=\"80\" y2=\"20\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"80,70 60,60 80,50\" fill=\"black\"/><path d=\"M 75 62 L 65 60 L 75 58\" stroke=\"white\" stroke-width=\"1.5\" fill=\"none\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"20,30 40,40 20,50\" fill=\"black\"/><path d=\"M 25 38 L 35 40 L 25 42\" stroke=\"white\" stroke-width=\"1.5\" fill=\"none\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><g><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"80,30 100,40 80,50\" fill=\"black\"/><path d=\"M 85 38 L 95 40 L 85 42\" stroke=\"white\" stroke-width=\"1.5\" fill=\"none\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"20,30 40,40 20,50\" fill=\"black\"/><path d=\"M 25 38 L 35 40 L 25 42\" stroke=\"white\" stroke-width=\"1.5\" fill=\"none\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><g><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"80,30 60,40 80,50\" fill=\"black\"/><path d=\"M 75 38 L 65 40 L 75 42\" stroke=\"white\" stroke-width=\"1.5\" fill=\"none\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"20,30 40,40 20,50\" fill=\"black\"/><path d=\"M 25 38 L 35 40 L 25 42\" stroke=\"white\" stroke-width=\"1.5\" fill=\"none\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><g><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"80,30 60,40 80,50\" fill=\"black\"/><path d=\"M 65 38 L 75 40 L 65 42\" stroke=\"white\" stroke-width=\"1.5\" fill=\"none\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"20,30 40,40 20,50\" fill=\"black\"/><path d=\"M 25 38 L 35 40 L 25 42\" stroke=\"white\" stroke-width=\"1.5\" fill=\"none\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><g><line x1=\"80\" y1=\"80\" x2=\"80\" y2=\"20\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"80,70 100,60 80,50\" fill=\"black\"/><path d=\"M 85 62 L 95 60 L 85 58\" stroke=\"white\" stroke-width=\"1.5\" fill=\"none\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "For the figure on the right to be a correct vertical reflection of the one on the left, every part must be mirrored across the central dotted line. 1. The main flagpole must switch from the left side of the flag to the right side. 2. The flag, which points away from the line (to the right) in the original figure, must also point away from the line (to the left) in the reflection. 3. The small internal arrow, which points right, must be reversed to point left. Only option C correctly reflects all three elements. Option A is a 180-degree rotation. Option B is an identical copy (translation). Option D reflects the flag but not the internal arrow. Option E shows a horizontal reflection.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In which of the following diagrams is the shape on the right a correct mirror image of the shape on the left across the dotted line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4\"/><g><polygon points=\"10,20 20,20 20,70 40,70 40,80 10,80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"65\" r=\"4\" fill=\"black\"/><path d=\"M15 30 L 30 30 L 25 35 L 30 30 L 25 25\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></g><g><polygon points=\"90,20 80,20 80,70 60,70 60,80 90,80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"65\" r=\"4\" fill=\"black\"/><path d=\"M85 30 L 70 30 L 75 35 L 70 30 L 75 25\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4\"/><g><polygon points=\"10,20 20,20 20,70 40,70 40,80 10,80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"65\" r=\"4\" fill=\"black\"/><path d=\"M15 30 L 30 30 L 25 35 L 30 30 L 25 25\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></g><g><polygon points=\"90,20 80,20 80,70 60,70 60,80 90,80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"65\" r=\"4\" fill=\"black\"/><path d=\"M70 30 L 85 30 L 80 35 L 85 30 L 80 25\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4\"/><g><polygon points=\"10,20 20,20 20,70 40,70 40,80 10,80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"65\" r=\"4\" fill=\"black\"/><path d=\"M15 30 L 30 30 L 25 35 L 30 30 L 25 25\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></g><g><polygon points=\"90,80 80,80 80,30 60,30 60,20 90,20\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"35\" r=\"4\" fill=\"black\"/><path d=\"M85 70 L 70 70 L 75 75 L 70 70 L 75 65\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4\"/><g><polygon points=\"10,20 20,20 20,70 40,70 40,80 10,80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"65\" r=\"4\" fill=\"black\"/><path d=\"M15 30 L 30 30 L 25 35 L 30 30 L 25 25\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></g><g><polygon points=\"90,20 80,20 80,70 60,70 60,80 90,80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"30\" r=\"4\" fill=\"black\"/><path d=\"M85 65 L 70 65 L 75 70 L 70 65 L 75 60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4\"/><g><polygon points=\"10,20 20,20 20,70 40,70 40,80 10,80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"65\" r=\"4\" fill=\"black\"/><path d=\"M15 30 L 30 30 L 25 35 L 30 30 L 25 25\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></g><g><polygon points=\"60,20 70,20 70,70 90,70 90,80 60,80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"65\" r=\"4\" fill=\"black\"/><path d=\"M65 30 L 80 30 L 75 35 L 80 30 L 75 25\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></g></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "To find the correct mirror image, every part of the shape on the left must be reflected horizontally across the central dotted line. In option A, the L-shape is correctly flipped, the circle's position is mirrored, and the arrow is mirrored and its direction is reversed from right to left. Option B is incorrect because the arrow has not been reflected; it still points to the right. Option C shows a 180-degree rotation, not a reflection. Option D is incorrect because the internal circle and arrow have swapped their vertical positions. Option E is incorrect because the shape has been translated (slid across) without being reflected.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the correct reflection of figure A across a vertical mirror line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"35\" r=\"5\" fill=\"black\"/><polygon points=\"65,65 80,65 80,80\" fill=\"black\"/><line x1=\"50\" y1=\"20\" x2=\"80\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"black\"/><polygon points=\"35,35 20,35 20,20\" fill=\"black\"/><line x1=\"50\" y1=\"80\" x2=\"20\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"35\" r=\"5\" fill=\"black\"/><polygon points=\"35,65 20,65 20,80\" fill=\"black\"/><line x1=\"50\" y1=\"20\" x2=\"20\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"35\" r=\"5\" fill=\"black\"/><polygon points=\"35,65 20,65 20,80\" fill=\"black\"/><line x1=\"50\" y1=\"20\" x2=\"80\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"black\"/><polygon points=\"65,35 80,35 80,20\" fill=\"black\"/><line x1=\"50\" y1=\"80\" x2=\"80\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To find the correct reflection of figure A across a vertical mirror line, every element within the main square must be flipped horizontally to the opposite side. The black circle moves from the top-left to the top-right. The black triangle moves from the bottom-right to the bottom-left, and its orientation is mirrored. The diagonal line moves from the top-right to the top-left, and its slant is also mirrored. Figure C is the only option that shows the correct reflection of all three internal elements. Figure B is a 180-degree rotation. Figure D is an incorrect partial reflection where the line remains in its original position. Figure E shows a reflection across a horizontal line, not a vertical one.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following figures is a correct reflection of the figure on the left across the dotted line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><polyline points=\"30,20 10,20 10,80\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"20\" cy=\"30\" r=\"5\" fill=\"black\"/><polygon points=\"10,80 10,90 20,80\" fill=\"black\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4\"/><g><polyline points=\"70,20 90,20 90,80\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"80\" cy=\"30\" r=\"5\" fill=\"black\"/><polygon points=\"90,80 90,70 80,80\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><polyline points=\"30,20 10,20 10,80\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"20\" cy=\"30\" r=\"5\" fill=\"black\"/><polygon points=\"10,80 10,90 20,80\" fill=\"black\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4\"/><g><polyline points=\"70,20 90,20 90,80\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"80\" cy=\"70\" r=\"5\" fill=\"black\"/><polygon points=\"90,80 90,90 80,80\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><polyline points=\"30,20 10,20 10,80\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"20\" cy=\"30\" r=\"5\" fill=\"black\"/><polygon points=\"10,80 10,90 20,80\" fill=\"black\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4\"/><g><polyline points=\"70,20 90,20 90,80\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"80\" cy=\"30\" r=\"5\" fill=\"black\"/><polygon points=\"90,80 90,90 80,80\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><polyline points=\"30,20 10,20 10,80\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"20\" cy=\"30\" r=\"5\" fill=\"black\"/><polygon points=\"10,80 10,90 20,80\" fill=\"black\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4\"/><g><polyline points=\"70,80 90,80 90,20\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"80\" cy=\"70\" r=\"5\" fill=\"black\"/><polygon points=\"90,20 90,10 80,20\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><polyline points=\"30,20 10,20 10,80\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"20\" cy=\"30\" r=\"5\" fill=\"black\"/><polygon points=\"10,80 10,90 20,80\" fill=\"black\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"1\" stroke-dasharray=\"4\"/><g><polyline points=\"90,20 70,20 70,80\" stroke=\"black\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"80\" cy=\"30\" r=\"5\" fill=\"black\"/><polygon points=\"70,80 70,90 80,80\" fill=\"black\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To find the correct reflection, we must mirror each part of the shape on the left across the central dotted line. 1. The main 'L' shape, which opens to the bottom-right, reflects to an 'L' shape that opens to the bottom-left. 2. The black circle, located in the top-left corner of the 'L', reflects to the top-right corner of the new 'L'. 3. The small black triangle at the bottom, which points down and to the right, reflects to point down and to the left. Option C is the only one where all three elements are correctly reflected. In A, the small triangle is incorrectly oriented. In B, the circle is in the wrong position. In D, the entire shape has been rotated 180 degrees, not reflected. In E, the main 'L' shape has been translated but not reflected.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following pairs shows a shape and its correct reflection across the vertical dotted line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100'><path d='M 20 20 L 20 80 L 30 80 L 30 55 L 45 55 L 45 45 L 30 45 L 30 20 Z' stroke='black' fill='none' stroke-width='2'/><line x1='50' y1='10' x2='50' y2='90' stroke='black' stroke-width='2' stroke-dasharray='4'/><path d='M 80 80 L 80 20 L 70 20 L 70 45 L 55 45 L 55 55 L 70 55 L 70 80 Z' stroke='black' fill='none' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100'><rect x='20' y='20' width='5' height='60' stroke='black' fill='none' stroke-width='2'/><path d='M 25 25 L 45 25 L 35 40 L 45 55 L 25 55 Z' stroke='black' fill='none' stroke-width='2'/><circle cx='35' cy='30' r='3' stroke='black' fill='none' stroke-width='2'/><line x1='50' y1='10' x2='50' y2='90' stroke='black' stroke-width='2' stroke-dasharray='4'/><rect x='75' y='20' width='5' height='60' stroke='black' fill='none' stroke-width='2'/><path d='M 75 25 L 55 25 L 65 40 L 55 55 L 75 55 Z' stroke='black' fill='none' stroke-width='2'/><circle cx='60' cy='30' r='3' stroke='black' fill='none' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100'><polygon points='10,10 30,10 10,30' stroke='black' fill='none' stroke-width='2'/><circle cx='20' cy='80' r='5' fill='black'/><line x1='35' y1='20' x2='45' y2='80' stroke='black' stroke-width='2'/><circle cx='45' cy='80' r='4' fill='black'/><line x1='50' y1='10' x2='50' y2='90' stroke='black' stroke-width='2' stroke-dasharray='4'/><polygon points='90,10 70,10 90,30' stroke='black' fill='none' stroke-width='2'/><circle cx='80' cy='80' r='5' fill='black'/><line x1='65' y1='20' x2='55' y2='80' stroke='black' stroke-width='2'/><circle cx='55' cy='80' r='4' fill='black'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100'><path d='M 15 50 L 35 50 L 35 40 L 45 55 L 35 70 L 35 60 L 15 60 Z' stroke='black' fill='black'/><line x1='50' y1='10' x2='50' y2='90' stroke='black' stroke-width='2' stroke-dasharray='4'/><path d='M 55 50 L 75 50 L 75 40 L 85 55 L 75 70 L 75 60 L 55 60 Z' stroke='black' fill='black'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100'><rect x='10' y='30' width='30' height='30' stroke='black' fill='none' stroke-width='2'/><polygon points='10,30 40,30 10,60' fill='black'/><line x1='50' y1='10' x2='50' y2='90' stroke='black' stroke-width='2' stroke-dasharray='4'/><rect x='60' y='30' width='30' height='30' stroke='black' fill='none' stroke-width='2'/><polygon points='60,30 90,30 60,60' fill='black'/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The question requires identifying the pair where the figure on the right is a perfect mirror image of the figure on the left. In option C, every component of the left figure is accurately reflected across the dotted line: the triangle moves from the top-left to the top-right and flips horizontally; the small filled circle moves from the bottom-left to the bottom-right; and the diagonal line with a dot at its end is also perfectly mirrored. Option A shows a rotation, not a reflection. Option B shows an incorrect reflection as the circle within the flag is in the wrong position. Option D shows a translation (the shape is just moved to the right). Option E is incorrect because the shaded area is not reflected; it remains in the top-left section of its square on both sides.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"30\" y=\"20\" width=\"10\" height=\"60\" /><path d=\"M 40 20 A 20 20 0 0 1 40 60\" /></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"60\" y=\"20\" width=\"10\" height=\"60\" /><path d=\"M 60 20 A 20 20 0 0 0 60 60\" /></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"30\" y=\"10\" width=\"5\" height=\"80\" /><polygon points=\"35,20 65,35 35,50\" /></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"65\" y=\"10\" width=\"5\" height=\"80\" /><polygon points=\"65,80 35,65 65,50\" /></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"65\" y=\"10\" width=\"5\" height=\"80\" /><polygon points=\"65,20 35,35 65,50\" /></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The figures form two pairs based on reflection. Figure A and Figure B are mirror images of each other across a vertical axis. Figure C and Figure E are also mirror images of each other. Figure D is a 180-degree rotation of Figure C, not a reflection. Therefore, Figure D is the odd one out as it does not have a reflection pair.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"20,20 70,20 70,40 40,40 40,70 20,70\"/><polygon points=\"50,50 60,50 50,60\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"80,20 30,20 30,40 60,40 60,70 80,70\"/><polygon points=\"50,50 40,50 50,60\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"80,20 80,70 60,70 60,40 30,40 30,20\"/><polygon points=\"50,50 50,40 40,50\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"80,80 30,80 30,60 60,60 60,30 80,30\"/><polygon points=\"50,50 40,50 50,40\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"20,80 20,30 40,30 40,60 70,60 70,80\"/><polygon points=\"50,50 50,60 60,50\"/></g></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "Figures A, C, D, and E are all rotations of the same figure (an L-shape with a small right-angled triangle inside). Figure C is a 90-degree clockwise rotation of A, D is a 180-degree rotation, and E is a 270-degree rotation. Figure B is a vertical reflection (a mirror image) of figure A. In a reflection, the figure is flipped, which is different from being rotated. Therefore, B is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the correct reflection of the shape across the dotted line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><rect x=\"5\" y=\"20\" width=\"40\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"15,50 35,40 35,60\" fill=\"black\"/><circle cx=\"38\" cy=\"27\" r=\"4\" fill=\"black\"/><line x1=\"10\" y1=\"75\" x2=\"20\" y2=\"75\" stroke=\"black\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><g><rect x=\"55\" y=\"20\" width=\"40\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"65,50 85,40 85,60\" fill=\"black\"/><circle cx=\"88\" cy=\"27\" r=\"4\" fill=\"black\"/><line x1=\"60\" y1=\"75\" x2=\"70\" y2=\"75\" stroke=\"black\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><rect x=\"5\" y=\"20\" width=\"40\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"15,50 35,40 35,60\" fill=\"black\"/><circle cx=\"38\" cy=\"27\" r=\"4\" fill=\"black\"/><line x1=\"10\" y1=\"75\" x2=\"20\" y2=\"75\" stroke=\"black\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><g><rect x=\"55\" y=\"20\" width=\"40\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"85,50 65,60 65,40\" fill=\"black\"/><circle cx=\"62\" cy=\"73\" r=\"4\" fill=\"black\"/><line x1=\"90\" y1=\"25\" x2=\"80\" y2=\"25\" stroke=\"black\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><rect x=\"5\" y=\"20\" width=\"40\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"15,50 35,40 35,60\" fill=\"black\"/><circle cx=\"38\" cy=\"27\" r=\"4\" fill=\"black\"/><line x1=\"10\" y1=\"75\" x2=\"20\" y2=\"75\" stroke=\"black\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><g><rect x=\"55\" y=\"20\" width=\"40\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"85,50 65,40 65,60\" fill=\"black\"/><circle cx=\"62\" cy=\"27\" r=\"4\" fill=\"black\"/><line x1=\"90\" y1=\"75\" x2=\"80\" y2=\"75\" stroke=\"black\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><rect x=\"5\" y=\"20\" width=\"40\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"15,50 35,40 35,60\" fill=\"black\"/><circle cx=\"38\" cy=\"27\" r=\"4\" fill=\"black\"/><line x1=\"10\" y1=\"75\" x2=\"20\" y2=\"75\" stroke=\"black\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><g><rect x=\"55\" y=\"20\" width=\"40\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"65,50 85,60 85,40\" fill=\"black\"/><circle cx=\"88\" cy=\"73\" r=\"4\" fill=\"black\"/><line x1=\"60\" y1=\"25\" x2=\"70\" y2=\"25\" stroke=\"black\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g><rect x=\"5\" y=\"20\" width=\"40\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"15,50 35,40 35,60\" fill=\"black\"/><circle cx=\"38\" cy=\"27\" r=\"4\" fill=\"black\"/><line x1=\"10\" y1=\"75\" x2=\"20\" y2=\"75\" stroke=\"black\" stroke-width=\"2\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4\"/><g><rect x=\"55\" y=\"20\" width=\"40\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"85,50 65,40 65,60\" fill=\"black\"/><circle cx=\"88\" cy=\"27\" r=\"4\" fill=\"black\"/><line x1=\"60\" y1=\"75\" x2=\"70\" y2=\"75\" stroke=\"black\" stroke-width=\"2\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is the one that shows a perfect horizontal reflection across the vertical dotted line. In the original shape, the triangle points left, the circle is in the top-right, and the line is in the bottom-left. In a correct reflection: 1. The triangle must flip to point right. 2. The circle in the top-right corner must move to the top-left corner. 3. The line in the bottom-left corner must move to the bottom-right corner. Option C is the only one where all elements are correctly reflected. Option A is an identical copy. Option B is a 180-degree rotation. Option D is a vertical reflection (flipped upside down). Option E is an incorrect reflection where only the triangle has been flipped.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the correct reflection of the shape on the left across the dotted vertical line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polyline points=\"20,20 20,80 40,80\"/><circle cx=\"35\" cy=\"25\" r=\"5\"/><polygon points=\"25,50 35,50 30,60\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"1\" stroke-dasharray=\"3\"/><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polyline points=\"90,80 90,20 70,20\"/><circle cx=\"75\" cy=\"75\" r=\"5\"/><polygon points=\"85,50 75,50 80,40\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polyline points=\"20,20 20,80 40,80\"/><circle cx=\"35\" cy=\"25\" r=\"5\"/><polygon points=\"25,50 35,50 30,60\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"1\" stroke-dasharray=\"3\"/><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polyline points=\"60,20 60,80 80,80\"/><circle cx=\"75\" cy=\"25\" r=\"5\"/><polygon points=\"65,50 75,50 70,60\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polyline points=\"20,20 20,80 40,80\"/><circle cx=\"35\" cy=\"25\" r=\"5\"/><polygon points=\"25,50 35,50 30,60\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"1\" stroke-dasharray=\"3\"/><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polyline points=\"70,80 70,20 90,20\"/><circle cx=\"85\" cy=\"75\" r=\"5\"/><polygon points=\"75,50 85,50 80,40\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polyline points=\"20,20 20,80 40,80\"/><circle cx=\"35\" cy=\"25\" r=\"5\"/><polygon points=\"25,50 35,50 30,60\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"1\" stroke-dasharray=\"3\"/><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polyline points=\"80,20 80,80 60,80\"/><circle cx=\"65\" cy=\"25\" r=\"5\"/><polygon points=\"75,50 65,50 70,60\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polyline points=\"20,20 20,80 40,80\"/><circle cx=\"35\" cy=\"25\" r=\"5\"/><polygon points=\"25,50 35,50 30,60\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"1\" stroke-dasharray=\"3\"/><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polyline points=\"80,20 80,80 60,80\"/><circle cx=\"65\" cy=\"25\" r=\"5\"/><polygon points=\"65,50 75,50 70,60\"/></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "To find the correct reflection, every part of the shape on the left must be flipped horizontally across the dotted line. 1. The main 'L' shape points to the right; its reflection must point to the left. 2. The circle is on the right side of the L's vertical bar; its reflection must be on the left side. 3. The small triangle on the vertical bar is also reflected. Option D is the only figure where all three components are correctly reflected. Option A is a rotation. Option B is a simple copy (translation). Option C is a vertical reflection (flipped upside down). Option E correctly reflects the 'L' shape and the circle, but incorrectly translates the small triangle instead of reflecting it.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following figures is the correct mirror image of Figure A, reflected in a vertical line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"20,80 20,20 60,20 80,50 60,80\"/><polygon points=\"30,40 50,40 40,30\"/><line x1=\"60\" y1=\"80\" x2=\"70\" y2=\"90\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"80,20 80,80 40,80 20,50 40,20\"/><polygon points=\"70,60 50,60 60,70\"/><line x1=\"40\" y1=\"20\" x2=\"30\" y2=\"10\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"80,80 80,20 40,20 20,50 40,80\"/><polygon points=\"70,40 50,40 60,30\"/><line x1=\"40\" y1=\"80\" x2=\"30\" y2=\"90\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"80,80 80,20 40,20 20,50 40,80\"/><polygon points=\"30,40 50,40 40,30\"/><line x1=\"60\" y1=\"80\" x2=\"70\" y2=\"90\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"20,20 20,80 60,80 80,50 60,20\"/><polygon points=\"30,60 50,60 40,70\"/><line x1=\"60\" y1=\"20\" x2=\"70\" y2=\"10\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To find the correct reflection, every part of Figure A must be flipped horizontally across a vertical mirror line. The main pentagon shape, which points to the right, must flip to point to the left. The internal triangle, which points to the top-left, must flip to point to the top-right. The small line segment at the bottom-right must flip to be at the bottom-left. Option C is the only figure where all three elements have been correctly reflected. Option B is a 180-degree rotation. Option D incorrectly keeps the internal elements from the original figure. Option E is a vertical reflection (flipped upside down).",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which option shows the correct reflection of the figure on the left across the dashed line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100'><line x1='15' y1='10' x2='15' y2='90' stroke='black' stroke-width='2'/><polygon points='15,20 35,20 15,40' stroke='black' fill='black' stroke-width='2'/><circle cx='25' cy='80' r='5' stroke='black' fill='none' stroke-width='2'/><line x1='50' y1='5' x2='50' y2='95' stroke='black' stroke-width='1' stroke-dasharray='4'/><line x1='85' y1='10' x2='85' y2='90' stroke='black' stroke-width='2'/><polygon points='85,20 65,20 85,40' stroke='black' fill='black' stroke-width='2'/><circle cx='75' cy='80' r='5' stroke='black' fill='none' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100'><line x1='15' y1='10' x2='15' y2='90' stroke='black' stroke-width='2'/><polygon points='15,20 35,20 15,40' stroke='black' fill='black' stroke-width='2'/><circle cx='25' cy='80' r='5' stroke='black' fill='none' stroke-width='2'/><line x1='50' y1='5' x2='50' y2='95' stroke='black' stroke-width='1' stroke-dasharray='4'/><line x1='85' y1='10' x2='85' y2='90' stroke='black' stroke-width='2'/><polygon points='85,20 65,20 85,40' stroke='black' fill='black' stroke-width='2'/><circle cx='95' cy='80' r='5' stroke='black' fill='none' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100'><line x1='15' y1='10' x2='15' y2='90' stroke='black' stroke-width='2'/><polygon points='15,20 35,20 15,40' stroke='black' fill='black' stroke-width='2'/><circle cx='25' cy='80' r='5' stroke='black' fill='none' stroke-width='2'/><line x1='50' y1='5' x2='50' y2='95' stroke='black' stroke-width='1' stroke-dasharray='4'/><line x1='85' y1='10' x2='85' y2='90' stroke='black' stroke-width='2'/><polygon points='85,20 65,20 85,40' stroke='black' fill='black' stroke-width='2'/><rect x='70' y='75' width='10' height='10' stroke='black' fill='none' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100'><line x1='15' y1='10' x2='15' y2='90' stroke='black' stroke-width='2'/><polygon points='15,20 35,20 15,40' stroke='black' fill='black' stroke-width='2'/><circle cx='25' cy='80' r='5' stroke='black' fill='none' stroke-width='2'/><line x1='50' y1='5' x2='50' y2='95' stroke='black' stroke-width='1' stroke-dasharray='4'/><line x1='85' y1='90' x2='85' y2='10' stroke='black' stroke-width='2'/><polygon points='85,80 65,80 85,60' stroke='black' fill='black' stroke-width='2'/><circle cx='75' cy='20' r='5' stroke='black' fill='none' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100'><line x1='15' y1='10' x2='15' y2='90' stroke='black' stroke-width='2'/><polygon points='15,20 35,20 15,40' stroke='black' fill='black' stroke-width='2'/><circle cx='25' cy='80' r='5' stroke='black' fill='none' stroke-width='2'/><line x1='50' y1='5' x2='50' y2='95' stroke='black' stroke-width='1' stroke-dasharray='4'/><line x1='85' y1='10' x2='85' y2='90' stroke='black' stroke-width='2'/><polygon points='85,20 65,20 85,40' stroke='black' fill='none' stroke-width='2'/><circle cx='75' cy='80' r='5' stroke='black' fill='none' stroke-width='2'/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "To find the correct reflection, every part of the figure on the left must be mirrored across the vertical dashed line. In option A, all parts are correctly reflected: the flagpole moves from the left side to the right side, the filled triangle flips horizontally to point away from the new pole, and the small circle moves from the right of the old pole to the left of the new pole. Option B is incorrect because the circle is on the wrong side of the reflected flagpole. Option C is incorrect because the circle has been changed into a square. Option D shows a 180-degree rotation of the figure, not a reflection. Option E is incorrect because the triangle in the reflection is not filled in.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the options is the correct reflection of the main figure across a vertical mirror line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><rect x=\"70\" y=\"20\" width=\"10\" height=\"60\" /><rect x=\"20\" y=\"50\" width=\"50\" height=\"30\" /><circle cx=\"75\" cy=\"15\" r=\"4\" /><path d=\"M 55 65 L 35 65 L 35 70 L 25 62.5 L 35 55 L 35 60 L 55 60 Z\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"10\" height=\"60\" /><rect x=\"30\" y=\"50\" width=\"50\" height=\"30\" /><circle cx=\"25\" cy=\"15\" r=\"4\" /><path d=\"M 45 65 L 65 65 L 65 70 L 75 62.5 L 65 55 L 65 60 L 45 60 Z\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><rect x=\"70\" y=\"20\" width=\"10\" height=\"60\" /><rect x=\"20\" y=\"20\" width=\"50\" height=\"30\" /><circle cx=\"75\" cy=\"85\" r=\"4\" /><path d=\"M 55 35 L 35 35 L 35 30 L 25 37.5 L 35 45 L 35 40 L 55 40 Z\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><rect x=\"70\" y=\"20\" width=\"10\" height=\"60\" /><rect x=\"20\" y=\"20\" width=\"50\" height=\"30\" /><circle cx=\"75\" cy=\"85\" r=\"4\" /><path d=\"M 25 35 L 45 35 L 45 30 L 55 37.5 L 45 45 L 45 40 L 25 40 Z\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><rect x=\"20\" y=\"20\" width=\"10\" height=\"60\" /><rect x=\"30\" y=\"20\" width=\"50\" height=\"30\" /><circle cx=\"25\" cy=\"85\" r=\"4\" /><path d=\"M 45 35 L 65 35 L 65 30 L 75 37.5 L 65 45 L 65 40 L 45 40 Z\" fill=\"black\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To find the correct reflection in a vertical mirror, every part of the original figure must be flipped horizontally. The original figure has a pole on the left, a flag on the right, a circle at the bottom-left, and an arrow pointing to the right. In the reflection, the pole should be on the right, the flag on the left, the circle at the bottom-right, and the arrow must point to the left. Option C is the only figure that correctly reflects all these elements. Option A is a 180-degree rotation. Option B is a horizontal reflection. Option D incorrectly keeps the arrow pointing to the right. Option E is the original figure, not a reflection.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In which of the following figures is the shape on the right a correct reflection of the shape on the left across the dotted line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='black' fill='none' stroke-width='2'><line x1='50' y1='10' x2='50' y2='90' stroke-dasharray='4'/><polygon points='20,20 40,20 40,60 30,50 20,60'/><line x1='25' y1='70' x2='35' y2='80'/><polyline points='31,80 35,80 35,76'/><circle cx='35' cy='30' r='5'/></g><g stroke='black' fill='none' stroke-width='2' transform='translate(70, 50) rotate(180) translate(-30, -50)'><polygon points='20,20 40,20 40,60 30,50 20,60'/><line x1='25' y1='70' x2='35' y2='80'/><polyline points='31,80 35,80 35,76'/><circle cx='35' cy='30' r='5'/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='black' fill='none' stroke-width='2'><line x1='50' y1='10' x2='50' y2='90' stroke-dasharray='4'/><polygon points='20,20 40,20 40,60 30,50 20,60'/><line x1='25' y1='70' x2='35' y2='80'/><polyline points='31,80 35,80 35,76'/><circle cx='35' cy='30' r='5'/></g><g stroke='black' fill='none' stroke-width='2' transform='translate(100, 0) scale(-1, 1)'><polygon points='20,20 40,20 40,60 30,50 20,60'/><circle cx='35' cy='30' r='5'/></g><g stroke='black' fill='none' stroke-width='2' transform='translate(40, 0)'><line x1='25' y1='70' x2='35' y2='80'/><polyline points='31,80 35,80 35,76'/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='black' fill='none' stroke-width='2'><line x1='50' y1='10' x2='50' y2='90' stroke-dasharray='4'/><polygon points='20,20 40,20 40,60 30,50 20,60'/><line x1='25' y1='70' x2='35' y2='80'/><polyline points='31,80 35,80 35,76'/><circle cx='35' cy='30' r='5'/></g><g stroke='black' fill='none' stroke-width='2' transform='translate(100, 0) scale(-1, 1)'><polygon points='20,20 40,20 40,60 30,50 20,60'/><line x1='25' y1='70' x2='35' y2='80'/><polyline points='31,80 35,80 35,76'/><circle cx='35' cy='30' r='5'/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='black' fill='none' stroke-width='2'><line x1='50' y1='10' x2='50' y2='90' stroke-dasharray='4'/><polygon points='20,20 40,20 40,60 30,50 20,60'/><line x1='25' y1='70' x2='35' y2='80'/><polyline points='31,80 35,80 35,76'/><circle cx='35' cy='30' r='5'/></g><g stroke='black' fill='none' stroke-width='2' transform='translate(40,0) translate(30,50) scale(1,-1) translate(-30,-50)'><polygon points='20,20 40,20 40,60 30,50 20,60'/><line x1='25' y1='70' x2='35' y2='80'/><polyline points='31,80 35,80 35,76'/><circle cx='35' cy='30' r='5'/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='black' fill='none' stroke-width='2'><line x1='50' y1='10' x2='50' y2='90' stroke-dasharray='4'/><polygon points='20,20 40,20 40,60 30,50 20,60'/><line x1='25' y1='70' x2='35' y2='80'/><polyline points='31,80 35,80 35,76'/><circle cx='35' cy='30' r='5'/></g><g stroke='black' fill='none' stroke-width='2' transform='translate(40, 0)'><polygon points='20,20 40,20 40,60 30,50 20,60'/><line x1='25' y1='70' x2='35' y2='80'/><polyline points='31,80 35,80 35,76'/><circle cx='35' cy='30' r='5'/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct answer is C because the figure on the right is a perfect mirror image of the figure on the left across the vertical dotted line. Every part of the shape, including the main polygon, the circle, and the direction of the arrow, has been flipped horizontally. A is incorrect as it shows a 180-degree rotation. B is incorrect because the arrow has not been reflected correctly. D is incorrect as it shows a vertical reflection (flipped upside down). E is incorrect as the shape has simply been copied (translated) to the right side, not reflected.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the options is the correct reflection of the main figure in a vertical mirror?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"80,80 60,70 80,60\" fill=\"white\" stroke=\"none\"/><circle cx=\"20\" cy=\"20\" r=\"8\" fill=\"white\" stroke=\"none\"/><line x1=\"20\" y1=\"80\" x2=\"40\" y2=\"60\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"60,20 80,30 60,40\" fill=\"white\" stroke=\"none\"/><circle cx=\"20\" cy=\"80\" r=\"8\" fill=\"white\" stroke=\"none\"/><line x1=\"20\" y1=\"20\" x2=\"40\" y2=\"40\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"80,20 60,30 80,40\" fill=\"white\" stroke=\"none\"/><circle cx=\"20\" cy=\"80\" r=\"8\" fill=\"white\" stroke=\"none\"/><line x1=\"20\" y1=\"20\" x2=\"40\" y2=\"40\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"20,80 40,70 20,60\" fill=\"white\" stroke=\"none\"/><circle cx=\"80\" cy=\"20\" r=\"8\" fill=\"white\" stroke=\"none\"/><line x1=\"80\" y1=\"80\" x2=\"60\" y2=\"60\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"80,20 60,30 80,40\" fill=\"white\" stroke=\"none\"/><circle cx=\"20\" cy=\"80\" r=\"8\" fill=\"white\" stroke=\"none\"/><line x1=\"80\" y1=\"20\" x2=\"60\" y2=\"40\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "When reflecting a shape in a vertical mirror, everything on the left moves to the right, and everything on the right moves to the left. The orientation of asymmetrical elements also flips horizontally. The main figure has a triangle in the top-left pointing right, a circle in the bottom-right, and a diagonal line in the top-right. In the correct reflection, the triangle must be in the top-right pointing left, the circle must be in the bottom-left, and the diagonal line must be in the top-left. Only option C matches this description perfectly. Option A is a 180-degree rotation. Option B reflects the positions but fails to flip the triangle's orientation. Option D is a horizontal reflection. Option E fails to reflect the diagonal line.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following shapes is the correct reflection of the main figure in a vertical mirror?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"30\" width=\"60\" height=\"40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"35\" r=\"5\" fill=\"white\"/><polygon points=\"80,50 90,45 90,55\" fill=\"white\"/><line x1=\"25\" y1=\"35\" x2=\"75\" y2=\"65\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"30\" width=\"60\" height=\"40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"65\" r=\"5\" fill=\"white\"/><polygon points=\"80,50 90,55 90,45\" fill=\"white\"/><line x1=\"75\" y1=\"65\" x2=\"25\" y2=\"35\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"30\" width=\"60\" height=\"40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"35\" r=\"5\" fill=\"white\"/><polygon points=\"80,50 90,45 90,55\" fill=\"white\"/><line x1=\"75\" y1=\"35\" x2=\"25\" y2=\"65\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"30\" width=\"60\" height=\"40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"35\" r=\"5\" fill=\"white\"/><polygon points=\"80,50 70,45 70,55\" fill=\"white\"/><line x1=\"75\" y1=\"35\" x2=\"25\" y2=\"65\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"30\" width=\"60\" height=\"40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"35\" r=\"5\" fill=\"white\"/><polygon points=\"20,50 10,45 10,55\" fill=\"white\"/><line x1=\"75\" y1=\"35\" x2=\"25\" y2=\"65\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To find the correct reflection, every part of the original figure must be mirrored across a vertical axis. The original figure has a circle in the top-right, a triangle on the left pointing out, and a diagonal line from top-left to bottom-right. 1. The circle moves from the top-right to the top-left. 2. The triangle moves from the left side to the right side, and its orientation is flipped so it still points outwards. 3. The diagonal line's endpoints are flipped horizontally, so it now runs from top-right to bottom-left. Option C is the only figure that correctly reflects all three elements. Option A has the wrong diagonal line. Option B is a 180-degree rotation. Option D shows the triangle pointing inwards, which is an incorrect reflection. Option E fails to reflect the position of the triangle.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which pair of figures shows a correct reflection across the central dotted line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><polygon points=\"5,20 25,20 25,80 5,80 5,60 15,60 15,30 5,30\"/><circle cx=\"15\" cy=\"70\" r=\"5\"/><polygon points=\"30,60 40,40 50,60\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4 4\"/><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><polygon points=\"95,80 75,80 75,20 95,20 95,40 85,40 85,70 95,70\"/><circle cx=\"85\" cy=\"30\" r=\"5\"/><polygon points=\"70,40 60,60 50,40\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><polygon points=\"5,20 25,20 25,80 5,80 5,60 15,60 15,30 5,30\"/><circle cx=\"15\" cy=\"70\" r=\"5\"/><polygon points=\"30,60 40,40 50,60\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4 4\"/><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><polygon points=\"95,20 75,20 75,80 95,80 95,60 85,60 85,30 95,30\"/><circle cx=\"15\" cy=\"70\" r=\"5\"/><polygon points=\"70,60 60,40 50,60\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><polygon points=\"5,20 25,20 25,80 5,80 5,60 15,60 15,30 5,30\"/><circle cx=\"15\" cy=\"70\" r=\"5\"/><polygon points=\"30,60 40,40 50,60\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4 4\"/><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><polygon points=\"95,20 75,20 75,80 95,80 95,60 85,60 85,30 95,30\"/><circle cx=\"85\" cy=\"70\" r=\"5\"/><polygon points=\"70,60 60,40 50,60\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><polygon points=\"5,20 25,20 25,80 5,80 5,60 15,60 15,30 5,30\"/><circle cx=\"15\" cy=\"70\" r=\"5\"/><polygon points=\"30,60 40,40 50,60\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4 4\"/><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><polygon points=\"95,20 75,20 75,80 95,80 95,60 85,60 85,30 95,30\"/><circle cx=\"85\" cy=\"45\" r=\"5\"/><polygon points=\"70,60 60,40 50,60\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><polygon points=\"5,20 25,20 25,80 5,80 5,60 15,60 15,30 5,30\"/><circle cx=\"15\" cy=\"70\" r=\"5\"/><polygon points=\"30,60 40,40 50,60\"/></g><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" stroke-dasharray=\"4 4\"/><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><polygon points=\"55,80 75,80 75,20 55,20 55,40 65,40 65,70 55,70\"/><circle cx=\"65\" cy=\"30\" r=\"5\"/><polygon points=\"80,40 90,60 100,40\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The question asks to identify the correct reflection. The figure on the left consists of three parts: a large L-shape, a small circle in its base, and a triangle to its right. A reflection across the vertical line flips the figure horizontally. The L-shape becomes a backwards L-shape on the right. The triangle moves from the right of the L-shape to the left of the reflected L-shape. The circle moves from the left side of the L-shape's base to the right side of the reflected L-shape's base. Only option C shows all three elements correctly reflected. Option A is a 180-degree rotation. Option B is a partial reflection where the circle is not reflected. Option D shows the circle in the wrong position within the reflected L-shape. Option E shows a vertical flip of the original figure.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which figure is the correct mirror image of figure C?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"80,80 80,20 20,20 20,50 50,50 50,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"35\" r=\"5\" stroke=\"none\" fill=\"black\"/><polygon points=\"40,70 25,62.5 40,55\" stroke=\"none\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"80,20 80,80 20,80 20,50 50,50 50,20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"65\" r=\"5\" stroke=\"none\" fill=\"black\"/><polygon points=\"25,30 40,37.5 25,45\" stroke=\"none\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"20,20 20,80 80,80 80,50 50,50 50,20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"65\" r=\"5\" stroke=\"none\" fill=\"black\"/><polygon points=\"60,30 75,37.5 60,45\" stroke=\"none\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"20,80 20,20 80,20 80,50 50,50 50,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"35\" r=\"5\" stroke=\"none\" fill=\"black\"/><polygon points=\"60,70 75,62.5 60,55\" stroke=\"none\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"80,20 80,80 20,80 20,50 50,50 50,20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"65\" r=\"5\" stroke=\"none\" fill=\"black\"/><polygon points=\"40,30 25,37.5 40,45\" stroke=\"none\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "To find the mirror image of figure C across a vertical line, each component must be flipped horizontally. The main L-shaped outline is flipped. The small circle moves from the bottom-left to the bottom-right. The small triangle that points right in figure C must point left in its reflection. Figure E is the only option where all three components are correctly reflected. Option A is a 180-degree rotation of C. Option B is a partial reflection where the triangle has not been flipped. Option D is a reflection across a horizontal line, not a vertical one.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following options shows a correct reflection in the dashed mirror line?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100'><path d='M20 20 L20 80 L40 80 L40 55 L30 55 L30 45 L40 45 L40 20 Z' fill='black'/><line x1='50' y1='10' x2='50' y2='90' stroke='black' stroke-width='2' stroke-dasharray='4'/><path d='M80 80 L80 20 L60 20 L60 45 L70 45 L70 55 L60 55 L60 80 Z' fill='black'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100'><path d='M20 80 L20 20 L40 30 L20 40 Z' fill='black'/><line x1='50' y1='10' x2='50' y2='90' stroke='black' stroke-width='2' stroke-dasharray='4'/><path d='M70 80 L70 20 L90 30 L70 40 Z' fill='black'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100'><path d='M40 20 L25 20 A 15 30 0 0 0 25 80 L40 80 Z' fill='black'/><line x1='50' y1='10' x2='50' y2='90' stroke='black' stroke-width='2' stroke-dasharray='4'/><path d='M60 20 L75 20 A 15 30 0 0 1 75 80 L60 80 Z' fill='black'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100'><g><polygon points='40,50 10,20 10,80' fill='black'/><circle cx='20' cy='35' r='5' fill='white'/></g><line x1='50' y1='10' x2='50' y2='90' stroke='black' stroke-width='2' stroke-dasharray='4'/><g><polygon points='60,50 90,20 90,80' fill='black'/><circle cx='80' cy='65' r='5' fill='white'/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100'><g><rect x='15' y='40' width='30' height='30' fill='black'/><polygon points='15,40 45,40 30,20' fill='black'/></g><line x1='50' y1='10' x2='50' y2='90' stroke='black' stroke-width='2' stroke-dasharray='4'/><g><rect x='55' y='30' width='30' height='30' fill='black'/><polygon points='55,70 85,70 70,90' fill='black'/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The correct option is the one where the figure on the right is a perfect mirror image of the figure on the left across the vertical dashed line. Option C is the only one that shows a correct reflection. In option A, the right figure is a 180-degree rotation. In option B, the right figure is a translation (a copy shifted to the right). In option D, the main triangle is reflected correctly, but the internal white circle is misplaced. In option E, the individual components are reflected, but their vertical positions are swapped.",
+    "rating": null,
+    "comment": ""
+  }
+]

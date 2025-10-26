@@ -1,0 +1,727 @@
+[
+  {
+    "question": "The code for a shape has two letters. The first letter relates to the type of large shape. The second letter relates to the number of small dots inside it. For example, a square with one dot is coded as SX, and a circle with two dots is coded as CY. Which of the following shapes has the code TZ?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"50\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 85,75 15,75\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 85,75 15,75\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"60\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"60\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The coding system has two parts. The first letter is determined by the shape type (S=Square, C=Circle, therefore T=Triangle). The second letter is determined by the number of dots, following an alphabetical sequence (X=1 dot, Y=2 dots, therefore Z=3 dots). The code TZ represents a Triangle with 3 dots, which is shown in option C.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The shapes are coded based on two rules. The first letter represents the outer shape: 'X' is a square, 'Y' is a circle, and 'Z' is a triangle. The number represents the quantity of small white circles inside. Which of the options correctly represents the code 'Z1'?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 85,80 15,80\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><circle cx=\"50\" cy=\"60\" r=\"6\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 85,80 15,80\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><circle cx=\"40\" cy=\"65\" r=\"6\" fill=\"white\"/><circle cx=\"60\" cy=\"65\" r=\"6\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"6\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"35\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"6\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><circle cx=\"50\" cy=\"35\" r=\"6\" fill=\"white\"/><circle cx=\"35\" cy=\"65\" r=\"6\" fill=\"white\"/><circle cx=\"65\" cy=\"65\" r=\"6\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The code 'Z1' has two parts. The letter 'Z' corresponds to a triangle as the outer shape. The number '1' indicates that there must be one small white circle inside. Option A is the only figure that is a triangle containing exactly one white circle.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a coding system, the first letter of a three-letter code determines the outer shape (X=Square, Y=Circle, Z=Triangle), the second letter determines the fill (P=Plain, Q=Striped, R=Dotted), and the third letter determines the inner shape (A=Circle, B=Square, C=Triangle). Which shape below represents the code YPC?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,40 65,65 35,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"37.5\" y=\"37.5\" width=\"25\" height=\"25\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,40 65,65 35,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><pattern id=\"dotsD\" patternUnits=\"userSpaceOnUse\" width=\"15\" height=\"15\"><circle cx=\"5\" cy=\"5\" r=\"2\" fill=\"black\"/></pattern></defs><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"url(#dotsD)\"/><polygon points=\"50,40 65,65 35,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><pattern id=\"stripesE\" patternUnits=\"userSpaceOnUse\" width=\"10\" height=\"10\"><path d=\"M 0,5 l 10,0\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><polygon points=\"50,10 90,80 10,80\" stroke=\"black\" stroke-width=\"2\" fill=\"url(#stripesE)\"/><circle cx=\"50\" cy=\"50\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The code 'YPC' is decoded as follows: The first letter 'Y' represents the outer shape, which is a Circle. The second letter 'P' represents a Plain fill (no pattern). The third letter 'C' represents the inner shape, which is a Triangle. Option A is the only figure that has an outer Circle, a plain fill, and an inner Triangle.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a code, the first letter determines the outer shape (X=Square, Y=Circle, Z=Triangle), the number is the quantity of inner shapes, and the symbol is the type of inner shape (*=Circle, +=Cross, #=Square). Which shape below corresponds to the code X3+?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"35\" r=\"6\" fill=\"black\"/><circle cx=\"65\" cy=\"35\" r=\"6\" fill=\"black\"/><circle cx=\"50\" cy=\"65\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"35\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"35\" y1=\"35\" x2=\"45\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"45\" y1=\"35\" x2=\"35\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"65\" y1=\"60\" x2=\"75\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"75\" y1=\"60\" x2=\"65\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"25\" y1=\"60\" x2=\"35\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"35\" y1=\"60\" x2=\"25\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"30\" x2=\"40\" y2=\"40\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"40\" y1=\"30\" x2=\"30\" y2=\"40\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"70\" y2=\"40\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"70\" y1=\"30\" x2=\"60\" y2=\"40\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"45\" y1=\"60\" x2=\"55\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"55\" y1=\"60\" x2=\"45\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"35\" y1=\"35\" x2=\"45\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"45\" y1=\"35\" x2=\"35\" y2=\"45\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"55\" y1=\"55\" x2=\"65\" y2=\"65\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"65\" y1=\"55\" x2=\"55\" y2=\"65\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,85 15,85\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"45\" y1=\"40\" x2=\"55\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"55\" y1=\"40\" x2=\"45\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"30\" y1=\"70\" x2=\"40\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"40\" y1=\"70\" x2=\"30\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"70\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"70\" y1=\"70\" x2=\"60\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code is decoded in three parts. The first letter 'X' corresponds to a square outer shape. The number '3' indicates there should be three inner shapes. The symbol '+' corresponds to crosses as the inner shape. Therefore, the correct shape is a square containing three crosses.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Three shapes are coded as follows: `XP-B` is a square with a solid inner square. `YQ-C` is a circle with a striped inner circle. `ZR-A` is a triangle with an outline inner triangle. Following this code, which shape is `YP-C`?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100'><defs><pattern id='pattA' width='8' height='8' patternUnits='userSpaceOnUse'><path d='M 0,4 L 8,4' stroke='black' stroke-width='2'/></pattern></defs><rect x='10' y='10' width='80' height='80' fill='none' stroke='black' stroke-width='2'/><rect x='35' y='35' width='30' height='30' fill='url(#pattA)' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100'><defs><pattern id='pattB' width='8' height='8' patternUnits='userSpaceOnUse'><path d='M 0,4 L 8,4' stroke='black' stroke-width='2'/></pattern></defs><circle cx='50' cy='50' r='40' fill='none' stroke='black' stroke-width='2'/><circle cx='50' cy='50' r='15' fill='url(#pattB)' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100'><defs><pattern id='pattC' width='8' height='8' patternUnits='userSpaceOnUse'><path d='M 0,4 L 8,4' stroke='black' stroke-width='2'/></pattern></defs><circle cx='50' cy='50' r='40' fill='none' stroke='black' stroke-width='2'/><rect x='35' y='35' width='30' height='30' fill='url(#pattC)' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='none' stroke='black' stroke-width='2'/><rect x='35' y='35' width='30' height='30' fill='black' stroke='black' stroke-width='2'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100'><defs><pattern id='pattE' width='8' height='8' patternUnits='userSpaceOnUse'><path d='M 0,4 L 8,4' stroke='black' stroke-width='2'/></pattern></defs><polygon points='50,10 90,80 10,80' fill='none' stroke='black' stroke-width='2'/><rect x='35' y='45' width='30' height='30' fill='url(#pattE)' stroke='black' stroke-width='2'/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of three parts. The first letter determines the outer shape: X=Square, Y=Circle, Z=Triangle. The second letter determines the inner shape: P=Square, Q=Circle, R=Triangle. The third letter determines the fill of the inner shape: A=Outline, B=Solid, C=Striped. For the code YP-C, 'Y' means the outer shape is a circle, 'P' means the inner shape is a square, and 'C' means the inner shape is striped.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In this code, the first letter determines the outer shape (S=Square, C=Circle, T=Triangle). The second letter determines the fill (F=Filled, O=Outlined). The third letter determines the small inner shape (S=Square, C=Circle, T=Triangle). Which of the following options represents the code TFC?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"65\" r=\"10\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" fill=\"white\"/><circle cx=\"50\" cy=\"50\" r=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" fill=\"white\"/><circle cx=\"50\" cy=\"65\" r=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" fill=\"white\"/><rect x=\"42\" y=\"57\" width=\"16\" height=\"16\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"white\"/><circle cx=\"50\" cy=\"50\" r=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code has three parts. The first letter 'T' stands for Triangle as the outer shape. The second letter 'F' stands for a Filled shape. The third letter 'C' stands for a Circle as the inner shape. Therefore, the correct shape is a filled triangle containing a small circle.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a coding system, shapes are represented by a letter and a number. The letter indicates the outer shape: S for Square, P for Pentagon, H for Hexagon. The number indicates the fill of the inner circle: 1 for solid white, 2 for striped, and 3 for outline only (no fill). Which of the following shapes represents the code P1?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><defs><pattern id=\"stripesB\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><path d=\"M-2,2 l4,-4 M0,8 l8,-8 M6,10 l4,-4\" stroke=\"black\" stroke-width=\"2\"/></pattern></defs><circle cx=\"50\" cy=\"55\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"url(#stripesB)\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"55\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,30 90,70 50,90 10,70 10,30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of two parts. The first part is a letter representing the outer shape: S=Square, P=Pentagon, H=Hexagon. The second part is a number representing the fill of the inner circle: 1=solid black, 2=striped, 3=outline only. The code 'P1' therefore represents a Pentagon as the outer shape with a solid black inner circle. Option C is the only one that matches this description.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The code for a shape is determined by three features. First letter: outer shape (X=Square, Y=Circle, Z=Triangle). Number: inner shape (1=Filled Circle, 2=Outlined Circle, 3=Filled Square). Last letter: position of inner shape (A=Top, B=Middle, C=Bottom). Which shape below matches the code Y3A?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><rect x=\"45\" y=\"25\" width=\"10\" height=\"10\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><rect x=\"45\" y=\"45\" width=\"10\" height=\"10\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><rect x=\"45\" y=\"25\" width=\"10\" height=\"10\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The code Y3A needs to be broken down into its three parts. The first letter 'Y' corresponds to a Circle as the outer shape. The number '3' corresponds to a Filled Square as the inner shape. The final letter 'A' corresponds to the top position for the inner shape. Option A is the only one that has all three features: a Circle on the outside, a filled square on the inside, and the inner square is at the top.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a coding system, a shape's features correspond to a three-letter code. Based on the following examples: a square with a vertical line in its top half is coded YQA; a circle with a horizontal line in its bottom half is coded XPB; a triangle with a vertical line in its bottom half is coded ZQB. Which of the following shapes has the code ZPA?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,85 15,85\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><line x1=\"35\" y1=\"40\" x2=\"65\" y2=\"40\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,85 15,85\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><line x1=\"35\" y1=\"70\" x2=\"65\" y2=\"70\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,85 15,85\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"25\" x2=\"50\" y2=\"55\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"35\" x2=\"70\" y2=\"35\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"35\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"35\" x2=\"70\" y2=\"35\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The code is based on three rules. Rule 1: The first letter refers to the outer shape (X=Circle, Y=Square, Z=Triangle). Rule 2: The second letter refers to the inner line (P=Horizontal, Q=Vertical). Rule 3: The third letter refers to the position of the line (A=Top half, B=Bottom half). The code ZPA therefore requires a Triangle (Z) with a horizontal line (P) in the top half (A). Option A is the only shape that fits this description.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which shape matches the code TB2?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"5\" fill=\"white\"/><circle cx=\"65\" cy=\"50\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"65\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"65\" r=\"5\" fill=\"white\"/><circle cx=\"60\" cy=\"65\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"45\" r=\"5\" fill=\"white\"/><circle cx=\"35\" cy=\"70\" r=\"5\" fill=\"white\"/><circle cx=\"65\" cy=\"70\" r=\"5\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code has three parts. The first letter determines the main shape (T for Triangle, C for Circle, S for Square). The second letter determines the fill (B for Black, W for White/no fill). The number at the end determines the quantity of small dots inside the shape. The code TB2 therefore represents a Triangle that is Black and contains 2 dots. Option C is the only figure that matches all three of these criteria.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Three shapes are coded as follows: [Y3] is a circle with a triangle inside, [Z1] is a triangle with a dot inside, and [X4] is a square with a square inside. Which of the following shapes is coded [Y4]?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"50,35 65,65 35,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,80 5,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><rect x=\"35\" y=\"45\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"50\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"black\" /></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of a letter and a number. The letter determines the large outer shape: X=Square, Y=Circle, Z=Triangle. The number corresponds to the number of sides of the small inner shape: 1=Dot/Circle, 3=Triangle, 4=Square. For the code [Y4], 'Y' indicates the outer shape is a Circle, and '4' indicates the inner shape has four sides, which is a Square. Therefore, the correct figure is a circle containing a square.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A code represents each shape. The letter (A, B, or C) determines the outer shape, and the number (1, 2, or 3) determines the number of dots inside. Which of the options below represents the code C2?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"50\" r=\"4\" fill=\"white\"/><circle cx=\"60\" cy=\"50\" r=\"4\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,75 15,75\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"60\" r=\"4\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,75 15,75\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"60\" r=\"4\" fill=\"white\"/><circle cx=\"60\" cy=\"60\" r=\"4\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,75 15,75\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"4\" fill=\"white\"/><circle cx=\"40\" cy=\"65\" r=\"4\" fill=\"white\"/><circle cx=\"60\" cy=\"65\" r=\"4\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"50\" r=\"4\" fill=\"white\"/><circle cx=\"60\" cy=\"50\" r=\"4\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of two parts. The letter determines the outer shape, and the number determines the quantity of dots inside. By observing the options, we can deduce the code: A=Circle, B=Square, C=Triangle. The number in the code directly corresponds to the number of dots. The question asks for the shape matching code C2. 'C' corresponds to a Triangle, and '2' corresponds to two dots. Therefore, the correct answer is a triangle with two dots inside.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The code has two parts: a letter for the outer shape (S=Square, C=Circle, T=Triangle) and a number for the count of inner circles. Which shape matches the code C2?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"40\" r=\"7\" fill=\"white\"/><circle cx=\"35\" cy=\"70\" r=\"7\" fill=\"white\"/><circle cx=\"65\" cy=\"70\" r=\"7\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"40\" cy=\"50\" r=\"8\" fill=\"white\"/><circle cx=\"60\" cy=\"50\" r=\"8\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"40\" cy=\"50\" r=\"8\" fill=\"white\"/><circle cx=\"60\" cy=\"50\" r=\"8\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"7\" fill=\"white\"/><circle cx=\"35\" cy=\"65\" r=\"7\" fill=\"white\"/><circle cx=\"65\" cy=\"65\" r=\"7\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of two parts. The letter represents the large outer shape: S for Square, C for Circle, T for Triangle. The number represents the count of small inner circles. The code 'C2' therefore represents a large Circle containing two small inner circles. Option C is the only one that matches this description.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a code, the first letter represents the outer shape (S=Square, C=Circle, T=Triangle) and the number represents the number of sides of the inner shape. Which of the following shapes matches the code T4?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,35 65,65 35,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,80 10,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"35\" y=\"45\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,80 10,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,38 68,52 62,72 38,72 32,52\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,80 10,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"55\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "The code has two parts. The first letter 'T' stands for the outer shape, which is a Triangle. The second part, the number '4', represents the number of sides of the inner shape, which is a square (4 sides). Therefore, the correct shape is a triangle containing a square.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The code for a shape has three parts: The first letter represents the outer shape (S=Square, C=Circle, T=Triangle). The number represents the count of inner dots. The final letter represents the arrangement of the dots (V=Vertical, H=Horizontal). Which shape below matches the code T3V?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"30\" cy=\"70\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"70\" r=\"5\" fill=\"white\"/><circle cx=\"70\" cy=\"70\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"70\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"45\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"60\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"75\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"70\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"70\" r=\"5\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code 'T3V' consists of three parts. 'T' indicates the outer shape is a Triangle. '3' indicates there are three inner dots. 'V' indicates the dots are arranged in a vertical line. Option C is the only figure that meets all three criteria: it is a triangle containing three dots arranged vertically.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The first letter of the code represents the outer shape (S=Square, C=Circle, T=Triangle). The second letter represents the fill of the inner circle (S=Solid, L=Lines). Which shape matches the code CS?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"60\" r=\"15\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"linesB\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><path d=\"M-2,2 l4,-4 M0,8 l8,-8 M6,10 l4,-4\" stroke=\"black\" stroke-width=\"1.5\"/></pattern></defs><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"url(#linesB)\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"linesD\" patternUnits=\"userSpaceOnUse\" width=\"8\" height=\"8\"><path d=\"M-2,2 l4,-4 M0,8 l8,-8 M6,10 l4,-4\" stroke=\"black\" stroke-width=\"1.5\"/></pattern></defs><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"url(#linesD)\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code has two parts. The first letter determines the large outer shape: C stands for Circle. The second letter determines the fill pattern of the small inner circle: S stands for Solid. Therefore, the code CS represents a large Circle with a solid inner circle. Option C is the only shape that matches both these rules.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A set of shapes are represented by a two-letter code. For example, a Square with one dot is 'SO', a Circle with two dots is 'CW', and a Triangle with three dots is 'TH'. Which shape below matches the code 'SW'?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"40\" r=\"6\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"6\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"35\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><circle cx=\"40\" cy=\"50\" r=\"6\" fill=\"black\"/><circle cx=\"60\" cy=\"50\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><circle cx=\"40\" cy=\"50\" r=\"6\" fill=\"black\"/><circle cx=\"60\" cy=\"50\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,80 15,80\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><circle cx=\"42\" cy=\"60\" r=\"6\" fill=\"black\"/><circle cx=\"58\" cy=\"60\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"3\"/><circle cx=\"50\" cy=\"50\" r=\"6\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of two parts. The first letter determines the large outer shape: 'S' for Square, 'C' for Circle, and 'T' for Triangle. The second letter determines the number of inner black dots: 'O' for One, 'W' for Two, and 'H' for Three. Therefore, the code 'SW' represents a Square containing Two dots.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a code, shapes are represented by a letter and a number. The letter represents the outer shape: A=Square, B=Circle, C=Triangle. The number represents the quantity of small black circles inside. Which option matches the code B3?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"8\" stroke=\"black\" fill=\"black\"/><circle cx=\"65\" cy=\"50\" r=\"8\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"8\" stroke=\"black\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"8\" stroke=\"black\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"8\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"8\" stroke=\"black\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"8\" stroke=\"black\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"8\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,90 10,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"65\" r=\"8\" stroke=\"black\" fill=\"black\"/><circle cx=\"60\" cy=\"65\" r=\"8\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"35\" r=\"8\" stroke=\"black\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"8\" stroke=\"black\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"8\" stroke=\"black\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of two parts. The first part is a letter that determines the large outer shape: 'A' for Square, 'B' for Circle, and 'C' for Triangle. The second part is a number that indicates the quantity of small black circles inside the shape. For the code 'B3', 'B' means the outer shape must be a Circle, and '3' means there must be three small black circles inside. Option C is the only figure that is a circle containing three small black circles.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A code is used to represent the shapes. The first letter determines the outer shape: C=Circle, S=Square, P=Pentagon. The number determines the number of sides of the inner shape. Which shape represents the code P4?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,35 65,50 58,68 42,68 35,50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,40 70,85 30,85 15,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,40 65,65 35,65\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,40 70,85 30,85 15,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"35\" y=\"40\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,30 68,45 61,65 39,65 32,45\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of two parts. The first part is a letter that defines the outer shape: C=Circle, S=Square, P=Pentagon. The second part is a number that defines the number of sides for the inner shape. For the code P4, 'P' indicates the outer shape is a Pentagon, and '4' indicates the inner shape must have 4 sides, which is a Square. Therefore, the correct figure is a Pentagon containing a Square.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a certain code, the letter represents the outer shape (S=Square, C=Circle, T=Triangle) and the number represents the count of dots inside it. Which of the following options represents the code T4?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,85 15,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"white\"/><circle cx=\"40\" cy=\"70\" r=\"5\" fill=\"white\"/><circle cx=\"60\" cy=\"70\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"40\" r=\"5\" fill=\"white\"/><circle cx=\"60\" cy=\"40\" r=\"5\" fill=\"white\"/><circle cx=\"40\" cy=\"60\" r=\"5\" fill=\"white\"/><circle cx=\"60\" cy=\"60\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,85 15,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"45\" r=\"5\" fill=\"white\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"white\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"75\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"40\" r=\"5\" fill=\"white\"/><circle cx=\"60\" cy=\"40\" r=\"5\" fill=\"white\"/><circle cx=\"40\" cy=\"60\" r=\"5\" fill=\"white\"/><circle cx=\"60\" cy=\"60\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,85 15,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"35\" r=\"5\" fill=\"white\"/><circle cx=\"40\" cy=\"55\" r=\"5\" fill=\"white\"/><circle cx=\"60\" cy=\"55\" r=\"5\" fill=\"white\"/><circle cx=\"35\" cy=\"75\" r=\"5\" fill=\"white\"/><circle cx=\"65\" cy=\"75\" r=\"5\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code consists of two parts. The letter indicates the type of outer shape: 'S' for Square, 'C' for Circle, and 'T' for Triangle. The number indicates the quantity of dots inside the shape. The question asks for the shape that represents the code 'T4'. This means the correct shape must be a Triangle ('T') containing exactly four ('4') dots. Option C is the only one that matches both these criteria.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The shapes below are created using a two-letter code. Three examples are: XB creates a square with a horizontal line, YC creates a circle with a vertical line, and ZA creates a triangle with an inner dot. Which of the options shows the shape for the code YB?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><line x1=\"20\" y1=\"50\" x2=\"80\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><line x1=\"20\" y1=\"50\" x2=\"80\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,20 85,80 15,80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><line x1=\"30\" y1=\"60\" x2=\"70\" y2=\"60\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The logic of the code has two parts. The first letter determines the large outer shape: from the examples, we can deduce that X=Square, Y=Circle, and Z=Triangle. The second letter determines the inner feature: B=Horizontal Line, C=Vertical Line, and A=Inner Dot. The question asks for the shape with the code YB. This requires a Circle (Y) as the outer shape and a Horizontal Line (B) as the inner feature. Option C is the only one that matches this combination.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In the code below, the first letter represents the outer shape and the second letter represents the inner element. X = Square, Y = Circle, Z = Triangle. A = Small Black Circle, B = Small White Square, C = Horizontal Line. Which shape represents the code YB?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><line x1=\"30\" y1=\"55\" x2=\"70\" y2=\"55\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The code has two parts. The first letter determines the outer shape: 'Y' corresponds to a Circle. The second letter determines the inner element: 'B' corresponds to a small white square. Therefore, the code YB represents a Circle with a small white square inside.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In this code, the first letter is the shape (C=Circle, S=Square, T=Triangle), the number is the count of dots, and the last letter is the style (B=Black fill, W=White outline). Which option is code T2B?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"black\"/><circle cx=\"40\" cy=\"50\" r=\"6\" fill=\"white\"/><circle cx=\"60\" cy=\"50\" r=\"6\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,85 15,85\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"6\" fill=\"white\"/><circle cx=\"35\" cy=\"70\" r=\"6\" fill=\"white\"/><circle cx=\"65\" cy=\"70\" r=\"6\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,85 15,85\" fill=\"black\"/><circle cx=\"40\" cy=\"65\" r=\"6\" fill=\"white\"/><circle cx=\"60\" cy=\"65\" r=\"6\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,85 15,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"65\" r=\"6\" fill=\"white\"/><circle cx=\"60\" cy=\"65\" r=\"6\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"35\" fill=\"black\"/><circle cx=\"40\" cy=\"50\" r=\"6\" fill=\"white\"/><circle cx=\"60\" cy=\"50\" r=\"6\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code T2B has three parts. 'T' means the main shape is a Triangle. '2' means there are two dots inside the shape. 'B' means the shape has a Black fill. Option C is the only one that is a black triangle with two dots.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The code for a shape is made of three parts. The first letter represents the outer shape (S=Square, C=Circle, T=Triangle). The second letter represents the type of inner shape. The number represents the quantity of inner shapes. Which shape below matches the code CT2?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 10 L90 85 L10 85 Z\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"65\" r=\"10\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"65\" r=\"10\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"25\" y=\"40\" width=\"20\" height=\"20\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"55\" y=\"40\" width=\"20\" height=\"20\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M40 60 L28 40 L52 40 Z\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M72 60 L60 40 L84 40 Z\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M50 65 L35 35 L65 35 Z\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"12\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"50\" r=\"12\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The code 'CT2' is broken down into three parts. The first letter, 'C', determines the large outer shape, which is a Circle. The second letter, 'T', determines the type of inner shapes, which are Triangles. The number at the end, '2', determines the quantity of the inner shapes. Therefore, the correct shape is a Circle containing two Triangles.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In a coding system, the first letter represents the outer shape and the second letter represents the inner shape. A square is 'Q', a circle is 'P', a triangle is 'R'. A cross is 'X', a plus is 'Y', and a dot is 'Z'. Which of the following shapes represents the code 'RZ'?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"65\" r=\"5\" stroke=\"white\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"50\" x2=\"70\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"70\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"30\" x2=\"70\" y2=\"70\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"70\" y1=\"30\" x2=\"30\" y2=\"70\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><line x1=\"40\" y1=\"65\" x2=\"60\" y2=\"65\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"55\" x2=\"50\" y2=\"75\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"5\" stroke=\"white\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The coding system has two parts. The first letter of the code corresponds to the outer shape: 'R' represents a Triangle. The second letter of the code corresponds to the inner shape: 'Z' represents a dot. Therefore, the code 'RZ' represents a triangle with a dot inside.",
+    "rating": null,
+    "comment": ""
+  }
+]

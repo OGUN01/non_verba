@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { saveReview } from '../services/reviewService';
 
 interface ReviewPanelProps {
     rating: number | null;
@@ -6,12 +7,26 @@ interface ReviewPanelProps {
     onSave: (rating: number | null, comment: string) => void;
     isOpen: boolean;
     onClose: () => void;
+    topicName?: string;
+    difficulty?: string;
+    questionIndex?: number;
 }
 
-const ReviewPanel: React.FC<ReviewPanelProps> = ({ rating, comment, onSave, isOpen, onClose }) => {
+const ReviewPanel: React.FC<ReviewPanelProps> = ({
+    rating,
+    comment,
+    onSave,
+    isOpen,
+    onClose,
+    topicName,
+    difficulty,
+    questionIndex
+}) => {
     const [localRating, setLocalRating] = useState<number | null>(rating);
     const [localComment, setLocalComment] = useState<string>(comment);
     const [hoveredStar, setHoveredStar] = useState<number | null>(null);
+    const [isSaving, setIsSaving] = useState<boolean>(false);
+    const [saveError, setSaveError] = useState<string | null>(null);
 
     useEffect(() => {
         setLocalRating(rating);
@@ -20,9 +35,31 @@ const ReviewPanel: React.FC<ReviewPanelProps> = ({ rating, comment, onSave, isOp
 
     if (!isOpen) return null;
 
-    const handleSave = () => {
-        onSave(localRating, localComment);
-        onClose();
+    const handleSave = async () => {
+        setIsSaving(true);
+        setSaveError(null);
+
+        try {
+            // Save to Vercel KV if we have all the required info
+            if (topicName && difficulty && questionIndex !== undefined) {
+                const result = await saveReview(topicName, difficulty, questionIndex, localRating, localComment);
+
+                if (!result.success) {
+                    setSaveError(result.error || 'Failed to save review');
+                    setIsSaving(false);
+                    return;
+                }
+            }
+
+            // Update local state
+            onSave(localRating, localComment);
+            onClose();
+        } catch (error) {
+            console.error('Error saving review:', error);
+            setSaveError('Failed to save review. Please try again.');
+        } finally {
+            setIsSaving(false);
+        }
     };
 
     const handleClear = () => {
@@ -115,19 +152,38 @@ const ReviewPanel: React.FC<ReviewPanelProps> = ({ rating, comment, onSave, isOp
                         </p>
                     </div>
 
+                    {/* Save Error Message */}
+                    {saveError && (
+                        <div className="p-3 bg-red-900/50 border border-red-600 rounded-lg text-red-200 text-sm">
+                            {saveError}
+                        </div>
+                    )}
+
                     {/* Action Buttons */}
                     <div className="flex gap-4 pt-4">
                         <button
                             onClick={handleClear}
-                            className="flex-1 bg-slate-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-slate-500 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-slate-500/50"
+                            disabled={isSaving}
+                            className="flex-1 bg-slate-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-slate-500 disabled:bg-slate-700 disabled:cursor-not-allowed transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-slate-500/50"
                         >
                             Clear All
                         </button>
                         <button
                             onClick={handleSave}
-                            className="flex-1 bg-indigo-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-500 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-indigo-500/50"
+                            disabled={isSaving}
+                            className="flex-1 bg-indigo-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-500 disabled:bg-indigo-700 disabled:cursor-not-allowed transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-indigo-500/50 flex items-center justify-center gap-2"
                         >
-                            Save Review
+                            {isSaving ? (
+                                <>
+                                    <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                    </svg>
+                                    <span>Saving...</span>
+                                </>
+                            ) : (
+                                'Save Review'
+                            )}
                         </button>
                     </div>
                 </div>

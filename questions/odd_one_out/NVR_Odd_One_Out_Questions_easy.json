@@ -1,0 +1,727 @@
+[
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"8\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"black\"/><circle cx=\"70\" cy=\"70\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"8\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"8\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"8\" fill=\"black\"/><circle cx=\"70\" cy=\"30\" r=\"8\" fill=\"black\"/><circle cx=\"30\" cy=\"70\" r=\"8\" fill=\"black\"/><circle cx=\"70\" cy=\"70\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"8\" fill=\"black\"/><circle cx=\"30\" cy=\"70\" r=\"8\" fill=\"black\"/><circle cx=\"70\" cy=\"70\" r=\"8\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "All the figures contain a large square with small black circles inside. In all figures except for D, there are exactly three small circles. Figure D is the odd one out because it contains four small circles.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,20 80,35 80,65 50,80 20,65 20,35\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,40 70,80 30,80 15,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"35,15 65,15 85,35 85,65 65,85 35,85 15,65 15,35\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"35\" width=\"60\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "All of the shapes have an even number of sides, except for shape C. The square (A) has 4 sides, the hexagon (B) has 6 sides, the octagon (D) has 8 sides, and the rectangle (E) has 4 sides. The pentagon (C) is the odd one out because it has 5 sides, which is an odd number.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"10\" fill=\"black\"/><circle cx=\"65\" cy=\"50\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"45\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"30,60 40,40 20,40\" fill=\"black\"/><polygon points=\"70,60 80,40 60,40\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,90 5,90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"45\" y=\"40\" width=\"10\" height=\"10\" fill=\"black\"/><rect x=\"25\" y=\"70\" width=\"10\" height=\"10\" fill=\"black\"/><rect x=\"65\" y=\"70\" width=\"10\" height=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 80,85 20,85 10,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"35,45 38,55 48,55 40,60 43,70 35,65 27,70 30,60 22,55 32,55\" fill=\"black\"/><polygon points=\"65,45 68,55 78,55 70,60 73,70 65,65 57,70 60,60 52,55 62,55\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"25,15 75,15 95,50 75,85 25,85 5,50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M30 50 h15 M37.5 42.5 v15\" stroke=\"black\" stroke-width=\"3\"/><path d=\"M60 50 h15 M67.5 42.5 v15\" stroke=\"black\" stroke-width=\"3\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In all figures except C, the large outer shape contains exactly two identical smaller shapes. Figure C is the odd one out because it contains three smaller shapes.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"8\" fill=\"black\" stroke=\"none\"/><circle cx=\"55\" cy=\"50\" r=\"8\" fill=\"black\" stroke=\"none\"/><circle cx=\"75\" cy=\"50\" r=\"8\" fill=\"black\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,30 58,45 42,45\" fill=\"black\" stroke=\"none\"/><polygon points=\"35,70 43,55 27,55\" fill=\"black\" stroke=\"none\"/><polygon points=\"65,70 73,55 57,55\" fill=\"black\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,5 95,90 5,90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"42\" y=\"35\" width=\"16\" height=\"16\" fill=\"black\" stroke=\"none\"/><rect x=\"25\" y=\"65\" width=\"16\" height=\"16\" fill=\"black\" stroke=\"none\"/><rect x=\"60\" y=\"65\" width=\"16\" height=\"16\" fill=\"black\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,5 95,40 80,95 20,95 5,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"45\" r=\"8\" fill=\"black\" stroke=\"none\"/><circle cx=\"65\" cy=\"45\" r=\"8\" fill=\"black\" stroke=\"none\"/><circle cx=\"35\" cy=\"75\" r=\"8\" fill=\"black\" stroke=\"none\"/><circle cx=\"65\" cy=\"75\" r=\"8\" fill=\"black\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,5 93.3,27.5 93.3,72.5 50,95 6.7,72.5 6.7,27.5\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"30,57 22.75,62 24.75,54.5 19,49.5 26.5,49.5 30,42 33.5,49.5 41,49.5 35.25,54.5 37.25,62\" fill=\"black\" stroke=\"none\"/><polygon points=\"50,37 42.75,42 44.75,34.5 39,29.5 46.5,29.5 50,22 53.5,29.5 61,29.5 55.25,34.5 57.25,42\" fill=\"black\" stroke=\"none\"/><polygon points=\"70,57 62.75,62 64.75,54.5 59,49.5 66.5,49.5 70,42 73.5,49.5 81,49.5 75.25,54.5 77.25,62\" fill=\"black\" stroke=\"none\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In all figures except for D, the large outer shape contains exactly three small inner shapes. Figure D is the odd one out because it contains four small inner shapes.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"10\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"50\" r=\"10\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"35,60 25,40 45,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"65,60 55,40 75,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 10,90 90,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"25\" y=\"60\" width=\"15\" height=\"15\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"42.5\" y=\"35\" width=\"15\" height=\"15\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"60\" y=\"60\" width=\"15\" height=\"15\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,45 80,95 20,95 5,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"35,50 40,40 45,50 40,60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"65,50 60,40 55,50 60,60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"25,15 75,15 95,50 75,85 25,85 5,50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M30 50 L40 40 L50 50 Z\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M60 50 L70 40 L80 50 Z\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In all figures except C, the large outer shape contains exactly two smaller shapes. Figure C is the odd one out because it contains three smaller shapes.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"black\" /></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"35\" cy=\"35\" r=\"8\" fill=\"black\" /></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,80 10,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"60\" r=\"8\" fill=\"black\" /></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,35 90,65 50,90 10,65 10,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"35\" cy=\"50\" r=\"8\" fill=\"black\" /><circle cx=\"65\" cy=\"50\" r=\"8\" fill=\"black\" /></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"55\" r=\"8\" fill=\"black\" /></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "All the figures except for D contain a single small black circle inside the main shape. Figure D is the odd one out because it contains two small black circles.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 78,35 78,65 50,80 22,65 22,35\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"30,20 70,20 90,50 70,80 30,80 10,50\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,50 50,85 15,50\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is that the shape must have an even number of sides. The shapes in options A (4 sides), B (6 sides), D (8 sides), and E (4 sides) all have an even number of sides. The shape in option C is a pentagon, which has 5 sides, an odd number. Therefore, C is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,20 85,75 15,75\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"60\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,20 85,45 70,85 30,85 15,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,25 70,25 87,50 70,75 30,75 13,50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "All the figures contain a large outer shape with a small, filled black circle inside it. Figure D is the only one that does not have a small black circle inside, making it the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"40\" cy=\"50\" r=\"8\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><circle cx=\"60\" cy=\"50\" r=\"8\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"35,60 45,40 25,40\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><polygon points=\"65,60 75,40 55,40\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"30\" y=\"50\" width=\"15\" height=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><rect x=\"55\" y=\"50\" width=\"15\" height=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 90,85 10,85\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"45\" r=\"8\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><circle cx=\"35\" cy=\"70\" r=\"8\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><circle cx=\"65\" cy=\"70\" r=\"8\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,35 85,65 50,85 15,65 15,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><path d=\"M 35,35 L 39,43 L 49,43 L 41,49 L 44,59 L 35,53 L 26,59 L 29,49 L 21,43 L 31,43 Z\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/><path d=\"M 65,35 L 69,43 L 79,43 L 71,49 L 74,59 L 65,53 L 56,59 L 59,49 L 51,43 L 61,43 Z\" stroke=\"black\" stroke-width=\"2\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In all figures except D, there is one large outer shape and two small inner shapes. Figure D is the odd one out because it contains three small inner shapes.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"30\" cy=\"50\" r=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"50\" r=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"70\" cy=\"50\" r=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"35,65 45,45 55,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"55,65 65,45 75,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"45,40 55,20 65,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><rect x=\"30\" y=\"60\" width=\"15\" height=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><rect x=\"55\" y=\"60\" width=\"15\" height=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><rect x=\"30\" y=\"40\" width=\"15\" height=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><rect x=\"55\" y=\"40\" width=\"15\" height=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,35 85,75 50,95 15,75 15,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"30,55 40,45 50,55 40,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"50,55 60,45 70,55 60,65\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"40,35 50,25 60,35 50,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><path d=\"M30 40 L 30 60 M20 50 L 40 50\" stroke=\"black\" stroke-width=\"2\" /><path d=\"M50 40 L 50 60 M40 50 L 60 50\" stroke=\"black\" stroke-width=\"2\" /><path d=\"M70 40 L 70 60 M60 50 L 80 50\" stroke=\"black\" stroke-width=\"2\" /></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is that each figure contains exactly three small shapes inside a larger shape. Figure C is the odd one out because it contains four small shapes, while all other figures (A, B, D, and E) contain three.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><circle cx=\"30\" cy=\"30\" r=\"15\"/><rect x=\"55\" y=\"15\" width=\"30\" height=\"30\"/><polygon points=\"50,90 20,60 80,60\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"25,15 45,15 55,35 35,50 15,35\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"25\"/><polygon points=\"50,60 55,80 50,100 45,80\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><circle cx=\"20\" cy=\"75\" r=\"15\"/><rect x=\"60\" y=\"65\" width=\"25\" height=\"25\"/><polygon points=\"30,45 15,15 45,15\"/><line x1=\"55\" y1=\"20\" x2=\"90\" y2=\"40\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"25,10 45,10 55,30 45,50 25,50 15,30\"/><polygon points=\"75,25 90,40 75,55 60,40\"/><path d=\"M25 75 H 45 M 35 65 V 85\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"70,10 85,10 95,20 95,35 85,45 70,45 60,35 60,20\"/><ellipse cx=\"30\" cy=\"25\" rx=\"20\" ry=\"10\"/><path d=\"M 20 65 L 40 80 L 20 95 M 40 80 H 5\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "All of the figures contain exactly three separate shapes, except for figure C, which contains four separate shapes (a circle, a square, a triangle, and a line). Therefore, C is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"35\" cy=\"35\" r=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"65\" cy=\"35\" r=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"65\" r=\"10\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"35,45 25,25 45,25\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"65,45 55,25 75,25\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"50,75 40,55 60,55\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><rect x=\"25\" y=\"30\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><rect x=\"55\" y=\"50\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><line x1=\"30\" y1=\"25\" x2=\"30\" y2=\"45\" stroke=\"black\" stroke-width=\"2\" /><line x1=\"20\" y1=\"35\" x2=\"40\" y2=\"35\" stroke=\"black\" stroke-width=\"2\" /><line x1=\"70\" y1=\"25\" x2=\"70\" y2=\"45\" stroke=\"black\" stroke-width=\"2\" /><line x1=\"60\" y1=\"35\" x2=\"80\" y2=\"35\" stroke=\"black\" stroke-width=\"2\" /><line x1=\"50\" y1=\"60\" x2=\"50\" y2=\"80\" stroke=\"black\" stroke-width=\"2\" /><line x1=\"40\" y1=\"70\" x2=\"60\" y2=\"70\" stroke=\"black\" stroke-width=\"2\" /></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"35,30 45,40 35,50 25,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"65,30 75,40 65,50 55,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><polygon points=\"50,60 60,70 50,80 40,70\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is based on the number of small shapes inside the large square. In options A, B, D, and E, there are three small shapes. In option C, there are only two small shapes. Therefore, C is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"10\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"50\" r=\"10\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"35,60 45,40 25,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"65,60 75,40 55,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"30\" y=\"60\" width=\"15\" height=\"15\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"55\" y=\"60\" width=\"15\" height=\"15\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 85,30 85,70 50,90 15,70 15,30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"35\" r=\"8\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"65\" r=\"8\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"65\" r=\"8\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M30 45 L 45 60 M45 45 L 30 60\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M55 45 L 70 60 M70 45 L 55 60\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In all figures except for D, there is one large outer shape containing exactly two smaller, identical shapes. Figure D is the odd one out because it contains three small shapes inside the large outer shape, whereas all the others contain two.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"10\" fill=\"black\"/><circle cx=\"65\" cy=\"35\" r=\"10\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"45\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,25 65,50 35,50\" fill=\"black\"/><polygon points=\"30,75 45,75 37.5,55\" fill=\"black\"/><polygon points=\"70,75 55,75 62.5,55\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 95,90 5,90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"35\" y=\"45\" width=\"15\" height=\"15\" fill=\"black\"/><rect x=\"55\" y=\"45\" width=\"15\" height=\"15\" fill=\"black\"/><rect x=\"25\" y=\"70\" width=\"15\" height=\"15\" fill=\"black\"/><rect x=\"65\" y=\"70\" width=\"15\" height=\"15\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,5 95,40 80,95 20,95 5,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,30 60,50 50,70 40,50\" fill=\"black\"/><polygon points=\"25,70 35,50 45,70 35,90\" fill=\"black\"/><polygon points=\"75,70 65,50 55,70 65,90\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"25,10 75,10 95,50 75,90 25,90 5,50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M30 40 L50 60 M50 40 L30 60\" stroke=\"black\" stroke-width=\"4\"/><path d=\"M50 20 L70 40 M70 20 L50 40\" stroke=\"black\" stroke-width=\"4\"/><path d=\"M50 60 L70 80 M70 60 L50 80\" stroke=\"black\" stroke-width=\"4\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is based on the number of small shapes inside the large shape. In all figures except C, there are three small inner shapes. Figure C is the odd one out because it has four small inner shapes.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"50\" r=\"6\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"6\" fill=\"black\"/><circle cx=\"65\" cy=\"50\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"6\" fill=\"black\"/><circle cx=\"38\" cy=\"60\" r=\"6\" fill=\"black\"/><circle cx=\"62\" cy=\"60\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,80 15,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"40\" r=\"6\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"6\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"6\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"45\" r=\"6\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"6\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,20 70,20 85,50 70,80 30,80 15,50\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"50\" r=\"6\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"6\" fill=\"black\"/><circle cx=\"65\" cy=\"50\" r=\"6\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In all figures except for C, the large outer shape contains exactly three small black circles. Figure C is the odd one out because it contains four small black circles.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"12\" fill=\"black\"/><circle cx=\"65\" cy=\"50\" r=\"12\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"25\" y=\"25\" width=\"20\" height=\"20\" fill=\"black\"/><rect x=\"55\" y=\"25\" width=\"20\" height=\"20\" fill=\"black\"/><rect x=\"25\" y=\"55\" width=\"20\" height=\"20\" fill=\"black\"/><rect x=\"55\" y=\"55\" width=\"20\" height=\"20\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,80 10,80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"40\" r=\"8\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"8\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,30 90,70 50,90 10,70 10,30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"30,50 40,40 50,50 40,60\" fill=\"black\"/><polygon points=\"60,50 70,40 80,50 70,60\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"25\" y=\"35\" width=\"15\" height=\"15\" fill=\"black\"/><rect x=\"60\" y=\"35\" width=\"15\" height=\"15\" fill=\"black\"/><rect x=\"25\" y=\"60\" width=\"15\" height=\"15\" fill=\"black\"/><rect x=\"60\" y=\"60\" width=\"15\" height=\"15\" fill=\"black\"/><rect x=\"42.5\" y=\"47.5\" width=\"15\" height=\"15\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is based on the number of small shapes inside the large shape. In four of the figures, there is an even number of small shapes (A has 2, B has 4, D has 2, E has 5). Figure C is the odd one out because it contains an odd number of small shapes (3).",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 78,35 78,65 50,80 22,65 22,35\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 80,45 65,80 35,80 20,45\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"35.4,20 64.6,20 80,35.4 80,64.6 64.6,80 35.4,80 20,64.6 20,35.4\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"30\" width=\"60\" height=\"40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In all figures except for C, the shape has an even number of sides. Figure A is a square (4 sides), Figure B is a hexagon (6 sides), Figure D is an octagon (8 sides), and Figure E is a rectangle (4 sides). Figure C is a pentagon, which has 5 sides, an odd number. Therefore, C is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"50\" r=\"8\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"45\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"22\" y=\"42\" width=\"16\" height=\"16\" fill=\"black\"/><rect x=\"42\" y=\"42\" width=\"16\" height=\"16\" fill=\"black\"/><rect x=\"62\" y=\"42\" width=\"16\" height=\"16\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"40,60 50,60 45,50\" fill=\"black\"/><polygon points=\"60,60 70,60 65,50\" fill=\"black\"/><polygon points=\"50,80 60,80 55,70\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"45\" r=\"8\" fill=\"black\"/><circle cx=\"65\" cy=\"45\" r=\"8\" fill=\"black\"/><circle cx=\"35\" cy=\"75\" r=\"8\" fill=\"black\"/><circle cx=\"65\" cy=\"75\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"30,15 70,15 90,50 70,85 30,85 10,50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"30,50 38,42 46,50 38,58\" fill=\"black\"/><polygon points=\"50,50 58,42 66,50 58,58\" fill=\"black\"/><polygon points=\"70,50 78,42 86,50 78,58\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The rule is that each figure contains exactly three small shapes inside a larger shape. Figure D is the odd one out because it contains four small shapes, while all the other figures (A, B, C, and E) contain three.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"35\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,75 15,75\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,45 65,70 35,70\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 88,45 70,85 30,85 12,45\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"55\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 83,32.5 83,67.5 50,85 17,67.5 17,32.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,40 65,48.75 65,66.25 50,75 35,66.25 35,48.75\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The rule is that the inner shape is a smaller version of the outer shape. In options A, B, C, and E, the inner shape is the same type as the outer shape (square in a square, circle in a circle, etc.). In option D, the outer shape is a pentagon, but the inner shape is a circle, which breaks the rule.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"15\" y=\"15\" width=\"35\" height=\"35\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"30\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"40,85 15,60 65,60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"25\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 10,40 40,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"90,60 60,90 60,60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"70\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"20,20 45,20 32.5,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"80,30 55,30 67.5,10\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,85 30,55 70,55\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is that each figure must contain exactly three shapes. Figures A, B, D, and E all contain three shapes. Figure C is the odd one out because it only contains two shapes (a square and a circle).",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,85 15,85\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"70\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"40\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"60\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 75,85 25,85 15,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"32\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"68\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"40\" cy=\"75\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"75\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,37 85,63 50,85 15,63 15,37\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule relates the large outer shape to the number of small inner shapes. In all figures except for C, the number of small circles inside the shape is equal to the number of sides of the outer shape. A is a triangle (3 sides) with 3 circles. B is a square (4 sides) with 4 circles. D is a pentagon (5 sides) with 5 circles. E is a hexagon (6 sides) with 6 circles. Figure C is the odd one out because it is a square (4 sides) but only contains 3 circles.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"50\" r=\"10\" fill=\"black\"/><circle cx=\"60\" cy=\"50\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"35\" r=\"10\" fill=\"black\"/><circle cx=\"65\" cy=\"35\" r=\"10\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"10\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"10\" fill=\"black\"/><circle cx=\"30\" cy=\"70\" r=\"10\" fill=\"black\"/><circle cx=\"70\" cy=\"70\" r=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"8\" fill=\"black\"/><circle cx=\"50\" cy=\"30\" r=\"8\" fill=\"black\"/><circle cx=\"70\" cy=\"30\" r=\"8\" fill=\"black\"/><circle cx=\"30\" cy=\"70\" r=\"8\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"8\" fill=\"black\"/><circle cx=\"70\" cy=\"70\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"35\" r=\"6\" fill=\"black\"/><circle cx=\"50\" cy=\"35\" r=\"6\" fill=\"black\"/><circle cx=\"70\" cy=\"35\" r=\"6\" fill=\"black\"/><circle cx=\"30\" cy=\"65\" r=\"6\" fill=\"black\"/><circle cx=\"50\" cy=\"65\" r=\"6\" fill=\"black\"/><circle cx=\"70\" cy=\"65\" r=\"6\" fill=\"black\"/><circle cx=\"30\" cy=\"50\" r=\"6\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"6\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is that each figure must contain an even number of small black circles inside the large square. Figure C is the odd one out because it contains three circles, which is an odd number. All other figures contain an even number of circles: A has 2, B has 4, D has 6, and E has 8.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"10\" stroke=\"black\" fill=\"black\"/><circle cx=\"65\" cy=\"50\" r=\"10\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"35,60 25,40 45,40\" stroke=\"black\" fill=\"black\"/><polygon points=\"65,60 55,40 75,40\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"25\" y=\"42\" width=\"15\" height=\"15\" stroke=\"black\" fill=\"black\"/><rect x=\"42.5\" y=\"42\" width=\"15\" height=\"15\" stroke=\"black\" fill=\"black\"/><rect x=\"60\" y=\"42\" width=\"15\" height=\"15\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"10\" stroke=\"black\" fill=\"black\"/><rect x=\"55\" y=\"40\" width=\"20\" height=\"20\" stroke=\"black\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"35,35 38,45 48,45 40,52 43,62 35,55 27,62 30,52 22,45 32,45\" stroke=\"black\" fill=\"black\"/><polygon points=\"65,35 68,45 78,45 70,52 73,62 65,55 57,62 60,52 52,45 62,45\" stroke=\"black\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is that each figure contains exactly two smaller shapes inside the large square. Figure C is the odd one out because it contains three smaller shapes, while all other figures (A, B, D, and E) contain two.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,80 10,80\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/><rect x=\"35\" y=\"40\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/><polygon points=\"50,30 69,45 62,68 38,68 31,45\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/><polygon points=\"50,30 67.3,40 67.3,60 50,70 32.7,60 32.7,40\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 84.6,30 84.6,70 50,90 15.4,70 15.4,30\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/><polygon points=\"50,35 65,65 35,65\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 81.6,28.2 90.1,65.4 65.4,90.1 34.6,90.1 9.9,65.4 18.4,28.2\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/><polygon points=\"50,30 64.1,35.9 70,50 64.1,64.1 50,70 35.9,64.1 30,50 35.9,35.9\" stroke=\"black\" stroke-width=\"2\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The rule is that the inner shape has one more side than the outer shape. In A, a 3-sided shape is outside a 4-sided shape. In B, a 4-sided shape is outside a 5-sided shape. In C, a 5-sided shape is outside a 6-sided shape. In E, a 7-sided shape is outside an 8-sided shape. Option D is the odd one out because the outer shape has 6 sides and the inner shape has 3 sides, which does not follow the 'plus one' rule.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,85 15,85\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"70\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"40\" cy=\"70\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,35 85,65 50,85 15,65 15,35\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 78,30 85,60 65,85 35,85 15,60 22,30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"4\" fill=\"black\"/><circle cx=\"68\" cy=\"42\" r=\"4\" fill=\"black\"/><circle cx=\"68\" cy=\"68\" r=\"4\" fill=\"black\"/><circle cx=\"50\" cy=\"80\" r=\"4\" fill=\"black\"/><circle cx=\"32\" cy=\"68\" r=\"4\" fill=\"black\"/><circle cx=\"32\" cy=\"42\" r=\"4\" fill=\"black\"/><circle cx=\"50\" cy=\"55\" r=\"4\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is that the number of small black circles inside the large shape is equal to the number of sides of the large shape. Figure A has a triangle (3 sides) and 3 circles. Figure B has a square (4 sides) and 4 circles. Figure D has a hexagon (6 sides) and 6 circles. Figure E has a heptagon (7 sides) and 7 circles. Figure C is the odd one out because it has a pentagon (5 sides) but only contains 4 circles.",
+    "rating": null,
+    "comment": ""
+  }
+]

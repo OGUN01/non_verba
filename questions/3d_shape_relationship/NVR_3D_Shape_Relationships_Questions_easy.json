@@ -1,0 +1,727 @@
+[
+  {
+    "question": "Which of the cubes shown below can be made from the net?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><path d=\"M 50 15 L 25 30 L 25 70 L 50 85 L 75 70 L 75 30 Z M 50 15 L 50 50 M 25 30 L 75 70 M 75 30 L 25 70\"/><circle cx=\"50\" cy=\"32.5\" r=\"8\"/><polygon points=\"50,67.5 40,80 60,80\"/><rect x=\"30\" y=\"42.5\" width=\"15\" height=\"15\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><path d=\"M 50 15 L 25 30 L 25 70 L 50 85 L 75 70 L 75 30 Z M 50 15 L 50 50 M 25 30 L 75 70 M 75 30 L 25 70\"/><rect x=\"42.5\" y=\"25\" width=\"15\" height=\"15\"/><polygon points=\"50,67.5 40,80 60,80\"/><line x1=\"35\" y1=\"50\" x2=\"15\" y2=\"50\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><path d=\"M 50 15 L 25 30 L 25 70 L 50 85 L 75 70 L 75 30 Z M 50 15 L 50 50 M 25 30 L 75 70 M 75 30 L 25 70\"/><rect x=\"42.5\" y=\"25\" width=\"15\" height=\"15\"/><polygon points=\"40,67.5 52.5,62.5 52.5,72.5\"/><line x1=\"35\" y1=\"50\" x2=\"15\" y2=\"50\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><path d=\"M 50 15 L 25 30 L 25 70 L 50 85 L 75 70 L 75 30 Z M 50 15 L 50 50 M 25 30 L 75 70 M 75 30 L 25 70\"/><polygon points=\"50,32.5 42.5,42.5 57.5,42.5\"/><line x1=\"65\" y1=\"50\" x2=\"85\" y2=\"50\"/><path d=\"M 42.5 75 L 57.5 75 M 50 67.5 L 50 82.5\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><path d=\"M 50 15 L 25 30 L 25 70 L 50 85 L 75 70 L 75 30 Z M 50 15 L 50 50 M 25 30 L 75 70 M 75 30 L 25 70\"/><circle cx=\"50\" cy=\"32.5\" r=\"8\"/><rect x=\"42.5\" y=\"67.5\" width=\"15\" height=\"15\"/><line x1=\"35\" y1=\"50\" x2=\"15\" y2=\"50\"/></g></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "To solve this problem, we must identify the opposite faces on the net and then check the adjacency and orientation of the faces on each cube. On the net, the opposite pairs are: circle and triangle, square and plus sign, and the horizontal line and vertical line. \n\n1. Cube A is incorrect because it shows the circle and the triangle on adjacent faces, but they are opposite faces on the net and can never touch.\n\n2. Cube C shows the correct adjacent faces (square, triangle, horizontal line), but the orientation is wrong. When the net is folded with the square on top and the horizontal line on the left, the triangle's peak should point up towards the square. In cube C, it points sideways towards the horizontal line.\n\n3. Cube D shows the triangle, plus sign, and vertical line. These are adjacent on the net. If the triangle is on top, the plus sign could be on the front face and the vertical line on the right face. However, the vertical line is shown as a horizontal line, making the orientation incorrect.\n\n4. Cube E shows the circle, square, and horizontal line. By folding the net, we can see that these three faces do not meet at a single corner. If the square is on the front and the circle is on top, the horizontal line would be on the back face, not the left face as shown. Therefore, this combination is impossible.\n\n5. Cube B is the correct answer. It shows three faces that are adjacent on the net: the square, the triangle, and the horizontal line. When folded, if the square is the top face and the horizontal line is the left face, the triangle would be the front face. The orientation is correct: the triangle's peak points up towards the square face, and the horizontal line is correctly oriented.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"22.5\" y=\"20\" width=\"15\" height=\"15\"/><circle cx=\"30\" cy=\"27.5\" r=\"4\" fill=\"white\"/><rect x=\"7.5\" y=\"35\" width=\"15\" height=\"15\"/><polygon points=\"11,46 19,46 15,39\" fill=\"white\"/><rect x=\"22.5\" y=\"35\" width=\"15\" height=\"15\"/><rect x=\"26.5\" y=\"39\" width=\"7\" height=\"7\" fill=\"white\"/><rect x=\"37.5\" y=\"35\" width=\"15\" height=\"15\"/><line x1=\"45\" y1=\"39\" x2=\"45\" y2=\"47\"/><line x1=\"41\" y1=\"43\" x2=\"49\" y2=\"43\"/><rect x=\"22.5\" y=\"50\" width=\"15\" height=\"15\"/><path d=\"M26,57.5 L34,57.5 M31,54.5 L34,57.5 L31,60.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"75,25 95,35 75,45 55,35\"/><circle cx=\"75\" cy=\"35\" r=\"4\" fill=\"white\"/><polygon points=\"75,45 95,35 95,55 75,65\"/><line x1=\"85\" y1=\"41\" x2=\"85\" y2=\"49\"/><line x1=\"81\" y1=\"45\" x2=\"89\" y2=\"45\"/><polygon points=\"75,45 55,35 55,55 75,65\" fill=\"#1e1e1e\"/><rect x=\"61\" y=\"41.5\" width=\"7\" height=\"7\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"22.5\" y=\"20\" width=\"15\" height=\"15\"/><path d=\"M26,27.5 L34,27.5 M31,24.5 L34,27.5 L31,30.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"7.5\" y=\"35\" width=\"15\" height=\"15\"/><rect x=\"11.5\" y=\"39\" width=\"7\" height=\"7\" fill=\"white\"/><rect x=\"22.5\" y=\"35\" width=\"15\" height=\"15\"/><line x1=\"30\" y1=\"39\" x2=\"30\" y2=\"47\"/><line x1=\"26\" y1=\"43\" x2=\"34\" y2=\"43\"/><rect x=\"37.5\" y=\"35\" width=\"15\" height=\"15\"/><circle cx=\"45\" cy=\"42.5\" r=\"4\" fill=\"white\"/><rect x=\"22.5\" y=\"50\" width=\"15\" height=\"15\"/><polygon points=\"26,61 34,61 30,54\" fill=\"white\"/><polygon points=\"75,45 55,35 55,55 75,65\"/><rect x=\"61.5\" y=\"41.5\" width=\"7\" height=\"7\" fill=\"white\"/><polygon points=\"75,45 95,35 95,55 75,65\" fill=\"#1e1e1e\"/><line x1=\"85\" y1=\"41\" x2=\"85\" y2=\"49\"/><line x1=\"81\" y1=\"45\" x2=\"89\" y2=\"45\"/><polygon points=\"75,65 95,55 75,75 55,55\"/><polygon points=\"62,68 70,68 66,61\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"22.5\" y=\"20\" width=\"15\" height=\"15\"/><path d=\"M30,22.5 L32,26.5 L36,26.5 L33,29 L34,33 L30,30.5 L26,33 L27,29 L24,26.5 L28,26.5 Z\" fill=\"white\"/><rect x=\"7.5\" y=\"35\" width=\"15\" height=\"15\"/><circle cx=\"15\" cy=\"42.5\" r=\"4\" fill=\"white\"/><rect x=\"22.5\" y=\"35\" width=\"15\" height=\"15\"/><path d=\"M26,42.5 L34,42.5 M31,39.5 L34,42.5 L31,45.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"37.5\" y=\"35\" width=\"15\" height=\"15\"/><polygon points=\"41,46 49,46 45,39\" fill=\"white\"/><rect x=\"22.5\" y=\"50\" width=\"15\" height=\"15\"/><rect x=\"26.5\" y=\"54\" width=\"7\" height=\"7\" fill=\"white\"/><polygon points=\"75,25 95,35 75,45 55,35\"/><path d=\"M75,27.5 L77,31.5 L81,31.5 L78,34 L79,38 L75,35.5 L71,38 L72,34 L69,31.5 L73,31.5 Z\" fill=\"white\"/><polygon points=\"75,45 95,35 95,55 75,65\"/><polygon points=\"82,52 90,52 86,45\" fill=\"white\"/><polygon points=\"75,45 55,35 55,55 75,65\" fill=\"#1e1e1e\"/><path d=\"M61,45 L69,45 M66,42 L69,45 L66,48\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"22.5\" y=\"20\" width=\"15\" height=\"15\"/><line x1=\"30\" y1=\"24\" x2=\"30\" y2=\"32\"/><line x1=\"26\" y1=\"28\" x2=\"34\" y2=\"28\"/><rect x=\"7.5\" y=\"35\" width=\"15\" height=\"15\"/><path d=\"M11,42.5 L19,42.5 M16,39.5 L19,42.5 L16,45.5\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><rect x=\"22.5\" y=\"35\" width=\"15\" height=\"15\"/><circle cx=\"30\" cy=\"42.5\" r=\"4\" fill=\"white\"/><rect x=\"37.5\" y=\"35\" width=\"15\" height=\"15\"/><rect x=\"41.5\" y=\"39\" width=\"7\" height=\"7\" fill=\"white\"/><rect x=\"22.5\" y=\"50\" width=\"15\" height=\"15\"/><polygon points=\"26,61 34,61 30,54\" fill=\"white\"/><polygon points=\"75,25 95,35 75,45 55,35\"/><line x1=\"75\" y1=\"31\" x2=\"75\" y2=\"39\"/><line x1=\"71\" y1=\"35\" x2=\"79\" y2=\"35\"/><polygon points=\"75,45 55,35 55,55 75,65\"/><path d=\"M61,45 L69,45 M64,48 L61,45 L64,42\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polygon points=\"75,45 95,35 95,55 75,65\" fill=\"#1e1e1e\"/><circle cx=\"85\" cy=\"45\" r=\"4\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"22.5\" y=\"20\" width=\"15\" height=\"15\"/><polygon points=\"26,31 34,31 30,24\" fill=\"white\"/><rect x=\"7.5\" y=\"35\" width=\"15\" height=\"15\"/><rect x=\"11.5\" y=\"39\" width=\"7\" height=\"7\" fill=\"white\"/><rect x=\"22.5\" y=\"35\" width=\"15\" height=\"15\"/><path d=\"M30,37.5 L32,41.5 L36,41.5 L33,44 L34,48 L30,45.5 L26,48 L27,44 L24,41.5 L28,41.5 Z\" fill=\"white\"/><rect x=\"37.5\" y=\"35\" width=\"15\" height=\"15\"/><line x1=\"45\" y1=\"39\" x2=\"45\" y2=\"47\"/><line x1=\"41\" y1=\"43\" x2=\"49\" y2=\"43\"/><rect x=\"22.5\" y=\"50\" width=\"15\" height=\"15\"/><circle cx=\"30\" cy=\"57.5\" r=\"4\" fill=\"white\"/><polygon points=\"75,45 95,35 95,55 75,65\"/><line x1=\"85\" y1=\"41\" x2=\"85\" y2=\"49\"/><line x1=\"81\" y1=\"45\" x2=\"89\" y2=\"45\"/><polygon points=\"75,65 95,55 75,75 55,55\"/><circle cx=\"75\" cy=\"65\" r=\"4\" fill=\"white\"/><polygon points=\"75,45 55,35 55,55 75,65\" fill=\"#1e1e1e\"/><path d=\"M62.5,40 L64.5,44 L68.5,44 L65.5,46.5 L66.5,50.5 L62.5,48 L58.5,50.5 L59.5,46.5 L56.5,44 L60.5,44 Z\" fill=\"white\"/></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The rule is that the net on the left must correctly fold into the 3D cube shown on the right. This includes both the adjacency of the faces and the orientation of the symbols on them. In options A, B, C, and E, the net correctly folds to form the corresponding cube. However, in option D, there is an error in the orientation of a symbol. On the net, the arrow on the left-hand square points to the right, towards the central circle. When folded, this arrow should point towards the edge shared with the face containing the circle. In the 3D cube view for D, the arrow on the left face is shown pointing away from the face with the circle. Therefore, the net and cube in option D do not match, making it the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M50 25 L80 40 L80 70 L50 85 L20 70 L20 40 Z M50 25 L50 85 M20 40 L50 25 L80 40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"32.5\" r=\"10\" fill=\"white\"/><polygon points=\"35,50 42,62 28,62\" fill=\"white\"/><path d=\"M65 48 L65 62 M58 55 L72 55\" stroke=\"white\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M50 25 L80 40 L80 70 L50 85 L20 70 L20 40 Z M50 25 L50 85 M20 40 L50 25 L80 40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"32.5\" r=\"10\" fill=\"white\"/><path d=\"M35 48 L35 62 M28 55 L42 55\" stroke=\"white\" stroke-width=\"3\"/><path d=\"M58 48 L72 62 M72 48 L58 62\" stroke=\"white\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M50 25 L80 40 L80 70 L50 85 L20 70 L20 40 Z M50 25 L50 85 M20 40 L50 25 L80 40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"50,25 57,37 43,37\" fill=\"white\"/><rect x=\"28\" y=\"48\" width=\"14\" height=\"14\" fill=\"white\"/><path d=\"M65 48 L65 62 M58 55 L72 55\" stroke=\"white\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M50 25 L80 40 L80 70 L50 85 L20 70 L20 40 Z M50 25 L50 85 M20 40 L50 25 L80 40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"32.5\" r=\"10\" fill=\"white\"/><rect x=\"28\" y=\"48\" width=\"14\" height=\"14\" fill=\"white\"/><path d=\"M65 48 L65 62 M58 55 L72 55\" stroke=\"white\" stroke-width=\"3\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g><path d=\"M50 25 L80 40 L80 70 L50 85 L20 70 L20 40 Z M50 25 L50 85 M20 40 L50 25 L80 40\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M50 25.5 L50 39.5 M43 32.5 L57 32.5\" stroke=\"white\" stroke-width=\"3\"/><rect x=\"28\" y=\"48\" width=\"14\" height=\"14\" fill=\"white\"/><path d=\"M58 48 L72 62 M72 48 L58 62\" stroke=\"white\" stroke-width=\"3\"/></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "Four of the options are different views of the same cube, while one is an impossible construction. By comparing the consistent views (A, B, C, E), we can deduce the pairs of opposite faces. Comparing A (Circle, Triangle, Plus) and C (Triangle, Square, Plus), we see that the Circle and Square faces cannot be seen at the same time as the Triangle and Plus. This means the Circle and the Square must be on opposite sides of the cube. Option D shows the Circle and the Square on adjacent faces, which is impossible for a cube with this configuration. Therefore, D is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the cubes below can be made from the net shown?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"40\" y=\"10\" width=\"20\" height=\"20\"/><rect x=\"20\" y=\"30\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"30\" width=\"20\" height=\"20\"/><rect x=\"60\" y=\"30\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"50\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"70\" width=\"20\" height=\"20\"/></g><circle cx=\"50\" cy=\"20\" r=\"5\" fill=\"white\"/><polygon points=\"30,35 25,45 35,45\" fill=\"white\"/><path d=\"M 50,35 v10 M 45,40 h10\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M 65,40 h8 l-4,3 v-6 l4,3\" stroke=\"white\" fill=\"white\"/><line x1=\"45\" y1=\"60\" x2=\"55\" y2=\"60\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"47\" y=\"77\" width=\"6\" height=\"6\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50,20 L80,35 L80,65 L50,80 L20,65 L20,35 Z M20,35 L50,50 L80,35 M50,50 L50,80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"7\" fill=\"white\"/><polygon points=\"40,50 30,45 30,55\" fill=\"white\"/><path d=\"M65,45 v10 M60,50 h10\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50,20 L80,35 L80,65 L50,80 L20,65 L20,35 Z M20,35 L50,50 L80,35 M50,50 L50,80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"7\" fill=\"white\"/><polygon points=\"35,45 30,55 40,55\" fill=\"white\"/><path d=\"M65,45 v10 M60,50 h10\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50,20 L80,35 L80,65 L50,80 L20,65 L20,35 Z M20,35 L50,50 L80,35 M50,50 L50,80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"7\" fill=\"white\"/><path d=\"M35,45 v10 M30,50 h10\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M65,55 v-10 l-3,4 h6 l-3,-4\" stroke=\"white\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50,20 L80,35 L80,65 L50,80 L20,65 L20,35 Z M20,35 L50,50 L80,35 M50,50 L50,80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><line x1=\"42\" y1=\"35\" x2=\"58\" y2=\"35\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M35,45 v10 M30,50 h10\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"62\" y=\"47\" width=\"6\" height=\"6\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "This question requires identifying opposite faces on the net and then checking the orientation of adjacent faces. First, identify the pairs of opposite faces on the net: the circle is opposite the horizontal line; the triangle is opposite the arrow; and the plus sign is opposite the square. Option A is incorrect because it shows the triangle and arrow, which are opposite faces, adjacent to each other. Option E is incorrect because it shows the plus sign and the square, also opposite faces, adjacent to each other. Options B, C, and D all show faces that are adjacent on the net (circle, triangle, plus sign). We must check their orientation. Imagine folding the net. If the circle is on the top face and the plus sign is on the right face, the triangle must be on the left face with its apex pointing upwards. Option C correctly shows this configuration. Option B is incorrect because the triangle is rotated to point left. Option D is incorrect as it shows an arrow, not a triangle, and its orientation is also wrong.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following cubes can be made from the net shown?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><g id=\"net\"><path d=\"M40,10 h20 v20 h-20z M40,30 h20 v20 h-20z M20,50 h20 v20 h-20z M40,50 h20 v20 h-20z M60,50 h20 v20 h-20z M40,70 h20 v20 h-20z\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M45,25 l5,-10 l5,10z\" fill=\"white\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"white\"/><path d=\"M30,55 l5,5 l-5,5 l-5,-5z\" fill=\"white\"/><rect x=\"45\" y=\"55\" width=\"10\" height=\"10\" fill=\"white\"/><path d=\"M70,55 l2,4 h5 l-4,3 l2,4 l-5,-3 l-5,3 l2,-4 l-4,-3 h5z\" fill=\"white\"/><path d=\"M45,80 h10 M50,75 v10\" stroke=\"white\" stroke-width=\"2\"/></g></defs><use href=\"#net\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,20 75,35 50,50 25,35\"/><polygon points=\"25,35 50,50 50,75 25,60\"/><polygon points=\"75,35 50,50 50,75 75,60\"/></g><g fill=\"white\"><circle cx=\"50\" cy=\"35\" r=\"7\"/><path d=\"M62.5,46.5 l2,4 h5 l-4,3 l2,4 l-5,-3 l-5,3 l2,-4 l-4,-3 h5z\"/><polygon points=\"35.5,48.5 39.5,48.5 39.5,52.5 43.5,52.5 43.5,56.5 39.5,56.5 39.5,60.5 35.5,60.5 35.5,56.5 31.5,56.5 31.5,52.5 35.5,52.5\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,20 75,35 50,50 25,35\"/><polygon points=\"25,35 50,50 50,75 25,60\"/><polygon points=\"75,35 50,50 50,75 75,60\"/></g><g fill=\"white\"><polygon points=\"50,27 68,36 50,43 32,36\"/><polygon points=\"58,46 73,54 73,69\"/><ellipse transform=\"rotate(-30 37.5 52.5)\" cx=\"37.5\" cy=\"52.5\" rx=\"10\" ry=\"7\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,20 75,35 50,50 25,35\"/><polygon points=\"25,35 50,50 50,75 25,60\"/><polygon points=\"75,35 50,50 50,75 75,60\"/></g><g fill=\"white\"><circle cx=\"50\" cy=\"35\" r=\"7\"/><path d=\"M62.5,46.5 l2,4 h5 l-4,3 l2,4 l-5,-3 l-5,3 l2,-4 l-4,-3 h5z\"/><polygon points=\"30,46 45,54 30,69\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,20 75,35 50,50 25,35\"/><polygon points=\"25,35 50,50 50,75 25,60\"/><polygon points=\"75,35 50,50 50,75 75,60\"/></g><g fill=\"white\"><polygon points=\"50,27 60,35 50,43 40,35\"/><path d=\"M62.5,46.5 l2,4 h5 l-4,3 l2,4 l-5,-3 l-5,3 l2,-4 l-4,-3 h5z\"/><polygon points=\"45,61 30,69 45,54\"/></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "First, identify the pairs of opposite faces on the net, as these can never appear on a cube together. The opposite pairs are (Circle, Plus), (Diamond, Star), and (Square, Triangle). Option B shows a Plus sign with a Circle. Option C shows a Square with a Triangle. Option E shows a Diamond with a Star. All of these combinations are impossible, so options B, C, and E can be eliminated. This leaves options A and D, which both show a valid combination of adjacent faces: the Top (Circle), the Right (Star), and the Back (Triangle). The final step is to check the orientation of the triangle. When the net is folded with the Square as the front and the Circle as the top, the Triangle folds back from the top edge of the Circle to become the back face. This means the Triangle will be upside down (pointing downwards) on the finished cube. Option D correctly shows the Triangle pointing downwards, while Option A incorrectly shows it pointing upwards. Therefore, D is the only cube that can be made from the net.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,20 85,37.5 50,55 15,37.5\"/><polygon points=\"15,37.5 50,55 50,90 15,72.5\"/><polygon points=\"85,37.5 50,55 50,90 85,72.5\"/><circle cx=\"50\" cy=\"37.5\" r=\"10\"/><polygon points=\"32.5,50 40,65 25,65\"/><rect x=\"60\" y=\"57.5\" width=\"15\" height=\"15\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,20 85,37.5 50,55 15,37.5\"/><polygon points=\"15,37.5 50,55 50,90 15,72.5\"/><polygon points=\"85,37.5 50,55 50,90 85,72.5\"/><rect x=\"42.5\" y=\"30\" width=\"15\" height=\"15\"/><polygon points=\"25,57.5 40,65 25,72.5\"/><path d=\"M67.5 57.5 v 15 M 60 65 h 15\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,20 85,37.5 50,55 15,37.5\"/><polygon points=\"15,37.5 50,55 50,90 15,72.5\"/><polygon points=\"85,37.5 50,55 50,90 85,72.5\"/><polygon points=\"50,30 65,45 35,45\"/><path d=\"M32.5 57.5 v 15 M 25 65 h 15\"/><rect x=\"60\" y=\"57.5\" width=\"15\" height=\"15\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,20 85,37.5 50,55 15,37.5\"/><polygon points=\"15,37.5 50,55 50,90 15,72.5\"/><polygon points=\"85,37.5 50,55 50,90 85,72.5\"/><polygon points=\"50,25 60,37.5 50,50 40,37.5\"/><circle cx=\"32.5\" cy=\"65\" r=\"10\"/><polygon points=\"67.5,57.5 75,72.5 60,72.5\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,20 85,37.5 50,55 15,37.5\"/><polygon points=\"15,37.5 50,55 50,90 15,72.5\"/><polygon points=\"85,37.5 50,55 50,90 85,72.5\"/><circle cx=\"50\" cy=\"37.5\" r=\"10\"/><polygon points=\"32.5,70 40,55 25,55\"/><rect x=\"60\" y=\"57.5\" width=\"15\" height=\"15\"/></g></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The rule is that four of the cubes are different rotational views of the same object, and one is an impossible construction. Let's establish the relationships from cube A: the circle is on the top face, the upward-pointing triangle is on the front face, and the square is on the right face. All other cubes (B, C, and D) represent valid rotations of this same cube. However, in cube E, while it shows the same adjacent faces as cube A (circle, triangle, square), the triangle is incorrectly oriented. It is pointing down, away from the circle face. In a correctly folded cube, the triangle should point up towards the adjacent circle face. Therefore, cube E is an impossible object from the same net and is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following nets is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><g id=\"arrow\"><path d=\"M 50,45 L 50,55 M 46,51 L 50,55 L 54,51\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g><g id=\"cross\"><path d=\"M 46,66 L 54,74 M 54,66 L 46,74\" stroke=\"white\" stroke-width=\"2\"/></g><g id=\"circle\"><circle cx=\"50\" cy=\"30\" r=\"6\" fill=\"white\"/></g><g id=\"square\"><rect x=\"64\" y=\"44\" width=\"12\" height=\"12\" fill=\"white\"/></g><g id=\"triangle\"><polygon points=\"30,44 36,56 24,56\" fill=\"white\"/></g></g><rect x=\"40\" y=\"20\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"20\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"60\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"60\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><use href=\"#circle\"/><use href=\"#triangle\"/><use href=\"#arrow\"/><use href=\"#square\"/><use href=\"#cross\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><g id=\"arrowB\"><path d=\"M 30,65 L 30,75 M 26,71 L 30,75 L 34,71\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g><g id=\"crossB\"><path d=\"M 56,66 L 64,74 M 64,66 L 56,74\" stroke=\"white\" stroke-width=\"2\"/></g><g id=\"circleB\"><circle cx=\"30\" cy=\"30\" r=\"6\" fill=\"white\"/></g><g id=\"squareB\"><rect x=\"44\" y=\"44\" width=\"12\" height=\"12\" fill=\"white\"/></g><g id=\"triangleB\"><polygon points=\"10,44 16,56 4,56\" fill=\"white\"/></g></g><rect x=\"20\" y=\"20\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"0\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"20\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"60\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"20\" y=\"60\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"50\" y=\"60\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><use href=\"#circleB\"/><use href=\"#triangleB\"/><use href=\"#squareB\"/><use href=\"#arrowB\" transform=\"translate(8, -20)\"/><use href=\"#crossB\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><g id=\"arrowC\"><path d=\"M 50,45 L 50,55 M 46,51 L 50,55 L 54,51\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g><g id=\"crossC\"><path d=\"M 76,66 L 84,74 M 84,66 L 76,74\" stroke=\"white\" stroke-width=\"2\"/></g><g id=\"circleC\"><circle cx=\"50\" cy=\"10\" r=\"6\" fill=\"white\"/></g><g id=\"squareC\"><rect x=\"64\" y=\"64\" width=\"12\" height=\"12\" fill=\"white\"/></g><g id=\"triangleC\"><polygon points=\"30,44 36,56 24,56\" fill=\"white\"/></g></g><rect x=\"40\" y=\"0\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"20\" y=\"20\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"20\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"60\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"70\" y=\"60\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"60\" y=\"60\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><use href=\"#circleC\"/><use href=\"#triangleC\" transform=\"translate(0, 20)\"/><use href=\"#arrowC\" transform=\"translate(0, -20)\"/><use href=\"#squareC\"/><use href=\"#crossC\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><g id=\"arrowD\"><path d=\"M 50,45 L 50,55 M 46,51 L 50,55 L 54,51\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g><g id=\"crossD\"><path d=\"M 46,66 L 54,74 M 54,66 L 46,74\" stroke=\"white\" stroke-width=\"2\"/></g><g id=\"circleD\"><circle cx=\"50\" cy=\"30\" r=\"6\" fill=\"white\"/></g><g id=\"squareD\"><rect x=\"24\" y=\"44\" width=\"12\" height=\"12\" fill=\"white\"/></g><g id=\"triangleD\"><polygon points=\"70,44 76,56 64,56\" fill=\"white\"/></g></g><rect x=\"40\" y=\"20\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"20\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"60\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"60\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><use href=\"#circleD\"/><use href=\"#triangleD\"/><use href=\"#arrowD\"/><use href=\"#squareD\"/><use href=\"#crossD\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><defs><g id=\"arrowE\"><path d=\"M 50,25 L 50,35 M 46,31 L 50,35 L 54,31\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g><g id=\"crossE\"><path d=\"M 46,46 L 54,54 M 54,46 L 46,54\" stroke=\"white\" stroke-width=\"2\"/></g><g id=\"circleE\"><circle cx=\"30\" cy=\"10\" r=\"6\" fill=\"white\"/></g><g id=\"squareE\"><rect x=\"64\" y=\"44\" width=\"12\" height=\"12\" fill=\"white\"/></g><g id=\"triangleE\"><polygon points=\"30,24 36,36 24,36\" fill=\"white\"/></g></g><rect x=\"20\" y=\"0\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"20\" y=\"20\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"20\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"60\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"80\" y=\"40\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><use href=\"#circleE\"/><use href=\"#triangleE\"/><use href=\"#arrowE\" transform=\"translate(8,0)\"/><use href=\"#crossE\"/><use href=\"#squareE\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "All the nets can be folded to form a cube. Four of the nets (A, B, C, and E) form the exact same cube. If the arrow is the front face, the circle is the top face, the cross is the bottom, the triangle is the left face, and the square is the right face. In net D, the positions of the square and the triangle are swapped. This means that when folded, the square would be on the left and the triangle would be on the right, creating a mirror image of the cube formed by the other nets. Therefore, D is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the cubes shown can be made from the net?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><path d=\"M 50 25 L 75 40 L 50 55 L 25 40 Z\"/><path d=\"M 25 40 L 50 55 L 50 80 L 25 65 Z\"/><path d=\"M 75 40 L 50 55 L 50 80 L 75 65 Z\"/><path d=\"M 50 30 L 50 45 M 45 35 L 50 30 L 55 35\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 45 60 L 30 60 M 35 55 L 30 60 L 35 65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"55\" y=\"55\" width=\"15\" height=\"15\" fill=\"black\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><path d=\"M 50 25 L 75 40 L 50 55 L 25 40 Z\"/><path d=\"M 25 40 L 50 55 L 50 80 L 25 65 Z\"/><path d=\"M 75 40 L 50 55 L 50 80 L 75 65 Z\"/><circle cx=\"50\" cy=\"40\" r=\"8\" fill=\"black\"/><rect x=\"30\" y=\"50\" width=\"15\" height=\"15\" fill=\"black\"/><path d=\"M 60 70 L 70 70 M 67 65 L 70 70 L 67 75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><path d=\"M 50 25 L 75 40 L 50 55 L 25 40 Z\"/><path d=\"M 25 40 L 50 55 L 50 80 L 25 65 Z\"/><path d=\"M 75 40 L 50 55 L 50 80 L 75 65 Z\"/><path d=\"M 50 45 L 50 30 M 45 35 L 50 30 L 55 35\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 45 60 L 30 60 M 35 55 L 30 60 L 35 65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 55 60 L 70 60 M 65 55 L 70 60 L 65 65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><path d=\"M 50 25 L 75 40 L 50 55 L 25 40 Z\"/><path d=\"M 25 40 L 50 55 L 50 80 L 25 65 Z\"/><path d=\"M 75 40 L 50 55 L 50 80 L 75 65 Z\"/><path d=\"M 50 30 L 50 45 M 45 40 L 50 45 L 55 40\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 45 60 L 30 60 M 35 55 L 30 60 L 35 65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 55 60 L 70 60 M 65 55 L 70 60 L 65 65\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 40 10 L 60 10 L 60 90 L 40 90 Z\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 20 50 L 80 50 L 80 70 L 20 70 Z\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"40\" y=\"30\" width=\"20\" height=\"20\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"40\" y=\"50\" width=\"20\" height=\"20\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"20\" r=\"5\" fill=\"black\"/><path d=\"M 50 35 L 50 45 M 47 38 L 50 35 L 53 38\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 35 60 L 25 60 M 28 57 L 25 60 L 28 63\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"45\" y=\"55\" width=\"10\" height=\"10\" fill=\"black\"/><path d=\"M 65 60 L 75 60 M 72 57 L 75 60 L 72 63\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 50 75 L 50 85 M 47 82 L 50 85 L 53 82\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "To solve this, first identify the pairs of opposite faces on the net. The two faces at the ends of a three-face strip are opposite. Thus, the circle is opposite the square, and the left arrow is opposite the right arrow. The remaining two faces, the up arrow and the down arrow, must also be opposite. Any cube showing two opposite faces next to each other is incorrect. \nOption B shows the circle and square adjacent, which is impossible. \nOption C shows the left and right arrows adjacent, which is impossible. \nOption D shows the up and down arrows adjacent, which is impossible. \nOption E shows the correct net, but it is not a cube option.\nBy elimination, Option A must be correct. Let's verify it. It shows the up arrow, left arrow, and square. These three faces meet at a corner in the net. If the square is the front face, the up arrow is on top, and the left arrow is on the left side. The orientation of the arrows relative to the square is also correct as shown in the cube.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which cube on the right can be folded from the net on the left?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='white' stroke-width='1' fill='none'><path d='M15 5 h15 v15 h-15 z M15 20 h15 v15 h-15 z M15 35 h15 v15 h-15 z M15 50 h15 v15 h-15 z M0 35 h15 v15 h-15 z M30 35 h15 v15 h-15 z'/></g><g fill='white' stroke='none'><path d='M22.5 10 L20 15 L25 15 Z'/><circle cx='22.5' cy='27.5' r='4'/><rect x='20' y='40' width='5' height='5'/><path d='M22.5 60 L20 55 L25 55 Z'/><path d='M5 42.5 L10 40 L10 45 Z'/><path d='M40 42.5 L35 40 L35 45 Z'/></g><path d='M75 55 l15 7.5 v15 l-15 7.5 v-15 l-15 -7.5 v-15 l15 -7.5 z m0 15 l15 -7.5 m-15 22.5 l15 -7.5' fill='none' stroke='white' stroke-width='1'/><g fill='white' stroke='none'><circle cx='75' cy='62.5' r='4'/><path d='M67.5 78.5 L63.75 75.5 L71.25 75.5 Z'/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='white' stroke-width='1' fill='none'><path d='M15 5 h15 v15 h-15 z M15 20 h15 v15 h-15 z M15 35 h15 v15 h-15 z M15 50 h15 v15 h-15 z M0 35 h15 v15 h-15 z M30 35 h15 v15 h-15 z'/></g><g fill='white' stroke='none'><path d='M22.5 10 L20 15 L25 15 Z'/><circle cx='22.5' cy='27.5' r='4'/><rect x='20' y='40' width='5' height='5'/><path d='M22.5 60 L20 55 L25 55 Z'/><path d='M5 42.5 L10 40 L10 45 Z'/><path d='M40 42.5 L35 40 L35 45 Z'/></g><path d='M75 55 l15 7.5 v15 l-15 7.5 v-15 l-15 -7.5 v-15 l15 -7.5 z m0 15 l15 -7.5 m-15 22.5 l15 -7.5' fill='none' stroke='white' stroke-width='1'/><g fill='white' stroke='none'><circle cx='75' cy='62.5' r='4'/><polygon points='65.5,72.5 70.5,75 65.5,77.5 60.5,75'/><path d='M83.75 73 L80 78 L87.5 78 Z'/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='white' stroke-width='1' fill='none'><path d='M15 5 h15 v15 h-15 z M15 20 h15 v15 h-15 z M15 35 h15 v15 h-15 z M15 50 h15 v15 h-15 z M0 35 h15 v15 h-15 z M30 35 h15 v15 h-15 z'/></g><g fill='white' stroke='none'><path d='M22.5 10 L20 15 L25 15 Z'/><circle cx='22.5' cy='27.5' r='4'/><rect x='20' y='40' width='5' height='5'/><path d='M22.5 60 L20 55 L25 55 Z'/><path d='M5 42.5 L10 40 L10 45 Z'/><path d='M40 42.5 L35 40 L35 45 Z'/></g><path d='M75 55 l15 7.5 v15 l-15 7.5 v-15 l-15 -7.5 v-15 l15 -7.5 z m0 15 l15 -7.5 m-15 22.5 l15 -7.5' fill='none' stroke='white' stroke-width='1'/><g fill='white' stroke='none'><circle cx='75' cy='62.5' r='4'/><polygon points='65.5,72.5 70.5,75 65.5,77.5 60.5,75'/><path d='M86.25 75.5 L81.25 73 L81.25 78 Z'/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='white' stroke-width='1' fill='none'><path d='M15 5 h15 v15 h-15 z M15 20 h15 v15 h-15 z M15 35 h15 v15 h-15 z M15 50 h15 v15 h-15 z M0 35 h15 v15 h-15 z M30 35 h15 v15 h-15 z'/></g><g fill='white' stroke='none'><path d='M22.5 10 L20 15 L25 15 Z'/><circle cx='22.5' cy='27.5' r='4'/><rect x='20' y='40' width='5' height='5'/><path d='M22.5 60 L20 55 L25 55 Z'/><path d='M5 42.5 L10 40 L10 45 Z'/><path d='M40 42.5 L35 40 L35 45 Z'/></g><path d='M75 55 l15 7.5 v15 l-15 7.5 v-15 l-15 -7.5 v-15 l15 -7.5 z m0 15 l15 -7.5 m-15 22.5 l15 -7.5' fill='none' stroke='white' stroke-width='1'/><g fill='white' stroke='none'><circle cx='75' cy='62.5' r='4'/><polygon points='65.5,72.5 70.5,75 65.5,77.5 60.5,75'/><path d='M81.25 75.5 L86.25 73 L86.25 78 Z'/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><g stroke='white' stroke-width='1' fill='none'><path d='M15 5 h15 v15 h-15 z M15 20 h15 v15 h-15 z M15 35 h15 v15 h-15 z M15 50 h15 v15 h-15 z M0 35 h15 v15 h-15 z M30 35 h15 v15 h-15 z'/></g><g fill='white' stroke='none'><path d='M22.5 10 L20 15 L25 15 Z'/><circle cx='22.5' cy='27.5' r='4'/><rect x='20' y='40' width='5' height='5'/><path d='M22.5 60 L20 55 L25 55 Z'/><path d='M5 42.5 L10 40 L10 45 Z'/><path d='M40 42.5 L35 40 L35 45 Z'/></g><path d='M75 55 l15 7.5 v15 l-15 7.5 v-15 l-15 -7.5 v-15 l15 -7.5 z m0 15 l15 -7.5 m-15 22.5 l15 -7.5' fill='none' stroke='white' stroke-width='1'/><g fill='white' stroke='none'><polygon points='70,57.5 75,60 70,62.5 65,60'/><circle cx='67.5' cy='73.75' r='4'/><path d='M81.25 75.5 L86.25 73 L86.25 78 Z'/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To solve this puzzle, we need to check two things: which faces are opposite, and how the adjacent faces are oriented when the net is folded. \n1. **Opposite Faces:** In the net, the circle is opposite the down arrow, the up arrow is opposite the square, and the right-pointing triangle is opposite the left-pointing triangle. Opposite faces cannot be visible at the same time on the cube. Option A shows the circle and the down arrow, which is impossible. \n2. **Adjacency and Orientation:** Let's imagine the square face is the front of the cube. The circle would be on the top, the down arrow on the bottom, the right-pointing triangle on the left face, and the left-pointing triangle on the right face. \n- **Option D** is incorrect because it shows the right-pointing triangle on the right face of the cube; it should be on the left face. \n- **Option B** shows the correct faces (circle on top, square in front, left-pointing triangle on the right), but the triangle is incorrectly oriented. It should point left, towards the square face, not upwards. \n- **Option E** is incorrect as it shows the square on top and circle in front. If this were the case, the right face would have the right-pointing triangle, but it would be oriented pointing upwards (towards the top/square face), not pointing right as shown. \n- **Option C** correctly shows the circle on the top face, the square on the front face, and the left-pointing triangle on the right face, with its point correctly oriented towards the square face. Therefore, C is the only cube that can be formed from the net.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the cubes shown can be made by folding the given net?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"37.5\" y=\"2.5\" width=\"25\" height=\"25\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M50 7.5 L50 22.5 M46 18.5 L50 22.5 L54 18.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"12.5\" y=\"27.5\" width=\"25\" height=\"25\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M17.5 40 L32.5 40 M28.5 36 L32.5 40 L28.5 44\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"37.5\" y=\"27.5\" width=\"25\" height=\"25\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"40\" r=\"7\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"62.5\" y=\"27.5\" width=\"25\" height=\"25\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M82.5 40 L67.5 40 M71.5 36 L67.5 40 L71.5 44\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"37.5\" y=\"52.5\" width=\"25\" height=\"25\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"65\" r=\"7\" fill=\"white\"/><rect x=\"37.5\" y=\"77.5\" width=\"25\" height=\"25\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M50 92.5 L50 77.5 M46 81.5 L50 77.5 L54 81.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 75,35 50,50 25,35\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"25,35 50,50 50,80 25,65\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"75,35 50,50 50,80 75,65\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"37.5\" r=\"7\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"37.5\" cy=\"57.5\" r=\"7\" fill=\"white\"/><path d=\"M62.5 75 L62.5 45 M59.5 50 L62.5 45 L65.5 50\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 75,35 50,50 25,35\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"25,35 50,50 50,80 25,65\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"75,35 50,50 50,80 75,65\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M50 45 L50 25 M47 30 L50 25 L53 30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><g transform=\"translate(37.5 57.5) rotate(180)\"><path d=\"M-8 0 L 8 0 M 2 5 L 8 0 L 2 -5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g><g transform=\"translate(62.5 57.5) rotate(-90)\"><path d=\"M8 0 L -8 0 M -2 5 L -8 0 L -2 -5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 75,35 50,50 25,35\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"25,35 50,50 50,80 25,65\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"75,35 50,50 50,80 75,65\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M50 45 L50 25 M47 30 L50 25 L53 30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><g transform=\"translate(37.5 57.5) rotate(-90)\"><path d=\"M-8 0 L 8 0 M 2 5 L 8 0 L 2 -5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g><g transform=\"translate(62.5 57.5) rotate(-90)\"><path d=\"M8 0 L -8 0 M -2 5 L -8 0 L -2 -5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 75,35 50,50 25,35\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"25,35 50,50 50,80 25,65\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"75,35 50,50 50,80 75,65\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><g transform=\"translate(50 37.5)\"><path d=\"M-8 0 L 8 0 M 2 5 L 8 0 L 2 -5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g><g transform=\"translate(37.5 57.5)\"><path d=\"M0 -8 L 0 8 M -5 2 L 0 8 L 5 2\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g><g transform=\"translate(62.5 57.5)\"><path d=\"M8 0 L -8 0 M -2 5 L -8 0 L -2 -5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "To solve this, we must first identify the pairs of opposite faces on the net. In the cross-shaped net, the opposite faces are (up-arrow, down-arrow), (left-arrow, right-arrow), and (hollow circle, solid circle). Any cube that shows two opposite faces touching is impossible. Option B shows the hollow circle and solid circle as adjacent faces. Option E shows the left-arrow and right-arrow as adjacent. Both are incorrect. Next, we must visualize how the net folds and check the orientation of the symbols. Let's imagine the face with the hollow circle is the front of the cube. When we fold the net: 1. The 'up-arrow' face becomes the top, with the arrow pointing towards the back of the cube. 2. The 'right-arrow' face becomes the left wall, with its arrow pointing upwards. 3. The 'left-arrow' face becomes the right wall, with its arrow also pointing upwards. Option C is incorrect because the arrow on the left face is pointing left, not up. Option D correctly shows the view from a corner where the top face has the up-arrow pointing back, the left face has the right-arrow symbol pointing up, and the right face has the left-arrow symbol pointing up. All adjacencies and orientations are correct in Option D.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In which option can the 3D cube be made from the 2D net shown beside it?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" fill=\"none\" stroke-width=\"1\"><path d=\"M15,25 h10 v10 h-10z M15,35 h10 v10 h-10z M15,45 h10 v10 h-10z M15,55 h10 v10 h-10z M5,35 h10 v10 h-10z M25,35 h10 v10 h-10z\"/><path d=\"M20,27 v5 M17.5,29.5 h5 M20,27 l-2,3 M20,27 l2,3\" stroke-width=\"1.5\"/><path d=\"M17,40 h6 M20,37 v6\" stroke-width=\"1.5\"/><circle cx=\"10\" cy=\"40\" r=\"3\" stroke-width=\"1.5\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke-width=\"1.5\"/><path d=\"M20,53 v-5 M17.5,50.5 h5 M20,53 l-2,-3 M20,53 l2,-3\" stroke-width=\"1.5\"/><path d=\"M17,60 h6\" stroke-width=\"1.5\"/><polygon points=\"55,45 70,30 95,30 80,45\"/><polygon points=\"80,45 95,30 95,55 80,70\"/><rect x=\"55\" y=\"45\" width=\"25\" height=\"25\"/><circle cx=\"67.5\" cy=\"57.5\" r=\"5\" stroke-width=\"2\"/><polygon points=\"85,58 90,51 92,53 87,60\" stroke-width=\"2\"/><path d=\"M77.5,33 l-3,4 h6 l-3,-4 z\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" fill=\"none\" stroke-width=\"1\"><path d=\"M15,25 h10 v10 h-10z M15,35 h10 v10 h-10z M15,45 h10 v10 h-10z M15,55 h10 v10 h-10z M5,35 h10 v10 h-10z M25,35 h10 v10 h-10z\"/><path d=\"M20,27 v5 M17.5,29.5 h5 M20,27 l-2,3 M20,27 l2,3\" stroke-width=\"1.5\"/><path d=\"M17,40 h6 M20,37 v6\" stroke-width=\"1.5\"/><circle cx=\"10\" cy=\"40\" r=\"3\" stroke-width=\"1.5\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke-width=\"1.5\"/><path d=\"M20,53 v-5 M17.5,50.5 h5 M20,53 l-2,-3 M20,53 l2,-3\" stroke-width=\"1.5\"/><path d=\"M17,60 h6\" stroke-width=\"1.5\"/><polygon points=\"55,45 40,30 65,30 80,45\"/><polygon points=\"55,45 40,30 40,55 55,70\"/><rect x=\"55\" y=\"45\" width=\"25\" height=\"25\"/><path d=\"M62.5,57.5 h10 M67.5,52.5 v10\" stroke-width=\"2\"/><ellipse cx=\"47.5\" cy=\"52.5\" rx=\"4\" ry=\"7\" stroke-width=\"2\"/><path d=\"M62.5,43 l-3-4 h6 l-3,4 z\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" fill=\"none\" stroke-width=\"1\"><path d=\"M15,25 h10 v10 h-10z M15,35 h10 v10 h-10z M15,45 h10 v10 h-10z M15,55 h10 v10 h-10z M5,35 h10 v10 h-10z M25,35 h10 v10 h-10z\"/><path d=\"M20,27 v5 M17.5,29.5 h5 M20,27 l-2,3 M20,27 l2,3\" stroke-width=\"1.5\"/><path d=\"M17,40 h6 M20,37 v6\" stroke-width=\"1.5\"/><circle cx=\"10\" cy=\"40\" r=\"3\" stroke-width=\"1.5\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke-width=\"1.5\"/><path d=\"M20,53 v-5 M17.5,50.5 h5 M20,53 l-2,-3 M20,53 l2,-3\" stroke-width=\"1.5\"/><path d=\"M17,60 h6\" stroke-width=\"1.5\"/><polygon points=\"55,45 40,30 65,30 80,45\"/><polygon points=\"55,45 40,30 40,55 55,70\"/><rect x=\"55\" y=\"45\" width=\"25\" height=\"25\"/><path d=\"M62.5,57.5 h10 M67.5,52.5 v10\" stroke-width=\"2\"/><ellipse cx=\"47.5\" cy=\"52.5\" rx=\"4\" ry=\"7\" stroke-width=\"2\"/><path d=\"M62.5,32 l-3,4 h6 l-3,-4 z\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" fill=\"none\" stroke-width=\"1\"><path d=\"M15,25 h10 v10 h-10z M15,35 h10 v10 h-10z M15,45 h10 v10 h-10z M15,55 h10 v10 h-10z M5,35 h10 v10 h-10z M25,35 h10 v10 h-10z\"/><path d=\"M20,27 v5 M17.5,29.5 h5 M20,27 l-2,3 M20,27 l2,3\" stroke-width=\"1.5\"/><path d=\"M17,40 h6 M20,37 v6\" stroke-width=\"1.5\"/><circle cx=\"10\" cy=\"40\" r=\"3\" stroke-width=\"1.5\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke-width=\"1.5\"/><path d=\"M20,53 v-5 M17.5,50.5 h5 M20,53 l-2,-3 M20,53 l2,-3\" stroke-width=\"1.5\"/><path d=\"M17,60 h6\" stroke-width=\"1.5\"/><polygon points=\"55,45 70,30 95,30 80,45\"/><polygon points=\"80,45 95,30 95,55 80,70\"/><rect x=\"55\" y=\"45\" width=\"25\" height=\"25\"/><path d=\"M62.5,57.5 h10 M67.5,52.5 v10\" stroke-width=\"2\"/><line x1=\"86\" y1=\"60\" x2=\"91\" y2=\"53\" stroke-width=\"2\"/><path d=\"M77.5,33 l-3,4 h6 l-3,-4 z\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" fill=\"none\" stroke-width=\"1\"><path d=\"M15,25 h10 v10 h-10z M15,35 h10 v10 h-10z M15,45 h10 v10 h-10z M15,55 h10 v10 h-10z M5,35 h10 v10 h-10z M25,35 h10 v10 h-10z\"/><path d=\"M20,27 v5 M17.5,29.5 h5 M20,27 l-2,3 M20,27 l2,3\" stroke-width=\"1.5\"/><path d=\"M17,40 h6 M20,37 v6\" stroke-width=\"1.5\"/><circle cx=\"10\" cy=\"40\" r=\"3\" stroke-width=\"1.5\"/><rect x=\"27\" y=\"37\" width=\"6\" height=\"6\" stroke-width=\"1.5\"/><path d=\"M20,53 v-5 M17.5,50.5 h5 M20,53 l-2,-3 M20,53 l2,-3\" stroke-width=\"1.5\"/><path d=\"M17,60 h6\" stroke-width=\"1.5\"/><polygon points=\"55,45 40,30 65,30 80,45\"/><polygon points=\"55,45 40,30 40,55 55,70\"/><rect x=\"55\" y=\"45\" width=\"25\" height=\"25\"/><rect x=\"60\" y=\"50\" width=\"15\" height=\"15\" stroke-width=\"2\"/><path d=\"M47.5,46 v10 M44,51 l7,-4\" stroke-width=\"2\"/><path d=\"M55,38 l-4,-3 v6 l4,-3 z\" stroke-width=\"2\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The solution requires a two-step analysis. First, identify opposite faces on the net to eliminate impossible cubes. Second, for the remaining options, verify the orientation of the symbols on adjacent faces.\n\n1.  **Opposite Faces:** By mentally folding the net, we can find the pairs of faces that will be on opposite sides of the cube: The up-arrow is opposite the down-arrow; the circle is opposite the square; and the plus sign is opposite the horizontal line. A cube cannot show two opposite faces at the same time. \n    *   Option A shows a circle and a square, which are opposite faces. This is impossible.\n    *   Option D shows a plus sign and a horizontal line, which are opposite faces. This is also impossible.\n\n2.  **Symbol Orientation:** We are left with options B, C, and E. We must check if the symbols are rotated correctly relative to each other.\n    *   Options B and C both show the plus, circle, and up-arrow faces. This is a valid group of adjacent faces. If the plus is the front face and the circle is the left face, the up-arrow must be on the top face. When folding the net, the up-arrow will point away from the plus sign (i.e., towards the back of the cube). Option C correctly shows this orientation. Option B incorrectly shows the arrow pointing towards the front.\n    *   Option E shows a square, a plus, and an up-arrow. This is a valid group of adjacent faces. If the square is the front face and the plus is the left face, the up-arrow on the top face should point towards the back. Option E incorrectly shows the arrow pointing to the left.\n\nTherefore, only the cube in option C can be formed from the net.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"40\" y=\"20\" width=\"20\" height=\"20\"/><rect x=\"60\" y=\"20\" width=\"20\" height=\"20\"/><rect x=\"20\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"60\" width=\"20\" height=\"20\"/></g><g fill=\"white\" stroke=\"white\"><rect x=\"45\" y=\"25\" width=\"10\" height=\"10\"/><polygon points=\"65,25 75,30 65,35\"/><circle cx=\"30\" cy=\"50\" r=\"5\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"40\" y=\"20\" width=\"20\" height=\"20\"/><rect x=\"20\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"60\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"60\" width=\"20\" height=\"20\"/></g><g fill=\"white\" stroke=\"white\"><circle cx=\"50\" cy=\"30\" r=\"5\"/><rect x=\"45\" y=\"45\" width=\"10\" height=\"10\"/><polygon points=\"45,65 55,70 45,75\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"60\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"80\" y=\"40\" width=\"20\" height=\"20\"/></g><g fill=\"white\" stroke=\"white\"><circle cx=\"30\" cy=\"50\" r=\"5\"/><rect x=\"45\" y=\"45\" width=\"10\" height=\"10\"/><polygon points=\"85,45 95,50 85,55\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"40\" y=\"20\" width=\"20\" height=\"20\"/><rect x=\"60\" y=\"20\" width=\"20\" height=\"20\"/><rect x=\"20\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"60\" width=\"20\" height=\"20\"/></g><g fill=\"white\" stroke=\"white\"><circle cx=\"50\" cy=\"30\" r=\"5\"/><rect x=\"65\" y=\"25\" width=\"10\" height=\"10\"/><polygon points=\"45,65 55,70 45,75\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"20\" width=\"20\" height=\"20\"/><rect x=\"20\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"20\" y=\"60\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"60\" width=\"20\" height=\"20\"/></g><g fill=\"white\" stroke=\"white\"><rect x=\"25\" y=\"25\" width=\"10\" height=\"10\"/><circle cx=\"30\" cy=\"50\" r=\"5\"/><polygon points=\"45,65 55,70 45,75\"/></g></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The rule relates to which faces are opposite each other when the nets are folded into a cube. In four of the nets (B, C, D, and E), the square and the triangle are on opposite faces. You can determine this by counting squares on the net: in a straight line, faces separated by one other face are opposite. In option A, the square and the triangle are on adjacent faces; they would meet at an edge on the folded cube. Therefore, A is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In which option can the cube be correctly formed from the net shown?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" fill=\"none\" stroke-width=\"2\"><g transform=\"translate(5, 25)\"><rect x=\"15\" y=\"0\" width=\"15\" height=\"15\"/><rect x=\"0\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"30\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"30\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"45\" width=\"15\" height=\"15\"/><circle cx=\"22.5\" cy=\"7.5\" r=\"4\"/><rect x=\"3\" y=\"18\" width=\"9\" height=\"9\"/><path d=\"M 22.5 18 L 22.5 27 M 18 22.5 L 27 22.5\"/><polygon points=\"37.5,18 42,27 33,27\"/><polygon points=\"18,33 27,33 22.5,42\"/><path d=\"M 18 48 L 27 57 M 27 48 L 18 57\"/></g><g transform=\"translate(5, 0)\"><path d=\"M 70 85 L 85 75 L 70 65 L 55 75 Z\"/><path d=\"M 55 75 L 70 65 L 70 45 L 55 55 Z\"/><path d=\"M 70 65 L 85 75 L 85 55 L 70 45 Z\"/><rect x=\"58\" y=\"58\" width=\"9\" height=\"9\"/><path d=\"M 70 78 L 70 88 M 65 83 L 75 83\"/><polygon points=\"77.5,58 82.5,68 72.5,68\"/></g></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" fill=\"none\" stroke-width=\"2\"><g transform=\"translate(5, 25)\"><rect x=\"15\" y=\"0\" width=\"15\" height=\"15\"/><rect x=\"0\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"30\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"30\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"45\" width=\"15\" height=\"15\"/><path d=\"M 18 10 L 18 2 L 27 6 Z\" transform=\"rotate(90 22.5 7.5)\"/><circle cx=\"7.5\" cy=\"22.5\" r=\"4\"/><rect x=\"18\" y=\"18\" width=\"9\" height=\"9\"/><path d=\"M 33 22.5 L 42 22.5 M 37.5 18 L 37.5 27\"/><path d=\"M 18 33 L 27 33 L 27 42\"/><path d=\"M 18 48 L 27 48 M 22.5 48 L 22.5 57\"/></g><g transform=\"translate(5, 0)\"><path d=\"M 70 85 L 85 75 L 70 65 L 55 75 Z\"/><path d=\"M 55 75 L 70 65 L 70 45 L 55 55 Z\"/><path d=\"M 70 65 L 85 75 L 85 55 L 70 45 Z\"/><rect x=\"63\" y=\"68\" width=\"9\" height=\"9\"/><path d=\"M 65 48 L 65 58 L 58 58\" transform=\"rotate(-45 61 54)\"/><circle cx=\"77.5\" cy=\"60\" r=\"4\"/></g></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" fill=\"none\" stroke-width=\"2\"><g transform=\"translate(5, 25)\"><rect x=\"15\" y=\"0\" width=\"15\" height=\"15\"/><rect x=\"0\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"30\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"30\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"45\" width=\"15\" height=\"15\"/><polygon points=\"22.5,3 27,12 18,12\"/><circle cx=\"7.5\" cy=\"22.5\" r=\"4\"/><rect x=\"18\" y=\"18\" width=\"9\" height=\"9\"/><path d=\"M 33 22.5 L 42 22.5 M 37.5 18 L 37.5 27\"/><polygon points=\"22.5,32 18,40 27,40 22.5,32 22.5,43\"/><path d=\"M 22.5 48 L 18 57 L 27 57 Z M 22.5 57 L 18 48 L 27 48 Z\"/></g><g transform=\"translate(5, 0)\"><path d=\"M 70 85 L 85 75 L 70 65 L 55 75 Z\"/><path d=\"M 55 75 L 70 65 L 70 45 L 55 55 Z\"/><path d=\"M 70 65 L 85 75 L 85 55 L 70 45 Z\"/><rect x=\"63\" y=\"68\" width=\"9\" height=\"9\"/><polygon points=\"62.5,47 62.5,58 57,52.5\" transform=\"rotate(45 65 55)\"/><path d=\"M 73 58 L 82 58 M 77.5 53 L 77.5 63\"/></g></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" fill=\"none\" stroke-width=\"2\"><g transform=\"translate(5, 25)\"><rect x=\"15\" y=\"0\" width=\"15\" height=\"15\"/><rect x=\"0\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"30\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"30\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"45\" width=\"15\" height=\"15\"/><circle cx=\"22.5\" cy=\"7.5\" r=\"4\"/><rect x=\"3\" y=\"18\" width=\"9\" height=\"9\"/><path d=\"M 22.5 18 L 22.5 27 M 18 22.5 L 27 22.5\"/><polygon points=\"37.5,18 42,27 33,27\"/><polygon points=\"18,33 27,33 22.5,42\"/><path d=\"M 18 48 L 27 57 M 27 48 L 18 57\"/></g><g transform=\"translate(5, 0)\"><path d=\"M 70 85 L 85 75 L 70 65 L 55 75 Z\"/><path d=\"M 55 75 L 70 65 L 70 45 L 55 55 Z\"/><path d=\"M 70 65 L 85 75 L 85 55 L 70 45 Z\"/><path d=\"M 70 78 L 70 88 M 65 83 L 75 83\"/><circle cx=\"62.5\" cy=\"50\" r=\"4\"/><polygon points=\"73,53 82,53 77.5,62\"/></g></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" fill=\"none\" stroke-width=\"2\"><g transform=\"translate(5, 25)\"><rect x=\"15\" y=\"0\" width=\"15\" height=\"15\"/><rect x=\"0\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"30\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"30\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"45\" width=\"15\" height=\"15\"/><path d=\"M 22.5 2 L 22.5 13 M 19.5 5 L 22.5 2 L 25.5 5\"/><path d=\"M 13 22.5 L 2 22.5 M 5 19.5 L 2 22.5 L 5 25.5\"/><circle cx=\"22.5\" cy=\"22.5\" r=\"4\"/><path d=\"M 32 22.5 L 43 22.5 M 40 19.5 L 43 22.5 L 40 25.5\"/><path d=\"M 22.5 32 L 22.5 43 M 19.5 40 L 22.5 43 L 25.5 40\"/><path d=\"M 18 52.5 L 27 52.5 M 22.5 48 L 22.5 57\"/></g><g transform=\"translate(5, 0)\"><path d=\"M 70 85 L 85 75 L 70 65 L 55 75 Z\"/><path d=\"M 55 75 L 70 65 L 70 45 L 55 55 Z\"/><path d=\"M 70 65 L 85 75 L 85 55 L 70 45 Z\"/><circle cx=\"70\" cy=\"75\" r=\"4\"/><path d=\"M 66 63 L 59 63 M 61 60 L 58 63 L 61 66\"/><path d=\"M 77.5 52 L 82.5 62 M 75.5 59 L 77.5 62 L 80.5 59\"/></g></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The task is to identify which cube can be correctly folded from the net shown in the same option. We must analyze each option by visualizing the folding process, paying attention to which faces are opposite and how adjacent faces are oriented.\n- **Option A is incorrect:** The net shows the square and the diamond are on opposite sides of the central 'plus' face. Therefore, they cannot be adjacent on the folded cube as shown.\n- **Option B is incorrect:** When the net is folded with the square as the front face, the 'F' symbol becomes the top face. The arms of the 'F' should point to the right (towards the plus symbol's original position). In the cube shown, the 'F' is incorrectly rotated, with its arms pointing to the left.\n- **Option C is correct:** If the square face is the front of the cube, the circle is on the left, the plus is on the right, and the triangle is on the top. When the triangle face is folded up, its point is oriented towards the back of the cube, away from the square face. The cube shown correctly depicts the square on the front, the plus on the right, and the triangle on top with the correct orientation.\n- **Option D is incorrect:** The net shows that the circle and the triangle are opposite faces (separated by the plus and square faces). They cannot appear adjacent on the folded cube as depicted.\n- **Option E is incorrect:** When the net is folded with the circle as the front face, the left-pointing arrow becomes the left face. As this face folds up, the arrow rotates to point upwards. The cube shown incorrectly depicts this arrow as pointing downwards.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following cubes can be made from the net provided?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><style>.s{stroke:black;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polygon class=\"s\" points=\"25,30 75,30 90,45 40,45\"/><polygon class=\"s\" points=\"40,45 90,45 90,75 40,90\"/><polygon class=\"s\" points=\"25,30 40,45 40,90 25,75\"/><g class=\"s\"><path d=\"M50 41 L55 35 L60 41 M55 35 v-4\"/></g><g class=\"s\"><path d=\"M65 55 l10 8 l-10 8 l-10-8 Z\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><style>.s{stroke:black;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polygon class=\"s\" points=\"25,30 75,30 90,45 40,45\"/><polygon class=\"s\" points=\"40,45 90,45 90,75 40,90\"/><polygon class=\"s\" points=\"25,30 40,45 40,90 25,75\"/><g class=\"s\"><path d=\"M50 34 L55 40 L60 34 M55 40 v-4\"/></g><g class=\"s\"><ellipse cx=\"65\" cy=\"67.5\" rx=\"15\" ry=\"12\"/></g><g class=\"s\"><path d=\"M28 58 l10 5 M33 52 l-3 14\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><style>.s{stroke:black;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polygon class=\"s\" points=\"25,30 75,30 90,45 40,45\"/><polygon class=\"s\" points=\"40,45 90,45 90,75 40,90\"/><polygon class=\"s\" points=\"25,30 40,45 40,90 25,75\"/><g class=\"s\"><path d=\"M50 41 L55 35 L60 41 M55 35 v-4\"/></g><g class=\"s\"><ellipse cx=\"65\" cy=\"67.5\" rx=\"15\" ry=\"12\"/></g><g class=\"s\"><path d=\"M28 58 l10 5 M33 52 l-3 14\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><style>.s{stroke:black;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polygon class=\"s\" points=\"25,30 75,30 90,45 40,45\"/><polygon class=\"s\" points=\"40,45 90,45 90,75 40,90\"/><polygon class=\"s\" points=\"25,30 40,45 40,90 25,75\"/><g class=\"s\"><ellipse cx=\"65\" cy=\"67.5\" rx=\"15\" ry=\"12\"/></g><g class=\"s\"><path d=\"M28.5 59.5 l7 3.5 l 0 20 l -7 -3.5 Z\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><defs><style>.s{stroke:black;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}</style></defs><polygon class=\"s\" points=\"25,30 75,30 90,45 40,45\"/><polygon class=\"s\" points=\"40,45 90,45 90,75 40,90\"/><polygon class=\"s\" points=\"25,30 40,45 40,90 25,75\"/><g class=\"s\"><path d=\"M50 41 L55 35 L60 41 M55 35 v-4\"/></g><g class=\"s\"><ellipse cx=\"65\" cy=\"67.5\" rx=\"15\" ry=\"12\"/></g><g class=\"s\"><path d=\"M32.5 54 v26 M26 67.5 h13\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To solve this, we must first identify the pairs of opposite faces on the net, which can never be seen together on the cube. The opposite faces are: Arrow and Diamond; Circle and Square; Plus and Menu. This allows us to eliminate options A (shows Arrow and Diamond) and D (shows Circle and Square). Next, we must check the relative orientation of the adjacent faces. In option C, we see the Arrow, Circle, and Plus sign, which meet at a vertex on the cube. When the net is folded, the Arrow on the top face points towards the Circle on the front face. Also, the top arm of the Plus sign on the left face points towards the Arrow on the top face. Option C correctly shows both of these orientations. Option B is incorrect because the arrow points away from the circle. Option E is incorrect because the plus sign is not rotated correctly; its vertical arm should be pointing towards the arrow, not its top arm.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which cube can be made from the net shown?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"35\" y=\"5\" width=\"30\" height=\"30\"/><rect x=\"5\" y=\"35\" width=\"30\" height=\"30\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\"/><rect x=\"65\" y=\"35\" width=\"30\" height=\"30\"/><rect x=\"35\" y=\"65\" width=\"30\" height=\"30\"/></g><path d=\"M50 10 L42 25 L58 25 Z\" fill=\"white\"/><path d=\"M12 50 L28 50 M22 44 L28 50 L22 56\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"50\" r=\"8\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M72 42 L72 58 L82 58\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"42\" y=\"72\" width=\"16\" height=\"16\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><g><rect x=\"20\" y=\"35\" width=\"45\" height=\"45\"/><polygon points=\"20,35 65,35 85,15 40,15\"/><polygon points=\"65,35 65,80 85,60 85,15\"/></g></g><polygon points=\"42.5,45 32.5,65 52.5,65\" fill=\"white\"/><rect x=\"47\" y=\"20\" width=\"16\" height=\"10\" fill=\"white\" transform=\"skewY(-30) translate(-5, 8)\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"35\" y=\"35\" width=\"45\" height=\"45\"/><polygon points=\"35,35 80,35 60,15 15,15\"/><polygon points=\"35,35 35,80 15,60 15,15\"/></g><circle cx=\"57.5\" cy=\"57.5\" r=\"10\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"47.5,20 40,32 55,32\" fill=\"white\"/><path d=\"M28 57 L18 57 M24 51 L18 57 L24 63\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" transform=\"skewX(30) translate(-15,0)\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"35\" width=\"45\" height=\"45\"/><polygon points=\"20,35 65,35 85,15 40,15\"/><polygon points=\"65,35 65,80 85,60 85,15\"/></g><circle cx=\"42.5\" cy=\"57.5\" r=\"10\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"52.5,20 45,32 60,32\" fill=\"white\"/><path d=\"M75.5,47 L75.5,67.5 L82.5,57.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"35\" width=\"45\" height=\"45\"/><polygon points=\"20,35 65,35 85,15 40,15\"/><polygon points=\"65,35 65,80 85,60 85,15\"/></g><circle cx=\"42.5\" cy=\"57.5\" r=\"10\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"62,25 48,20 48,30\" fill=\"white\" transform=\"translate(5,0)\"/><path d=\"M75.5,47 L75.5,67.5 L82.5,57.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "First, identify the pairs of opposite faces on the net (A). The triangle is opposite the square, and the arrow is opposite the L-shape. Cube B is impossible because it shows two opposite faces, the triangle and the square, next to each other. For the remaining options, we must check the orientation of the symbols. Imagine folding the net with the circle as the front face. The triangle would be on the top face, with its point facing towards the back. The arrow would be on the left face, pointing right (towards the circle). The L-shape would be on the right face, with its long arm pointing down (towards the square on the bottom). Cube C is incorrect because the arrow on the left face is pointing left (away from the circle). Cube E is incorrect because the triangle on the top face is pointing sideways towards the right, not towards the back. Cube D is the only option that correctly shows the circle on the front, the triangle on top pointing back, and the L-shape on the right with its long arm pointing down.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the nets below can be folded to make the cube shown in Figure A?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><path d=\"M 40 80 L 40 40 L 80 40 L 80 80 Z\"/><path d=\"M 40 40 L 25 25 L 65 25 L 80 40\"/><path d=\"M 25 25 L 25 65 L 40 80\"/></g><polygon points=\"60,50 50,65 70,65\" fill=\"white\"/><circle cx=\"50\" cy=\"32.5\" r=\"7\" fill=\"white\"/><polygon points=\"32.5,45 25,52.5 32.5,60 40,52.5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"41\" y=\"10\" width=\"18\" height=\"18\"/><rect x=\"23\" y=\"28\" width=\"18\" height=\"18\"/><rect x=\"41\" y=\"28\" width=\"18\" height=\"18\"/><rect x=\"59\" y=\"28\" width=\"18\" height=\"18\"/><rect x=\"41\" y=\"46\" width=\"18\" height=\"18\"/><rect x=\"41\" y=\"64\" width=\"18\" height=\"18\"/></g><circle cx=\"50\" cy=\"19\" r=\"4\" fill=\"white\"/><rect x=\"27\" y=\"32\" width=\"10\" height=\"10\" fill=\"white\"/><polygon points=\"50,32 45,42 55,42\" fill=\"white\"/><rect x=\"63\" y=\"32\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><polygon points=\"50,60 45,50 55,50\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><circle cx=\"50\" cy=\"73\" r=\"4\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"41\" y=\"10\" width=\"18\" height=\"18\"/><rect x=\"23\" y=\"28\" width=\"18\" height=\"18\"/><rect x=\"41\" y=\"28\" width=\"18\" height=\"18\"/><rect x=\"59\" y=\"28\" width=\"18\" height=\"18\"/><rect x=\"41\" y=\"46\" width=\"18\" height=\"18\"/><rect x=\"41\" y=\"64\" width=\"18\" height=\"18\"/></g><circle cx=\"50\" cy=\"19\" r=\"4\" fill=\"white\"/><rect x=\"27\" y=\"32\" width=\"10\" height=\"10\" fill=\"white\"/><polygon points=\"45,37 55,32 55,42\" fill=\"white\"/><rect x=\"63\" y=\"32\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><polygon points=\"50,60 45,50 55,50\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><circle cx=\"50\" cy=\"73\" r=\"4\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"41\" y=\"10\" width=\"18\" height=\"18\"/><rect x=\"23\" y=\"28\" width=\"18\" height=\"18\"/><rect x=\"41\" y=\"28\" width=\"18\" height=\"18\"/><rect x=\"59\" y=\"28\" width=\"18\" height=\"18\"/><rect x=\"41\" y=\"46\" width=\"18\" height=\"18\"/><rect x=\"41\" y=\"64\" width=\"18\" height=\"18\"/></g><circle cx=\"50\" cy=\"19\" r=\"4\" fill=\"white\"/><rect x=\"27\" y=\"32\" width=\"10\" height=\"10\" fill=\"white\"/><polygon points=\"50,32 45,42 55,42\" fill=\"white\"/><circle cx=\"68\" cy=\"37\" r=\"4\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><polygon points=\"50,60 45,50 55,50\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><rect x=\"45\" y=\"68\" width=\"10\" height=\"10\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><rect x=\"42.5\" y=\"10\" width=\"15\" height=\"15\"/><rect x=\"27.5\" y=\"25\" width=\"15\" height=\"15\"/><rect x=\"42.5\" y=\"25\" width=\"15\" height=\"15\"/><rect x=\"42.5\" y=\"40\" width=\"15\" height=\"15\"/><rect x=\"42.5\" y=\"55\" width=\"15\" height=\"15\"/><rect x=\"42.5\" y=\"70\" width=\"15\" height=\"15\"/></g><circle cx=\"50\" cy=\"17.5\" r=\"3.5\" fill=\"white\"/><rect x=\"30.5\" y=\"28\" width=\"9\" height=\"9\" fill=\"white\"/><polygon points=\"50,28 45.5,37 54.5,37\" fill=\"white\"/><rect x=\"45.5\" y=\"43\" width=\"9\" height=\"9\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><polygon points=\"50,67 45.5,58 54.5,58\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><circle cx=\"50\" cy=\"77.5\" r=\"3.5\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/></svg>"
+      }
+    ],
+    "answer": "B",
+    "explanation": "To solve this, we must find the net that correctly folds into the cube shown in Figure A. The cube in Figure A shows three adjacent faces: a filled circle on top, a filled square on the left, and an upward-pointing filled triangle on the front. 1. First, check the layout of the nets. The layout in E is invalid because when folded, the face with the filled square and the face to the right of the filled triangle would overlap, so it cannot form a cube. 2. Next, check the relationship between the faces. In net D, the symbols for the opposite faces have been swapped. The filled circle should be opposite the unfilled circle, but here it is opposite the unfilled square. This makes the net incorrect. 3. Then, check the orientation of the symbols. Net C has the correct layout and adjacent faces, but the filled triangle is pointing to the right. When folded, this would not match the upward-pointing triangle on the cube in Figure A. 4. Finally, check net B. The filled circle, filled square, and filled triangle are all adjacent. If you imagine the face with the triangle as the front, the face with the circle folds to become the top, and the face with the square folds to become the left. This configuration and the orientation of the triangle perfectly match the cube in Figure A.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following cubes can be made from the net shown?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><rect x=\"40\" y=\"10\" width=\"20\" height=\"20\"/><rect x=\"20\" y=\"30\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"30\" width=\"20\" height=\"20\"/><rect x=\"60\" y=\"30\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"50\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"70\" width=\"20\" height=\"20\"/></g><g fill=\"black\"><circle cx=\"50\" cy=\"20\" r=\"5\"/><path d=\"M28 40 H32 M30 38 V42\" stroke=\"black\" stroke-width=\"1.5\"/><rect x=\"47\" y=\"37\" width=\"6\" height=\"6\"/><path d=\"M66 36 l7 4 l-7 4 z\"/><path d=\"M50 55 L54 59 H51 V63 H49 V59 H46 L50 55 Z\"/><path d=\"M50 85 L54 81 H51 V77 H49 V81 H46 L50 85 Z\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 20 L15 35 V 65 L50 80 L85 65 V 35 L50 20 Z M15 35 L50 50 L85 35 M50 50 V 80\" stroke=\"black\" fill=\"white\" stroke-width=\"2\"/><g fill=\"black\"><ellipse cx=\"50\" cy=\"35\" rx=\"16\" ry=\"8\"/><path d=\"M31.5 52 L35 57 H33 V63 H30 V57 H28 Z\"/><path d=\"M65 50 L72 54 L72 62 L65 58 Z\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 20 L15 35 V 65 L50 80 L85 65 V 35 L50 20 Z M15 35 L50 50 L85 35 M50 50 V 80\" stroke=\"black\" fill=\"white\" stroke-width=\"2\"/><path d=\"M48 35 H 52 M50 32 V 38\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M28 50 L35 54 L35 62 L28 58 Z\" fill=\"black\"/><path d=\"M60 48 L70 53 L60 58 Z\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 20 L15 35 V 65 L50 80 L85 65 V 35 L50 20 Z M15 35 L50 50 L85 35 M50 50 V 80\" stroke=\"black\" fill=\"white\" stroke-width=\"2\"/><g fill=\"black\"><ellipse cx=\"50\" cy=\"35\" rx=\"16\" ry=\"8\"/><path d=\"M28 50 L35 54 L35 62 L28 58 Z\"/><path d=\"M60 48 L70 53 L60 58 Z\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 20 L15 35 V 65 L50 80 L85 65 V 35 L50 20 Z M15 35 L50 50 L85 35 M50 50 V 80\" stroke=\"black\" fill=\"white\" stroke-width=\"2\"/><g fill=\"black\"><ellipse cx=\"50\" cy=\"35\" rx=\"16\" ry=\"8\"/><path d=\"M28 50 L35 54 L35 62 L28 58 Z\"/><path d=\"M70 48 L60 53 L70 58 Z\"/></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The first image (labeled 'A') in the options list is the net. The task is to identify which cube (B, C, D, or E) can be formed by folding this net. First, identify the pairs of opposite faces on the net: the circle is opposite the up arrow, the plus sign is opposite the triangle, and the square is opposite the down arrow. Opposite faces can never appear on the cube at the same time. Option B shows the circle and the up arrow together, which is impossible. Option C shows the plus sign and the triangle together, which is also impossible. This leaves options D and E. Now, consider the orientation of the faces. In the net, the circle is above the square, and the triangle is to the right of the square, with its apex pointing away from the square. When folded, if the square is the front face and the circle is the top face, the triangle must be on the right face, pointing to the right (away from the square). Option D correctly shows this arrangement and orientation. Option E shows the same faces but the triangle's apex points left (inwards), which is an incorrect orientation based on the net. Therefore, D is the only cube that can be made from the net.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><g transform=\"translate(5, 30)\"><rect x=\"15\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"0\" width=\"15\" height=\"15\"/><rect x=\"30\" y=\"15\" width=\"15\" height=\"15\"/><circle cx=\"22.5\" cy=\"7.5\" r=\"4\"/><rect x=\"18.5\" y=\"18.5\" width=\"8\" height=\"8\"/><polygon points=\"34,22.5 41,18.5 41,26.5\"/></g><g transform=\"translate(75, 50)\"><path d=\"M-20 -11.5 L0 -23 L20 -11.5 L20 11.5 L0 23 L-20 11.5 Z\"/><path d=\"M0 -23 L0 0 L-20 -11.5 M0 0 L20 -11.5\"/><circle cx=\"0\" cy=\"-11.5\" r=\"4\" transform=\"scale(1, 0.866)\"/><rect x=\"-12\" y=\"-1\" width=\"8\" height=\"8\" transform=\"matrix(1, 0.5, 0, 1, 0, 0)\"/><polygon points=\"4,0 12,-4 12,4\" transform=\"matrix(1, -0.5, 0, 1, 0, 0)\"/></g></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><g transform=\"translate(5, 30)\"><rect x=\"15\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"0\" width=\"15\" height=\"15\"/><rect x=\"0\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"30\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M19 4 H26 M22.5 0.5 V7.5\" stroke-linecap=\"round\"/><polygon points=\"22.5,16.5 24,21 28.5,21 25,24 26.5,28.5 22.5,26 18.5,28.5 20,24 16.5,21 21,21\"/><polygon points=\"37.5,18 34,22.5 37.5,27 41,22.5\"/></g><g transform=\"translate(75, 50)\"><path d=\"M-20 -11.5 L0 -23 L20 -11.5 L20 11.5 L0 23 L-20 11.5 Z\"/><path d=\"M0 -23 L0 0 L-20 -11.5 M0 0 L20 -11.5\"/><path d=\"M-3 -15 H3 M0 -17 V-11\" transform=\"scale(1, 0.866)\" stroke-linecap=\"round\"/><polygon points=\"0,-3 1.2,1.8 4.5,1.8 1.8,4.2 2.7,7.5 0,5.7 -2.7,7.5 -1.8,4.2 -4.5,1.8 -1.2,1.8\" transform=\"matrix(1, 0.5, 0, 1, 0, 0)\"/><polygon points=\"12,0 8,4 12,8 16,4\" transform=\"matrix(1, -0.5, 0, 1, 0, 0)\"/></g></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><g transform=\"translate(5, 35)\"><rect x=\"0\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"30\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"3\" y=\"18\" width=\"9\" height=\"9\"/><circle cx=\"22.5\" cy=\"22.5\" r=\"4\"/><polygon points=\"37.5,18 37.5,27 34,22.5 41,22.5\"/></g><g transform=\"translate(75, 50)\"><path d=\"M-20 -11.5 L0 -23 L20 -11.5 L20 11.5 L0 23 L-20 11.5 Z\"/><path d=\"M0 -23 L0 0 L-20 -11.5 M0 0 L20 -11.5\"/><polygon points=\"0,-16 0,-10 -3,-13 3,-13\" transform=\"scale(1, 0.866)\"/><rect x=\"-12\" y=\"-1\" width=\"8\" height=\"8\" transform=\"matrix(1, 0.5, 0, 1, 0, 0)\"/><circle cx=\"10\" cy=\"0\" r=\"4\" transform=\"matrix(1, -0.5, 0, 1, 0, 0)\"/></g></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><g transform=\"translate(12.5, 30)\"><rect x=\"15\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"0\" width=\"15\" height=\"15\"/><rect x=\"0\" y=\"15\" width=\"15\" height=\"15\"/><polygon points=\"22.5,2 18,9 27,9\"/><path d=\"M4 19 H11 M7.5 15.5 V22.5\" stroke-linecap=\"round\"/><rect x=\"18.5\" y=\"18.5\" width=\"8\" height=\"8\"/></g><g transform=\"translate(75, 50)\"><path d=\"M-20 -11.5 L0 -23 L20 -11.5 L20 11.5 L0 23 L-20 11.5 Z\"/><path d=\"M0 -23 L0 0 L-20 -11.5 M0 0 L20 -11.5\"/><polygon points=\"0,-12 -4,-18 4,-18\" transform=\"scale(1, 0.866)\"/><path d=\"M-15 3 H-9 M-12 -1 V7\" transform=\"matrix(1, 0.5, 0, 1, 0, 0)\" stroke-linecap=\"round\"/><rect x=\"4\" y=\"-5\" width=\"8\" height=\"8\" transform=\"matrix(1, -0.5, 0, 1, 0, 0)\"/></g></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><g transform=\"translate(5, 30)\"><rect x=\"15\" y=\"15\" width=\"15\" height=\"15\"/><rect x=\"15\" y=\"0\" width=\"15\" height=\"15\"/><rect x=\"30\" y=\"15\" width=\"15\" height=\"15\"/><polygon points=\"22.5,18 19,22.5 22.5,27 26,22.5\"/><polygon points=\"22.5,1.5 24,6 28.5,6 25,9 26.5,13.5 22.5,11 18.5,13.5 20,9 16.5,6 21,6\"/><circle cx=\"37.5\" cy=\"22.5\" r=\"4\"/></g><g transform=\"translate(75, 50)\"><path d=\"M-20 -11.5 L0 -23 L20 -11.5 L20 11.5 L0 23 L-20 11.5 Z\"/><path d=\"M0 -23 L0 0 L-20 -11.5 M0 0 L20 -11.5\"/><polygon points=\"0,-17 1.2,-13.2 4.5,-13.2 1.8,-10.8 2.7,-7.5 0,-9.3 -2.7,-7.5 -1.8,-10.8 -4.5,-13.2 -1.2,-13.2\" transform=\"scale(1, 0.866)\"/><polygon points=\"-12,4 -16,0 -12,-4 -8,0\" transform=\"matrix(1, 0.5, 0, 1, 0, 0)\"/><circle cx=\"10\" cy=\"0\" r=\"4\" transform=\"matrix(1, -0.5, 0, 1, 0, 0)\"/></g></g></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The task is to identify the option where the 3D cube cannot be made from the corresponding net. In options A, B, C, and E, the cube is a correct representation of the folded net, with all adjacent faces and symbol orientations being correct. In option D, the net shows a triangle on the face above the square face. When this net is folded, the square becomes the front face, and the triangle becomes the top face. The base of the triangle should be along the edge it shares with the square, meaning the triangle should point 'away' from the front face. However, the cube in option D incorrectly shows the triangle's tip pointing 'forwards', towards the front face. Therefore, this cube cannot be made from this net.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which cube can be made from the net on the left?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><path d=\"M45,25L85,25L70,40L30,40Z\"/><path d=\"M30,40L70,40L70,80L30,80Z\"/><path d=\"M70,40L85,25L85,65L70,80Z\"/></g><circle cx=\"50\" cy=\"60\" r=\"8\" fill=\"black\"/><circle cx=\"65\" cy=\"32.5\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><polygon points=\"75,56.5 80,53.5 82.5,59.5 77.5,62.5\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><path d=\"M45,25L85,25L70,40L30,40Z\"/><path d=\"M30,40L70,40L70,80L30,80Z\"/><path d=\"M70,40L85,25L85,65L70,80Z\"/></g><circle cx=\"50\" cy=\"60\" r=\"8\" fill=\"black\"/><polygon points=\"62,35.5 70,32.5 62,29.5\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><polygon points=\"75,56.5 80,53.5 82.5,59.5 77.5,62.5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><path d=\"M45,25L85,25L70,40L30,40Z\"/><path d=\"M30,40L70,40L70,80L30,80Z\"/><path d=\"M70,40L85,25L85,65L70,80Z\"/></g><circle cx=\"50\" cy=\"60\" r=\"8\" fill=\"black\"/><polygon points=\"61,35.5 69,35.5 65,28.5\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><polygon points=\"75,56.5 80,53.5 82.5,59.5 77.5,62.5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><path d=\"M45,25L85,25L70,40L30,40Z\"/><path d=\"M30,40L70,40L70,80L30,80Z\"/><path d=\"M70,40L85,25L85,65L70,80Z\"/></g><circle cx=\"50\" cy=\"60\" r=\"8\" fill=\"black\"/><polygon points=\"61,35.5 69,35.5 65,28.5\" fill=\"black\"/><circle cx=\"77.5\" cy=\"52.5\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><path d=\"M45,25L85,25L70,40L30,40Z\"/><path d=\"M30,40L70,40L70,80L30,80Z\"/><path d=\"M70,40L85,25L85,65L70,80Z\"/></g><rect x=\"42\" y=\"52\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/><polygon points=\"57,28 73,28 65,37 49,37\" fill=\"black\"/><polygon points=\"75,49.5 80,52.5 75,55.5\" fill=\"none\" stroke=\"white\" stroke-width=\"1.5\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "First, identify the pairs of opposite faces on the net. The white triangle is opposite the black triangle. The black circle is opposite the white circle. The white square is opposite the black square. A key rule is that opposite faces can never be seen at the same time on the folded cube. This eliminates options A (shows black and white circles) and E (shows black and white squares). Next, we must consider the orientation of the shapes. If we place the black circle on the front face, the white square will be on the left, the black square on the right, the white triangle on the top, and the black triangle on the bottom. When folded, the point of the white triangle on the top face will point towards the back of the cube (away from the black circle face). Option C correctly shows the black circle on the front, the black square on the right, and the white triangle on top, pointing in the correct direction (away from the viewer). Option B is incorrect because the white triangle is pointing to the side. Option D is incorrect because it places the black triangle on the top face, when it should be on the bottom.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the 3D shapes below can be made by folding the given 2D net?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(5, 5)\"><rect x=\"30\" y=\"40\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"40\" y=\"10\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"70\" y=\"30\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M 50 55 L 40 50 L 40 60 Z\" fill=\"white\"/><circle cx=\"55\" cy=\"25\" r=\"7\" fill=\"white\"/><path d=\"M 80 45 L 90 40 L 90 50 Z\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(5, 5)\"><rect x=\"30\" y=\"40\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"40\" y=\"10\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"70\" y=\"30\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M 45 50 L 40 60 L 50 60 Z\" fill=\"white\"/><circle cx=\"55\" cy=\"25\" r=\"7\" fill=\"white\"/><rect x=\"77.5\" y=\"37.5\" width=\"15\" height=\"15\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(5, 5)\"><rect x=\"30\" y=\"40\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"40\" y=\"10\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"70\" y=\"30\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"55\" r=\"7\" fill=\"white\"/><path d=\"M 55 20 L 50 30 L 60 30 Z\" fill=\"white\"/><path d=\"M 80 45 L 90 40 L 90 50 Z\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(5, 5)\"><rect x=\"30\" y=\"40\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"40\" y=\"10\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"70\" y=\"30\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"55\" r=\"7\" fill=\"white\"/><path d=\"M 55 30 L 50 20 L 60 20 Z\" fill=\"white\"/><path d=\"M 80 45 L 90 40 L 90 50 Z\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g transform=\"translate(5, 5)\"><rect x=\"30\" y=\"40\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"40\" y=\"10\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"70\" y=\"30\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"37.5\" y=\"47.5\" width=\"15\" height=\"15\" fill=\"white\"/><circle cx=\"55\" cy=\"25\" r=\"7\" fill=\"white\"/><path d=\"M 90 45 L 80 40 L 80 50 Z\" fill=\"white\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To solve this problem, we must mentally fold the 2D net and check which 3D cube is a possible construction. This involves two main rules: face adjacency and face orientation.\n\n1.  **Identify Opposite Faces:** First, identify the pairs of faces that are on opposite sides of the cube. In the given net, these pairs are:\n    *   The Up Arrow and the Square.\n    *   The Left Triangle and the Right Triangle.\n    *   The Circle and the Down Arrow.\n    Opposite faces can never be visible at the same time on a 3D cube.\n\n2.  **Eliminate Options with Adjacency Errors:**\n    *   **Option A** shows the Left Triangle and the Right Triangle. Since these are opposite faces, this cube is impossible to make. It is incorrect.\n    *   **Option B** shows the Up Arrow and the Square. Since these are also opposite faces, this cube is impossible to make. It is incorrect.\n\n3.  **Check Face Orientations for Remaining Options:**\n    *   **Option C** shows the Circle, the Up Arrow, and the Right Triangle. These three faces meet at a corner in the net, so they can be seen together. If we imagine the Circle as the front face, the Up Arrow folds over to become the top face. In this position, the arrow should point towards the Circle face, which it does in the diagram. The Right Triangle folds to become the right-hand face, with its point facing away from the Circle, which is also correct. Therefore, Option C is a valid construction.\n    *   **Option D** shows the same three faces as Option C. However, the orientation of the Up Arrow is incorrect. It is shown pointing away from the Circle face, which contradicts how the net would fold. Therefore, Option D is incorrect.\n    *   **Option E** shows the Square, the Circle, and the Right Triangle. These faces are all adjacent on the net. If the Square is the front face, the Circle becomes the top face, and the Right Triangle becomes the right-hand face. The triangle should point to the right (away from the Square face). In this option, the triangle is incorrectly shown pointing to the left. Therefore, Option E is incorrect.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following cubes can be made from the net shown above?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,25 75,40 50,55 25,40\"/><polygon points=\"25,40 50,55 50,85 25,70\"/><polygon points=\"75,40 50,55 50,85 75,70\"/></g><g fill=\"white\"><polygon points=\"37.5,50 45,65 30,65\"/><circle cx=\"50\" cy=\"40\" r=\"8\"/><polygon points=\"62.5,50 70,60 62.5,70 55,60\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,25 75,40 50,55 25,40\"/><polygon points=\"25,40 50,55 50,85 25,70\"/><polygon points=\"75,40 50,55 50,85 75,70\"/></g><g fill=\"white\"><circle cx=\"50\" cy=\"40\" r=\"8\"/><polygon points=\"30,50 45,60 45,70 30,60\"/><polygon points=\"58,48 70,48 64,63\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,25 75,40 50,55 25,40\"/><polygon points=\"25,40 50,55 50,85 25,70\"/><polygon points=\"75,40 50,55 50,85 75,70\"/></g><g fill=\"white\" stroke=\"white\"><circle cx=\"50\" cy=\"40\" r=\"8\" fill=\"white\"/><polygon points=\"37.5,50 45,65 30,65\" fill=\"white\"/><path d=\"M 58 60 h 10 M 63 55 v 10\" stroke-width=\"2\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,25 75,40 50,55 25,40\"/><polygon points=\"25,40 50,55 50,85 25,70\"/><polygon points=\"75,40 50,55 50,85 75,70\"/></g><g fill=\"white\" stroke=\"white\"><path d=\"M 45 40 h 10 M 50 35 v 10\" stroke-width=\"2\"/><polygon points=\"33,48 45,48 39,63\" fill=\"white\"/><polygon points=\"62.5,50 70,60 62.5,70 55,60\" fill=\"white\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,25 75,40 50,55 25,40\"/><polygon points=\"25,40 50,55 50,85 25,70\"/><polygon points=\"75,40 50,55 50,85 75,70\"/></g><g fill=\"white\" stroke=\"white\"><circle cx=\"50\" cy=\"40\" r=\"4\" fill=\"white\"/><polygon points=\"37.5,50 45,65 30,65\" fill=\"white\"/><path d=\"M 58 60 h 10 M 63 55 v 10\" stroke-width=\"2\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To solve this, we must identify opposite faces and check the relative orientation of adjacent faces from the net. The pairs of opposite faces are: Circle and Diamond; Square and Plus; Triangle and Dot. Any cube showing opposite faces adjacent to each other is incorrect.\n1.  **Eliminate based on opposite faces:** Option A shows the Circle and Diamond adjacent, and Option E shows the Triangle and Dot adjacent. Both are impossible, so they are incorrect.\n2.  **Check orientation of remaining options:**\n    *   In Option B, the Circle is on top and the Square is on the left. Based on the net, the right face must be the Triangle with its tip pointing towards the Circle. Option B incorrectly shows the Triangle with its base along the top edge, so its tip points away from the Circle.\n    *   In Option D, the Plus is on top and the Diamond is on the right. Based on the net, the left face should be the Triangle with its tip pointing towards the Plus sign. Option D incorrectly shows the Triangle's tip pointing away from the Plus sign.\n    *   In Option C, the Circle is on top. The Triangle and Plus are shown on adjacent side faces. This is consistent with the net. The tip of the Triangle correctly points 'up' towards the top face (the Circle). This arrangement is correct.\nTherefore, C is the only cube that can be made from the net.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In four of the options below, the net on the left can be folded to make the cube on the right. Which option is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" fill=\"none\" stroke-width=\"1\"><g transform=\"translate(5, 20)\"><rect x=\"20\" y=\"0\" width=\"15\" height=\"15\"/><path d=\"M27.5 3 v9 M27.5 3 l-3 4 M27.5 3 l3 4\" stroke-width=\"1.5\"/><rect x=\"5\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M10 18 l7.5 4.5 l-7.5 4.5 z\" fill=\"black\"/><rect x=\"20\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M27.5 27 v-9 M27.5 27 l-3 -4 M27.5 27 l3 -4\" stroke-width=\"1.5\"/><rect x=\"35\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M45 18 l-7.5 4.5 l7.5 4.5 z\" fill=\"black\"/><rect x=\"20\" y=\"30\" width=\"15\" height=\"15\"/><circle cx=\"27.5\" cy=\"37.5\" r=\"4\" fill=\"black\"/><rect x=\"20\" y=\"45\" width=\"15\" height=\"15\"/><rect x=\"24\" y=\"49\" width=\"7\" height=\"7\" fill=\"black\"/></g><g transform=\"translate(58, 30)\"><path d=\"M20,5 L35,12.5 L20,20 L5,12.5 Z\"/><path d=\"M5,12.5 L20,20 L20,35 L5,27.5 Z\"/><path d=\"M20,20 L35,12.5 L35,27.5 L20,35 Z\"/><g transform=\"translate(20, 5) rotate(-45) scale(0.5) translate(-27.5, -7.5)\"><path d=\"M27.5 12 v-9 M27.5 3 l-3 4 M27.5 3 l3 4\" stroke-width=\"2\"/></g><g transform=\"translate(5, 12.5) rotate(0) scale(0.5) translate(-15, -22.5)\"><path d=\"M10 18 l7.5 4.5 l-7.5 4.5 z\" fill=\"black\"/></g><g transform=\"translate(20, 20) rotate(0) scale(0.5) translate(-27.5, -22.5)\"><path d=\"M27.5 27 v-9 M27.5 27 l-3 -4 M27.5 27 l3 -4\" stroke-width=\"2\"/></g></g></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" fill=\"none\" stroke-width=\"1\"><g transform=\"translate(5, 20)\"><rect x=\"20\" y=\"0\" width=\"15\" height=\"15\"/><path d=\"M27.5 3 v9 M27.5 3 l-3 4 M27.5 3 l3 4\" stroke-width=\"1.5\"/><rect x=\"5\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M10 18 l7.5 4.5 l-7.5 4.5 z\" fill=\"black\"/><rect x=\"20\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M27.5 27 v-9 M27.5 27 l-3 -4 M27.5 27 l3 -4\" stroke-width=\"1.5\"/><rect x=\"35\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M45 18 l-7.5 4.5 l7.5 4.5 z\" fill=\"black\"/><rect x=\"20\" y=\"30\" width=\"15\" height=\"15\"/><circle cx=\"27.5\" cy=\"37.5\" r=\"4\" fill=\"black\"/><rect x=\"20\" y=\"45\" width=\"15\" height=\"15\"/><rect x=\"24\" y=\"49\" width=\"7\" height=\"7\" fill=\"black\"/></g><g transform=\"translate(58, 30)\"><path d=\"M20,5 L35,12.5 L20,20 L5,12.5 Z\"/><path d=\"M5,12.5 L20,20 L20,35 L5,27.5 Z\"/><path d=\"M20,20 L35,12.5 L35,27.5 L20,35 Z\"/><g transform=\"translate(20, 20) rotate(0) scale(0.5) translate(-27.5, -22.5)\"><path d=\"M27.5 27 v-9 M27.5 27 l-3 -4 M27.5 27 l3 -4\" stroke-width=\"2\"/></g><g transform=\"translate(35, 12.5) rotate(0) scale(0.5) translate(-42.5, -22.5)\"><path d=\"M45 18 l-7.5 4.5 l7.5 4.5 z\" fill=\"black\"/></g><g transform=\"translate(20, 35) rotate(45) scale(0.5) translate(-27.5, -37.5)\"><circle cx=\"27.5\" cy=\"37.5\" r=\"4\" fill=\"black\"/></g></g></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" fill=\"none\" stroke-width=\"1\"><g transform=\"translate(5, 20)\"><rect x=\"20\" y=\"0\" width=\"15\" height=\"15\"/><path d=\"M27.5 3 v9 M27.5 3 l-3 4 M27.5 3 l3 4\" stroke-width=\"1.5\"/><rect x=\"5\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M10 18 l7.5 4.5 l-7.5 4.5 z\" fill=\"black\"/><rect x=\"20\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M27.5 27 v-9 M27.5 27 l-3 -4 M27.5 27 l3 -4\" stroke-width=\"1.5\"/><rect x=\"35\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M45 18 l-7.5 4.5 l7.5 4.5 z\" fill=\"black\"/><rect x=\"20\" y=\"30\" width=\"15\" height=\"15\"/><circle cx=\"27.5\" cy=\"37.5\" r=\"4\" fill=\"black\"/><rect x=\"20\" y=\"45\" width=\"15\" height=\"15\"/><rect x=\"24\" y=\"49\" width=\"7\" height=\"7\" fill=\"black\"/></g><g transform=\"translate(58, 30)\"><path d=\"M20,5 L35,12.5 L20,20 L5,12.5 Z\"/><path d=\"M5,12.5 L20,20 L20,35 L5,27.5 Z\"/><path d=\"M20,20 L35,12.5 L35,27.5 L20,35 Z\"/><g transform=\"translate(20, 5) rotate(135) scale(0.5) translate(-27.5, -7.5)\"><path d=\"M27.5 12 v-9 M27.5 3 l-3 4 M27.5 3 l3 4\" stroke-width=\"2\"/></g><g transform=\"translate(5, 12.5) rotate(0) scale(0.5) translate(-15, -22.5)\"><path d=\"M10 18 l7.5 4.5 l-7.5 4.5 z\" fill=\"black\"/></g><g transform=\"translate(20, 20) rotate(0) scale(0.5) translate(-27.5, -22.5)\"><path d=\"M27.5 27 v-9 M27.5 27 l-3 -4 M27.5 27 l3 -4\" stroke-width=\"2\"/></g></g></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" fill=\"none\" stroke-width=\"1\"><g transform=\"translate(5, 20)\"><rect x=\"20\" y=\"0\" width=\"15\" height=\"15\"/><path d=\"M27.5 3 v9 M27.5 3 l-3 4 M27.5 3 l3 4\" stroke-width=\"1.5\"/><rect x=\"5\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M10 18 l7.5 4.5 l-7.5 4.5 z\" fill=\"black\"/><rect x=\"20\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M27.5 27 v-9 M27.5 27 l-3 -4 M27.5 27 l3 -4\" stroke-width=\"1.5\"/><rect x=\"35\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M45 18 l-7.5 4.5 l7.5 4.5 z\" fill=\"black\"/><rect x=\"20\" y=\"30\" width=\"15\" height=\"15\"/><circle cx=\"27.5\" cy=\"37.5\" r=\"4\" fill=\"black\"/><rect x=\"20\" y=\"45\" width=\"15\" height=\"15\"/><rect x=\"24\" y=\"49\" width=\"7\" height=\"7\" fill=\"black\"/></g><g transform=\"translate(58, 30)\"><path d=\"M20,5 L35,12.5 L20,20 L5,12.5 Z\"/><path d=\"M5,12.5 L20,20 L20,35 L5,27.5 Z\"/><path d=\"M20,20 L35,12.5 L35,27.5 L20,35 Z\"/><g transform=\"translate(20, 5) rotate(-45) scale(0.5) translate(-27.5, -7.5)\"><path d=\"M27.5 12 v-9 M27.5 3 l-3 4 M27.5 3 l3 4\" stroke-width=\"2\"/></g><g transform=\"translate(35, 12.5) rotate(180) scale(0.5) translate(-27.5, -22.5)\"><path d=\"M27.5 27 v-9 M27.5 27 l-3 -4 M27.5 27 l3 -4\" stroke-width=\"2\"/></g><g transform=\"translate(5, 12.5) rotate(0) scale(0.5) translate(-15, -22.5)\"><path d=\"M45 18 l-7.5 4.5 l7.5 4.5 z\" fill=\"black\" transform=\"translate(-10,0)\"/></g></g></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" fill=\"none\" stroke-width=\"1\"><g transform=\"translate(5, 20)\"><rect x=\"20\" y=\"0\" width=\"15\" height=\"15\"/><path d=\"M27.5 3 v9 M27.5 3 l-3 4 M27.5 3 l3 4\" stroke-width=\"1.5\"/><rect x=\"5\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M10 18 l7.5 4.5 l-7.5 4.5 z\" fill=\"black\"/><rect x=\"20\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M27.5 27 v-9 M27.5 27 l-3 -4 M27.5 27 l3 -4\" stroke-width=\"1.5\"/><rect x=\"35\" y=\"15\" width=\"15\" height=\"15\"/><path d=\"M45 18 l-7.5 4.5 l7.5 4.5 z\" fill=\"black\"/><rect x=\"20\" y=\"30\" width=\"15\" height=\"15\"/><circle cx=\"27.5\" cy=\"37.5\" r=\"4\" fill=\"black\"/><rect x=\"20\" y=\"45\" width=\"15\" height=\"15\"/><rect x=\"24\" y=\"49\" width=\"7\" height=\"7\" fill=\"black\"/></g><g transform=\"translate(58, 30)\"><path d=\"M20,5 L35,12.5 L20,20 L5,12.5 Z\"/><path d=\"M5,12.5 L20,20 L20,35 L5,27.5 Z\"/><path d=\"M20,20 L35,12.5 L35,27.5 L20,35 Z\"/><g transform=\"translate(20, 5) rotate(135) scale(0.5) translate(-27.5, -7.5)\"><path d=\"M27.5 12 v-9 M27.5 3 l-3 4 M27.5 3 l3 4\" stroke-width=\"2\"/></g><g transform=\"translate(5, 12.5) rotate(90) scale(0.5) translate(-15, -22.5)\"><path d=\"M10 18 l7.5 4.5 l-7.5 4.5 z\" fill=\"black\"/></g><g transform=\"translate(20, 20) rotate(0) scale(0.5) translate(-27.5, -22.5)\"><rect x=\"24\" y=\"49\" width=\"7\" height=\"7\" fill=\"black\"/></g></g></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is that the net on the left must correctly fold into the cube on the right. In four options, this is true. The odd one out is the option where the cube is an impossible construction from the net. Let's analyze the relationship between the top face (up-arrow) and the front face (down-arrow) of the net. When the net is folded, these two faces are adjacent. Because their arrows point towards each other on the flat net, when folded into a 3D shape, the points of the arrows must point away from the shared edge. In options A, B, D, and E, all the cubes are valid constructions from the net, showing different views with correct symbol orientations. However, in option C, the cube shows the up-arrow on the top face pointing 'forwards', towards the edge it shares with the front face. This is a rotational error, making this cube impossible to form from the given net.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "In which of the following options can the 3D cube be correctly formed from the 2D net?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"white\" stroke-width=\"1\"><rect x=\"25\" y=\"32\" width=\"12\" height=\"12\"/><path d=\"m 28 39 l 3 -5 l 3 5 z\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"44\" width=\"12\" height=\"12\"/><circle cx=\"31\" cy=\"50\" r=\"3\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"56\" width=\"12\" height=\"12\"/><circle cx=\"28\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"31\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"34\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><rect x=\"13\" y=\"44\" width=\"12\" height=\"12\"/><path d=\"M 19 47 v 6 M 16 50 h 6\" stroke=\"white\" stroke-width=\"1.5\"/><rect x=\"37\" y=\"44\" width=\"12\" height=\"12\"/><rect x=\"40\" y=\"47\" width=\"6\" height=\"6\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"68\" width=\"12\" height=\"12\"/><path d=\"m 29 69 l 4 5 l -4 5 z\" fill=\"white\" stroke-width=\"0\"/></g><g fill=\"none\" stroke=\"white\" stroke-width=\"1\"><polygon points=\"75,35 95,45 75,55 55,45\"/><polygon points=\"55,45 75,55 75,75 55,65\"/><polygon points=\"95,45 75,55 75,75 95,65\"/><path d=\"m 72 40 l 3 -4 l 3 4 z\" fill=\"white\" stroke-width=\"0\" transform=\"rotate(45 75 45)\"/><circle cx=\"65\" cy=\"60\" r=\"3\" fill=\"white\" stroke-width=\"0\"/><path d=\"m 83 56 l 4 5 l -4 5 z\" fill=\"white\" stroke-width=\"0\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"white\" stroke-width=\"1\"><rect x=\"25\" y=\"32\" width=\"12\" height=\"12\"/><path d=\"m 28 39 l 3 -5 l 3 5 z\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"44\" width=\"12\" height=\"12\"/><circle cx=\"31\" cy=\"50\" r=\"3\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"56\" width=\"12\" height=\"12\"/><circle cx=\"28\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"31\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"34\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><rect x=\"13\" y=\"44\" width=\"12\" height=\"12\"/><path d=\"M 19 47 v 6 M 16 50 h 6\" stroke=\"white\" stroke-width=\"1.5\"/><rect x=\"37\" y=\"44\" width=\"12\" height=\"12\"/><rect x=\"40\" y=\"47\" width=\"6\" height=\"6\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"68\" width=\"12\" height=\"12\"/><path d=\"m 29 69 l 4 5 l -4 5 z\" fill=\"white\" stroke-width=\"0\"/></g><g fill=\"none\" stroke=\"white\" stroke-width=\"1\"><polygon points=\"75,35 95,45 75,55 55,45\"/><polygon points=\"55,45 75,55 75,75 55,65\"/><polygon points=\"95,45 75,55 75,75 95,65\"/><path d=\"m 72 40 l 3 -4 l 3 4 z\" fill=\"white\" stroke-width=\"0\" transform=\"rotate(135 75 45)\"/><circle cx=\"65\" cy=\"60\" r=\"3\" fill=\"white\" stroke-width=\"0\"/><rect x=\"82\" y=\"57\" width=\"6\" height=\"6\" fill=\"white\" stroke-width=\"0\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"white\" stroke-width=\"1\"><rect x=\"25\" y=\"32\" width=\"12\" height=\"12\"/><path d=\"m 28 39 l 3 -5 l 3 5 z\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"44\" width=\"12\" height=\"12\"/><circle cx=\"31\" cy=\"50\" r=\"3\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"56\" width=\"12\" height=\"12\"/><circle cx=\"28\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"31\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"34\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><rect x=\"13\" y=\"44\" width=\"12\" height=\"12\"/><path d=\"M 19 47 v 6 M 16 50 h 6\" stroke=\"white\" stroke-width=\"1.5\"/><rect x=\"37\" y=\"44\" width=\"12\" height=\"12\"/><rect x=\"40\" y=\"47\" width=\"6\" height=\"6\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"68\" width=\"12\" height=\"12\"/><path d=\"m 29 69 l 4 5 l -4 5 z\" fill=\"white\" stroke-width=\"0\"/></g><g fill=\"none\" stroke=\"white\" stroke-width=\"1\"><polygon points=\"75,35 95,45 75,55 55,45\"/><polygon points=\"55,45 75,55 75,75 55,65\"/><polygon points=\"95,45 75,55 75,75 95,65\"/><path d=\"m 72 40 l 3 -4 l 3 4 z\" fill=\"white\" stroke-width=\"0\" transform=\"rotate(45 75 45)\"/><path d=\"M 65 57 v 6 M 62 60 h 6\" stroke=\"white\" stroke-width=\"1.5\"/><circle cx=\"85\" cy=\"60\" r=\"3\" fill=\"white\" stroke-width=\"0\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"white\" stroke-width=\"1\"><rect x=\"25\" y=\"32\" width=\"12\" height=\"12\"/><path d=\"m 28 39 l 3 -5 l 3 5 z\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"44\" width=\"12\" height=\"12\"/><circle cx=\"31\" cy=\"50\" r=\"3\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"56\" width=\"12\" height=\"12\"/><circle cx=\"28\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"31\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"34\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><rect x=\"13\" y=\"44\" width=\"12\" height=\"12\"/><path d=\"M 19 47 v 6 M 16 50 h 6\" stroke=\"white\" stroke-width=\"1.5\"/><rect x=\"37\" y=\"44\" width=\"12\" height=\"12\"/><rect x=\"40\" y=\"47\" width=\"6\" height=\"6\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"68\" width=\"12\" height=\"12\"/><path d=\"m 29 69 l 4 5 l -4 5 z\" fill=\"white\" stroke-width=\"0\"/></g><g fill=\"none\" stroke=\"white\" stroke-width=\"1\"><polygon points=\"75,35 95,45 75,55 55,45\"/><polygon points=\"55,45 75,55 75,75 55,65\"/><polygon points=\"95,45 75,55 75,75 95,65\"/><path d=\"m 72 40 l 3 -4 l 3 4 z\" fill=\"white\" stroke-width=\"0\" transform=\"rotate(45 75 45)\"/><path d=\"M 65 57 v 6 M 62 60 h 6\" stroke=\"white\" stroke-width=\"1.5\"/><rect x=\"82\" y=\"57\" width=\"6\" height=\"6\" fill=\"white\" stroke-width=\"0\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" stroke=\"white\" stroke-width=\"1\"><rect x=\"25\" y=\"32\" width=\"12\" height=\"12\"/><path d=\"m 28 39 l 3 -5 l 3 5 z\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"44\" width=\"12\" height=\"12\"/><circle cx=\"31\" cy=\"50\" r=\"3\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"56\" width=\"12\" height=\"12\"/><circle cx=\"28\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"31\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><circle cx=\"34\" cy=\"62\" r=\"1\" fill=\"white\" stroke-width=\"0\"/><rect x=\"13\" y=\"44\" width=\"12\" height=\"12\"/><path d=\"M 19 47 v 6 M 16 50 h 6\" stroke=\"white\" stroke-width=\"1.5\"/><rect x=\"37\" y=\"44\" width=\"12\" height=\"12\"/><rect x=\"40\" y=\"47\" width=\"6\" height=\"6\" fill=\"white\" stroke-width=\"0\"/><rect x=\"25\" y=\"68\" width=\"12\" height=\"12\"/><path d=\"m 29 69 l 4 5 l -4 5 z\" fill=\"white\" stroke-width=\"0\"/></g><g fill=\"none\" stroke=\"white\" stroke-width=\"1\"><polygon points=\"75,35 95,45 75,55 55,45\"/><polygon points=\"55,45 75,55 75,75 55,65\"/><polygon points=\"95,45 75,55 75,75 95,65\"/><path d=\"m 72 40 l 3 -4 l 3 4 z\" fill=\"white\" stroke-width=\"0\" transform=\"rotate(45 75 45)\"/><rect x=\"62\" y=\"57\" width=\"6\" height=\"6\" fill=\"white\" stroke-width=\"0\"/><path d=\"m 83 56 l 4 5 l -4 5 z\" fill=\"white\" stroke-width=\"0\" transform=\"rotate(90 85 60)\" /></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "To solve this problem, we must first identify the pairs of opposite faces on the net. By folding the net, we can see that: the Arrow is opposite the three Dots; the Plus sign is opposite the Square; and the Circle is opposite the Triangle. Any view of the cube that shows two opposite faces at the same time is impossible. \n\n1. Option A shows the Circle and the Triangle. These are opposite faces, so this cube is impossible.\n2. Option D shows the Plus sign and the Square. These are opposite faces, so this cube is also impossible.\n\nNext, we must check the orientation of the symbols on the remaining cubes.\n3. Option B shows the Arrow (Top), Circle (Front), and Square (Right). This is a valid set of adjacent faces. However, when the Circle is the front face, the Arrow on the top face should point away from the Circle (towards the back). In this option, the arrow is incorrectly rotated to point towards the Square face.\n4. Option E shows the Arrow (Top), Square (Right), and Triangle (Back). This is a valid set of adjacent faces. When the net is folded, the Triangle's point should be oriented towards the Right face (the Square). In this option, the triangle is incorrectly rotated to point upwards.\n5. Option C shows the Arrow (Top), Circle (Front), and Plus sign (Left). These faces are adjacent. When the Circle is the front face, the Arrow correctly points away from it, and the Plus sign is correctly oriented on the left face. Therefore, this is the only cube that can be correctly formed from the net.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following cubes can be made from the net shown?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke-width=\"2\" stroke=\"black\" fill=\"none\"><path d=\"M50 25 L80 40 L80 70 L50 85 L20 70 L20 40 Z\"/><line x1=\"50\" y1=\"85\" x2=\"50\" y2=\"55\"/><line x1=\"20\" y1=\"40\" x2=\"50\" y2=\"55\"/><line x1=\"80\" y1=\"40\" x2=\"50\" y2=\"55\"/></g><ellipse cx=\"50\" cy=\"40\" rx=\"14\" ry=\"7\" fill=\"black\"/><path d=\"M35 55 L35 75 M27 65 L43 65\" stroke=\"black\" stroke-width=\"3\"/><path d=\"M65 55 L65 75\" stroke=\"black\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke-width=\"2\" stroke=\"black\" fill=\"none\"><path d=\"M50 25 L80 40 L80 70 L50 85 L20 70 L20 40 Z\"/><line x1=\"50\" y1=\"85\" x2=\"50\" y2=\"55\"/><line x1=\"20\" y1=\"40\" x2=\"50\" y2=\"55\"/><line x1=\"80\" y1=\"40\" x2=\"50\" y2=\"55\"/></g><polygon points=\"45 75, 55 75, 55 80, 45 80\" fill=\"black\"/><path d=\"M65 75 L65 50 M60 55 L65 50 L70 55\" stroke=\"black\" stroke-width=\"3\"/><ellipse cx=\"50\" cy=\"40\" rx=\"14\" ry=\"7\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke-width=\"2\" stroke=\"black\" fill=\"none\"><path d=\"M50 25 L80 40 L80 70 L50 85 L20 70 L20 40 Z\"/><line x1=\"50\" y1=\"85\" x2=\"50\" y2=\"55\"/><line x1=\"20\" y1=\"40\" x2=\"50\" y2=\"55\"/><line x1=\"80\" y1=\"40\" x2=\"50\" y2=\"55\"/></g><ellipse cx=\"50\" cy=\"40\" rx=\"14\" ry=\"7\" fill=\"black\"/><path d=\"M35 55 L35 75 M27 65 L43 65\" stroke=\"black\" stroke-width=\"3\"/><path d=\"M65 75 L65 50 M60 55 L65 50 L70 55\" stroke=\"black\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke-width=\"2\" stroke=\"black\" fill=\"none\"><path d=\"M50 25 L80 40 L80 70 L50 85 L20 70 L20 40 Z\"/><line x1=\"50\" y1=\"85\" x2=\"50\" y2=\"55\"/><line x1=\"20\" y1=\"40\" x2=\"50\" y2=\"55\"/><line x1=\"80\" y1=\"40\" x2=\"50\" y2=\"55\"/></g><ellipse cx=\"50\" cy=\"40\" rx=\"14\" ry=\"7\" fill=\"black\"/><path d=\"M35 55 L35 75 M27 65 L43 65\" stroke=\"black\" stroke-width=\"3\"/><path d=\"M65 50 L65 75 M60 70 L65 75 L70 70\" stroke=\"black\" stroke-width=\"3\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke-width=\"2\" stroke=\"black\" fill=\"none\"><rect x=\"12.5\" y=\"25\" width=\"25\" height=\"25\"/><rect x=\"37.5\" y=\"0\" width=\"25\" height=\"25\"/><rect x=\"37.5\" y=\"25\" width=\"25\" height=\"25\"/><rect x=\"37.5\" y=\"50\" width=\"25\" height=\"25\"/><rect x=\"37.5\" y=\"75\" width=\"25\" height=\"25\"/><rect x=\"62.5\" y=\"25\" width=\"25\" height=\"25\"/></g><circle cx=\"50\" cy=\"12.5\" r=\"6\" fill=\"black\"/><path d=\"M50 32 L50 43 M47 35 L50 32 L53 35\" stroke-width=\"2\" stroke=\"black\" fill=\"none\"/><path d=\"M25 32 L25 43 M21 37.5 L29 37.5\" stroke-width=\"2\" stroke=\"black\" fill=\"none\"/><polygon points=\"45 57, 55 57, 55 62, 45 62\" fill=\"black\"/><line x1=\"43\" y1=\"87.5\" x2=\"57\" y2=\"87.5\" stroke-width=\"2\" stroke=\"black\"/><line x1=\"70\" y1=\"37.5\" x2=\"80\" y2=\"37.5\" stroke-width=\"2\" stroke=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "First, identify the pairs of opposite faces on the net. The circle is opposite the square, the plus sign is opposite the minus sign, and the arrow is opposite the horizontal line. Any cube showing two opposite faces next to each other is impossible. Option A is incorrect because it shows the plus and minus signs as adjacent. Option B is incorrect because it shows the circle and the square as adjacent. Next, we check the orientation of the remaining options. When the net is folded with the arrow on a side face, its tip must point towards the circle on the top face. Option D shows the arrow pointing away from the circle face, which is incorrect. Option C correctly shows the circle on top, the plus on the left face, and the arrow on the right face, with the arrow correctly pointing up towards the circle. Option E is the net itself, not a resulting cube.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which cube can be made from the net shown?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><path d=\"M 50,20 L 80,35 L 50,50 L 20,35 Z\"/><path d=\"M 20,35 L 50,50 L 50,80 L 20,65 Z\"/><path d=\"M 80,35 L 50,50 L 50,80 L 80,65 Z\"/><g stroke-width=\"1\"><path d=\"M 50,28 L 50,42 M 45,37 L 50,42 L 55,37\" stroke=\"black\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"35\" cy=\"57.5\" r=\"8\" stroke=\"black\" fill=\"none\"/><path d=\"M 60,65 L 70,57.5 L 60,50 Z\" stroke=\"black\" fill=\"none\" stroke-linejoin=\"round\"/></g></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><path d=\"M 50,20 L 80,35 L 50,50 L 20,35 Z\"/><path d=\"M 20,35 L 50,50 L 50,80 L 20,65 Z\"/><path d=\"M 80,35 L 50,50 L 50,80 L 80,65 Z\"/><g stroke-width=\"1\"><path d=\"M 50,42 L 50,28 M 45,33 L 50,28 L 55,33\" stroke=\"black\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"35\" cy=\"57.5\" r=\"8\" stroke=\"black\" fill=\"none\"/><path d=\"M 60,65 L 70,57.5 L 60,50 Z\" stroke=\"black\" fill=\"none\" stroke-linejoin=\"round\"/></g></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><path d=\"M 50,20 L 80,35 L 50,50 L 20,35 Z\"/><path d=\"M 20,35 L 50,50 L 50,80 L 20,65 Z\"/><path d=\"M 80,35 L 50,50 L 50,80 L 80,65 Z\"/><g stroke-width=\"1\"><path d=\"M 50,28 L 50,42 M 45,37 L 50,42 L 55,37\" stroke=\"black\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"35\" cy=\"57.5\" r=\"8\" stroke=\"black\" fill=\"none\"/><path d=\"M 70,50 L 60,57.5 L 70,65 Z\" stroke=\"black\" fill=\"none\" stroke-linejoin=\"round\"/></g></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><path d=\"M 50,20 L 80,35 L 50,50 L 20,35 Z\"/><path d=\"M 20,35 L 50,50 L 50,80 L 20,65 Z\"/><path d=\"M 80,35 L 50,50 L 50,80 L 80,65 Z\"/><g stroke-width=\"1\"><path d=\"M 50,28 L 50,42 M 45,37 L 50,42 L 55,37\" stroke=\"black\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M 35,50 L 35,65 M 27.5,57.5 L 42.5,57.5\" stroke=\"black\"/><circle cx=\"65\" cy=\"57.5\" r=\"8\" stroke=\"black\" fill=\"none\"/></g></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g fill=\"none\" stroke=\"black\" stroke-width=\"2\"><rect x=\"20\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"60\" y=\"40\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"20\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"60\" width=\"20\" height=\"20\"/><rect x=\"40\" y=\"80\" width=\"20\" height=\"20\"/><g stroke-width=\"1\"><path d=\"M 50,28 L 50,32 M 48,30 L 50,32 L 52,30\"/><circle cx=\"50\" cy=\"50\" r=\"5\"/><path d=\"M 65,45 L 70,50 L 65,55\"/><rect x=\"24\" y=\"44\" width=\"12\" height=\"12\"/><path d=\"M 50,68 L 50,72 M 48,70 L 50,72 L 52,70\"/><path d=\"M 45 85 l 10 0 M 50 80 l 0 10\"/><path d=\"M 45,85 L 55,95 M 55,85 L 45,95\" transform=\"translate(-2.5, -2.5) scale(0.5)\"/></g></g></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The question shows a 2D net which must be mentally folded into a 3D cube. The key is to identify adjacent faces and track the orientation of the symbols. Let's label the faces of the net with the Circle as the 'Front' face. This means the Arrow is on the 'Top', the Triangle is on the 'Right', the Square is on the 'Left', the Plus is on the 'Bottom', and the Diamond is on the 'Back'. The faces that meet at the top-front-right corner are the Arrow (Top), Circle (Front), and Triangle (Right). We must check their orientation. On the net, the Arrow points towards the Circle face, so when folded, the Arrow on the Top face must point towards the Front face. Similarly, the Triangle on the net points towards the Circle face, so when folded, the Triangle on the Right face must also point towards the Front face. Cube A is the only option that correctly shows these three faces with the correct orientations. Options B and C show incorrect orientations for the arrow and triangle respectively. Options D and E show faces that are on opposite sides of the net (Arrow/Plus and Square/Triangle) as being adjacent on the cube, which is impossible.",
+    "rating": null,
+    "comment": ""
+  }
+]

@@ -1,0 +1,727 @@
+[
+  {
+    "question": "A square is divided into four quadrants. In the starting position, the top-left quadrant contains an upward-pointing triangle, the top-right contains a circle, and the bottom-left contains a cross. The figure undergoes three transformations in order: 1. Rotate 90 degrees clockwise. 2. Swap the contents of the top two quadrants. 3. Flip the entire figure vertically. Which option shows the final result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"5\" x2=\"50\" y2=\"95\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"5\" y1=\"50\" x2=\"95\" y2=\"50\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"15.5\" y1=\"15.5\" x2=\"39.5\" y2=\"39.5\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"39.5\" y1=\"15.5\" x2=\"15.5\" y2=\"39.5\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"60.5,27.5 84.5,15.5 84.5,39.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"72.5\" cy=\"72.5\" r=\"12\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"5\" x2=\"50\" y2=\"95\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"5\" y1=\"50\" x2=\"95\" y2=\"50\" stroke=\"white\" stroke-width=\"1\"/><polygon points=\"15.5,27.5 39.5,15.5 39.5,39.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><line x1=\"60.5\" y1=\"15.5\" x2=\"84.5\" y2=\"39.5\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"84.5\" y1=\"15.5\" x2=\"60.5\" y2=\"39.5\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"72.5\" cy=\"72.5\" r=\"12\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"5\" x2=\"50\" y2=\"95\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"5\" y1=\"50\" x2=\"95\" y2=\"50\" stroke=\"white\" stroke-width=\"1\"/><circle cx=\"72.5\" cy=\"27.5\" r=\"12\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"15.5,72.5 39.5,60.5 39.5,84.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><line x1=\"60.5\" y1=\"60.5\" x2=\"84.5\" y2=\"84.5\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"84.5\" y1=\"60.5\" x2=\"60.5\" y2=\"84.5\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"5\" x2=\"50\" y2=\"95\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"5\" y1=\"50\" x2=\"95\" y2=\"50\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"15.5\" y1=\"15.5\" x2=\"39.5\" y2=\"39.5\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"39.5\" y1=\"15.5\" x2=\"15.5\" y2=\"39.5\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"27.5,84.5 15.5,60.5 39.5,60.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"72.5\" cy=\"72.5\" r=\"12\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"5\" x2=\"50\" y2=\"95\" stroke=\"white\" stroke-width=\"1\"/><line x1=\"5\" y1=\"50\" x2=\"95\" y2=\"50\" stroke=\"white\" stroke-width=\"1\"/><circle cx=\"27.5\" cy=\"27.5\" r=\"12\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"39.5,72.5 15.5,60.5 15.5,84.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><line x1=\"60.5\" y1=\"60.5\" x2=\"84.5\" y2=\"84.5\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"84.5\" y1=\"60.5\" x2=\"60.5\" y2=\"84.5\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The solution is found by applying the three transformations in order to the described starting figure. 1. Initial State: Top-left has a triangle (up), top-right has a circle, bottom-left has a cross. 2. After Step 1 (Rotate 90° clockwise): The cross is now top-left, the triangle (now pointing right) is top-right, and the circle is bottom-right. 3. After Step 2 (Swap top two): The triangle (pointing right) is now top-left, and the cross is top-right. The circle remains bottom-right. 4. After Step 3 (Flip vertically): The top and bottom rows switch places. The triangle moves from top-left to bottom-left. The cross moves from top-right to bottom-right. The circle moves from bottom-right to top-right. The final configuration is: Top-left is empty, top-right is a circle, bottom-left is a triangle pointing right, and bottom-right is a cross.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Imagine a grid with an L-shape in the top-left corner and a T-shape in the bottom-right corner. Two transformations are applied in sequence: First, the two shapes swap positions. Second, the shape that is now in the bottom-right corner is rotated 90 degrees clockwise. What is the final arrangement?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><path d=\"M25 35 V 15 M 15 15 H 35\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M65 85 H 85 V 65\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><path d=\"M15 25 H 35 M 15 15 V 35\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M65 65 V 85 H 85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><path d=\"M25 35 V 15 M 15 15 H 35\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M65 65 V 85 H 85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><path d=\"M15 15 V 35 H 35\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M65 75 H 85 M 65 65 V 85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><path d=\"M25 35 V 15 M 15 15 H 35\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M85 85 V 65 H 65\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The problem describes a two-step transformation. Let's follow the steps in order: 1. The initial state has an L-shape in the top-left and a T-shape in the bottom-right. 2. The first transformation is to swap the positions of the two shapes. After this step, the T-shape is in the top-left and the L-shape is in the bottom-right. 3. The second transformation is to rotate the shape now in the bottom-right corner (the L-shape) by 90 degrees clockwise. 4. The T-shape in the top-left corner remains unchanged, while the L-shape in the bottom-right corner is rotated. This final arrangement is shown in option A.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A 2x2 grid starts with a circle in the top-left, a square in the top-right, a triangle in the bottom-left, and a plus sign in the bottom-right. The grid undergoes two transformations: 1. The entire grid is flipped horizontally. 2. The shape in the top-left cell is moved to the bottom-right cell (replacing the shape that was there). Which option shows the final result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"15\" y=\"15\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M15 75 L35 75 M25 65 L25 85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,65 65,85 85,85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"65\" y=\"15\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"25,65 15,85 35,85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"75\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"15\" y=\"15\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"25\" cy=\"75\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,65 65,85 85,85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M15 75 L35 75 M25 65 L25 85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"65\" y=\"65\" width=\"20\" height=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><path d=\"M65 25 L85 25 M75 15 L75 35\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"25\" cy=\"75\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,65 65,85 85,85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The initial grid has a circle (top-left), square (top-right), triangle (bottom-left), and plus sign (bottom-right). Step 1 is a horizontal flip, which swaps the left and right columns. The grid becomes: square (top-left), circle (top-right), plus sign (bottom-left), triangle (bottom-right). Step 2 is to move the new top-left shape (the square) to the bottom-right cell, replacing the triangle. This leaves the top-left cell empty. The final arrangement is: empty (top-left), circle (top-right), plus sign (bottom-left), and square (bottom-right).",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Imagine a square divided vertically down the middle. In the top-left is a black circle. In the top-right is a black triangle pointing right. In the bottom-left is a white square. In the bottom-right is a 'C' shape, open to the right. The right half of the square is folded over the vertical line onto the left half. Which option shows the final result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"25\" cy=\"25\" r=\"10\" fill=\"black\"/><polygon points=\"30,20 15,25 30,30\" fill=\"black\"/><rect x=\"15\" y=\"65\" width=\"20\" height=\"20\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 20 70 A 10 10 0 1 0 20 80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"25\" cy=\"25\" r=\"10\" fill=\"black\"/><polygon points=\"20,20 35,25 20,30\" fill=\"black\"/><rect x=\"15\" y=\"65\" width=\"20\" height=\"20\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 30 70 A 10 10 0 1 1 30 80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"75\" cy=\"25\" r=\"10\" fill=\"black\"/><polygon points=\"70,20 85,25 70,30\" fill=\"black\"/><rect x=\"65\" y=\"65\" width=\"20\" height=\"20\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 80 70 A 10 10 0 1 1 80 80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"25\" cy=\"75\" r=\"10\" fill=\"black\"/><polygon points=\"70,80 85,75 70,70\" fill=\"black\"/><rect x=\"15\" y=\"65\" width=\"20\" height=\"20\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 80 70 A 10 10 0 1 1 80 80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"25\" cy=\"25\" r=\"10\" fill=\"black\"/><polygon points=\"30,20 15,25 30,30\" fill=\"black\"/><rect x=\"15\" y=\"65\" width=\"20\" height=\"20\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M 30 70 A 10 10 0 1 1 30 80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "When the right half of the square is folded onto the left half, the shapes on the right are mirrored and superimposed on the shapes on the left. The black circle and white square on the left side remain in place. The right-pointing triangle from the top-right is mirrored to become a left-pointing triangle. The 'C' shape from the bottom-right, which was open to the right, is mirrored to become a shape open to the left (a backwards 'C').",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A 2x2 grid contains a circle in the top-left, a triangle in the top-right, a square in the bottom-left, and a cross in the bottom-right. The grid undergoes three transformations in order: 1. The top two shapes are swapped. 2. The entire grid is rotated 90° clockwise. 3. The entire grid is flipped horizontally. Which of the following shows the final grid?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><polygon points=\"25,10 40,40 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"10\" y=\"60\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><path d=\"M 60 75 L 90 75 M 75 60 L 75 90\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,10 90,40 60,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><path d=\"M 10 75 L 40 75 M 25 60 L 25 90\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"75\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><polygon points=\"25,10 40,40 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"25\" cy=\"75\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><path d=\"M 60 75 L 90 75 M 75 60 L 75 90\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"25\" cy=\"25\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,10 90,40 60,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"10\" y=\"60\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><path d=\"M 60 75 L 90 75 M 75 60 L 75 90\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"1\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"1\"/><path d=\"M 10 25 L 40 25 M 25 10 L 25 40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"25\" cy=\"75\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,60 90,90 60,90\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The solution involves following three spatial transformations in order. \n1. Initial Grid: Top-left (TL) is Circle, Top-right (TR) is Triangle, Bottom-left (BL) is Square, Bottom-right (BR) is Cross. \n2. Transformation 1 (Swap top row): The Circle and Triangle swap. The grid becomes: TL: Triangle, TR: Circle, BL: Square, BR: Cross. \n3. Transformation 2 (Rotate 90° clockwise): The entire grid is rotated. The top row becomes the new right column, and the bottom row becomes the new left column. The grid becomes: TL: Square, TR: Triangle, BL: Cross, BR: Circle. \n4. Transformation 3 (Flip horizontally): The grid is mirrored across its vertical axis, so the left and right columns swap places. The final grid is: TL: Triangle, TR: Square, BL: Circle, BR: Cross.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A 2x2 grid contains a circle in the top-left, a triangle in the top-right, and a square in the bottom-left. The grid undergoes two transformations: 1. The shapes in the top row are swapped. 2. The entire grid is rotated 90 degrees clockwise. Which option shows the final arrangement?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 50 0 L 50 100 M 0 50 L 100 50\" stroke=\"black\" stroke-width=\"1\"/><polygon points=\"25,15 15,35 35,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"15\" y=\"65\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 50 0 L 50 100 M 0 50 L 100 50\" stroke=\"black\" stroke-width=\"1\"/><rect x=\"15\" y=\"15\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,65 65,85 85,85\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 50 0 L 50 100 M 0 50 L 100 50\" stroke=\"black\" stroke-width=\"1\"/><rect x=\"15\" y=\"15\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,15 65,35 85,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"75\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 50 0 L 50 100 M 0 50 L 100 50\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"25\" cy=\"25\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"25,65 15,85 35,85\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"65\" y=\"65\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 50 0 L 50 100 M 0 50 L 100 50\" stroke=\"black\" stroke-width=\"1\"/><circle cx=\"25\" cy=\"25\" r=\"15\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"65\" y=\"15\" width=\"20\" height=\"20\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,65 65,85 85,85\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The problem involves a two-step transformation. Let's track the position of each shape. The initial state is: Top-Left (TL) = Circle, Top-Right (TR) = Triangle, Bottom-Left (BL) = Square, Bottom-Right (BR) = Empty. Step 1: The shapes in the top row are swapped. The grid becomes: TL = Triangle, TR = Circle, BL = Square, BR = Empty. Step 2: The entire grid is rotated 90 degrees clockwise. The content of each quadrant moves to the next one in a clockwise direction. The triangle (TL) moves to TR. The circle (TR) moves to BR. The empty space (BR) moves to BL. The square (BL) moves to TL. The final arrangement is: TL = Square, TR = Triangle, BL = Empty, BR = Circle. This matches option C.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A 2x2 grid contains four shapes. Top-left: Circle. Top-right: Square. Bottom-left: Triangle. Bottom-right: Star. The grid undergoes two transformations in order: 1. The entire grid is rotated 90 degrees clockwise. 2. The two shapes in the new left-hand column are swapped. Which of the following options shows the final arrangement?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"30,15 15,45 45,45\"/><circle cx=\"70\" cy=\"30\" r=\"15\"/><path d=\"M 30,55 L 34.4,65.4 L 44.3,65.4 L 37.1,72.3 L 39.5,82.1 L 30,77.5 L 20.5,82.1 L 22.9,72.3 L 15.7,65.4 L 25.6,65.4 Z\"/><rect x=\"55\" y=\"55\" width=\"30\" height=\"30\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><circle cx=\"30\" cy=\"30\" r=\"15\"/><polygon points=\"70,15 55,45 85,45\"/><path d=\"M 30,55 L 34.4,65.4 L 44.3,65.4 L 37.1,72.3 L 39.5,82.1 L 30,77.5 L 20.5,82.1 L 22.9,72.3 L 15.7,65.4 L 25.6,65.4 Z\"/><rect x=\"55\" y=\"55\" width=\"30\" height=\"30\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><path d=\"M 30,15 L 34.4,25.4 L 44.3,25.4 L 37.1,32.3 L 39.5,42.1 L 30,37.5 L 20.5,42.1 L 22.9,32.3 L 15.7,25.4 L 25.6,25.4 Z\"/><circle cx=\"70\" cy=\"30\" r=\"15\"/><polygon points=\"30,55 15,85 45,85\"/><rect x=\"55\" y=\"55\" width=\"30\" height=\"30\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><polygon points=\"30,15 15,45 45,45\"/><rect x=\"55\" y=\"15\" width=\"30\" height=\"30\"/><circle cx=\"30\" cy=\"70\" r=\"15\"/><path d=\"M 70,55 L 74.4,65.4 L 84.3,65.4 L 77.1,72.3 L 79.5,82.1 L 70,77.5 L 60.5,82.1 L 62.9,72.3 L 55.7,65.4 L 65.6,65.4 Z\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" fill=\"none\" stroke-width=\"2\"><circle cx=\"30\" cy=\"30\" r=\"15\"/><path d=\"M 70,15 L 74.4,25.4 L 84.3,25.4 L 77.1,32.3 L 79.5,42.1 L 70,37.5 L 60.5,42.1 L 62.9,32.3 L 55.7,25.4 L 65.6,25.4 Z\"/><polygon points=\"30,55 15,85 45,85\"/><rect x=\"55\" y=\"55\" width=\"30\" height=\"30\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The solution requires applying two transformations in sequence to the initial grid (Top-left: Circle, Top-right: Square, Bottom-left: Triangle, Bottom-right: Star). First, the grid is rotated 90 degrees clockwise. This results in: Triangle (top-left), Circle (top-right), Star (bottom-left), and Square (bottom-right). Second, the two shapes in the new left column (Triangle and Star) are swapped. This moves the Star to the top-left and the Triangle to the bottom-left. The final grid is: Star (top-left), Circle (top-right), Triangle (bottom-left), and Square (bottom-right).",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "The L-shape starts in the top-left square of the grid. It first rotates 90 degrees clockwise on the spot, and then moves one square to the right and two squares down. Which grid shows the final position?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"1\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"60\" height=\"60\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"70\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"70\"/><line x1=\"10\" y1=\"30\" x2=\"70\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"70\" y2=\"50\"/></g><polygon points=\"54,34 66,34 66,46 62,46 62,38 54,38\" fill=\"white\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"1\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"60\" height=\"60\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"70\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"70\"/><line x1=\"10\" y1=\"30\" x2=\"70\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"70\" y2=\"50\"/></g><polygon points=\"34,54 38,54 38,62 46,62 46,66 34,66\" fill=\"white\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"1\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"60\" height=\"60\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"70\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"70\"/><line x1=\"10\" y1=\"30\" x2=\"70\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"70\" y2=\"50\"/></g><polygon points=\"34,54 46,54 46,66 42,66 42,58 34,58\" fill=\"white\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"1\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"60\" height=\"60\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"70\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"70\"/><line x1=\"10\" y1=\"30\" x2=\"70\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"70\" y2=\"50\"/></g><polygon points=\"34,54 34,66 46,66 46,62 38,62 38,54\" fill=\"white\" stroke=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"1\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"60\" height=\"60\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"70\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"70\"/><line x1=\"10\" y1=\"30\" x2=\"70\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"70\" y2=\"50\"/></g><polygon points=\"14,14 26,14 26,26 22,26 22,18 14,18\" fill=\"white\" stroke=\"none\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The solution requires performing two transformations in sequence. First, the L-shape in the top-left square rotates 90 degrees clockwise on the spot. This changes its orientation from an upright 'L' to one where the long part is horizontal at the top. Second, the newly rotated shape moves one square to the right and two squares down. Starting from the top-left square (row 1, column 1), this moves it to row 3, column 2 (the middle square of the bottom row). Option C is the only grid that shows the L-shape in the correct final position and with the correct rotation.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"75\" r=\"8\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"25,65 10,90 40,90\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"8\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"25\" cy=\"25\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"8\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"75,15 90,30 83,45 67,45 60,30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"25\" cy=\"75\" r=\"8\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"75,65 90,75 90,85 75,95 60,85 60,75\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"25\" cy=\"25\" r=\"8\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In each figure, the frame is divided into four quadrants (top-left, top-right, bottom-left, bottom-right). In all figures except for C, the large shape and the small circle are located in diagonally opposite quadrants. In figure C, the large circle is in the top-left quadrant and the small circle is in the top-right quadrant; these are adjacent, not diagonal. Therefore, C is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A 2x2 grid contains four shapes: a circle (top-left), a square (top-right), a triangle (bottom-left), and a plus sign (bottom-right). The grid undergoes a two-step transformation: 1. Rotate the entire grid 90 degrees clockwise. 2. Swap the positions of the two shapes in the top row. Which option shows the final result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100'><g stroke='black' fill='none' stroke-width='2'><path d='M50 0 V100 M0 50 H100' stroke-width='1'/><polygon points='25,15 10,35 40,35'/><circle cx='75' cy='25' r='15'/><rect x='10' y='60' width='30' height='30'/><path d='M75 65 V 85 M 65 75 H 85'/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100'><g stroke='black' fill='none' stroke-width='2'><path d='M50 0 V100 M0 50 H100' stroke-width='1'/><polygon points='25,15 10,35 40,35'/><circle cx='75' cy='25' r='15'/><path d='M25 65 V 85 M 15 75 H 35'/><rect x='60' y='60' width='30' height='30'/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100'><g stroke='black' fill='none' stroke-width='2'><path d='M50 0 V100 M0 50 H100' stroke-width='1'/><circle cx='25' cy='25' r='15'/><polygon points='75,15 60,35 90,35'/><path d='M25 65 V 85 M 15 75 H 35'/><rect x='60' y='60' width='30' height='30'/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100'><g stroke='black' fill='none' stroke-width='2'><path d='M50 0 V100 M0 50 H100' stroke-width='1'/><path d='M25 15 V 35 M 15 25 H 35'/><rect x='60' y='10' width='30' height='30'/><circle cx='25' cy='75' r='15'/><polygon points='75,65 60,85 90,85'/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100'><g stroke='black' fill='none' stroke-width='2'><path d='M50 0 V100 M0 50 H100' stroke-width='1'/><polygon points='25,15 10,35 40,35'/><rect x='60' y='10' width='30' height='30'/><path d='M25 65 V 85 M 15 75 H 35'/><circle cx='75' cy='75' r='15'/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The process involves two steps applied in order. 1. Rotation: The entire grid is rotated 90 degrees clockwise. This moves the circle to the top-right, the square to the bottom-right, the plus sign to the bottom-left, and the triangle to the top-left. 2. Swap: The two shapes in the new top row (the triangle and the circle) are swapped. The circle moves to the top-left, and the triangle moves to the top-right. The bottom row is unaffected by this step. The final arrangement is: circle (top-left), triangle (top-right), plus sign (bottom-left), and square (bottom-right).",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "An L-shape containing a small circle undergoes two transformations. First, the L-shape is reflected horizontally. Second, the small circle moves one position clockwise to the next corner of the L-shape. Which of the options below shows the correct final result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M75 25 v50 h-50' stroke='white' stroke-width='4' fill='none'/><circle cx='75' cy='25' r='5' fill='white'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M25 25 v50 h50' stroke='white' stroke-width='4' fill='none'/><circle cx='25' cy='75' r='5' fill='white'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M75 25 v50 h-50' stroke='white' stroke-width='4' fill='none'/><circle cx='75' cy='75' r='5' fill='white'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M75 25 v50 h-50' stroke='white' stroke-width='4' fill='none'/><circle cx='25' cy='75' r='5' fill='white'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'><path d='M25 75 v-50 h50' stroke='white' stroke-width='4' fill='none'/><circle cx='25' cy='25' r='5' fill='white'/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The puzzle has two rules that must be applied in order. Rule 1: The L-shape is reflected horizontally. The original L-shape has its vertical line on the left, so after reflection, the vertical line is on the right. Rule 2: The small circle moves one corner clockwise. The circle starts at the top end of the L-shape. The next corner in a clockwise direction is the inside corner. Applying both rules, the L-shape is flipped horizontally, and the circle moves to the new inside corner, which is now on the right side. Option C is the only one that correctly shows both transformations.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\"/><line x1=\"20\" y1=\"50\" x2=\"80\" y2=\"50\"/></g><polygon points=\"60,15 70,15 65,5\" fill=\"black\"/><circle cx=\"65\" cy=\"35\" r=\"8\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"8\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\"/><line x1=\"20\" y1=\"50\" x2=\"80\" y2=\"50\"/></g><polygon points=\"30,85 40,85 35,95\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"8\" fill=\"black\"/><circle cx=\"65\" cy=\"35\" r=\"8\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\"/><line x1=\"20\" y1=\"50\" x2=\"80\" y2=\"50\"/></g><polygon points=\"30,15 40,15 35,5\" fill=\"black\"/><circle cx=\"35\" cy=\"35\" r=\"8\" fill=\"black\"/><circle cx=\"65\" cy=\"35\" r=\"8\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\"/><line x1=\"20\" y1=\"50\" x2=\"80\" y2=\"50\"/></g><polygon points=\"60,85 70,85 65,95\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"8\" fill=\"black\"/><circle cx=\"35\" cy=\"35\" r=\"8\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"black\" stroke-width=\"2\" fill=\"none\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\"/><line x1=\"20\" y1=\"50\" x2=\"80\" y2=\"50\"/></g><polygon points=\"30,15 40,15 35,5\" fill=\"black\"/><circle cx=\"35\" cy=\"35\" r=\"8\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"8\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "In all figures except for one, there are two rules that link the positions of the shapes. Rule 1: The solid black circle is always in the quadrant that the outer triangle is pointing towards. Rule 2: The hollow circle is always in the quadrant diagonally opposite the solid black circle. In option C, the solid circle is in the correct quadrant (top-left) according to Rule 1, but the hollow circle is in the top-right quadrant, not the diagonally opposite bottom-right quadrant, thus breaking Rule 2.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A shape starts in the top-left square of the grid. First, it moves one square clockwise. Second, it is flipped horizontally. Which of the options shows the final result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"65,30 65,45 85,45\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"85,80 85,95 65,95\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"85,30 85,45 65,45\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"15,80 15,95 35,95\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"65,45 65,30 85,30\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The problem describes two transformations. First, the shape moves one square clockwise from its starting position in the top-left. This places it in the top-right square. Second, the shape is flipped horizontally. This changes the orientation of the right-angled triangle so that it points to the left instead of the right. Option C correctly shows the shape in the top-right square, pointing left.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A figure (a square containing an arrow pointing up-right) starts in the top-left corner of a 2x2 grid. It first moves one square to the right, and then one square down. With each horizontal move, the inner arrow flips vertically. With each vertical move, the inner arrow flips horizontally. Which option shows the final result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 0 V100 M0 50 H100\" stroke=\"black\" stroke-width=\"1\" fill=\"none\"/><rect x=\"55\" y=\"55\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"85\" y1=\"85\" x2=\"65\" y2=\"65\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"65,65 75,65 65,75\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 0 V100 M0 50 H100\" stroke=\"black\" stroke-width=\"1\" fill=\"none\"/><rect x=\"55\" y=\"55\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"65\" y1=\"65\" x2=\"85\" y2=\"85\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"85,85 75,85 85,75\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 0 V100 M0 50 H100\" stroke=\"black\" stroke-width=\"1\" fill=\"none\"/><rect x=\"55\" y=\"55\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"85\" y1=\"65\" x2=\"65\" y2=\"85\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"65,85 65,75 75,85\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 0 V100 M0 50 H100\" stroke=\"black\" stroke-width=\"1\" fill=\"none\"/><rect x=\"55\" y=\"55\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"65\" y1=\"85\" x2=\"85\" y2=\"65\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"85,65 75,65 85,75\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><path d=\"M50 0 V100 M0 50 H100\" stroke=\"black\" stroke-width=\"1\" fill=\"none\"/><rect x=\"5\" y=\"55\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"35\" y1=\"65\" x2=\"15\" y2=\"85\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"15,85 15,75 25,85\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The solution follows two steps involving both movement and transformation. \n1. **Step 1 (Move Right):** The figure moves from the top-left to the top-right square. This is a horizontal move, so the inner arrow flips vertically. The initial up-right arrow (↗) becomes a down-right arrow (↘).\n2. **Step 2 (Move Down):** The figure moves from the top-right to the bottom-right square. This is a vertical move, so the inner arrow flips horizontally. The down-right arrow (↘) becomes a down-left arrow (↙).\nTherefore, the final result is the figure in the bottom-right square with the arrow pointing down-left, which is shown in option C.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"20\" r=\"8\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"35\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"20\" r=\"8\" fill=\"black\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 80,75 20,75\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"20\" r=\"8\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><ellipse cx=\"50\" cy=\"50\" rx=\"40\" ry=\"25\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"20\" r=\"8\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"20\" r=\"8\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The rule connects the type of the main shape to the fill of the small circle. If the main shape has only straight sides (a polygon), the small circle is white (unfilled). If the main shape has curved sides, the small circle is black. In option D, the main shape is an ellipse (curved), but the small circle is white, breaking the rule. All other options follow this rule: A, C and E have straight-sided shapes and white circles; B has a curved shape and a black circle.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A 2x2 grid contains four shapes. The top-left is a circle, top-right is a square, bottom-left is a downwards-pointing triangle, and bottom-right is a plus sign. Two transformations are applied in order: 1. The two shapes in the top row swap places. 2. Each shape in the bottom row is rotated 180 degrees. Which grid shows the final result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"10,65 40,65 25,85\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M65 75 L85 75 M75 65 L75 85\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"25\" cy=\"25\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"10,85 40,85 25,65\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M65 75 L85 75 M75 65 L75 85\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"10,85 40,85 25,65\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M65 75 L85 75 M75 65 L75 85\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M15 75 L35 75 M25 65 L25 85\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"60,65 90,65 75,85\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"10,15 40,15 25,35\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M65 25 L85 25 M75 15 L75 35\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"10\" y=\"60\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"15\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "There are two rules to follow in order. First, the shapes in the top row swap places. This moves the square to the top-left and the circle to the top-right. Second, each shape in the bottom row is rotated 180 degrees. The downwards-pointing triangle rotates to become an upwards-pointing triangle. The plus sign appears unchanged after a 180-degree rotation. Option C is the only grid that shows the result of both transformations.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Consider a 2x2 grid containing a black circle (top-left), a white square (top-right), and a black triangle (bottom-left). If the grid is rotated 90 degrees clockwise, and then the contents of the top two cells are swapped, which option shows the final result?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"30,18 18,42 42,42\" fill=\"black\"/><circle cx=\"70\" cy=\"30\" r=\"12\" fill=\"black\"/><rect x=\"58\" y=\"58\" width=\"24\" height=\"24\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"18\" y=\"18\" width=\"24\" height=\"24\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"30\" r=\"12\" fill=\"black\"/><polygon points=\"30,58 18,82 42,82\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"12\" fill=\"black\"/><polygon points=\"70,18 58,42 82,42\" fill=\"black\"/><rect x=\"58\" y=\"58\" width=\"24\" height=\"24\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"58\" y=\"18\" width=\"24\" height=\"24\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"70\" r=\"12\" fill=\"black\"/><polygon points=\"70,58 58,82 82,82\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"30,18 18,42 42,42\" fill=\"black\"/><rect x=\"58\" y=\"18\" width=\"24\" height=\"24\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"70\" r=\"12\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The problem requires performing two spatial transformations in sequence. 1. Initial State: The grid has a black circle (top-left), a white square (top-right), and a black triangle (bottom-left). 2. Step 1 (Rotate 90° clockwise): The black circle moves to the top-right, the white square moves to the bottom-right, and the black triangle moves to the top-left. The grid now contains: black triangle (top-left), black circle (top-right), and white square (bottom-right). 3. Step 2 (Swap the top row): The black triangle (top-left) and the black circle (top-right) are swapped. 4. Final Result: The grid now has a black circle in the top-left, a black triangle in the top-right, and a white square in the bottom-right. This configuration matches option C.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A 2x2 grid contains four shapes: a circle (top-left), a square (top-right), a triangle (bottom-left), and a plus sign (bottom-right). The grid is first rotated 90° clockwise, and then the circle and square swap positions. Which option shows the final grid?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"25,10 10,40 40,40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M 25 60 L 25 90 M 10 75 L 40 75\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"75\" cy=\"25\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"25,60 10,90 40,90\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M 75 60 L 75 90 M 60 75 L 90 75\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"25,10 10,40 40,40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M 25 60 L 25 90 M 10 75 L 40 75\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"25\" cy=\"25\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><path d=\"M 75 10 L 75 40 M 60 25 L 90 25\" stroke=\"white\" stroke-width=\"2\"/><rect x=\"10\" y=\"60\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,60 60,90 90,90\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 25 10 L 25 40 M 10 25 L 40 25\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"25,60 10,90 40,90\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"30\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The process involves two steps. First, the grid is rotated 90 degrees clockwise. This moves the circle from top-left to top-right, the square from top-right to bottom-right, the plus sign from bottom-right to bottom-left, and the triangle from bottom-left to top-left. After this rotation, the grid contains: triangle (top-left), circle (top-right), plus sign (bottom-left), and square (bottom-right). Second, the circle and the square swap places. The circle moves from top-right to the square's position at bottom-right, and the square moves from bottom-right to the circle's position at top-right. The final grid is: triangle (top-left), square (top-right), plus sign (bottom-left), and circle (bottom-right), which matches option C.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A grid starts with a black circle in the top-left square and a triangle in the bottom-right square. It undergoes two identical transformations. In each transformation, the circle moves one square clockwise, and the triangle moves one square anti-clockwise while also rotating 90 degrees clockwise. Which of the following shows the final state of the grid?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"10\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"35,75 15,65 15,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"10\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"25,15 15,35 35,35\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"10\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"75,35 65,15 85,15\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"75\" r=\"10\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"25,15 15,35 35,35\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"white\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"10\" fill=\"black\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"25,35 15,15 35,15\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The solution requires tracking the movement and rotation of two separate shapes over two steps.\n- **The Circle's Path (Clockwise):**\n  - Start: Top-Left\n  - Step 1: Moves to Top-Right\n  - Step 2: Moves to Bottom-Right.\n- **The Triangle's Path (Anti-Clockwise Movement and Clockwise Rotation):**\n  - Start: Bottom-Right (assumed pointing up as is standard).\n  - Step 1: Moves anti-clockwise to Bottom-Left and rotates 90° clockwise to point right.\n  - Step 2: Moves anti-clockwise to Top-Left and rotates another 90° clockwise to point down.\n- **Final State:** The circle is in the bottom-right square, and the triangle is in the top-left square, pointing down.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A 2x2 grid initially contains a circle in the top-left, a square in the top-right, a triangle in the bottom-left, and a plus sign in the bottom-right. The grid undergoes two transformations: 1. The entire grid is rotated 90 degrees clockwise. 2. The two shapes in the top row are swapped. Which of the following shows the final arrangement?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox='0 0 100 100'><line x1='50' y1='0' x2='50' y2='100' stroke='black' stroke-width='2'/><line x1='0' y1='50' x2='100' y2='50' stroke='black' stroke-width='2'/><polygon points='25,15 10,40 40,40' stroke='black' fill='none' stroke-width='3'/><circle cx='75' cy='25' r='15' stroke='black' fill='none' stroke-width='3'/><path d='M 15 75 L 35 75 M 25 65 L 25 85' stroke='black' stroke-width='3'/><rect x='65' y='65' width='20' height='20' stroke='black' fill='none' stroke-width='3'/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox='0 0 100 100'><line x1='50' y1='0' x2='50' y2='100' stroke='black' stroke-width='2'/><line x1='0' y1='50' x2='100' y2='50' stroke='black' stroke-width='2'/><rect x='15' y='15' width='20' height='20' stroke='black' fill='none' stroke-width='3'/><circle cx='75' cy='25' r='15' stroke='black' fill='none' stroke-width='3'/><polygon points='25,65 10,90 40,90' stroke='black' fill='none' stroke-width='3'/><path d='M 65 75 L 85 75 M 75 65 L 75 85' stroke='black' stroke-width='3'/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox='0 0 100 100'><line x1='50' y1='0' x2='50' y2='100' stroke='black' stroke-width='2'/><line x1='0' y1='50' x2='100' y2='50' stroke='black' stroke-width='2'/><circle cx='25' cy='25' r='15' stroke='black' fill='none' stroke-width='3'/><polygon points='75,15 60,40 90,40' stroke='black' fill='none' stroke-width='3'/><path d='M 15 75 L 35 75 M 25 65 L 25 85' stroke='black' stroke-width='3'/><rect x='65' y='65' width='20' height='20' stroke='black' fill='none' stroke-width='3'/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox='0 0 100 100'><line x1='50' y1='0' x2='50' y2='100' stroke='black' stroke-width='2'/><line x1='0' y1='50' x2='100' y2='50' stroke='black' stroke-width='2'/><path d='M 15 25 L 35 25 M 25 15 L 25 35' stroke='black' stroke-width='3'/><rect x='65' y='15' width='20' height='20' stroke='black' fill='none' stroke-width='3'/><circle cx='25' cy='75' r='15' stroke='black' fill='none' stroke-width='3'/><polygon points='75,65 60,90 90,90' stroke='black' fill='none' stroke-width='3'/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox='0 0 100 100'><line x1='50' y1='0' x2='50' y2='100' stroke='black' stroke-width='2'/><line x1='0' y1='50' x2='100' y2='50' stroke='black' stroke-width='2'/><polygon points='25,15 10,40 40,40' stroke='black' fill='none' stroke-width='3'/><circle cx='75' cy='25' r='15' stroke='black' fill='none' stroke-width='3'/><rect x='15' y='65' width='20' height='20' stroke='black' fill='none' stroke-width='3'/><path d='M 65 75 L 85 75 M 75 65 L 75 85' stroke='black' stroke-width='3'/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The solution requires following two steps. First, the entire grid is rotated 90 degrees clockwise. After this rotation, the triangle is in the top-left, the circle is in the top-right, the plus sign is in the bottom-left, and the square is in the bottom-right. Second, the two shapes in the new top row are swapped. The circle moves from top-right to top-left, and the triangle moves from top-left to top-right. The bottom row remains unchanged. This results in the arrangement shown in option C.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A square piece of paper is folded in half from left to right, and then folded again from top to bottom. A hole is punched through the center of the final folded square. Which option shows the paper when it is fully unfolded?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"25\" r=\"5\" fill=\"black\"/><circle cx=\"75\" cy=\"25\" r=\"5\" fill=\"black\"/><circle cx=\"25\" cy=\"75\" r=\"5\" fill=\"black\"/><circle cx=\"75\" cy=\"75\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"5\" fill=\"black\"/><circle cx=\"75\" cy=\"75\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"75\" r=\"5\" fill=\"black\"/><circle cx=\"75\" cy=\"75\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"98\" height=\"98\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"25\" r=\"5\" fill=\"black\"/><circle cx=\"75\" cy=\"75\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The paper is folded twice, creating four layers. The first fold is vertical (left to right), and the second is horizontal (top to bottom), concentrating the paper in the bottom-right corner. A hole is punched through the center of this folded section. When the paper is unfolded, this single hole is mirrored across both fold lines. Unfolding it upwards mirrors the hole from the bottom-right quadrant to the top-right quadrant. Unfolding it to the left mirrors these two holes into the left-hand quadrants. The result is four holes in a symmetrical pattern, one in the center of each of the four quadrants of the original square.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A figure has a circle in its top-left corner and a horizontal line in the middle. If the circle moves to the next corner clockwise and the line rotates 45° anti-clockwise, what is the resulting figure?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"20\" r=\"10\" fill=\"black\"/><line x1=\"30\" y1=\"50\" x2=\"70\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"20\" r=\"10\" fill=\"black\"/><line x1=\"35.8\" y1=\"64.2\" x2=\"64.2\" y2=\"35.8\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"80\" r=\"10\" fill=\"black\"/><line x1=\"35.8\" y1=\"64.2\" x2=\"64.2\" y2=\"35.8\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"20\" r=\"10\" fill=\"black\"/><line x1=\"35.8\" y1=\"35.8\" x2=\"64.2\" y2=\"64.2\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"5\" y=\"5\" width=\"90\" height=\"90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"20\" r=\"10\" fill=\"black\"/><line x1=\"35.8\" y1=\"64.2\" x2=\"64.2\" y2=\"35.8\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The solution requires applying two transformations. First, the circle moves one corner clockwise, from its starting position in the top-left to the top-right corner. Second, the horizontal central line rotates 45 degrees anti-clockwise, changing its orientation to a diagonal line rising from the bottom-right to the top-left. Option E is the only figure where both transformations have been correctly applied.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A figure consists of a large square in the center and a small circle in the top-left corner. The figure undergoes two transformations: the large square rotates 45 degrees clockwise, and the small circle moves to the next corner in a clockwise direction. Which option shows the resulting figure?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M50 20 L80 50 L50 80 L20 50 Z\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"20\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"30\" width=\"40\" height=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"20\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M50 20 L80 50 L50 80 L20 50 Z\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"80\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"30\" width=\"40\" height=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"80\" r=\"8\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M50 20 L80 50 L50 80 L20 50 Z\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"20\" r=\"8\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "A",
+    "explanation": "The solution involves two transformations applied to an initial figure (a central square and a circle in the top-left). Rule 1: The large central square rotates 45 degrees clockwise, changing its orientation to that of a diamond. Rule 2: The small circle moves one position clockwise around the corners, from the top-left to the top-right. Option A is the only figure where both transformations have been correctly applied.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Imagine a 2x2 grid. In the top-left square is a circle, in the top-right is a triangle, and in the bottom-left is a square. The entire grid is first rotated 90 degrees clockwise. Then, the circle and the triangle swap their positions. Which of the following images shows the final arrangement?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"75,60 60,90 90,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"25\" cy=\"25\" r=\"15\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"60\" y=\"60\" width=\"30\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"25,60 10,90 40,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"30\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"75,10 60,40 90,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"15\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><circle cx=\"25\" cy=\"25\" r=\"15\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"60\" y=\"10\" width=\"30\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"75,60 60,90 90,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"60\" width=\"30\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"25,10 10,40 40,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"25\" r=\"15\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The process has two steps. Step 1: The initial figure (circle top-left, triangle top-right, square bottom-left) is rotated 90 degrees clockwise. This moves the circle to the top-right, the triangle to the bottom-right, and the square to the top-left. Step 2: The circle and the triangle swap positions. The circle moves from the top-right to the bottom-right, and the triangle moves from the bottom-right to the top-right. This results in the final arrangement: square in the top-left, triangle in the top-right, and circle in the bottom-right, as shown in option C.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "A shape starts in the top-left square of the grid. It undergoes the following transformations in sequence: 1. Move one square to the right. 2. Rotate 90 degrees clockwise on the spot. 3. Move one square down. Which of the options shows the final state?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"white\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"75,10 60,40 90,40\" fill=\"black\" stroke=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"white\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"75,60 60,90 90,90\" fill=\"black\" stroke=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"white\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"90,75 60,60 60,90\" fill=\"black\" stroke=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"white\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"60,75 90,60 90,90\" fill=\"black\" stroke=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"white\"/><line x1=\"50\" y1=\"0\" x2=\"50\" y2=\"100\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"40,75 10,60 10,90\" fill=\"black\" stroke=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The solution is found by following the three transformations in order. Step 1: The shape moves from the top-left square to the top-right square. Step 2: The shape rotates 90 degrees clockwise, changing its orientation from pointing up to pointing to the right. Step 3: The shape moves from the top-right square down to the bottom-right square. The final result is the shape in the bottom-right square, pointing to the right.",
+    "rating": null,
+    "comment": ""
+  }
+]

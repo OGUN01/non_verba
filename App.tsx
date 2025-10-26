@@ -2,7 +2,10 @@ import React, { useState, useCallback, useEffect, useRef } from 'react';
 import { NVR_TOPICS } from './constants';
 import type { NVRTopic, QuestionData } from './types';
 import { generateNVRQuestion } from './services/geminiService';
+import { loadQuestionsFromJSON } from './services/questionLoader';
+import { getReviews } from './services/reviewService';
 import { loadQuestionsForTopic, saveQuestionsForTopic } from './utils/storage';
+import { useMode } from './hooks/useMode';
 import Header from './components/Header';
 import TopicSelector from './components/TopicSelector';
 import DifficultySelector, { DIFFICULTIES } from './components/DifficultySelector';
@@ -10,6 +13,7 @@ import QuestionDisplay from './components/QuestionDisplay';
 import Spinner from './components/Spinner';
 
 const App: React.FC = () => {
+    const { mode, toggleMode, isReviewerMode, isUserMode } = useMode();
     const [selectedTopic, setSelectedTopic] = useState<NVRTopic>(NVR_TOPICS[0]);
     const [difficulty, setDifficulty] = useState<string>(DIFFICULTIES[1]); // Default to Medium
     const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -50,6 +54,43 @@ const App: React.FC = () => {
             setIsLoading(false);
         }
     }, [selectedTopic, difficulty, numToGenerate, updateSavedCount]);
+
+    const handleLoadQuestionsFromLibrary = useCallback(async () => {
+        setIsLoading(true);
+        setError(null);
+        setQuestions(null);
+        setCurrentQuestionIndex(0);
+
+        try {
+            // Load questions from JSON files
+            const loadedQuestions = await loadQuestionsFromJSON(selectedTopic.name, difficulty);
+
+            if (loadedQuestions.length === 0) {
+                setError(`No questions found for ${selectedTopic.name} - ${difficulty}`);
+                return;
+            }
+
+            // Load reviews from Vercel KV
+            const reviewsResponse = await getReviews(selectedTopic.name, difficulty);
+
+            // Merge questions with reviews
+            const questionsWithReviews = loadedQuestions.map((q, index) => {
+                const review = reviewsResponse.reviews[index];
+                return {
+                    ...q,
+                    rating: review?.rating ?? q.rating ?? null,
+                    comment: review?.comment ?? q.comment ?? ""
+                };
+            });
+
+            setQuestions(questionsWithReviews);
+        } catch (err) {
+            console.error(err);
+            setError(`Failed to load questions from library. (${err.message})`);
+        } finally {
+            setIsLoading(false);
+        }
+    }, [selectedTopic, difficulty]);
     
     const handleExportQuestions = useCallback(() => {
         const questionsToExport = loadQuestionsForTopic(selectedTopic.name);
@@ -138,7 +179,7 @@ const App: React.FC = () => {
     return (
         <div className="min-h-screen bg-slate-900 text-slate-100 font-sans flex flex-col items-center p-4 sm:p-6 lg:p-8">
             <div className="w-full max-w-4xl mx-auto">
-                <Header />
+                <Header mode={mode} onToggleMode={toggleMode} />
 
                 <main className="mt-8 bg-slate-800/50 p-6 rounded-2xl shadow-2xl backdrop-blur-sm border border-slate-700">
                     <div className="flex flex-col md:flex-row gap-6 items-stretch md:items-start">
@@ -157,24 +198,49 @@ const App: React.FC = () => {
                             />
                         </div>
                         <div className="flex flex-col gap-4 flex-grow">
-                             <div className="flex items-center gap-4">
-                                <input
-                                    type="number"
-                                    min="1"
-                                    max="10"
-                                    value={numToGenerate}
-                                    onChange={(e) => setNumToGenerate(parseInt(e.target.value, 10) || 1)}
-                                    className="w-20 bg-slate-700 border border-slate-600 text-white rounded-lg p-3 text-center font-bold focus:ring-2 focus:ring-indigo-500"
-                                    aria-label="Number of questions to generate"
-                                />
+                            {/* Reviewer Mode: Load from Library button */}
+                            {isReviewerMode && (
                                 <button
-                                    onClick={handleGenerateQuestion}
+                                    onClick={handleLoadQuestionsFromLibrary}
                                     disabled={isLoading}
-                                    className="w-full bg-indigo-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-500 disabled:bg-indigo-800 disabled:cursor-not-allowed transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-indigo-500/50 flex items-center justify-center gap-2"
+                                    className="w-full bg-purple-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-purple-500 disabled:bg-purple-800 disabled:cursor-not-allowed transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-500/50 flex items-center justify-center gap-2"
                                 >
-                                    {isLoading ? <Spinner /> : '✨'}
-                                    <span>{isLoading ? `Generating ${numToGenerate}...` : 'Generate'}</span>
+                                    {isLoading ? <Spinner /> : '📚'}
+                                    <span>{isLoading ? 'Loading...' : 'Load Questions from Library'}</span>
                                 </button>
+                            )}
+
+                            {/* User Mode: Generate & Browse buttons */}
+                            {isUserMode && (
+                                <>
+                                    <div className="flex items-center gap-4">
+                                        <input
+                                            type="number"
+                                            min="1"
+                                            max="10"
+                                            value={numToGenerate}
+                                            onChange={(e) => setNumToGenerate(parseInt(e.target.value, 10) || 1)}
+                                            className="w-20 bg-slate-700 border border-slate-600 text-white rounded-lg p-3 text-center font-bold focus:ring-2 focus:ring-indigo-500"
+                                            aria-label="Number of questions to generate"
+                                        />
+                                        <button
+                                            onClick={handleGenerateQuestion}
+                                            disabled={isLoading}
+                                            className="w-full bg-indigo-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-500 disabled:bg-indigo-800 disabled:cursor-not-allowed transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-indigo-500/50 flex items-center justify-center gap-2"
+                                        >
+                                            {isLoading ? <Spinner /> : '✨'}
+                                            <span>{isLoading ? `Generating ${numToGenerate}...` : 'Generate with AI'}</span>
+                                        </button>
+                                    </div>
+                                    <button
+                                        onClick={handleLoadQuestionsFromLibrary}
+                                        disabled={isLoading}
+                                        className="w-full bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-500 disabled:bg-blue-800 disabled:cursor-not-allowed transition-all duration-300 ease-in-out focus:outline-none focus:ring-4 focus:ring-blue-500/50"
+                                    >
+                                        📚 Browse Library
+                                    </button>
+                                </>
+                            )}
                             </div>
                              <div className="flex flex-col sm:flex-row gap-4">
                                 <input type="file" ref={fileInputRef} onChange={handleFileImport} accept="application/json" className="hidden" />
@@ -211,6 +277,9 @@ const App: React.FC = () => {
                                 currentIndex={currentQuestionIndex}
                                 onNavigate={setCurrentQuestionIndex}
                                 onReviewUpdate={handleReviewUpdate}
+                                mode={mode}
+                                topicName={selectedTopic.name}
+                                difficulty={difficulty}
                             />
                         )}
                         {!isLoading && !questions && !error && (

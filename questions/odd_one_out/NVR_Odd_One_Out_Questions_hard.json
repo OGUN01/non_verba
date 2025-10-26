@@ -1,0 +1,727 @@
+[
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"black\" stroke=\"white\" stroke-width=\"2\"><polygon points=\"50,15 85,32.5 85,67.5 50,85 15,67.5 15,32.5\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\"/><circle cx=\"30\" cy=\"30\" r=\"4\"/><circle cx=\"70\" cy=\"30\" r=\"4\"/><circle cx=\"30\" cy=\"70\" r=\"4\"/><circle cx=\"70\" cy=\"70\" r=\"4\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"black\" stroke=\"white\" stroke-width=\"2\"><polygon points=\"50,15 88,40 71,85 29,85 12,40\"/><polygon points=\"50,35 68,65 32,65\"/><circle cx=\"50\" cy=\"25\" r=\"4\"/><circle cx=\"35\" cy\"75\" r=\"4\"/><circle cx=\"65\" cy=\"75\" r=\"4\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"black\" stroke=\"white\" stroke-width=\"2\"><polygon points=\"50,15 78,25 90,55 70,85 30,85 10,55 22,25\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\"/><circle cx=\"30\" cy=\"30\" r=\"4\"/><circle cx=\"70\" cy=\"30\" r=\"4\"/><circle cx=\"30\" cy=\"70\" r=\"4\"/><circle cx=\"70\" cy=\"70\" r=\"4\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"black\" stroke=\"white\" stroke-width=\"2\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\"/><line x1=\"30\" y1=\"50\" x2=\"70\" y2=\"50\"/><circle cx=\"40\" cy=\"30\" r=\"4\"/><circle cx=\"60\" cy=\"30\" r=\"4\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"black\" stroke=\"white\" stroke-width=\"2\"><polygon points=\"35,15 65,15 85,35 85,65 65,85 35,85 15,65 15,35\"/><polygon points=\"50,30 72,40 72,60 50,70 28,60 28,40\"/><circle cx=\"30\" cy=\"25\" r=\"4\"/><circle cx=\"70\" cy=\"25\" r=\"4\"/><circle cx=\"80\" cy=\"50\" r=\"4\"/><circle cx=\"20\" cy=\"50\" r=\"4\"/><circle cx=\"30\" cy=\"75\" r=\"4\"/><circle cx=\"70\" cy=\"75\" r=\"4\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule governing the figures has two parts. First, the number of vertices (corners) on the inner shape must be two less than the number of vertices on the outer shape. Second, the number of small circles must be equal to the number of vertices on the inner shape. \n\nA: Outer hexagon (6 vertices), inner square (4 vertices). 6 - 2 = 4. There are 4 circles. This is correct.\nB: Outer pentagon (5 vertices), inner triangle (3 vertices). 5 - 2 = 3. There are 3 circles. This is correct.\nC: Outer heptagon (7 vertices), inner square (4 vertices). 7 - 2 = 5. The inner shape should have 5 vertices, but it has 4. This is incorrect.\nD: Outer square (4 vertices), inner line (2 vertices). 4 - 2 = 2. There are 2 circles. This is correct.\nE: Outer octagon (8 vertices), inner hexagon (6 vertices). 8 - 2 = 6. There are 6 circles. This is correct.\n\nTherefore, figure C is the odd one out as it breaks the first part of the rule.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"3\" fill=\"none\" /><circle cx=\"35\" cy=\"35\" r=\"5\" fill=\"black\" /><circle cx=\"65\" cy=\"35\" r=\"5\" fill=\"black\" /><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"black\" /><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"black\" /></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 84.6,75 15.4,75\" stroke=\"black\" stroke-width=\"3\" fill=\"none\" /><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"black\" /><circle cx=\"40\" cy=\"65\" r=\"5\" fill=\"black\" /><circle cx=\"60\" cy=\"65\" r=\"5\" fill=\"black\" /></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 80,90 20,90\" stroke=\"black\" stroke-width=\"3\" fill=\"none\" /><circle cx=\"50\" cy=\"60\" r=\"5\" fill=\"black\" /></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"15\" y=\"30\" width=\"70\" height=\"40\" stroke=\"black\" stroke-width=\"3\" fill=\"none\" /><circle cx=\"35\" cy=\"50\" r=\"5\" fill=\"black\" /><circle cx=\"65\" cy=\"50\" r=\"5\" fill=\"black\" /></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 92.4,42.5 75.5,90 24.5,90 7.6,42.5\" stroke=\"black\" stroke-width=\"3\" fill=\"none\" /><circle cx=\"40\" cy=\"45\" r=\"5\" fill=\"black\" /><circle cx=\"60\" cy=\"45\" r=\"5\" fill=\"black\" /><circle cx=\"35\" cy=\"70\" r=\"5\" fill=\"black\" /><circle cx=\"65\" cy=\"70\" r=\"5\" fill=\"black\" /></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The rule connects the outer shape to the number of inner circles. In four of the figures, the number of inner circles is equal to the number of lines of symmetry of the outer shape. A square (A) has 4 lines of symmetry and 4 circles. An equilateral triangle (B) has 3 lines of symmetry and 3 circles. An isosceles triangle (C) has 1 line of symmetry and 1 circle. A rectangle (D) has 2 lines of symmetry and 2 circles. The regular pentagon in option E has 5 lines of symmetry but only contains 4 circles, which breaks the rule, making it the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 95,45 75,95 25,95 5,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"56.25\" cy=\"31.25\" r=\"4\" fill=\"black\"/><circle cx=\"62.5\" cy=\"52.5\" r=\"4\" fill=\"black\"/><circle cx=\"68.75\" cy=\"73.75\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"40\" r=\"4\" fill=\"black\"/><circle cx=\"60\" cy=\"60\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,35 85,65 50,85 15,65 15,35\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"32.5\" cy=\"42.5\" r=\"4\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"4\" fill=\"black\"/><circle cx=\"67.5\" cy=\"57.5\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 85,30 95,65 70,95 30,95 5,65 15,30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"28.3\" cy=\"35.8\" r=\"3\" fill=\"black\"/><circle cx=\"41.7\" cy=\"41.7\" r=\"3\" fill=\"black\"/><circle cx=\"55\" cy=\"47.5\" r=\"3\" fill=\"black\"/><circle cx=\"68.3\" cy=\"53.3\" r=\"3\" fill=\"black\"/><circle cx=\"81.7\" cy=\"59.2\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 90,85 10,85\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"4\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is that the number of small black circles inside the main shape is two less than the number of sides of the main shape. In all figures, the circles are also arranged along a straight line. \n- A: The pentagon has 5 sides, and correctly contains 5 - 2 = 3 circles.\n- B: The square has 4 sides, and correctly contains 4 - 2 = 2 circles.\n- D: The heptagon has 7 sides, and correctly contains 7 - 2 = 5 circles.\n- E: The triangle has 3 sides, and correctly contains 3 - 2 = 1 circle.\nOption C is the odd one out because the hexagon has 6 sides and should therefore contain 6 - 2 = 4 circles, but it only has 3.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,80 15,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"40\" cy=\"60\" r=\"6\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"60\" cy=\"60\" r=\"6\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,25 45,35 55,35\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"35\" r=\"6\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"65\" r=\"6\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"65\" r=\"6\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"75,25 65,30 70,20\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"55\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"55\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"40\" cy=\"75\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"60\" cy=\"75\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,25 45,35 55,35\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,35 85,65 50,85 15,65 15,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"50\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"50\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"65\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy=\"65\" r=\"5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"25,35 18,45 28,45\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 85,25 95,60 70,90 30,90 5,60 15,25\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"35\" r=\"4\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"50\" r=\"4\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"65\" cy\"50\" r=\"4\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"65\" r=\"4\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"30\" cy=\"75\" r=\"4\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"70\" cy=\"75\" r=\"4\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,20 45,30 55,30\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule connects the large outer shape with the number of small inner circles. In four of the figures, the number of circles is one less than the number of sides of the outer shape. \n- A: 3 sides, 2 circles (3-1=2)\n- B: 4 sides, 3 circles (4-1=3)\n- D: 6 sides, 5 circles (6-1=5)\n- E: 7 sides, 6 circles (7-1=6)\nFigure C is the odd one out because it has a 5-sided shape (a pentagon) but contains 5 circles, instead of the 4 required by the rule (5-1=4). The small black triangle, which always points to a vertex, is a distractor and consistent across all options.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,40 65,65 35,65\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"3\" fill=\"black\"/><circle cx=\"70\" cy=\"30\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,30 90,70 50,90 10,70 10,30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"50\" r=\"3\" fill=\"black\"/><circle cx=\"75\" cy=\"50\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,35 65,65 35,65\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"82\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 85,25 95,60 65,90 35,90 5,60 15,25\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,30 70,50 62,75 38,75 30,50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"25\" cy=\"40\" r=\"3\" fill=\"black\"/><circle cx=\"75\" cy=\"40\" r=\"3\" fill=\"black\"/><circle cx=\"50\" cy=\"85\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"35,10 65,10 90,35 90,65 65,90 35,90 10,65 10,35\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,30 70,40 70,60 50,70 30,60 30,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"22\" cy=\"50\" r=\"3\" fill=\"black\"/><circle cx=\"78\" cy=\"50\" r=\"3\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "The rule relates the number of small black dots to the number of sides of the two larger shapes. In each figure, the number of dots should be equal to the number of sides of the large outer shape minus the number of sides of the smaller inner shape. \n- A: The outer pentagon has 5 sides and the inner triangle has 3 sides. 5 - 3 = 2. There are 2 dots, so this is correct. \n- B: The outer hexagon has 6 sides and the inner square has 4 sides. 6 - 4 = 2. There are 2 dots, so this is correct. \n- C: The outer square has 4 sides and the inner triangle has 3 sides. 4 - 3 = 1. There is 1 dot, so this is correct. \n- D: The outer heptagon has 7 sides and the inner pentagon has 5 sides. 7 - 5 = 2. The figure incorrectly shows 3 dots. \n- E: The outer octagon has 8 sides and the inner hexagon has 6 sides. 8 - 6 = 2. There are 2 dots, so this is correct. \nTherefore, D is the odd one out as it does not follow the rule.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,85 25,85 10,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"30\" y=\"55\" width=\"12\" height=\"12\" fill=\"black\"/><rect x=\"58\" y=\"55\" width=\"12\" height=\"12\" fill=\"black\"/><circle cx=\"50\" cy=\"35\" r=\"6\" fill=\"black\"/><circle cx=\"35\" cy=\"42\" r=\"6\" fill=\"black\"/><circle cx=\"65\" cy=\"42\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"35\" y=\"35\" width=\"12\" height=\"12\" fill=\"black\"/><circle cx=\"65\" cy=\"35\" r=\"6\" fill=\"black\"/><circle cx=\"35\" cy=\"65\" r=\"6\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,35 90,65 50,90 10,65 10,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"30\" y=\"30\" width=\"12\" height=\"12\" fill=\"black\"/><rect x=\"58\" y=\"30\" width=\"12\" height=\"12\" fill=\"black\"/><circle cx=\"38\" cy=\"65\" r=\"6\" fill=\"black\"/><circle cx=\"62\" cy=\"65\" r=\"6\" fill=\"black\"/><circle cx=\"50\" cy=\"50\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 90,85 10,85\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"30\" y=\"60\" width=\"12\" height=\"12\" fill=\"black\"/><rect x=\"58\" y=\"60\" width=\"12\" height=\"12\" fill=\"black\"/><circle cx=\"50\" cy=\"40\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,35 90,65 50,90 10,65 10,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"30\" y=\"30\" width=\"12\" height=\"12\" fill=\"black\"/><rect x=\"58\" y=\"30\" width=\"12\" height=\"12\" fill=\"black\"/><rect x=\"30\" y=\"58\" width=\"12\" height=\"12\" fill=\"black\"/><rect x=\"58\" y=\"58\" width=\"12\" height=\"12\" fill=\"black\"/><circle cx=\"38\" cy=\"44\" r=\"6\" fill=\"black\"/><circle cx=\"62\" cy=\"44\" r=\"6\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule connects the number of sides of the large outer shape with the number of small squares and small circles inside it. In four of the figures, the number of circles is equal to the number of sides of the outer shape minus the number of squares. \n- A: Pentagon (5 sides) - 2 squares = 3 circles. This is correct.\n- B: Square (4 sides) - 1 square = 3 circles. This is correct.\n- D: Triangle (3 sides) - 2 squares = 1 circle. This is correct.\n- E: Hexagon (6 sides) - 4 squares = 2 circles. This is correct.\nFigure C is the odd one out. It has a hexagon (6 sides) and 2 squares. According to the rule, there should be 6 - 2 = 4 circles. However, there are only 3 circles, which breaks the pattern.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"30\" y=\"30\" width=\"40\" height=\"40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"15\" r=\"5\" fill=\"black\"/><circle cx=\"85\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"85\" r=\"5\" fill=\"black\"/><circle cx=\"15\" cy=\"50\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,25 78.9,75 21.1,75\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"12\" r=\"5\" fill=\"black\"/><circle cx=\"89\" cy=\"80\" r=\"5\" fill=\"black\"/><circle cx=\"11\" cy=\"80\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"25\" y=\"35\" width=\"50\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"18\" r=\"5\" fill=\"black\"/><circle cx=\"20\" cy=\"82\" r=\"5\" fill=\"black\"/><circle cx=\"80\" cy=\"82\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"75,30 75,70 50,87.32 25,70 25,30 50,12.68\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"5\" r=\"4\" fill=\"black\"/><circle cx=\"85\" cy=\"25\" r=\"4\" fill=\"black\"/><circle cx=\"85\" cy=\"75\" r=\"4\" fill=\"black\"/><circle cx=\"50\" cy=\"95\" r=\"4\" fill=\"black\"/><circle cx=\"15\" cy=\"75\" r=\"4\" fill=\"black\"/><circle cx=\"15\" cy=\"25\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,20 80,80 20,80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"92\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule relates the number of small black circles to the lines of symmetry of the large central shape. In four of the figures, the number of circles is equal to the number of lines of symmetry of the shape. Option A has a square (4 lines of symmetry) and 4 circles. Option B has an equilateral triangle (3 lines of symmetry) and 3 circles. Option D has a regular hexagon (6 lines of symmetry) and 6 circles. Option E has an isosceles triangle (1 line of symmetry) and 1 circle. Option C is the odd one out because the rectangle has 2 lines of symmetry, but it is surrounded by 3 circles.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,35 85,65 50,85 15,65 15,35\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"43\" cy=\"50\" r=\"3\" fill=\"black\"/><circle cx=\"57\" cy=\"50\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"50,35 65,60 35,60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"52\" r=\"3\" fill=\"black\"/><circle cx=\"55\" cy=\"52\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"50,35 70,65 30,65\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,35 85,65 50,85 15,65 15,35\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"50,30 70,45 62,68 38,68 30,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"55\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"43\" cy=\"50\" r=\"3\" fill=\"black\"/><circle cx=\"57\" cy=\"50\" r=\"3\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The rule is that the number of vertices (corners) of the outer shape is equal to the sum of the number of vertices of the inner shape and the number of black dots. \nA: Outer hexagon (6 vertices) = Inner square (4 vertices) + 2 dots. (6 = 4 + 2). \nB: Outer pentagon (5 vertices) = Inner triangle (3 vertices) + 2 dots. (5 = 3 + 2). \nC: Outer square (4 vertices) = Inner triangle (3 vertices) + 1 dot. (4 = 3 + 1). \nD: Outer hexagon (6 vertices) = Inner pentagon (5 vertices) + 1 dot. (6 = 5 + 1). \nE is the odd one out because the outer pentagon has 5 vertices, but the inner square (4 vertices) plus 2 dots equals 6. (5 ≠ 4 + 2).",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"30\" r=\"6\" fill=\"black\"/><circle cx=\"70\" cy=\"30\" r=\"6\" fill=\"black\"/><circle cx=\"30\" cy=\"70\" r=\"6\" fill=\"black\"/><circle cx=\"70\" cy=\"70\" r=\"6\" fill=\"black\"/><rect x=\"42\" y=\"42\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,5 93,27.5 93,72.5 50,95 7,72.5 7,27.5\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"50,20 60,37 40,37\" fill=\"black\"/><polygon points=\"76,38 86,55 66,55\" fill=\"black\"/><polygon points=\"76,62 86,79 66,79\" fill=\"black\"/><polygon points=\"50,80 60,63 40,63\" fill=\"black\"/><polygon points=\"24,62 34,79 14,79\" fill=\"black\"/><polygon points=\"24,38 34,55 14,55\" fill=\"black\"/><polygon points=\"35,50 45,67 25,67\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><polygon points=\"65,50 75,67 55,67\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,90 10,90\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"45\" r=\"6\" fill=\"black\"/><rect x=\"42\" y=\"65\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"25\" width=\"80\" height=\"50\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"25\" y=\"42\" width=\"16\" height=\"16\" fill=\"black\"/><rect x=\"59\" y=\"42\" width=\"16\" height=\"16\" fill=\"black\"/><rect x=\"42\" y=\"42\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,5 95,40 79,95 21,95 5,40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"20\" r=\"6\" fill=\"black\"/><circle cx=\"81\" cy=\"45\" r=\"6\" fill=\"black\"/><circle cx=\"69\" cy=\"80\" r=\"6\" fill=\"black\"/><circle cx=\"31\" cy=\"80\" r=\"6\" fill=\"black\"/><circle cx=\"19\" cy=\"45\" r=\"6\" fill=\"black\"/><polygon points=\"50,45 69,60 62,80 38,80 31,60\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "There are two rules that apply to the figures. The odd one out is the only figure that does not follow both rules. Rule 1: The number of filled inner shapes is equal to the number of lines of symmetry of the outer shape. Rule 2: The total number of vertices of the unfilled inner shape(s) is equal to the number of vertices of the outer shape. \n- A: The outer square has 4 lines of symmetry and 4 vertices. It contains 4 filled shapes and one unfilled square (4 vertices). This follows both rules. \n- B: The outer regular hexagon has 6 lines of symmetry and 6 vertices. It contains 6 filled shapes and two unfilled triangles (3+3=6 vertices). This follows both rules. \n- D: The outer rectangle has 2 lines of symmetry and 4 vertices. It contains 2 filled shapes and one unfilled square (4 vertices). This follows both rules. \n- E: The outer regular pentagon has 5 lines of symmetry and 5 vertices. It contains 5 filled shapes and one unfilled pentagon (5 vertices). This follows both rules. \n- C: The outer isosceles triangle has 1 line of symmetry and 3 vertices. It contains 1 filled shape (correctly following Rule 1), but its unfilled shape is a square, which has 4 vertices, not 3. This breaks Rule 2. Therefore, C is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"30,20 70,20 90,50 70,80 30,80 10,50\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"40\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"40\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"25\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"75\" cy=\"50\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"35,15 65,15 85,35 85,65 65,85 35,85 15,65 15,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"30\" r=\"4\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"4\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"black\"/><circle cx=\"30\" cy=\"50\" r=\"4\" fill=\"black\"/><circle cx=\"36\" cy=\"36\" r=\"4\" fill=\"black\"/><circle cx=\"64\" cy=\"36\" r=\"4\" fill=\"black\"/><circle cx=\"36\" cy=\"64\" r=\"4\" fill=\"black\"/><circle cx=\"64\" cy=\"64\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,50 50,90 10,50\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,45 90,90 10,90 10,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"black\"/><circle cx=\"30\" cy\" r=\"5\" fill=\"black\"/><circle cx=\"70\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"30\" cy=\"80\" r=\"5\" fill=\"black\"/><circle cx=\"70\" cy=\"80\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"25,20 85,20 75,80 15,80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"40\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"40\" r=\"5\" fill=\"black\"/><circle cx=\"40\" cy=\"60\" r=\"5\" fill=\"black\"/><circle cx=\"60\" cy=\"60\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The rule has two parts that must both be true. First, the large outer shape must be symmetrical about a vertical line. Second, the number of small black circles inside the shape must be equal to the number of vertices (corners) of the outer shape. Figures A, B, C, and D all follow this rule. Figure A is a symmetrical hexagon (6 vertices) with 6 circles. Figure B is a symmetrical octagon (8 vertices) with 8 circles. Figure C is a symmetrical kite shape (4 vertices) with 4 circles. Figure D is a symmetrical pentagon (5 vertices) with 5 circles. Figure E is the odd one out because its outer shape, a parallelogram, is not symmetrical about a vertical line, even though the number of circles (4) correctly matches its number of vertices.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"30,70 50,40 70,70\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"25\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"35\" y=\"45\" width=\"30\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,30 90,70 50,90 10,70 10,30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"50,30 65,45 55,65 45,65 35,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"80\" x2=\"70\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 10,90 90,90\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"70\" x2=\"70\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"40\" r=\"3\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"30,10 70,10 90,30 90,70 70,90 30,90 10,70 10,30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"20\" y=\"35\" width=\"25\" height=\"25\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"55\" y=\"35\" width=\"25\" height=\"25\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule relates the outer shape to the inner shapes. In four of the figures, the number of sides of the outer shape is equal to the total number of vertices (corners) of all the inner shapes combined. A small filled circle is counted as one vertex, and a line as two vertices.\n- A: The outer square has 4 sides. The inner triangle (3 vertices) and circle (1 vertex) have a total of 3 + 1 = 4 vertices.\n- B: The outer pentagon has 5 sides. The inner square (4 vertices) and circle (1 vertex) have a total of 4 + 1 = 5 vertices.\n- D: The outer triangle has 3 sides. The inner line (2 vertices) and circle (1 vertex) have a total of 2 + 1 = 3 vertices.\n- E: The outer octagon has 8 sides. The two inner squares (4 vertices each) have a total of 4 + 4 = 8 vertices.\n- C: The outer hexagon has 6 sides. The inner pentagon (5 vertices) and line (2 vertices) have a total of 5 + 2 = 7 vertices. This does not match the 6 sides of the outer shape, so it is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,85 15,85\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"60\" r=\"8\" fill=\"black\" stroke=\"black\" stroke-width=\"2\" /></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,45 75,90 25,90 10,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"55\" r=\"8\" fill=\"black\" stroke=\"black\" stroke-width=\"2\" /></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"black\" stroke=\"black\" stroke-width=\"2\" /></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 85,30 85,70 50,90 15,70 15,30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"50\" r=\"8\" fill=\"none\" stroke=\"black\" stroke-width=\"2\" /></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,12 88,33 81,75 50,95 19,75 12,33\" stroke=\"black\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"55\" r=\"8\" fill=\"black\" stroke=\"black\" stroke-width=\"2\" /></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule connects the number of vertices (corners) of the outer shape with the fill of the inner circle. If the number of vertices is a prime number (a number only divisible by 1 and itself), the inner circle is filled black. If the number of vertices is a composite number (a non-prime number greater than 1), the inner circle is unfilled. A: 3 vertices (prime) -> filled circle. B: 5 vertices (prime) -> filled circle. D: 6 vertices (composite) -> unfilled circle. E: 7 vertices (prime) -> filled circle. C is the odd one out because it has 4 vertices (a composite number), but its inner circle is filled, which breaks the established rule.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"20,20 80,20 80,80 20,80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"60\" r=\"4\" fill=\"white\"/><circle cx=\"50\" cy=\"60\" r=\"4\" fill=\"white\"/><circle cx=\"60\" cy=\"60\" r=\"4\" fill=\"white\"/><path d=\"M50 45 L50 25 M45 30 L50 25 L55 30\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"60\" r=\"4\" fill=\"white\"/><circle cx=\"50\" cy=\"60\" r=\"4\" fill=\"white\"/><circle cx=\"60\" cy=\"60\" r=\"4\" fill=\"white\"/><circle cx=\"45\" cy=\"70\" r=\"4\" fill=\"white\"/><path d=\"M40 70 L22 70 M27 65 L22 70 L27 75\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,85 15,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"60\" r=\"4\" fill=\"white\"/><circle cx=\"55\" cy=\"60\" r=\"4\" fill=\"white\"/><path d=\"M50 50 L50 20 M45 25 L50 20 L55 25\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,37.5 85,62.5 50,85 15,62.5 15,37.5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"50\" r=\"4\" fill=\"white\"/><circle cx=\"50\" cy=\"50\" r=\"4\" fill=\"white\"/><circle cx=\"60\" cy=\"50\" r=\"4\" fill=\"white\"/><circle cx=\"45\" cy=\"60\" r=\"4\" fill=\"white\"/><circle cx=\"55\" cy=\"60\" r=\"4\" fill=\"white\"/><path d=\"M65 50 L80 50 M75 45 L80 50 L75 55\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 82,33 90,67 65,90 35,90 10,67 18,33\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"55\" r=\"3\" fill=\"white\"/><circle cx=\"50\" cy=\"55\" r=\"3\" fill=\"white\"/><circle cx=\"60\" cy=\"55\" r=\"3\" fill=\"white\"/><circle cx=\"35\" cy=\"65\" r=\"3\" fill=\"white\"/><circle cx=\"45\" cy=\"65\" r=\"3\" fill=\"white\"/><circle cx=\"55\" cy=\"65\" r=\"3\" fill=\"white\"/><path d=\"M50 75 L50 85 M45 80 L50 85 L55 80\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "There are two rules that connect the elements in four of the five figures. Rule 1: The number of small white dots is one less than the number of sides of the large outer shape. Rule 2: The small arrow points towards a flat side of the outer shape. Figure A has a 4-sided shape and 3 dots, with the arrow pointing to a side. Figure B has a 5-sided shape and 4 dots, with the arrow pointing to a side. Figure D has a 6-sided shape and 5 dots, with the arrow pointing to a side. Figure E has a 7-sided shape and 6 dots, with the arrow pointing to a side. Figure C has a 3-sided shape and correctly has 2 dots (following Rule 1), but the arrow breaks Rule 2 by pointing to a vertex (corner) instead of a side. Therefore, C is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"25,25 75,25 75,75 25,75\"/><path d=\"M50,50 L75,25 M70,20 L75,25 L75,30\" stroke-width=\"1.5\"/><path d=\"M25,68 A 10 10 0 0 1 32,75\" stroke-width=\"1.5\"/></g></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,15 90,45 75,90 25,90 10,45\"/><path d=\"M50,60 L50,15 M45,20 L50,15 L55,20\" stroke-width=\"1.5\"/><path d=\"M32,90 A 10 10 0 0 0 25,83\" stroke-width=\"1.5\"/></g></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,10 85,30 90,70 65,90 35,90 10,70 15,30\"/><path d=\"M50,60 L50,10 M45,15 L50,10 L55,15\" stroke-width=\"1.5\"/><path d=\"M42,90 A 10 10 0 0 0 35,83\" stroke-width=\"1.5\"/></g></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,15 85,35 85,75 50,95 15,75 15,35\"/><path d=\"M50,55 L85,35 M80,30 L85,35 L85,40\" stroke-width=\"1.5\"/><path d=\"M15,42 A 10 10 0 0 1 22,35\" stroke-width=\"1.5\"/></g></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><g stroke=\"white\" stroke-width=\"2\" fill=\"none\"><polygon points=\"50,15 90,85 10,85\"/><path d=\"M50,65 L50,15 M45,20 L50,15 L55,20\" stroke-width=\"1.5\"/><path d=\"M83,85 A 10 10 0 0 0 90,78\" stroke-width=\"1.5\"/></g></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule relates the number of sides of the outer shape to the position of a marked vertex. In each figure, an arrow points to one vertex, and a small arc marks the internal angle of another. The rule is that the number of vertices you must count clockwise from the arrow's vertex to reach the marked vertex is equal to the number of sides of the shape minus two (N-2). A: Square (4 sides). 4 - 2 = 2. The mark is 2 vertices away. B: Pentagon (5 sides). 5 - 2 = 3. The mark is 3 vertices away. D: Hexagon (6 sides). 6 - 2 = 4. The mark is 4 vertices away. E: Triangle (3 sides). 3 - 2 = 1. The mark is 1 vertex away. Figure C is a heptagon (7 sides), so the mark should be 7 - 2 = 5 vertices away. However, it is only 4 vertices away, making it the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,80 35,55 65,55\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 88,45 75,85 25,85 12,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"40,85 30,75 40,65 50,75\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,35 90,75 50,100 10,75 10,35\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"70,22.5 60,32.5 65,45 75,45 80,32.5\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 10,90 90,90\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polyline points=\"40,70 50,90 60,70\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 85,28 95,63 75,95 25,95 5,63 15,28\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,95 40,85 45,75 55,75 60,85\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The rule connects the outer shape to the inner shape. In four of the figures, the number of sides of the inner shape is exactly one less than the number of sides of the outer shape. A secondary, consistent feature in all options is that a vertex of the inner shape touches a side of the outer shape. The figure that breaks the primary rule is the odd one out. \n- A: Outer square (4 sides), inner triangle (3 sides). 3 = 4 - 1.\n- B: Outer pentagon (5 sides), inner square (4 sides). 4 = 5 - 1.\n- C: Outer hexagon (6 sides), inner pentagon (5 sides). 5 = 6 - 1.\n- D: Outer triangle (3 sides), inner V-shape (2 sides). 2 = 3 - 1.\n- E: Outer heptagon (7 sides), inner pentagon (5 sides). 5 is not one less than 7.\nTherefore, E is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"10,10 90,10 90,90 10,90\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"75,25 85,15 80,30\" fill=\"white\"/><circle cx=\"30\" cy=\"30\" r=\"8\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><rect x=\"25\" y=\"65\" width=\"15\" height=\"15\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 65 65 L 80 80 M 80 65 L 65 80\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 92,45 75,90 25,90 8,45\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"50,25 45,35 55,35\" fill=\"white\"/><circle cx=\"30\" cy=\"45\" r=\"7\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><rect x=\"65\" y=\"45\" width=\"12\" height=\"12\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 35 70 L 45 80 M 40 70 L 40 80 M 35 75 L 45 75\" stroke=\"white\" stroke-width=\"2\"/><polygon points=\"70,75 75,70 80,75 75,80\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,85 10,85\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"45,70 55,70 50,80\" fill=\"white\"/><circle cx=\"35\" cy=\"40\" r=\"8\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><rect x=\"60\" y=\"35\" width=\"14\" height=\"14\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,5 93,27 93,73 50,95 7,73 7,27\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"22,70 12,78 27,78\" fill=\"white\"/><circle cx=\"75\" cy=\"30\" r=\"6\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><rect x=\"70\" y=\"65\" width=\"10\" height=\"10\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 30 50 L 40 60 M 40 50 L 30 60\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"20\" r=\"4\" fill=\"white\"/><polygon points=\"45,80 50,75 55,80 50,85\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"10,10 10,90 90,90\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"25,75 15,85 30,80\" fill=\"white\"/><circle cx=\"50\" cy\"50\" r=\"8\" stroke=\"white\" fill=\"none\" stroke-width=\"2\"/><path d=\"M 60 30 L 80 30 M 70 20 L 70 40\" stroke=\"white\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule has two parts that connect the outer shape with the inner elements. First, the number of inner elements must equal the number of sides of the outer shape. Second, one of the inner elements is a solid white arrow that must point directly towards a vertex (corner) of the outer shape. All figures except C follow both rules. A has a 4-sided shape and 4 elements, with the arrow pointing to a vertex. B has a 5-sided shape and 5 elements, with the arrow pointing to a vertex. D has a 6-sided shape and 6 elements, with the arrow pointing to a vertex. E has a 3-sided shape and 3 elements, with the arrow pointing to a vertex. Figure C correctly has 3 elements for its 3-sided shape, but the arrow points to the midpoint of a side, not a vertex, making it the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"35\" cy=\"35\" r=\"5\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"65\" cy=\"35\" r=\"5\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" /></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"35\" r=\"4\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"35\" cy=\"55\" r=\"4\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"65\" cy=\"55\" r=\"4\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"42\" cy=\"75\" r=\"4\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"58\" cy=\"75\" r=\"4\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 90,85 10,85\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"45\" r=\"5\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"35\" cy=\"65\" r=\"5\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"65\" cy=\"65\" r=\"5\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"50\" cy=\"75\" r=\"5\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,35 90,65 50,90 10,65 10,35\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"30\" r=\"4\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"30\" cy=\"45\" r=\"4\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"70\" cy=\"45\" r=\"4\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"30\" cy=\"65\" r=\"4\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"70\" cy=\"65\" r=\"4\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"50\" cy=\"75\" r=\"4\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 80.4,19.6 90,50 80.4,80.4 50,90 19.6,80.4 10,50 19.6,19.6\" stroke=\"white\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"30\" r=\"3\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"35\" cy=\"40\" r=\"3\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"65\" cy=\"40\" r=\"3\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"30\" cy=\"55\" r=\"3\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"70\" cy=\"55\" r=\"3\" fill=\"none\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"35\" cy=\"70\" r=\"3\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"65\" cy=\"70\" r=\"3\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /><circle cx=\"50\" cy=\"75\" r=\"3\" fill=\"white\" stroke=\"white\" stroke-width=\"2\" /></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule combines two conditions. First, the total number of small circles inside the large shape must be equal to the number of sides of the large shape. Second, exactly one of the small circles must be hollow, while the rest are solid. Figure C is the odd one out because it contains a triangle (3 sides) but has 4 small circles inside, breaking the first condition. All other figures follow both parts of the rule (A: 4 sides, 4 circles; B: 5 sides, 5 circles; D: 6 sides, 6 circles; E: 8 sides, 8 circles).",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,40 75,90 25,90 10,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"35\" y=\"35\" width=\"30\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"35\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15\" y=\"15\" width=\"70\" height=\"70\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"50,30 30,65 70,65\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"65\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 85,30 85,70 50,90 15,70 15,30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"50,25 75,45 65,75 35,75 25,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"25\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 83,25 90,60 65,90 35,90 10,60 17,25\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"50,30 70,40 70,60 50,70 30,60 30,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"60\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 10,85 90,85\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"35\" y=\"40\" width=\"30\" height=\"30\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"40\" r=\"4\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The rule relates the outer shape to the inner shape. In four of the figures, the number of sides of the inner shape is exactly one less than the number of sides of the outer shape. A: Outer pentagon (5 sides), inner square (4 sides). B: Outer square (4 sides), inner triangle (3 sides). C: Outer hexagon (6 sides), inner pentagon (5 sides). D: Outer heptagon (7 sides), inner hexagon (6 sides). Figure E is the odd one out because it has an outer triangle (3 sides) and an inner square (4 sides), which breaks the 'inner shape has one less side' rule. The small black dot is always located near a vertex of the inner shape and is a distractor.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"25,25 75,25 75,75 25,75\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"30\" y=\"30\" width=\"10\" height=\"10\" fill=\"black\"/><circle cx=\"70\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"70\" cy=\"70\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,40 75,80 25,80 15,40\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"20\" y=\"43\" width=\"10\" height=\"10\" fill=\"black\"/><circle cx=\"50\" cy=\"22\" r=\"5\" fill=\"black\"/><circle cx=\"78\" cy=\"45\" r=\"5\" fill=\"black\"/><circle cx=\"70\" cy=\"75\" r=\"5\" fill=\"black\"/><circle cx=\"30\" cy=\"75\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 85,30 85,70 50,90 15,70 15,30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"73\" y=\"63\" width=\"10\" height=\"10\" fill=\"black\"/><circle cx=\"50\" cy=\"17\" r=\"5\" fill=\"black\"/><circle cx=\"78\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"83\" r=\"5\" fill=\"black\"/><circle cx=\"22\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"22\" cy=\"35\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,20 80,75 20,75\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"27\" y=\"63\" width=\"10\" height=\"10\" fill=\"black\"/><circle cx=\"50\" cy=\"28\" r=\"5\" fill=\"black\"/><circle cx=\"73\" cy=\"68\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 85,30 85,70 50,90 15,70 15,30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"17\" y=\"33\" width=\"10\" height=\"10\" fill=\"black\"/><circle cx=\"50\" cy=\"17\" r=\"5\" fill=\"black\"/><circle cx=\"78\" cy=\"35\" r=\"5\" fill=\"black\"/><circle cx=\"78\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"83\" r=\"5\" fill=\"black\"/><circle cx=\"22\" cy=\"65\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule has two parts. First, the number of small inner shapes must equal the number of sides of the large outer shape. All figures follow this part. Second, one of the inner shapes is a square and the rest are circles. The position of the square is determined by the number of sides (N) of the outer shape. Counting clockwise from the top-most vertex, the square should be at the Nth vertex. In figure C, the outer shape is a hexagon (6 sides), so the square should be at the 6th vertex (top-left). However, it is incorrectly placed at the 3rd vertex (bottom-right). All other figures follow this positional rule correctly.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"35\" cy=\"50\" r=\"6\" fill=\"black\"/><circle cx=\"55\" cy=\"50\" r=\"6\" fill=\"black\"/><circle cx=\"75\" cy=\"50\" r=\"6\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"30,15 70,15 90,50 70,85 30,85 10,50\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><rect x=\"45\" y=\"30\" width=\"10\" height=\"10\" fill=\"black\"/><rect x=\"65\" y=\"45\" width=\"10\" height=\"10\" fill=\"black\"/><rect x=\"45\" y=\"60\" width=\"10\" height=\"10\" fill=\"black\"/><rect x=\"25\" y=\"45\" width=\"10\" height=\"10\" fill=\"black\"/><rect x=\"45\" y=\"45\" width=\"10\" height=\"10\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,85 10,85\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"35,70 45,70 40,60\" fill=\"black\"/><polygon points=\"55,70 65,70 60,60\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 95,45 80,90 20,90 5,45\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,35 58.66,40 58.66,50 50,55 41.34,50 41.34,40\" fill=\"black\"/><polygon points=\"70,60 78.66,65 78.66,75 70,80 61.34,75 61.34,65\" fill=\"black\"/><polygon points=\"30,60 38.66,65 38.66,75 30,80 21.34,75 21.34,65\" fill=\"black\"/><polygon points=\"50,75 58.66,80 58.66,90 50,95 41.34,90 41.34,80\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"30,10 70,10 90,30 90,70 70,90 30,90 10,70 10,30\" stroke=\"black\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"50\" cy=\"30\" r=\"6\" fill=\"black\"/><circle cx=\"70\" cy=\"50\" r=\"6\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"6\" fill=\"black\"/><circle cx=\"30\" cy=\"50\" r=\"6\" fill=\"black\"/><circle cx=\"35\" cy=\"35\" r=\"6\" fill=\"black\"/><circle cx=\"65\" cy=\"65\" r=\"6\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "E",
+    "explanation": "The rule connects the number of sides of the large outer shape to the number of small inner shapes. In four of the five figures, the number of inner shapes is exactly one less than the number of sides of the outer shape. \n- A: The outer shape is a square (4 sides), and there are 3 inner circles (4 - 1 = 3).\n- B: The outer shape is a hexagon (6 sides), and there are 5 inner squares (6 - 1 = 5).\n- C: The outer shape is a triangle (3 sides), and there are 2 inner triangles (3 - 1 = 2).\n- D: The outer shape is a pentagon (5 sides), and there are 4 inner hexagons (5 - 1 = 4).\n- E: The outer shape is an octagon (8 sides), but there are only 6 inner circles. According to the rule, there should be 7 inner shapes (8 - 1 = 7). Therefore, E is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"50,50 65,60 60,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"80\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,40 70,85 30,85 15,40\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><rect x=\"45\" y=\"45\" width=\"10\" height=\"10\" stroke=\"black\" fill=\"none\" stroke-width=\"2\" transform=\"rotate(45 50 50)\" transform-origin=\"center\"/><circle cx=\"50\" cy=\"85\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"50,40 60,48 55,58 45,58 40,48\" stroke=\"black\" fill=\"none\" stroke-width=\"2\" transform=\"rotate(-45 50 50)\" transform-origin=\"center\"/><circle cx=\"80\" cy=\"20\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,37.5 85,62.5 50,85 15,62.5 15,37.5\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><polygon points=\"50,40 60,48 55,58 45,58 40,48\" stroke=\"black\" fill=\"none\" stroke-width=\"2\" transform=\"rotate(75 50 50)\" transform-origin=\"center\"/><circle cx=\"15\" cy=\"37.5\" r=\"4\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,20 90,80 10,80\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"50\" y1=\"45\" x2=\"50\" y2=\"65\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"20\" r=\"4\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule has two parts. First, the number of sides of the inner shape must be one less than the number of sides of the outer shape. Second, the small black circle is positioned on the vertex or edge of the outer shape that is directly opposite the vertex the inner shape is pointing towards. Figure C is the odd one out because its inner shape (a pentagon with 5 sides) has one more side than its outer shape (a square with 4 sides), breaking the first rule. It also breaks the second rule, as the circle is placed on an adjacent vertex, not the opposite one.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"38\" cy=\"65\" r=\"5\" fill=\"black\"/><circle cx=\"62\" cy=\"65\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,45 70,85 30,85 15,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"35\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"55\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"55\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 15,85 85,85\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"45\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"70\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,37.5 85,62.5 50,85 15,62.5 15,37.5\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"35\" cy=\"70\" r=\"5\" fill=\"black\"/><circle cx=\"65\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,10 90,50 50,90 10,50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"white\" stroke=\"black\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"50\" r=\"5\" fill=\"black\"/><circle cx=\"50\" cy=\"70\" r=\"5\" fill=\"black\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "There are two rules governing the figures. Rule 1: The number of inner circles is one less than the number of sides of the outer shape. Rule 2: The top-most inner circle is white, while all other circles are black. Figure C is the odd one out because it has a 3-sided shape (a triangle) but contains 3 circles, violating Rule 1 (it should have 3 - 1 = 2 circles). All other figures correctly follow both rules: A (4 sides, 3 circles), B (5 sides, 4 circles), D (6 sides, 5 circles), and E (4 sides, 3 circles).",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 90,45 75,90 25,90 10,45\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"35\" cy=\"45\" r=\"5\" fill=\"white\"/><circle cx=\"65\" cy=\"45\" r=\"5\" fill=\"white\"/><circle cx=\"35\" cy=\"70\" r=\"5\" fill=\"white\"/><circle cx=\"65\" cy=\"70\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"25\" y=\"25\" width=\"50\" height=\"50\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"15\" cy=\"30\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"15\" r=\"5\" fill=\"white\"/><circle cx=\"85\" cy=\"70\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 85,35 85,75 50,95 15,75 15,35\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"30\" r=\"5\" fill=\"white\"/><circle cx=\"70\" cy=\"45\" r=\"5\" fill=\"white\"/><circle cx=\"70\" cy=\"65\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"80\" r=\"5\" fill=\"white\"/><circle cx=\"30\" cy=\"65\" r=\"5\" fill=\"white\"/><circle cx=\"30\" cy=\"45\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,15 90,85 10,85\" fill=\"none\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"65\" r=\"5\" fill=\"white\"/><circle cx=\"60\" cy=\"65\" r=\"5\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"35\" width=\"60\" height=\"30\" fill=\"white\" stroke=\"white\" stroke-width=\"2\"/><circle cx=\"15\" cy=\"20\" r=\"5\" fill=\"white\"/><circle cx=\"50\" cy=\"80\" r=\"5\" fill=\"white\"/><circle cx=\"85\" cy=\"50\" r=\"5\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "There are two rules to follow. First, if the main shape is a quadrilateral (has 4 sides), it is filled; otherwise, it is an outline. Second, the number of small circles is always one less than the number of sides of the main shape. In option A, the pentagon (5 sides) is an outline and has 4 circles (5-1). In option B, the square (4 sides) is filled and has 3 circles (4-1). In option D, the triangle (3 sides) is an outline and has 2 circles (3-1). In option E, the rectangle (4 sides) is filled and has 3 circles (4-1). Option C follows the first rule (hexagon with 6 sides is an outline), but breaks the second rule. It has 6 circles, but it should have 5 (6-1). Therefore, C is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\"><rect x=\"20\" y=\"20\" width=\"60\" height=\"60\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"30\" x2=\"30\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"43\" y1=\"30\" x2=\"43\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"57\" y1=\"30\" x2=\"57\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"70\" y1=\"30\" x2=\"70\" y2=\"70\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 88,45 75,90 25,90 12,45\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"58\" y1=\"26\" x2=\"80\" y2=\"39\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"76\" y1=\"55\" x2=\"69\" y2=\"78\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"35\" y1=\"80\" x2=\"65\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"31\" y1=\"78\" x2=\"24\" y2=\"55\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"20\" y1=\"39\" x2=\"42\" y2=\"26\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"10,90 90,90 90,10\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"30\" y1=\"80\" x2=\"80\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"80\" y1=\"30\" x2=\"80\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"30\" y1=\"70\" x2=\"70\" y2=\"30\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,15 85,35 85,65 50,85 15,65 15,35\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"55\" y1=\"25\" x2=\"75\" y2=\"35\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"75\" y1=\"40\" x2=\"75\" y2=\"60\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"75\" y1=\"65\" x2=\"55\" y2=\"75\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"45\" y1=\"75\" x2=\"25\" y2=\"65\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"25\" y1=\"60\" x2=\"25\" y2=\"40\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"30\" y1=\"30\" x2=\"50\" y2=\"50\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\"><polygon points=\"50,10 90,50 50,90 10,50\" stroke=\"black\" fill=\"none\" stroke-width=\"2\"/><line x1=\"40\" y1=\"20\" x2=\"20\" y2=\"40\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"60\" y1=\"40\" x2=\"40\" y2=\"60\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"60\" y1=\"40\" x2=\"80\" y2=\"60\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"40\" y1=\"60\" x2=\"60\" y2=\"80\" stroke=\"black\" stroke-width=\"2\"/></svg>"
+      }
+    ],
+    "answer": "D",
+    "explanation": "In all figures except for D, there are two rules being followed. First, the number of internal lines is equal to the number of vertices (corners) of the outer shape. Second, every internal line is parallel to one of the sides of the outer shape. Figure D has a hexagon (6 vertices) and 6 internal lines, so it follows the first rule. However, one of its internal lines is diagonal and is not parallel to any of the hexagon's sides, breaking the second rule. Therefore, D is the odd one out.",
+    "rating": null,
+    "comment": ""
+  },
+  {
+    "question": "Which of the following is the odd one out?",
+    "options": [
+      {
+        "label": "A",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,5 93.3,27.5 93.3,72.5 50,95 6.7,72.5 6.7,27.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"35,53 23,71.6 47,71.6\" fill=\"white\"/><polygon points=\"65,53 53,71.6 77,71.6\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "B",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,5 95.1,40.5 79.4,92.2 20.6,92.2 4.9,40.5\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,30 68,44.2 61.8,65.8 38.2,65.8 32,44.2\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "C",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"80\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"50,35 30,65 70,65\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "D",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,5 82.2,19.3 94,50 82.2,80.7 50,95 17.8,80.7 6,50\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"22\" y=\"40\" width=\"20\" height=\"20\" fill=\"white\"/><polygon points=\"70,40 60,57.3 80,57.3\" fill=\"white\"/></svg>"
+      },
+      {
+        "label": "E",
+        "svg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"50,5 85.4,14.6 95,50 85.4,85.4 50,95 14.6,85.4 5,50 14.6,14.6\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/><rect x=\"22\" y=\"40\" width=\"20\" height=\"20\" fill=\"white\"/><rect x=\"58\" y=\"40\" width=\"20\" height=\"20\" fill=\"white\"/></svg>"
+      }
+    ],
+    "answer": "C",
+    "explanation": "The rule is that the total number of vertices (corners) of the inner shapes must equal the number of sides of the outer shape. \n- A: The outer shape is a hexagon (6 sides). The inner shapes are two triangles, with 3 vertices each (3+3=6). This follows the rule.\n- B: The outer shape is a pentagon (5 sides). The inner shape is a pentagon (5 vertices). This follows the rule.\n- D: The outer shape is a heptagon (7 sides). The inner shapes are a square (4 vertices) and a triangle (3 vertices), totaling 7 (4+3=7). This follows the rule.\n- E: The outer shape is an octagon (8 sides). The inner shapes are two squares, with 4 vertices each (4+4=8). This follows the rule.\n- C: The outer shape is a square (4 sides), but the inner shape is a triangle (3 vertices). The numbers do not match (4 ≠ 3). Therefore, C is the odd one out.",
+    "rating": null,
+    "comment": ""
+  }
+]

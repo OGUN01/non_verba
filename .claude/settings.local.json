@@ -15,7 +15,14 @@
       "Bash(git rev-parse:*)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(cat:*)",
+      "Bash(npm install @vercel/kv)",
+      "Bash(npm install @vercel/node)",
+      "Bash(npx tsc:*)"
     ],
     "deny": [],
     "ask": []
